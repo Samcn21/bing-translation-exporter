@@ -1,0 +1,2790 @@
+﻿##############################################
+# ISML Directory: account/
+##############################################
+account.header=Min konto
+
+accountredirect.title=Ettersend
+accountredirect.permanent=Denne kontoen er fjernet permanent. Du kan forsøke å logge inn med en annen konto eller opprette en ny konto ved å gå til
+accountredirect.accountlogin=innloggingssiden.
+accountprofile.message=Velkommen til din profil. Her kan du se og redigere alle dine personlige detaljer.
+
+##############################################
+# ISML Directory: account/addressbook/
+##############################################
+account.addressbook.editaddress.editaddress=Rediger adresse
+account.addressbook.editaddress.addaddress=Legg til adresse
+account.addressbook.editaddress.defaultaddress=Primær leveringsadresse
+account.addressbook.editaddress.defaultbillingaddress=Primær fakturaadresse
+account.addressbook.editaddress.makedefaultaddress=Sett som primær adresse
+account.addressbook.editaddress.makedefaultbillingaddress=Sett som primær fakturaadresse
+account.addressbook.addressdetails=Adresseopplysninger
+account.addressbook.addressinclude.delete=Slett
+account.addressbook.addressinclude.delete.label=Slett denne adressen
+account.addressbook.addressinclude.edit.label=Rediger denne adressen
+
+account.addressbook.addresslist.header=Adresser
+account.addressbook.addresslist.create=Legg til adresse
+account.addressbook.addresslist.create.label=Opprett ny adresse for denne kontoen
+
+account.addressbook.miniaddress.registrywishlist=(Registrering/Ønskeliste)
+account.addressbook.miniaddress.phone=Mobilnummer:
+
+account.addressbook.information=Dette er din adresseside. Fra her kan du se, redigere og spore opp hvor vi sender din bestilling.
+account.addressbook.goback=Gå tilbake
+
+addressdetails.customer.address.referenced.by.product.list=Du kan ikke slette denne adressen fordi den for tiden brukes av etGaveregister eller Ønskeliste.
+
+##############################################
+# ISML Directory: account/components/
+##############################################
+
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.giftregistry.addresses.beforeheader=Før-event-sending
+account.giftregistry.addresses.beforemessage=Adressen er stedet hvor dine registergaver blir sendt før din event. Fyll ut post-event-adressen hvis leveringssted vil endres etter din event.
+account.giftregistry.addresses.postheader=Etter-event sending
+account.giftregistry.addresses.postmessage=Adressen er stedet hvor dine registergaver bli sendt til etter din event.
+account.giftregistry.addresses.usepreevent=Bruk før-event sendeadresse
+
+account.giftregistry.eventparticipant.eventinfo=Event-informasjon
+account.giftregistry.eventparticipant.participants=Deltakelsesinformasjon
+account.giftregistry.eventparticipant.first=Første deltaker
+account.giftregistry.eventparticipant.second=Andre deltaker
+
+
+account.giftregistry.title=Gaveregister
+account.giftregistry.searchheader=Finn noens Gaveregister
+account.giftregistry.searchmessage=Du kan også søke etter andres Gaveregister ved å bruke Gaveregister-søket
+account.giftregistry.advanced=Avansert søk
+account.giftregistry.closeadvanced=Lukk avansert søk
+account.giftregistry.addgiftcert=Gavesertifikater
+account.giftregistry.addgiftcertmessage=Vil du at Gavesertifikater skal vises på ditt Gaveregister? Trykk på "Gavesertifikater" for å la venner og familie få vite at dette er noe du ønsker deg.
+account.giftregistry.makeregprivate=Gjør dette registeret privat
+account.giftregistry.makeregpublic=Gjør dette registeret offentlig
+account.giftregistry.giftregnoitems=Du har ingen artikler i ditt gaveregister.
+account.giftregistry.emptyadd=Legg til artikler
+account.giftregistry.deleteregistryconfirm=Vil du fjerne dette gaveregisteret?
+account.giftregistry.owner=Gaveregister ({0})
+account.giftregistry.userinformation=Brukerinformasjon
+
+giftregistryconfirmation.eventinfo=Event-informasjon
+giftregistryconfirmation.eventoverview=Event-informasjon
+giftregistryconfirmation.participants=Registrant(er):
+giftregistryconfirmation.eventtype=Type event:
+giftregistryconfirmation.eventname=Navn på event:
+giftregistryconfirmation.eventdate=Dato for event:
+giftregistryconfirmation.eventlocation=Sted for event:
+giftregistryconfirmation.registrants=Registrant(er)s informasjon
+giftregistryconfirmation.registrant=Registrant:
+giftregistryconfirmation.registrant2=Co-Registrator:
+giftregistryconfirmation.registryaddesses=Sendingsadresse(r)
+giftregistryconfirmation.preshipping=Pre-event sending:
+giftregistryconfirmation.postshipping=Post-event sending:
+giftregistryconfirmation.verifyinformationmessage=Kontroller at informasjonen du har oppgitt nedenfor er riktig, og klikk deretter på «Send»-knappen for å begynne å legge produkter i registeret!
+
+giftregistrylanding.create=Opprett et Gaveregister
+
+giftregistryresults.searchresults=Søkeresultater
+giftregistryresults.lastheader=Etternavn
+giftregistryresults.firstheader=Fornavn
+giftregistryresults.eventtypeheader=Type event
+giftregistryresults.dateheader=Dato
+giftregistryresults.locationheader=Sted
+giftregistryresults.noitems=Dette Gaveregisteret inneholder ingen artikler.
+
+giftregistryresults.emptymessage=Ingen Gaveregistre ble funnet for
+giftregistryresults.emptymessage2=, vennligst prøv igjen ovenfor.
+
+navigation.tabregistry=register
+navigation.tabevent=info om event
+navigation.tabshipping=sendingsinfo
+navigation.tabpurchases=kjøp
+
+registry.priority=Prioritet
+registry.sendtitle=Send Gaveregister til en venn
+registry.share.link=Gaveregister URL
+registry.emailsubject=Sjekk ut mitt Gaveregister
+registry.dateadded=Lagt til den
+registry.notapplicable=Ikke gyldig
+registry.datepurchased=Dato for kjøp:
+registry.purchasedby=Kjøpt av:
+registry.noproductsfound=Ingen produkter er kjøpt for dette gaveregister.
+
+account.registrycustomer.giftregistries=Gaveregistre
+account.registrycustomer.role=Rolle:
+account.registrycustomer.name=Navn:
+account.registrycustomer.eventtype=Type event:
+account.registrycustomer.location=Sted:
+account.registrycustomer.noitems=Du har ingen artikler i dette gaveregisteret.
+account.registrycustomer.dateadded=Dato lagt til
+account.registrycustomer.priority=Prioritet:
+
+registrylist.newregistry=Nytt register
+registrylist.newregistrydescription=Opprett et nytt Gaveregister
+registrylist.registriesheader=Dine gaveregistre
+registrylist.eventnameheader=Navn på event
+registrylist.eventtypeheader=Type event
+registrylist.dateheader=Dato
+registrylist.locationheader=Sted
+registrylist.detailsheader=Detaljer
+
+registryselect.header=Velg ditt Gaveregister for å legge til produkter
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.login.orderheader=Kontroller din bestilling.
+account.login.checkmessage=Du trenger ingen konto for å sjekke ordrestatusen. Oppgi ordrenummeret og e-postadressen din.
+account.login.ordererror=Ordrenummeret eller e-postadressen din er ikke riktig.
+account.login.orderbutton=Se bestillinger
+account.login.header=Min kontoinnlogging
+
+account.login.logininclude.customersheader=Faste kunder
+account.login.logininclude.loginerror=Beklager, dette stemmer ikke overens med vår registre. Sjekk staving og prøv igjen.
+account.login.logininclude.loginfberror=Beklager, denne e-postadressen har allerede en konto registrert på denne siden.  Vennligst logg inn eller bruk glemt passord-lenken for å endre passord.
+account.login.logininclude.locked=Denne kontoen er for øyeblikket låst.  Vennligst prøv igjen senere.
+account.login.logininclude.willbelocked=Ugyldig passord.  Denne kontoen vil bli låst etter en ugyldig logginn til.
+account.login.logininclude.forgotpassword=Husker' du ikke passordet?
+account.login.logininclude.forgotpassword.label=Be om å tilbakestille passordet
+account.login.logininclude.registered=Hvis du er registrert som bruker, bes du oppgi din e-post og ditt passord.
+account.login.logininclude.employeeemail=Du logger inn på personalbutikken med følgende e-post: {0}
+
+account.login.logininclude.oauthcustomersheader=Logg inn via din konto fra
+account.login.logininclude.oauthcustomersheaderreturning=Du logget tidligere inn med den eksterne leverandøren nedenfor. Trykk på den og prøv igjen.
+account.login.logininclude.oauthloginerror=Påloggingen med din eksterne konto lyktes ikke, eller du ga ikke tillatelse til vår butikk for å få tilgang til profildata på det eksterne autentiseringsleverandørnettstedet.
+account.login.logininclude.oauthselect=Velg en leverandør og klikk på matchende ikon
+account.login.logininclude.oauth.google=Google
+account.login.logininclude.oauth.microsoft=Microsoft
+account.login.logininclude.oauth.linkedin=LinkedIn
+account.login.logininclude.oauth.facebook=Facebook
+account.login.logininclude.oauth.github=GitHub
+
+##############################################
+# ISML Directory: account/orders/
+##############################################
+account.orders.orderstitle=Ordre
+account.orders.ordersmessage=Vi håper du får glede av dine plagg. Hvis du ha noen spørsmål om retur eller ordrestatus, sjekk ut vår
+account.orders.orderscustomerservice=KUNDESERVICE
+account.orders.orderspage=-side.
+account.orders.orderid=Ordre-ID:
+account.orders.orderdate=Ordre utført:
+account.orders.orderbuttontext=Se mer
+
+##############################################
+# ISML Directory: account/orderhistory/
+##############################################
+account.orderdetails.returnorder=<< Gå tilbake til Ordrehistorikk
+account.orderdetails.returnshopping=Gå tilbake til Shopping
+
+account.orders.orderhistory=Ordrehistorikk
+account.orders.noorders=Du har ennå ikke utført noen bestilling. Besøk vår hjemmeside for å bli inspirert av våre siste looks.
+account.orders.notfound=Beklager, bestillingen du forsøker å spore ble ikke funnet.
+account.orders.datelabel=Dato for bestilling:
+account.orders.orderdetail=Ordredetaljer
+account.orders.numberlabel=Ordrenummer:
+account.orders.shippedto=Sendt til:
+account.orders.ordertotal=Total ordre:
+account.orders.items=Artikler:
+account.orders.returnitems=Returvarer
+
+account.orderstatusinclude.statuslabel=Ordrestatus:
+account.orderstatusinclude.ordershipped=Sendt:
+account.orderstatusinclude.orderprocessed=Behandles
+account.orderstatusinclude.ordercancelled=Kansellert
+account.orderstatusinclude.ordercontact=Vennligst kontakt Kundestøtte:
+
+##############################################
+# ISML Directory: account/password/
+##############################################
+account.passwordemail.subject=Ditt passord:
+account.passwordemail.dear=Kjære
+account.passwordemail.message1=Vi har mottatt en forespørsel om å tilbakestille passordet som er tilknyttet denne e-postadressen. Hvis du har gjort denne forespørselen, følger du instruksjonene nedenfor.
+account.passwordemail.message2=Hvis du ikke har bedt om å lage nytt passord kan du trygt ignorere denne e-posten. Kontoen din er trygg.
+account.passwordemail.message3=Klikk på linken nedenfor for å tilbakestille passordet ditt:
+account.passwordemail.message4=Hvis det å klikke ikke ser ut til å fungere, kan du kopiere og lime inn linken i adressevinduet i nettleseren, eller skriv det inn der.  Vi vil gi instruksjoner for å tilbakestille passordet ditt.  Merk at denne linken bare er aktiv for en kort periode.
+account.passwordemail.message5=For sikkerhetsskyld vil denne linken utløpe om 30 minutter eller etter at du har tilbakestilt passordet
+account.passwordemail.message6=Dette er en automatisk generert e-post, vennligst ikke svar.
+
+account.passwordchangedemail.subject=Ditt nye passord:
+account.passwordchangedemail.dear=Kjære
+account.passwordchangedemail.message1=Du har lyktes i å opprette et nytt passord for din konto.
+account.passwordchangedemail.message2=Du kan gå inn på kontoen din på
+account.passwordchangedemail.message3=Dette er en automatisk generert e-post, vennligst ikke svar.
+
+account.password.reset.title=Glemt passordet?
+account.password.reset.message=Vennligst oppgi din e-postadresse nedenfor. Du vil motta en link for å tilbakestille passorder ditt.
+account.password.reset.button=Send
+account.password.reset.sent=Sjekk din e-post for en link for å tilbakestille passordet
+account.password.reset.resubmit=For å sende enda en forespørsel, klikk her
+account.password.reset.notfounderror=Ingen matchende e-postadresse ble funnet.\r\nSjekk stavingen og prøv igjen.
+account.password.reset.formnotvalid=Vi kunne ikke finne den brukerkontoen.
+account.password.reset.invalidtokenerror=Denne forespørselen om å tilbakestille passord er utgått. Vennligst prøv igjen.
+
+account.passwordresetconfirm.title=Vi har mottatt din forespørsel
+account.passwordresetconfirm.message1=Du ba nylig om å tilbakestille passordet ditt. Takk for det.
+account.passwordresetconfirm.message2=Vi har sendt deg en e-post som vil hjelpe deg å gjøre dette. Hvis den fortsatt ikke er kommet om et par minutter kan du sjekke spam-mappen din eller prøve igjen.
+account.passwordresetconfirm.homepagelink=Gå til hjemmeside
+
+account.setnewpassword.title=Sett som nytt passord:
+
+account.setnewpasswordconfirm.title=Suksess.
+account.setnewpasswordconfirm.message=Ditt nye passord er bekreftet.
+account.setnewpasswordconfirm.homepagelink=Gå til hjemmeside
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.lockoutemail.title=Din konto
+account.lockoutemail.message1=Din konto er midlertidig låst på grunn av for mange ugyldige passordforsøk.
+account.lockoutemail.message2=Vennligst prøv å logge inn senere.
+account.lockoutemail.message3=Hvis du har mottatt denne e-posten ved en feil, bes du kontakte kundeservice.
+account.lockoutemail.message4=Dette er en automatisk generert e-post, vennligst ikke svar.
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.createnew=Opprett konto
+account.user.registration.editaccount=Rediger konto
+account.user.registration.editprofile=Rediger profil
+account.user.registration.savechanges=Lagre
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.payment.minicardcard.expires=Exp.
+
+account.paymentinstruments.forbidden=Denne siden er utløpt.  Du må lukke vinduet og logge inn for å fortsette.
+account.paymentinstrumentdetails.expires=Utgår:
+
+account.paymentinstrumentlist.header=Kredittkortinformasjon
+account.paymentinstrumentlist.addcard=Legg til Kredittkort
+account.paymentinstrumentlist.addcard.label=Legg til Kredittkort til denne kontoen
+account.paymentinstrumentlist.deletecard=Slett kort
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.name=Navn
+account.user.registration.logininfo=E-post / innloggingsinformasjon
+
+##############################################
+# ISML Directory: account/wishlist/
+##############################################
+account.wishlist.breadcrumb=Ønskeliste
+wishlist.searchheader=Finn noens Ønskeliste
+wishlist.createheader=Opprett en Ønskeliste
+wishlist.addaddress=Legg til Sendingsadresse
+wishlist.addaddressmessage=Legg til sending til din Ønskeliste
+wishlist.addgiftcert=Gavesertifikater
+wishlist.addgiftcertmessage=Vil du at Gavesertifikater skal vises i din Ønskeliste? Trykk på "Legg til Gavesertifikater" for å la venner og familie få vite at dette er noe du ønsker deg.
+wishlist.listpublic=Gjør denne listen offentlig
+wishlist.listprivate=Gjør denne listen privat
+wishlist.empty=Du har ingen varer på din ønskeliste.
+wishlist.emptyadd=Klikk her for å begynne å legge til artikler.
+wishlist.addresslabel=Ønskeliste sendingsadresse
+wishlist.noaddresses=Det finnes nå ingen lagrede adresser
+wishlist.dateadded=Lagt til den
+wishlist.priority=Prioritet
+wishlist.itemprivate=Gjør denne artikkelen privat
+wishlist.itempublic=Gjør denne artikkelen offentlig
+wishlist.share.link=Ønskeliste URL
+wishlist.sendwishlist=Send min Ønskeliste til en venn
+wishlist.emailsubject=Sjekk ut min Ønskeliste
+wishlist.noshippingaddress=Ingen Sendingsadresse tildelt
+wishlist.nolocationtoshow=-
+wishlistresult.lastname=Etternavn
+wishlistresult.firstname=Fornavn
+wishlistresult.location=Sted
+wishlistresult.view=Vis
+wishlist.share=Del
+wishlist.copiedtoclipboard=kobling kopiert til utklippstavle.
+
+
+account.wishlist.landing.createheader=Opprett en Ønskeliste
+account.wishlist.landing.findmessage=Du kan også søke etter andres ønskelister ved hjelp av Ønskeliste-søk
+
+searchresult.emptymessage=Ingen ønskeliste be funnet for {0}, vennligst prøv igjen ovenfor.
+
+other.wishlistheader=s Ønskeliste
+productlist.wishlistemailheader=Min Ønskeliste
+productlist.visitwishlist=Besøk denne Ønskelisten her
+productlist.visitgr=Besøk dette Gaveregisteret her
+productlist.purchaseitem=Kjøp denne artikkelen
+productlist.1=Høyeste
+productlist.2=Høy
+productlist.3=Middels
+productlist.4=Lav
+productlist.5=Laveste
+productlist.eventtype=Type event
+productlist.eventdate=Dato for event
+productlist.eventlocation=Sted
+productlist.qtydesired=Ønsket mengde
+productlist.qtypurchased=Kjøpt mengde
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.registrycustomer.giftregistry=Gaveregister
+account.registrycustomer.notfound=Det forespurte gaveregisteret kunne ikke lokaliseres.
+account.registrycustomer.private=Det forespurte gaveregisteret kan ikke nås fordi eieren ikke har gjort det offentlig tilgjengelig.
+
+##############################################
+# ISML Directory: account/facebook/
+##############################################
+account.facebook.newcustomer=Ny kunde
+account.facebook.usefbtoregister=Bruk Facebook for å registrere
+
+##############################################
+# ISML Directory: mail/
+##############################################
+register.dear=Hei
+register.welcome=Velkommen til din {0} konto.
+register.message=Nå som du er medlem kan du handle på tvers av alle våre merker og oppdatere og lagre din personlige informasjon på én plass.
+register.helpquestion=TRENGER DU HJELP
+register.customerservice=Vårt Kundeservice-team (customerservice@bestseller.com) står alltid klare til å hjelpe deg.
+register.salutation=Vi er glade for å ha deg her,
+
+verifyemployee.success=Nå kan du kose deg i Bestseller-butikken med din personalrabatt.
+verifyemployee.expired=Linken du har brukt er utløpt, vennligst logg inn på nytt for å få en ny link.
+verifyemployee.notemployee=Du er ikke medlem av noen personalgruppe.
+verifyemployee.notvalidtoken=Du bruker en ugyldig link for personal-verifisering.
+
+account.orderdetails.trackinfo=Hvis du vil se flere detaljer om bestillingen din, klikk på SPOR BESTILLING.
+account.orderdetails.tracknumber=Sporing #:
+account.orderdetails.trackorder=Spor bestilling
+account.orderdetails.deliverycount=Delivery {0} of {1}
+
+account.orderstatusinclude.orderdispatched=Sendt
+account.orderstatusinclude.orderpartiallydispatched=Delvis sendt
+account.orderstatusinclude.orderreturned=Returnert
+account.orderstatusinclude.orderrefunded=Refundert
+account.orderstatusinclude.orderplaced=Utført
+
+shipping.estimate=Estimert levering {0} etter utført bestilling
+employee.storegreeting=	Hei! La oss hjelpe deg å komme i gang med Medarbeiderbutikken.
+employee.storeinfo=Du vil om kort tid motta en e-post fra oss. Følg linken i denne e-posten for å gå inn på Medarbeiderbutikken. Linken kan videresendes til din personlige e-postadresse og er gyldig i 24 timer. 
+employee.storetitle=Medarbeiderbutikken landingsside
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+cart.header=Min kurv
+cart.cartempty=Vi har sett godt etter, men det er ingenting her.
+cart.coupon=Kupong
+cart.couponcode=rabattkode:
+cart.couponinvalid=Ugyldig kupong
+cart.giftcertdelivery=- Gavesertifikat vil bli levert via e-post
+cart.registryitem=Dette er en Gaveregister-artikkel
+cart.removeditem=Produktet ble nylig fjernet fra vår nettkatalog. Vennligst slett serieartikkelen fra kurven din for å fortsette til kassen.
+cart.carterror={0} Handlekurven kan ikke bestilles på dette tidspunktet fordi en eller flere av produktene\r\n   i handlekurven din har ugyldig pris eller er ikke tilgjengelig i ønsket antall. Vennligst fjern produktet/ene med pris merket\r\n N/A fra handlekurven eller endre mengden til et tilgjengelig antall. Hvis du har spørsmål, er du velkommen til å kontakte kundeservice.
+cart.cartcouponinvalid=Din handlekurv inneholder en kupong som er ugyldig nå.  Vennligst fjern kupongen før du fortsetter til kassen.
+cart.taxinvalid=Det har oppstått en feil ved beregning av avgiften for ett eller flere av produktene i din kurv.
+cart.entercouponcode=Oppgi rabattkode
+cart.shippingmethodsnotavailable=Et øyeblikk. Vi kan ikke fortsette med bestillingen din ettersom den ikke møter minste eller maksimal ordreverdi. Vennligst juster artiklene i kurven din og prøv igjen. Hvis du trenger hjelp eller har noen spørsmål, er du velkommen til å kontakte kundeservice.
+cart.product.purchasedisabled=Vi kan ikke fortsette med bestillingen din ettersom ett eller flere produkter i kurven din ikke er tilgjengelig/e i ditt land. Vennligst fjern produktet/ene som er merket. Hvis du trenger hjelp eller har noen spørsmål, er du velkommen til å kontakte kundeservice.
+cart.employeeshoppingforbidden=Et øyeblikk. Ansatte kan ikke handle i arbeidstiden. Man-Tors 08:00-15:30 og Fre 08:00-12:00.
+
+cart.option=Valg
+cart.listprice=Listepris
+cart.itemtotal=Artikkel total
+cart.bonusmaxitems=Denne rabatten gir deg rett til {0} bonusvare(r).
+cart.bonusnumselected=Du har valgt {0} produkt(er).
+cart.updatebonusproducts=Oppdater Bonusprodukter
+cart.updatebonusproduct=Oppdater Bonusprodukt
+cart.updatesneeded=Kurven må oppdateres
+cart.selectbonusproducts=Velg Bonusprodukter
+cart.selectbonusproduct=Velg Bonusprodukt
+cart.limitedquantity=Vi kan ikke fortsette med din bestilling ettersom ett eller flere produkter i kurven har en ugyldig pris eller er ikke tilgjengelige i mengden du har bedt om. Vennligst fjern produktet/ene med priser merket N/A eller endre mengden til et tilgjengelig antall. Hvis du trenger hjelp eller har spørsmål, ikke nøl med å kontakte kundeservice.
+cart.limitedquantity.error=TILGJENGELIG MENGDE
+cart.soldout=Utsolgt
+cart.unabletoadd=Kan ikke legge til artikkel ''{0}'' i kurven
+cart.lastvisited.header=Sist besøkt
+
+cart.store.availableinstore=På lager
+cart.store.notavailable=Ikke tilgjengelig
+cart.store.deliveryoptions=Leveringsalternativer
+cart.store.homedelivery=Hjemmelevering
+cart.store.instorepickup=Hente i butikk
+cart.store.storepickupaddress=Lagre adresse for henting
+
+cart.coupon.code.already.in.basket=Denne koden er allerede brukt.
+cart.coupon.already.in.basket=rabattkode \"{0}\" kan ikke kombineres med andre rabattkoder i din kurv.
+cart.coupon.code.already.redeemed=rabattkode \"{0}\" er allerede løst inn.
+cart.coupon.code.unknown=Vennligst oppgi en gyldig promo-kode.
+cart.coupon.disabled=rabattkode \"{0}\" kan på nåværende tidspunkt ikke legges i din kurv.
+cart.redemption.limit.exceeded=rabattkode \"{0}\" kan på nåværende tidspunkt ikke legges i din kurv.
+cart.customer.redemption.limit.exceeded=rabattkode \"{0}\" kan på nåværende tidspunkt ikke legges i din kurv.
+cart.timeframe.redemption.limit.exceeded=rabattkode \"{0}\" kan på nåværende tidspunkt ikke legges i din kurv.
+cart.no.active.promotion=rabattkode kan på nåværende tidspunkt ikke legges i din kurv.
+cart.coupon.code.missing=Vennligst oppgi en gyldig rabattkode
+cart.ok={0} rabattkode i bruk
+cart.info=Vennligst oppgi en rabattkode for å bruke rabatt.
+cart.applycouponcode=Jeg vil legge til en rabattkode
+cart.itemscount.single={0} Artikkel
+cart.itemscount={0} Artikler
+
+cart.promotionsheader=Ikke gå glipp
+cart.promotionsbonusavailable=Bestillingen din kommer med en gratis gave. Legg den til i kurven din nedenfor.
+cart.bonussection=Gratis med bestillingen din.
+cart.bonusselect=Velg en gratis gave
+
+minicart.viewcart=Vis kurv
+minicart.viewcart.label=Gå til handlekurven
+minicart.title=Din kurv
+
+approachingpromo.purchase=Kjøp
+approachingpromo.more=mer
+approachingpromo.receive=og motta
+
+##############################################
+# ISML Directory: checkout/checkoutlogin
+##############################################
+checkoutlogin.checkoutguestbutton=Sjekk ut som Gjest
+checkoutlogin.guestheader=Gjester eller Nye kunder
+checkoutlogin.guestmessage=du trenger ingen konto for å legge inn en bestilling. Hvis du ønsker å registrere deg og begynne å nyte fordelene av å ha en konto, oppretter du et passord på slutten av betalingsprosessen.
+checkoutlogin.registerbenefits=Hvilke fordeler er det?
+
+##############################################
+# ISML Directory: checkout/billing
+##############################################
+billing.header.address=Hva er din fakturaadresse?
+billing.header.redeemable=Rabattkoder eller Gavekort
+billing.header.payment=Hvordan ønsker du å betale?
+billing.header.giftcardcheckbalance=Sjekk resterende saldo på ditt gavekort
+billing.bmlhelp=Du må oppgi fødselsdato og de siste fire tallene i ditt personnummer
+billing.giftcardredeemed=er rabattert fra din bestilling.
+billing.giftcardnomethod=Bestillingen er betalt ved hjelp av Gavesertifikat, hvis du ikke ønsker å fullføre bestillingen ved hjelp av Gavesertifikat kan du fjerne det over.
+billing.zerobalance=Din bestilling har ingen saldo, så betalingsmåte er ikke nødvendig for å fullføre denne ordren.
+billing.linkcvn=Hva er dette?
+billing.custompaymentmethod=Din kundebetalingsmåte-integrering angis her
+billing.couponswitch=Har du en rabattkode?
+billing.couponspecialoffer=Dersom du har mottatt en spesiell rabattkode eller rabatt, kan du oppgi den unike koden nedenfor.
+billing.couponlabel=Oppgi rabattkode
+billing.couponnotapplied=rabattkode {0} er lagt til din bestilling, men er ikke gjeldende.
+billing.couponapplied=rabattkode {0} er lagt til din bestilling, og er gjeldende.
+billing.couponinvalid=Ugyldig rabattkode
+billing.seeordersummary=Se oppdatert ordreoversikt.
+billing.giftcardswitch=Har du et gavekort?
+billing.giftcardnote=Oppgi 19-sifret nummer og kode fra ditt gavekort nedenfor
+billing.bonusproductalert=Du er kvalifisert til et bonusprodukt.  Klikk på \"Velg\"-knappen for å gå tilbake til kurven og velg dine produkter, eller \"Nei takk\" for å fortsette med bestillingen.
+billing.giftcardlabel=Løs inn Gavesertifikat
+billing.giftcardcvvlabel=CVV-kode:
+billing.giftcardapplied={0} er løst inn fra Gavesertifikat {1}
+billing.giftcardbalance=Din nåværende gavesertifikatsaldo er
+billing.giftcardremainingtotal=Din ordretotal er {0}. Alle betalinger inntrer etter at du har sett over bestillingen din i neste trinn.
+billing.giftcarderror=Kunne ikke fjerne gavesertifikat.
+billing.giftcardbalancetoolow=Saldoen på ditt gavekort er for lav. Prøv et annet gavekort eller en annen betalingsmåte.
+billing.giftcardbalancetoohigh=Du har nådd det maksimale beløpet som kan betales for med gavekort.
+billing.giftcardinvalid=Ugyldig rabattkode
+billing.giftcardidmissing=Vennligst oppgi en gavesertifikatkode.
+billing.giftcardadderror=Det ser ut til å være et problem med gavekortopplysningene du oppga. Vennligst prøv igjen eller kontakt kundeservice.
+billing.giftcardfraud=Det ser ut som gavekortopplysningene dine er feil, vennligst ta kontakt med kundeservice for å få hjelp.
+billing.giftcertificate.pending=Gavesertifikat venter.
+billing.giftcertificate.notfound=Gavesertifikat \"{0}\" ble ikke funnet.
+billing.giftcertificate.currency.mesmatch=Gavesertifikat kan kun løses inn for ordre som utføres i samme valuta som gavesertifikatet.
+billing.creditcardlistselect=Velg fra Lagrede kort
+billing.creditcardlistnocards=Det finnes nå ingen Lagrede kort
+billing.creditcardlistexp=Utløp
+billing.creditcardexpires=Utløper
+billing.creditcardlistexpdate=Utløpsdato:
+billing.creditcardloaderror=Kunne ikke laste kredittkort!
+billing.creditcardnotdeleted=Kredittkortet kunne ikke fjernes!
+billing.creditcarddeleted=Kredittkortet er fjernet!
+billing.creditcarddeletenotselected=Velg et kredittkort du ønsker å slette.
+billing.creditcarddeleteconfirm=Vil du fjerne dette kredittkortet?
+billing.deletecard=Slett kort
+billing.requiredindicator=•
+billing.newcreditcardadded=Nytt Kredittkort ble lagt til.
+billing.missingprocessorerror=Din betalingsmåte er ikke tilgjengelig nå.  Vennligst velg en annen måte.
+billing.ownerparseerror=Dette ser ut til å være et kredittkortnummer.  Vennligst oppgi navnet på kredittkorteieren.
+billing.selectcreditcard=Velg et Kredittkort
+billing.useshippingaddress=Bruk min leveringsadresse
+billing.notavailable=Ikke tilgjengelig
+
+minibillinginfo.billingaddress=Faktureringsadresse
+minibillinginfo.expiration=Ext.
+minibillinginfo.giftcertificate=Gavesertifikat:
+minibillinginfo.bml=Fakturer meg senere
+minibillinginfo.adyencreditcard=Betal med ditt debit- eller kredittkort.  Du vil bli bedt om å taste inn dine betalingsopplysninger etter at du har sett gjennom bestillingen din, og pengene vil bli trukket så snart ordren forlater varehuset.
+minibillinginfo.adyenideal=iDEAL lar deg betale direkte uten ekstra kostnader
+minibillinginfo.adyenpaypal=Betal gjennom PayPal, en enkel og trygg digital lommebok for nettbetaling.  Dersom du ikke har en konto, kan du enkelt opprette én gratis på deres nettside. Du vil bli bedt om å oppgi dine betalingsopplysninger etter at du har sett igjennom bestillingen din.
+minibillinginfo.klarnaaccount=Del opp betalingen med Klarna konto. Du bestemmer selv hvor mye du vil betale hver måned. Årsrenten er 22% og månedlig administrasjonsgebyr er 45 kr. Du må bare taste inn ditt personnummer for å betale på konto.
+minibillinginfo.klarnainvoice=Betal etter levering for de varene du vil beholde. Du vil motta en faktura fra Klarna når din ordre har forlatt varehuset og du har 14 dager på å betale. Du må bare taste inn din personnummer for å betale senere.
+minibillinginfo.klarnaaccountsurcharge=Det koster {0} å betale med Klarna konto.
+minibillinginfo.klarnainvoicesurcharge=Det koster {0} å betale med Klarna faktura.
+minibillinginfo.sofort=SOFORT lar deg logge på og betale direkte kun ved hjelp av din eksisterende bankinformasjon.
+minibillinginfo.adyenafterpay=Afterpay Invoicing: Order now, pay later. Afterpay will send you an invoice. You have 14 days to pay and you only have to pay for the items you keep. It costs EUR 1.95 to pay with Afterpay invoice.
+minibillinginfo.adyenmobilepay=
+minibillinginfo.googlepay=
+
+##############################################
+# ISML Directory: checkout/components/
+##############################################
+checkoutprogressindicator.step1=Trinn 1:
+checkoutprogressindicator.step2=Trinn 2:
+checkoutprogressindicator.step3=Trinn 3:
+checkoutprogressindicator.step4=Trinn 4:
+checkoutprogressindicator.shipping=Levering
+checkoutprogressindicator.billing=Fakturering
+checkoutprogressindicator.placeorder=Se gjennom bestillingen
+checkoutprogressindicator.shippingaddresses=Leveringsadresse
+checkoutprogressindicator.shippingmethods=Fraktmåter
+checkoutprogressindicator.shippingaddress=Leveringsadresse:
+checkoutprogressindicator.billingaddress=Faktureringsadresse:
+checkoutprogressindicator.billingemail=E-post:
+checkoutprogressindicator.billingpayment=Betalingsmåte:
+checkoutprogressindicator.shippingstep.skipped=Din bestilling trenger ikke en leveringsmetode. Vi vil sende alle nettprodukter til den e-postadressen du oppgir med dine fakturaopplysninger.
+
+##############################################
+# ISML Directory: checkout/giftcert/
+##############################################
+giftcertpurchase.giftcertificates=Gavesertifikater
+giftcertpurchase.amount=Beløp
+giftcertpurchase.errorinfo=Vennligst oppgi riktig informasjon
+giftcertpurchase.balancealert=Din nåværende Gavesertifikatsaldo er
+
+##############################################
+# ISML Directory: checkout/shipping/
+##############################################
+singleshipping.enteraddress=Hvor skal vi levere artiklene dine?
+singleshipping.multiple=Ønsker å sende til flere adresser?
+singleshipping.apofpo=APO/FPO
+singleshipping.phonerequired=Hvorfor er dette påkrevd?
+singleshipping.shippingmethodheader=Hva er din foretrukket fraktmåte?
+singleshipping.noshippingmethods=Ingen gyldige fraktmåter for valg.
+singleshipping.details=Detaljer
+singleshipping.discount=Sendingsrabatt:
+singleshipping.total=Total:
+singleshipping.standard=Standard fraktkostnader:
+singleshipping.surcharge=Tilleggsavgift
+singleshipping.wishlist={0}''s ønskeliste
+singleshipping.giftregistry={0}''s gaveregister
+singleshipping.select=Velg
+singleshipping.signoutconfirmation=Er du sikker på at du vil logge ut?
+singleshipping.signoutconfirmbutton=Ja takk
+singleshipping.signoutcancelbutton=Nei takk
+singleshipping.alreadyanaccount=Det kan se ut som du allerede har en konto.
+singleshipping.speedycheckout=Hvorfor ikke logge inn for en raskere betaling?
+singleshipping.welcomeback=Velkommen tilbake, {0}!
+minishipments.shippingaddress=Sendingsadresse
+minishipments.shipping=Sending
+minishipments.giftcertdelivery=- Leveranse via e-post
+
+multishippingaddresses.locationheader=Sendingssted
+multishippingaddresses.noaddresses=Ingen adresse tilgjengelig for valg
+multishippingaddresses.editaddress=Rediger adresse
+multishippingaddresses.addaddress=Legg til nye adresser
+multishippingaddresses.select=Velg
+
+multishippingshipments.shipment=Shipment # {0}
+multishippingshipments.gcshipment=Fraktmåte: Leveranse via e-post
+multishippingshipments.selectmethod=velg Fraktmåte:
+multishippingshipments.shippingdetails=Sendingsdetaljer
+multishippingshipments.shipimmediante=Sendingsdato: Umiddelbart
+multishippingshipments.giftmessage=Melding:
+
+shipment.qualifiesfor=Denne sendingen kvalifiserer til
+shipment.methodswarning=ET ØYEBLIKK: varene i kurven din møtte ikke vår minimum eller maksimum ordreverdi for enkelte sendemetoder.
+shippingmethod.minordervaluemessage=Minimum av {0} ikke møtt
+shippingmethod.maxordervaluemessage=Maksimalt av {0} overgått
+
+shipping.errorclickcollect=Denne butikken aksepterer ikke Click & Collect-bestillinger for øyeblikket. Vennligst prøv en annen butikk eller en annen leveringsmetode.
+shipping.errorparcelshop=Denne butikken aksepterer for øyeblikket ikke pakkeordre. Vennligst prøv en annen butikk eller leveransemåte.
+shipping.errorpostalcode=Vi er lei for det, men vi sender ikke til denne postkoden, vennligst prøv en annen leveringsmåte.
+shipping.estimate.days={0}-{1} virkedager
+
+##############################################
+# ISML Directory: checkout/confirmation/
+##############################################
+confirmation.thankyou=Takk for at du handler hos oss.
+confirmation.order=Ditt ordrenummer er:
+confirmation.email=En e-post vil bli sendt til {0} med dine ordredetaljer.
+confirmation.account.title=Betal raskere neste gang
+confirmation.account.message=Opprett en konto i 1 enkelt trinn
+confirmation.account.action=LAG ET PASSORD
+confirmation.account.save=Lagre
+confirmation.account.termsmessage=Ved å opprette en konto, godkjenner du våre
+confirmation.account.terms=Customer Clubs vilkår & betingelser
+confirmation.message=HVA KOMMER NÅ? Så snart vi har pakket din ordre vil vi sende deg et sporingsnummer via e-post. Dette kan ta opptil to arbeidsdager.
+confirmation.contact=TRENGER DU HJELP? Vårt kundeserviceteam (customerservice@bestseller.com) er alltid på pletten for å svare på dine spørsmål.
+confirmation.print=Skriv ut kvittering
+confirmation.returnshop=Gå tilbake til Shopping
+confirmation.payment.method=Betalingsmetode:
+
+pt_orderconfirmation.createheader=Opprett en Konto
+pt_orderconfirmation.accountmessage=Vil du opprette en konto basert på informasjonen du har fylt ut for denne ordren?
+
+
+##############################################
+# ISML Directory: checkout/summary/
+##############################################
+summary.applied=Brukt
+summary.coupon=Kupong
+summary.editcart=&laquo; Rediger kurv
+summary.orderdiscount=Ordrerabatt:
+summary.notapplied=Ikke benyttet
+summary.review.ordertotal=Total
+summary.title=Ordreoversikt
+summary.termsandconditions.employee.label=og til {0} for den ansatte
+summary.termsandconditions.message=Verifiser at informasjonen er korrekt Du vil bli bedt om betalingsopplysninger i neste trinn.
+summary.termsandconditions.label=Jeg godtar de
+summary.termsandconditions.klarna= og samtykker til å betale avtalen med BESTSELLERS partner Klarna og deres
+summary.termsandconditions.afterpay= and to a payment agreement with BESTSELLER's partner AfterPay and their
+summary.termsandconditions.privacy = personvern
+summary.termsandconditions.termsforinvoice=VILKÅR FOR FAKTURA
+summary.termsandconditions.privacypostlabel=for BESTSELLER HANDELS B.V.
+summary.termsandconditions.privacyseperator=og
+summary.paymenterror.adyen_credit_card.failed=Feil ved behandling av kredittkort. Systemet kan ha fått et tidsavbrudd, vennligst fortsett til betaling og prøv igjen. Vi anbefaler deg å sjekke at betalingsopplysningene du oppga er korrekte og at kontoen din har dekning før du prøver igjen.
+summary.paymenterror.adyen_paypal.failed=Feil ved prosessering av PayPal transaksjon. Det kan ha vært problemer med forbindelsen, vennligst gå tilbake til kurven og prøv igjen.
+summary.paymenterror.adyen_ratepay.failed=Feil ved prosessering av RatePAY transaksjon. Det kan ha vært problemer med forbindelsen, vennligst gå tilbake til kurven og prøv igjen.
+summary.paymenterror.adyen_afterpay.failed=Error processing the AfterPay transaction. There might have been connection problems, please return to the bag and try again.
+summary.paymenterror.adyen_credit_card.authorised=Gode nyheter. Din betaling ble godkjent.
+summary.paymenterror.adyen_credit_card.refused=Vi kunne ikke godkjenne betalingen din og måtte avvise den.
+summary.paymenterror.adyen_credit_card.cancelled=Det ser ut som du har kansellert din betaling før ferdigstillelse eller returnert til vår nettside før transaksjonen var ferdig.
+summary.paymenterror.adyen_credit_card.pending=Vi kan ikke finne den endelige statusen for betalingen din.
+summary.paymenterror.adyen_credit_card.error=Det oppstod en feil da betalingen din ble behandlet.
+giftcert.currentbalance=Din nåværende gavesertifikatsaldo er
+giftcert.remove.error=Kunne ikke fjerne gavesertifikat.
+
+giftcertpurchase.checkinvalid=Vennligst kontroller en Gavesertifikatkode.
+giftcertpurchase.missingcode=Vennligst oppgi Gavesertifikatkode.
+
+summary.paymenterror.oc_giftcard.failed=Noe gikk galt med betalingen din. Vennligst kontakt kundeservice.
+summary.paymenterror.adyen_mobilepay.failed=
+summary.giftcard.delivery=Vi sender deg et gavekort via e-post etter å ha behandlet din betaling.
+
+##############################################
+# Pipelines
+##############################################
+confirm.error.technical=Vi beklager at din ordre ikke kunne utføres. Dette skjedde antakelig på grunn av høyt ordrevolum eller midlertidige problemer med forbindelsen. Vennligst vent noen minutter og send bestillingen på nytt. Vi kommer ikke til å behandle din betaling før bestillingen er vellykket. Hvis du har spørsmål, er du velkommen til å kontakte oss.
+confirm.error.declined=Din bestilling kunne ikke utføres. Vennligst gjennomgå betalingsinnstillingene dine og prøv igjen. Takk for din tålmodighet!
+
+##############################################
+# Multi Shipping Checkout
+##############################################
+multishipping.error.attributenotdefined=\n\tTilpass attributt \"sesjonAddressebok\" ikke definert for Systemobjekt \"Kurv\".\n\tVennligst kontroller dokumentasjon og sett opp attributt via BM.
+multishipping.error.parsejson=\n\tFeil ved analyse av streng i JSON objekt:\n\t{0}
+multishipping.error.addaddressrequirements=\n\tManglende krav for LeggTilAdresseTilSessjonAdressebok.ds.\n\tSkjemaAdresse og/eller CBasket innsatte variabler er null.
+multishipping.editaddress=Legg til/Endre adresse
+multishipping.editaddress.headline=Legg til eller Endre adresser
+
+##############################################
+# Instore Checkout
+##############################################
+instore.shipping.storemessage=Sendemelding i butikk
+
+##############################################
+# pickup location
+##############################################
+pickuplocation.results.resultcount=Viser {0} resultater i nærheten
+pickuplocation.select=Velg
+
+shipping.estimate=Estimert levering om {0}
+shipping.shipping.estimate=Estimert levering: {0} - {1}
+shipping.summary.estimate=Estimert levering om {0}-{1} virkedager
+
+shipping.errormessage=Vennligst fullfør adressefeltene som mangler
+
+billing.adyen_credit_card=Kredittkort/Debetkort
+billing.adyen_paypal=PayPal
+billing.oc_giftcard=Gavesertifikat
+billing.klarna_invoice=Betal senere
+billing.klarna_account=Betal på konto
+billing.adyen_ideal=IDEAL
+billing.adyen_sofort=Sofort
+billing.adyen_afterpay=Afterpay invoice
+billing.adyen_ratepay=Pay later
+billing.adyen_mobilepay=
+billing.paymentheader=Hvordan ønsker du å betale? Du vil ble bedt om å oppgi dine betalingsopplysninger etter at du har sett igjennom bestillingen din.
+
+##############################################
+# Klarna order confirmation page
+##############################################
+summary.paymenterror.klarna_invoice.unspecified_error=Beklager, vi kunne ikke behandle betalingen din. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.address=Beklager, vi kunne ikke behandle betalingen din. Vennligst sjekk at adressen er riktig og prøv igjen.
+summary.paymenterror.klarna_invoice.amount=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden ettersom kjøpesummen overstiger din kredittgrense. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.under_aged=Beklager, men du må være minst 18 år for å handle via Klarna.
+summary.paymenterror.klarna_invoice.cellno=Mobiltelefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.failed=Feil ved behandling av Klarna faktura-transaksjon. Det kan ha vært problemer med forbindelsen, vennligst gå tilbake til kurven og prøv igjen.
+summary.paymenterror.klarna_invoice.legacy_error5=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.legacy_error4=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.legacy_error3=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.legacy_error2=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.legacy_error1=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.estore_overrun=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden ettersom kjøpesummen overstiger din kredittgrense. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.estore_blacklisted=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.misc_estore_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.credit=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.customer_credit_overrun=På nåværende tidspunkt kan vi desverre ikke godkjenne ditt kjøp via Klarna. Vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp. Takk for din forståelse.
+summary.paymenterror.klarna_invoice.blocked=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unpaid_bills=Ditt kjøp med Klarna som betalingsmetode kan ikke gjennomføres, årsaken til dette er at du har ubetalt(e) faktura(er). Vennligst betal denne/disse for å kunne fortsette å handle med Klarna. For mer informasjon om dine kjøp kan du gå til Mine sider på www.klarna.no/mine-sider. Om du ønsker å gjennomføre ditt kjøp nå, velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.customer_not_accepted=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.customer_blacklisted=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.tno_blocked=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.no_power_of_attorney=Fullmakten for denne person er ikke registrert hos Klarna.
+summary.paymenterror.klarna_invoice.get_address_blocked=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.pno=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.invalid_pno=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.pno_not_real_person=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.dead=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.customer_not_18=Beklager, men du må være minst 18 år for å handle via Klarna.
+summary.paymenterror.klarna_invoice.no_such_person=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.customer_missing=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.no_such_customer=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.unknown_customer=Kjøpet ble ikke gjennomført - ukjent personnummer. Vi kan ikke finne det angitte personnummeret. Kontroller om du har skrevet inn feil personnummer. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har skrevet inn riktig personnummer og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.bad_customer_password=Du har oppgitt feil passord.
+summary.paymenterror.klarna_invoice.test_customer_but_estore_is_live=Det er ikke mulig å bruke testpersoner når butikken er i live modus. Vær vennlig å bruke testflagget i API-kallet dersom du ønsker å teste din Klarna-integrasjon.
+summary.paymenterror.klarna_invoice.real_customer_with_test_flag=Du må fjerne testflagget i API-kallet for å kunne opprette eller aktivere Klarna-ordre med reelle kunder.
+summary.paymenterror.klarna_invoice.tno_not_found=Første gang du bruker Klarna mobil, må du registrere deg. Det gjør du enkelt ved å ringe 08-120 129 00 eller gå inn på klarna.se. Mvh Klarna
+summary.paymenterror.klarna_invoice.pin_error=Feil PIN-kode!
+summary.paymenterror.klarna_invoice.wrong_pin=Feil PIN-kode!
+summary.paymenterror.klarna_invoice.no_pin=Det er ikke bestilt noen PIN-kode!
+summary.paymenterror.klarna_invoice.orgno=Første gang du bruker firmamobilen for å betale via Klarna mobil, må du oppgi personnummeret ditt ved å sende: REG DDMMÅÅXXXXX til 71200. Mvh Klarna
+summary.paymenterror.klarna_invoice.phone_getaddr_failed=Vi finner ingen folkeregistrert address på det angitte telefonnummeret.
+summary.paymenterror.klarna_invoice.poa_pno=Personnummeret for fullmaktsinnehaveren har ikke riktig format. Angi personnummeret som ÅÅÅÅMMDDNNNN.
+summary.paymenterror.klarna_invoice.poa_group=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.poa_org=Organisasjonsnummeret har ikke riktig format.
+summary.paymenterror.klarna_invoice.misc_customer_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.foreign_addr=Du har oppgitt en adresse som ikke stemmer overens med det oppgitte personnummeret. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.bad_addr=Vi kan desverre ikke identifisere deg på adressen du har oppgitt. Korriger eventuelle stavefeil, skriv din fullstendige adresse og forsøk igjen. Om du fortsatt får denne feilmeldingen, kontakt Klarna på www.klarna.no/kundeservice.
+summary.paymenterror.klarna_invoice.bad_address=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.postno=Du har oppgitt et postnummer som ikke eksisterer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.bad_postno=Du har oppgitt et postnummer som ikke eksisterer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_invoice.bad_name=Vi kan ikke identifisere navnet du har oppgitt mot ditt personnummer. Korriger eventuelle stavefeil, skriv inn ditt fullstendige navn, og forsøk igjen. Om du fortsatt får denne feilmeldingen, kontakt Klarna på www.klarna.no/kundeservice.
+summary.paymenterror.klarna_invoice.no_address=We cannot find a registered address for the personal number you are using. Please control your input and try again or choose another payment method to finish your purchase.
+summary.paymenterror.klarna_invoice.bad_addr_limited=Kjøpet kan dessverre ikke godkjennes. Det skyldes at beløpsgrensen for kjøp til en ikke-folkeregistrert adresse er overskredet. For å gjennomføre kjøpet kan du enten gjøre endringer slik at varene leveres til din folkeregistrerte adresse, eller du kan velge et annet betalingsalternativ.
+summary.paymenterror.klarna_invoice.unidentified=Takk for ditt kjøp! Dessverre kan ikke Klarna verifisere at du bor på den adressen du har oppgitt. Vennligst oppgi din folkeregistrerte adresse og send en kopi av ID (pass, førerkort, ID) til identification@klarna.com. Vi kontakter deg innen 24 timer. Selvfølgelig bruker vi bare denne informasjonen i forbindelse med dine framtidige kjøp hos Klarna!
+summary.paymenterror.klarna_invoice.zip=Postnummeret du har oppgitt har ikke riktig format. Kontroller alle sifrene og forsøk igjen med følgende format: NNNN. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.telno=Telefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene stemmer, og forsøk igjen med følgende format: XX XX XX XX. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.email=Den e-postadressen som du har angitt er feilaktig. Vennlist kontroller om du kan ha skrevet inn feil adresse. Hvis ikke må vi be deg velge et annet betalingsalternativ.
+summary.paymenterror.klarna_invoice.country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.city=Kjøpet ble ikke gjennomført - feilaktig by eller sted. Byen eller stedet du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at byen eller stedet er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.street=Kjøpet ble ikke gjennomført - feilaktig gateadresse. Gateadressen du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.client_ip=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.proto_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.goods_list=Det var en feil i varelisten som du prøvde å sende til Klarna. Vennligst kontroller at alt er innsendt korrekt.
+summary.paymenterror.klarna_invoice.artnos=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_invoice.shipmenttype=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.language=The language you entered is not supported by Klarna.
+summary.paymenterror.klarna_invoice.gender=Vennligst angi kjønn og forsøk igjen.
+summary.paymenterror.klarna_invoice.date_of_birth=Fødselsdatoen du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅÅÅ. Om du fortsatt får denne feilmeldingen, velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.addr=Kjøpet ble ikke gjennomført - feilaktig adresse. Adressen du har oppgitt (f.eks. gate eller vei), stemmer ikke overens med din folkeregistrerte adresse. Kontroller at adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.house_number=Du har oppgitt feil husnummer. Kontroller om du har kommet til å skrive feil, eller velg en annen måte å betale på.
+summary.paymenterror.klarna_invoice.phone=Mobiltelefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: NN NN NN NN. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.income_expense_format=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.delay_adjust=En feil har oppstått, og vi kan for øyeblikket desverre ikke gjennomføre ditt kjøp med Klarna. Korriger eventuelle stavefeil, og forsøk igjen. Om du fortsatt får denne feilmeldingen, velg en annen betalingsmåte for å gjennomføre ditt kjøp. Takk for din forståelse.
+summary.paymenterror.klarna_invoice.bad_name_and_address=Kjøpet ble ikke gjennomført - feilaktig navn og adresse. Navnet og adressen du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at navnet og adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt navn og adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.bad_last_name=Vennligst fyll inn ditt etternavn.
+summary.paymenterror.klarna_invoice.bad_first_name=Vennligst fyll inn ditt fornavn.
+summary.paymenterror.klarna_invoice.bad_first_name_and_last_name=Kjøpet ble ikke gjennomført - feilaktig for- og etternavn. Navnet du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at for- og etternavn er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt navn og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_invoice.group=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.misc_submission_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.orgno_pclass_not_allowed=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.sum_low_for_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unknown_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.not_annuity_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.pclass_expired=Kampanjen som du prøver å bruke, er ikke lenger gyldig. Vennligst prøv en annen kampanje.
+summary.paymenterror.klarna_invoice.sum_high_for_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.misc_pclass_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.misc_subscription_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unknown_invoice=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.negative_invoice=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_not_active=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_bad_status=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_is_passive=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_is_archived=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_is_suspect=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_is_frozen=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_is_pre_pay=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_stale=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_not_passive_or_frozen=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_in_test_mode=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invoice_not_passive=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.misc_invoice_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.cno_already_in_use=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unknown_csid=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.not_allowed_operation=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.ip_from_wrong_country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.bad_type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unknown_type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.bad_artnolist=Vi kunne ikke gjenkjenne artikkelisten i denne ordren. Vennligst kontroller at artikkelnumrene samsvarer med ordren, og prøv igjen.
+summary.paymenterror.klarna_invoice.unknown_artno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.rno=Vi kunne ikke lokalisere reservasjonen som du prøver å bruke. Vennligst kontroller at du bruker korrekt reservasjonsnummer, og prøv igjen.
+summary.paymenterror.klarna_invoice.split=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.bad_order_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_invoice.unknown_estore=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.invalid_estore_secret=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.bad_module_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.pno_encoding=Versjon av personnummer ikke godkjent.
+summary.paymenterror.klarna_invoice.currency=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.currency_country_pnoencoding=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.timeout=Akkurat nå kan vi desverre ikke gjennomføre ditt kjøp med Klarna på grunn av en teknisk feil. Forsøk igjen om en stund. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.invalid_country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.negative_amount=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.eid=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.unknown_bclass=Det finns ikke noen deffinert oppførsel/adferd for den angitte estore_behaviour verdien.
+summary.paymenterror.klarna_invoice.flags=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.estore_user=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.ready_date=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.under_manual_review=Denne order er under manuell granskning, bruk check_order_status for å undersøke aktuell orderstatus.
+summary.paymenterror.klarna_invoice.unknown_order=Vi kunne ikke lokalisere ordren som du utfører denne handlingen på. Vennligst kontroller at du henviser til korrekt ordre, og prøv igjen.
+summary.paymenterror.klarna_invoice.timeout_fe=Akkurat nå kan vi desverre ikke gjennomføre ditt kjøp med Klarna på grunn av en teknisk feil. Forsøk igjen om en stund. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_invoice.aid=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.careof=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.cellphone=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.client_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.comment=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.credit_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.cust_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.customer_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.digest_secret=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.estore_order_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.estore_subsc_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.expiry_date=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.faddr=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.handlingfee=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.house_extension=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.lev_addr=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.new_amount=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.new_passwd=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.new_qty=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.notes=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.orderid1=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.orderid2=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.orderno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.passwd=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.rand_str=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.referens=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.referens_code=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.shipmentfee=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.store_id=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.sum=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.telcellno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.username=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.vat=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.yearly_salary=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.session_id=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.not_unique_artnos_on_invoice=En feil har oppstått som følge av at din protokollversjon ikke stemmer overens med versjonen som er spesifisert i dine innstillinger. Venligst kontakt Klarna for hjelp til å oppgradere til den siste versjonen.
+summary.paymenterror.klarna_invoice.proto_vsn_test=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_invoice.income_expense_info=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+
+summary.paymenterror.klarna_account.failed=Feil ved behandling av Klarna konto-transaksjon. Det kan ha vært problemer med forbindelsen, vennligst gå tilbake til kurven og prøv igjen.
+summary.paymenterror.klarna_account.unspecified_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.legacy_error5=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.legacy_error4=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.legacy_error3=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.legacy_error2=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.legacy_error1=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.estore_overrun=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden ettersom kjøpesummen overstiger din kredittgrense. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.estore_blacklisted=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.misc_estore_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.credit=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.amount=På nåværende tidspunkt kan vi desverre ikke godkjenne ditt kjøp via Klarna. Vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp. Takk for din forståelse.
+summary.paymenterror.klarna_account.customer_credit_overrun=På nåværende tidspunkt kan vi desverre ikke godkjenne ditt kjøp via Klarna. Vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp. Takk for din forståelse.
+summary.paymenterror.klarna_account.blocked=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unpaid_bills=Ditt kjøp med Klarna som betalingsmetode kan ikke gjennomføres, årsaken til dette er at du har ubetalt(e) faktura(er). Vennligst betal denne/disse for å kunne fortsette å handle med Klarna. For mer informasjon om dine kjøp kan du gå til Mine sider på www.klarna.no/mine-sider. Om du ønsker å gjennomføre ditt kjøp nå, velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.customer_not_accepted=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.customer_blacklisted=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.tno_blocked=Beklager, men Klarna som håndterer våre fakturaer, kan ikke akseptere betalingsmetoden etter en kredittsjekk. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.no_power_of_attorney=Fullmakten for denne person er ikke registrert hos Klarna.
+summary.paymenterror.klarna_account.get_address_blocked=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.pno=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.invalid_pno=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.pno_not_real_person=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.dead=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.under_aged=Vi beklager, men du må være 18 år eller eldre for å kunne benytte denne betalingsmetoden. Vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.customer_not_18=Beklager, men du må være minst 18 år for å handle via Klarna.
+summary.paymenterror.klarna_account.no_such_person=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.customer_missing=Personnummeret du har angitt har ikke korrekt format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅXXXXX. Om du fortsatt får denne feilmeldingen ber vi deg velge en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.no_such_customer=Du har oppgitt feil fødselsnummer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.unknown_customer=Kjøpet ble ikke gjennomført - ukjent personnummer. Vi kan ikke finne det angitte personnummeret. Kontroller om du har skrevet inn feil personnummer. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har skrevet inn riktig personnummer og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.bad_customer_password=Du har oppgitt feil passord.
+summary.paymenterror.klarna_account.test_customer_but_estore_is_live=Det er ikke mulig å bruke testpersoner når butikken er i live modus. Vær vennlig å bruke testflagget i API-kallet dersom du ønsker å teste din Klarna-integrasjon.
+summary.paymenterror.klarna_account.real_customer_with_test_flag=Du må fjerne testflagget i API-kallet for å kunne opprette eller aktivere Klarna-ordre med reelle kunder.
+summary.paymenterror.klarna_account.tno_not_found=Første gang du bruker Klarna mobil, må du registrere deg. Det gjør du enkelt ved å ringe 08-120 129 00 eller gå inn på klarna.se. Mvh Klarna
+summary.paymenterror.klarna_account.pin_error=Feil PIN-kode!
+summary.paymenterror.klarna_account.wrong_pin=Feil PIN-kode!
+summary.paymenterror.klarna_account.no_pin=Det er ikke bestilt noen PIN-kode!
+summary.paymenterror.klarna_account.orgno=Første gang du bruker firmamobilen for å betale via Klarna mobil, må du oppgi personnummeret ditt ved å sende: REG DDMMÅÅXXXXX til 71200. Mvh Klarna
+summary.paymenterror.klarna_account.phone_getaddr_failed=Vi finner ingen folkeregistrert address på det angitte telefonnummeret.
+summary.paymenterror.klarna_account.poa_pno=Personnummeret for fullmaktsinnehaveren har ikke riktig format. Angi personnummeret som ÅÅÅÅMMDDNNNN.
+summary.paymenterror.klarna_account.poa_group=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.poa_org=Organisasjonsnummeret har ikke riktig format.
+summary.paymenterror.klarna_account.misc_customer_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.foreign_addr=Du har oppgitt en adresse som ikke stemmer overens med det oppgitte personnummeret. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.bad_addr=Vi kan desverre ikke identifisere deg på adressen du har oppgitt. Korriger eventuelle stavefeil, skriv din fullstendige adresse og forsøk igjen. Om du fortsatt får denne feilmeldingen, kontakt Klarna på www.klarna.no/kundeservice.
+summary.paymenterror.klarna_account.bad_address=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.postno=Du har oppgitt et postnummer som ikke eksisterer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.bad_postno=Du har oppgitt et postnummer som ikke eksisterer. Vennligst kontroller og forsøk igjen.
+summary.paymenterror.klarna_account.bad_name=Vi kan ikke identifisere navnet du har oppgitt mot ditt personnummer. Korriger eventuelle stavefeil, skriv inn ditt fullstendige navn, og forsøk igjen. Om du fortsatt får denne feilmeldingen, kontakt Klarna på www.klarna.no/kundeservice.
+summary.paymenterror.klarna_account.address=Vi kan desverre ikke identifisere deg på adressen du har oppgitt. Korriger eventuelle stavefeil, skriv din fullstendige adresse og forsøk igjen. Om du fortsatt får denne feilmeldingen, kontakt Klarna på www.klarna.no/kundeservice.
+summary.paymenterror.klarna_account.no_address=We cannot find a registered address for the personal number you are using. Please control your input and try again or choose another payment method to finish your purchase.
+summary.paymenterror.klarna_account.bad_addr_limited=Kjøpet kan dessverre ikke godkjennes. Det skyldes at beløpsgrensen for kjøp til en ikke-folkeregistrert adresse er overskredet. For å gjennomføre kjøpet kan du enten gjøre endringer slik at varene leveres til din folkeregistrerte adresse, eller du kan velge et annet betalingsalternativ.
+summary.paymenterror.klarna_account.unidentified=Takk for ditt kjøp! Dessverre kan ikke Klarna verifisere at du bor på den adressen du har oppgitt. Vennligst oppgi din folkeregistrerte adresse og send en kopi av ID (pass, førerkort, ID) til identification@klarna.com. Vi kontakter deg innen 24 timer. Selvfølgelig bruker vi bare denne informasjonen i forbindelse med dine framtidige kjøp hos Klarna!
+summary.paymenterror.klarna_account.zip=Postnummeret du har oppgitt har ikke riktig format. Kontroller alle sifrene og forsøk igjen med følgende format: NNNN. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.cellno=Mobiltelefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: NN NN NN NN. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.telno=Telefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene stemmer, og forsøk igjen med følgende format: XX XX XX XX. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.email=Den e-postadressen som du har angitt er feilaktig. Vennlist kontroller om du kan ha skrevet inn feil adresse. Hvis ikke må vi be deg velge et annet betalingsalternativ.
+summary.paymenterror.klarna_account.country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.city=Kjøpet ble ikke gjennomført - feilaktig by eller sted. Byen eller stedet du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at byen eller stedet er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.street=Kjøpet ble ikke gjennomført - feilaktig gateadresse. Gateadressen du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.client_ip=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.proto_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.goods_list=Det var en feil i varelisten som du prøvde å sende til Klarna. Vennligst kontroller at alt er innsendt korrekt.
+summary.paymenterror.klarna_account.artnos=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_account.shipmenttype=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.language=The language you entered is not supported by Klarna.
+summary.paymenterror.klarna_account.gender=Vennligst angi kjønn og forsøk igjen.
+summary.paymenterror.klarna_account.date_of_birth=Fødselsdatoen du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: DDMMÅÅÅÅ. Om du fortsatt får denne feilmeldingen, velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.addr=Kjøpet ble ikke gjennomført - feilaktig adresse. Adressen du har oppgitt (f.eks. gate eller vei), stemmer ikke overens med din folkeregistrerte adresse. Kontroller at adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.house_number=Du har oppgitt feil husnummer. Kontroller om du har kommet til å skrive feil, eller velg en annen måte å betale på.
+summary.paymenterror.klarna_account.phone=Mobiltelefonnummeret du har oppgitt har ikke riktig format. Kontroller at alle sifrene er korrekte og i riktig rekkefølge, og forsøk igjen med følgende format: NN NN NN NN. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.income_expense_format=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.delay_adjust=En feil har oppstått, og vi kan for øyeblikket desverre ikke gjennomføre ditt kjøp med Klarna. Korriger eventuelle stavefeil, og forsøk igjen. Om du fortsatt får denne feilmeldingen, velg en annen betalingsmåte for å gjennomføre ditt kjøp. Takk for din forståelse.
+summary.paymenterror.klarna_account.bad_name_and_address=Kjøpet ble ikke gjennomført - feilaktig navn og adresse. Navnet og adressen du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at navnet og adressen er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt navn og adresse og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.bad_last_name=Vennligst fyll inn ditt etternavn.
+summary.paymenterror.klarna_account.bad_first_name=Vennligst fyll inn ditt fornavn.
+summary.paymenterror.klarna_account.bad_first_name_and_last_name=Kjøpet ble ikke gjennomført - feilaktig for- og etternavn. Navnet du har oppgitt, stemmer ikke overens med din folkeregistrerte adresse. Kontroller at for- og etternavn er korrekt skrevet inn. Vår fakturering og delbetaling håndteres av Klarna. Hvis du har angitt korrekt navn og likevel får denne feilmeldingen, bør du ta kontakt med Klarnas kundetjeneste. Klikk på koblingen nedenfor for å komme til Klarnas kundetjeneste: http://www.klarna.se/no/privat/kundeservice
+summary.paymenterror.klarna_account.group=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.misc_submission_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.orgno_pclass_not_allowed=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.sum_low_for_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unknown_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.not_annuity_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.pclass_expired=Kampanjen som du prøver å bruke, er ikke lenger gyldig. Vennligst prøv en annen kampanje.
+summary.paymenterror.klarna_account.sum_high_for_pclass=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.misc_pclass_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.misc_subscription_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unknown_invoice=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.negative_invoice=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_not_active=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_bad_status=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_is_passive=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_is_archived=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_is_suspect=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_is_frozen=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_is_pre_pay=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_stale=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_not_passive_or_frozen=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_in_test_mode=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invoice_not_passive=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.misc_invoice_error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.cno_already_in_use=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unknown_csid=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.not_allowed_operation=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.ip_from_wrong_country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.bad_type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unknown_type=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.bad_artnolist=Vi kunne ikke gjenkjenne artikkelisten i denne ordren. Vennligst kontroller at artikkelnumrene samsvarer med ordren, og prøv igjen.
+summary.paymenterror.klarna_account.unknown_artno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.rno=Vi kunne ikke lokalisere reservasjonen som du prøver å bruke. Vennligst kontroller at du bruker korrekt reservasjonsnummer, og prøv igjen.
+summary.paymenterror.klarna_account.split=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.bad_order_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_account.unknown_estore=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.invalid_estore_secret=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.bad_module_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.pno_encoding=Versjon av personnummer ikke godkjent.
+summary.paymenterror.klarna_account.currency=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.currency_country_pnoencoding=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.timeout=Akkurat nå kan vi desverre ikke gjennomføre ditt kjøp med Klarna på grunn av en teknisk feil. Forsøk igjen om en stund. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.invalid_country=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.negative_amount=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.eid=Det oppstod en feil mellom butikken og Klarna. Vennligst kontakt butikken for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.unknown_bclass=Det finns ikke noen deffinert oppførsel/adferd for den angitte estore_behaviour verdien.
+summary.paymenterror.klarna_account.flags=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.estore_user=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.ready_date=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.under_manual_review=Denne order er under manuell granskning, bruk check_order_status for å undersøke aktuell orderstatus.
+summary.paymenterror.klarna_account.unknown_order=Vi kunne ikke lokalisere ordren som du utfører denne handlingen på. Vennligst kontroller at du henviser til korrekt ordre, og prøv igjen.
+summary.paymenterror.klarna_account.timeout_fe=Akkurat nå kan vi desverre ikke gjennomføre ditt kjøp med Klarna på grunn av en teknisk feil. Forsøk igjen om en stund. Om du fortsatt får denne feilmeldingen, vennligst velg en annen betalingsmetode for å gjennomføre ditt kjøp.
+summary.paymenterror.klarna_account.aid=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.careof=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.cellphone=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.client_vsn=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.comment=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.credit_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.cust_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.customer_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.digest_secret=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.estore_order_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.estore_subsc_no=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.expiry_date=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.faddr=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.handlingfee=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.house_extension=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.lev_addr=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.new_amount=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.new_passwd=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.new_qty=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.notes=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.orderid1=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.orderid2=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.orderno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.passwd=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.rand_str=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.referens=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.referens_code=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.shipmentfee=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.store_id=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.sum=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.telcellno=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.username=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.vat=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.yearly_salary=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.session_id=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.error=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.not_unique_artnos_on_invoice=En feil har oppstått som følge av at din protokollversjon ikke stemmer overens med versjonen som er spesifisert i dine innstillinger. Venligst kontakt Klarna for hjelp til å oppgradere til den siste versjonen.
+summary.paymenterror.klarna_account.proto_vsn_test=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+summary.paymenterror.klarna_account.income_expense_info=Det har oppstått et problem i kommunikasjonen med Klarna som håndterer faktureringen. Vennligst kontakt Klarna (http://www.klarna.no) for mer informasjon eller velg en annen betalingsmetode.
+
+##############################################
+# ISML Directory: slots/
+##############################################
+cart.recommendations.products=Kanskje liker du
+
+##############################################
+# ISML Directory: slots/
+##############################################
+feedback.review.negative.label=Å ... det var ikke bra.
+feedback.review.negative.placeholder=Hva kunne vi ha gjort bedre?
+feedback.review.positive.label=Så utrolig bra!
+feedback.review.positive.placeholder=Er det noe vi kunne ha gjort bedre?
+feedback.review.thankyou.text=Takk for evalueringen. Din tilbakemelding lar oss gjøre justeringer til det bedre. Hvis det er noe mer du lurer på, ber vi deg kontakte vår kundeservice.
+feedback.review.thankyou.copy=Kopier min tilbakemelding
+feedback.review.thankyou.share=Del min tilbakemelding på Trustpilot
+
+login.haveaccount=Ser ut som du har en konto.\n\tLogg inn for en raskere betaling!
+login.email=Hva e-postadressen din?
+login.forgotpassword=Glemt passord
+login.welcomeback=Velkommen tilbake,
+competition.terms=Konkurransevilkår
+competition.customerclubterms=Ved å registrere deg aksepterer du Kundeklubbens {0}.
+competition.customerclubtermslink=vilkår og betingelser
+competition.datadisclamer=Alle personopplysninger som sendes inn i forbindelse med denne konkurransen vil holdes av BESTSELLER og behandles i henhold til dansk lov om behandling av personopplysninger og våre vilkår for medlemskap i {0} Medlemsklubben.
+competition.successcontinue=Fortsett til {0}
+competition.termsreadmore=Les {0}.
+competition.termsreadmorelink=konkurransevilkår
+competition.selectsize=Velg her
+competition.sizeerror=Velg størrelse
+competition.selectprize=Velg mellom følgende
+competition.submit=Send inn
+competition.invalidfields=Dette var pinlig. Vennligst sjekk de røde feltene.
+competition.serviceerror=Tjenesten er for øyeblikket utilgjengelig.
+competition.onesize=One size
+competition.termslabel=Jeg aksepterer konkurransens og {0} {1}s vilkår og betingelser
+competition.customerclub=KUNDEKLUBB
+competition.answer=Svar
+﻿########################################
+# strings in content images
+########################################
+content.20_40_off=20-40 % rabatt
+
+content.apparel.accessories=tilbehør
+content.apparel.apparel=klær
+content.apparel.boots=boots
+content.apparel.coat=kåpe
+content.apparel.collection=kolleksjon
+content.apparel.dresses=kjoler
+content.apparel.earrings=øreringer
+content.apparel.fleeceandknits=fleece og strikk
+content.apparel.hats=hatter
+content.apparel.jackets=jakker
+content.apparel.jewelry=smykker
+content.apparel.leather=lær
+content.apparel.neckties=slips
+content.apparel.necklaces=halskjeder
+content.apparel.outerwear=yttertøy
+content.apparel.pants=bukser
+content.apparel.scarves=skjerf
+content.apparel.shirt=skjorte
+content.apparel.shirts=skjorter
+content.apparel.shoes=sko
+content.apparel.shorts=shorts
+content.apparel.sportcoat=sportskåpe
+content.apparel.suits=dresser
+content.apparel.sweater=genser
+content.apparel.tops=topper
+content.apparel.tshirt=T-skjorte
+content.apparel.tshirts=T-skjorte
+
+content.category.kids=barn
+content.category.mens=herre
+content.category.womens=dame
+
+content.season.fall=høst
+content.season.spring=vår
+content.season.summer=sommer
+content.season.winter=vinter
+
+content.classicfit=klassisk passform
+content.cool_savings=spar masse
+content.dressforsucess=dress for success
+content.free_shipping=gratis frakt
+content.freegroundshipping=gratis grunnfrakt på bestillinger på over 150 $ eller mer.
+content.new=nytt
+content.new_arrivals=nyheter
+content.new_styles=nye styles
+content.promocode=rabattkode "GCshipping"
+content.sale=salg
+content.save_20=spar 20 %
+content.save_20_40=spar 20-40 %
+content.save_some_cash=spar litt penger
+content.shop=shop
+content.shop_now=shop nå >
+content.thisweeksdeals=denne ukens tilbud
+content.use_a_gift_card=bruk et gavekort for å få gratis sending
+content.warmthandstyle=varme og stil
+
+homepage.banners_homepage_05b_headline=i perfekt harmoni
+homepage.banners_homepage_05d_action=20 % rabatt kun denne uken
+homepage.banners_homepage_05e_headline=bla innom
+homepage.img01=spar opptil 40 % på utvalgt fottøy til dame
+homepage.img02=tømming: 10 % rabatt på herreklær
+homepage.img05=kjøp alt yttertøy til barn og få 50 % rabatt på plagg nummer 2
+homepage.img06=kjøp en bagasjeartikkel og få 25 % rabatt på en valgfri sekk
+
+slot.landing.kids-clothing=lagertømming: opptil 25 % på alle barne-hettegensere
+slot.landing.kids-footwear=nye styles til barna
+slot.landing.mens-clothing=oppdater stilen i tide til den nye sesongen
+slot.landing.mens-footwear-boots=spar 20 % rabatt på utvalgte herreboots
+slot.landing.womens-footwear-shoes=slip-on stil og komfort
+slot.landing.womens-greatstyles=sjekk ut våre flotte modeller for den nye sesongen ...
+slot.sub_banners.kids-accessories-hats=strikkeluer fra 11,99 $
+slot.sub_banners.kids-clothing-footwear=alt under 25 $
+slot.sub_banners.kids-clothing-tops=kjøp 3 eller flere for 10 $ hver
+slot.sub_banners.kids-merchandise=spar $ 5 på alt artikler for barn
+slot.sub_banners.mens-accessories-luggage=kjøp en bagasjeartikkel og få 25 % på en valgfri sekk
+slot.sub_banners.mens-accessories-ties=finn den perfekte gaven til far
+slot.sub_banners.mens-clothing-pants=finn det perfekte par
+slot.sub_banners.mens-clothing-suits=på alle formelle dresser
+slot.sub_banners.mens-footwear-boots=på alle 6 tommers boots
+slot.sub_banners.mensclothingbottoms=denim fra 29,99 $
+slot.sub_banners.standard_mensaccessorieshats=baseballuer
+slot.sub_banners.standard_mensaccessorieswallets=lærlommebøker 29-37 $
+slot.sub_banners.standard_mensclothingouterwear=på alle herrefleece
+slot.sub_banners.standard_mensfootwear=Båtsko som ser bra ut i alle anledninger
+slot.sub_banners.standard_storelocator=finn en butikk nær deg
+slot.sub_banners.womens-accessories-handbags=Fråts i håndvesker
+slot.sub_banners.womens-accessories-handbags.freewallet=gratis lommebok med kjøp
+slot.sub_banners.womens-clothing-dresses=kjoler i casual stil
+slot.sub_banners.womens-clothing-outerwear=gratis lærpleiesett ved kjøp av jakke
+slot.sub_banners.womens-clothing-tops=lekne topper
+slot.sub_banners.womens-footwear=terrengsko til dame
+slots.categorylanding.lowbanners.mens-footwear-boots=spar 20 % på utvalgte herresko
+
+##############################################
+# Languages Country Selector
+##############################################
+language.en = English
+language.fr = Français
+language.it = Italiano
+language.da = Dansk
+language.fi = Suomi
+language.sv = Svenska
+language.no = Norsk bokmål
+language.es = Español
+language.de = Deutsch
+language.nl = Nederlands
+language.is = Íslenska
+language.pl = Polski
+language.zh = 中文
+language.tr = Türkçe
+
+##############################################
+# Languages Country Switch
+##############################################
+
+countryswitch.headline=Velg leveringsplassering
+countryswitch.viewall=Se alle plasseringer
+countryswitch.gotosite=Ok
+
+##############################################
+# Manufacturing Page
+##############################################
+manufacturing.header=THE MANUFACTURING MAP
+manufacturing.manufactures=Manufactures
+manufacturing.facilities=Facilities
+manufacturer.header=MANUFACTURER
+
+##############################################
+# Common resources
+##############################################
+resource.passwordassistance=Passordassistanse
+resource.ordergcemsg=Et gavesertifikat på
+resource.youraccount=Din konto
+resource.employeestore=Medarbeider-butikkverifisering
+resource.whatnext=HVA SKJER NÅ?
+resource.needhelp=TRENGER DU HJELP?
+resource.greeting=Hei {0},
+resource.quantity=Kvantitet:
+
+##############################################
+# Template name: mail/giftcert
+##############################################
+giftcert.msghasbeenleftforyou=har lagt igjen følgende beskjed til deg:
+giftcert.msgleftforyou=Den følgende beskjeden er lagt igjen til deg:
+giftcert.toredeem=For å løse inn ditt gavesertifikat, bruk følgende kode ved betalingstrinnet i kassen:
+giftcert.dearcustomer=Kjære kunde,
+giftcert.dear=Kjære {0},
+giftcert.someone=Noen
+giftcert.paysattention=er oppmerksom på deg og har sendt deg et {0} gavesertifikat for
+giftcert.dwonlinestore=Skriv ut PDF-en vi ha lagt ved i denne e-posten, og så har du det du trenger.
+giftcert.period=.
+giftcert.message=Her er ditt gavekort fra ordre #{0}
+giftcert.customermessage=Vi håper du finner noe du liker.
+giftcert.tips=Det var det. Du kan nå shoppe med gavekortet ditt både i butikk og på nett.
+giftcert.confirmation=Gavekortet ditt vil bli sendt via e-post etter at vi har behandlet betalingen.
+
+##############################################
+# Template name: mail/orderreturns.isml
+##############################################
+return.subject=Returnerte artikler fra ordre {0}
+return.message=Returnert/e vare/r fra ordre {0}
+return.refundmessage=Vi begynner å jobbe med din refundering med en gang.
+return.statusreturned=Returnert
+return.refundconfirmation=Mangler du noen varer som du sendte tilbake samtidig? Det skjer. Noen ganger tar det litt lengre tid å prosessere enkelte varer. Når vi har behandlet en artikkel, får du vite det umiddelbart via e-post.
+return.process=Du kan forvente en e-post fra oss innen åtte dager som bekrefter tilbakebetalingen. I mellomtiden, hvis du har noen spørsmål, er kundeserviceteamet alltid glade for å kunne hjelpe deg.
+return.contact=Du kan forvente en e-post fra oss innen åtte dager som bekrefter tilbakebetalingen. I mellomtiden, hvis du har noen spørsmål, er kundeserviceteamet alltid glade for å kunne hjelpe deg.
+return.customermessage=Vi håper å se deg igjen snart.
+
+##############################################
+# Template name: mail/refundmail.isml
+##############################################
+refund.subject=Refunderte artikler fra ordre {0}
+refund.message=Vi har refundert dine returer for ordre {0}.
+refund.totalmessage=Basert på artiklene du sendte tilbake, vil vi refundere {0} til deg. Dette er prisen på artikkelen minus ev. rabatter.
+refund.statusrefunded=Refundert
+refund.itemtotal=Total
+refund.refundmessage=Vi har refundert dine returnerte varer.
+refund.moneyrefund=Pengene skal være tilbakebetalt i løpet av de neste 5-10 dagene, avhengig av hvilken betalingsmetode som ble brukt. Hvis ordren ble betalt med gavekort, vil et gavekort bli sendt via e-post.
+refund.tips=Vi har skrevet flere nyttige tips om Returer og refusjoner som vi tror kan være til hjelp. Disse finner du i Hjelp-seksjonen.
+refund.customerservice=Vårt kundeserviceteam (customerservice@bestseller.com) er alltid glade for å kunne hjelpe eller forklare hvordan vår tilbakebetalingsprosess fungerer.
+
+refund.servicefee=Fakturagebyr
+refund.deliverycharge=Fraktkostnad
+refund.returnfee=Returfrakt
+refund.contact=Vår {0} står alltid klare til å svare på dine spørsmål.
+refund.help=Vi har skrevet flere nyttige tips om Returer og refusjoner som vi tror kan være til hjelp. Disse finner du i {0}.
+refund.customermessage=Vi håper å se deg igjen snart
+refund.helpsection=Hjelpeseksjon
+
+##############################################
+# Template name: mail/dispatchnotificationmail
+##############################################
+dispatch.subject=Vi har sendt bestillingen din
+dispatch.tracking=Trykk på sporingsnummeret nedenfor for å følge din pakke. Denne lenken kan ta opptil 72 timer å aktivere:
+dispatch.message=Din bestilling {0} er sendt
+dispatch.shipmessage=Spennende nyhet - din bestilling {0} er på vei.
+dispatch.parcelshop=Hvis du velger {0} Parcel Shop, vil de sende deg en e-post eller SMS når pakken er klar til henting.
+dispatch.customerservice=Vårt kundeserviceteam (customerservice@bestseller.com) er alltid glade for å kunne hjelpe.
+dispatch.shipmessagepartial=Din bestilling {0} er på vei
+dispatch.partial=Gode nyheter! Noen av de fine plaggene fra ordre {0} er nå på vei. Mangler det noen varer fra bestillingen din? Ingen fare, en ny pakke blir snart sendt. 
+dispatch.messageheader=HVA SKJER NÅ?
+dispatch.contactheader=TRENGER DU HJELP?
+dispatch.contact=Vår {0} står alltid klare til å svare på dine spørsmål.
+dispatch.customerserviceteam=Kundeservice-team
+dispatch.partialcancelledheader=På grunn av gjeldende tilgjengelighetshensyn kan vi imidlertid ikke levere artiklene merket med grått nedenfor.
+dispatch.partialcancelled=Men ikke bekymre deg – vi refunderer deg med {0} innen 3-5 virkedager.
+dispatch.partialcancelledsubject=Viktig oppdatering om din bestilling
+dispatch.partialcancelledextramessage=Vi håper du finner noe annet du liker.
+dispatch.unavailable=For øyeblikket utilgjengelig 
+
+##############################################
+# Template name: mail/ordercancellation
+##############################################
+cancellation.information=Du vil selvfølgelig ikke bli belastet. I mellomtiden kommer en masse nye looks inn i nettbutikken hver uke. Vi håper du finner noe annet du liker.
+cancellation.customerservice=Vårt kundeserviceteam (customerservice@bestseller.com) forklarer deg gjerne hvorfor dette har skjedd.
+
+footer.companyname=BESTSELLER HANDELS B.V.
+footer.companydetails=Sint Jorissteeg 2, 1012 XV Nederland - VAT NL853685757B01 / 59896604
+footer.automatic=Vennligst merk: Dette er en automatisk e-post og kan ikke besvares. Hvis du trenger hjelp, kan du besøke vår {0}.
+footer.customerservicepage=kundeservice-side
+
+##############################################
+# Template name: mail/employeestoreemail
+##############################################
+employee.welcome=Velkommen til BESTSELLER Medarbeiderbutikk.
+employee.clicklink=Klikk på linken nedenfor for å bekrefte din registrering og gå inn på Medarbeiderbutikken.
+employee.linkhours=Du kan bruke denne linken i opptil 24 timer.
+employee.shopclosed=Medarbeiderbutikken er stengt på følgende tidspunkter:
+employee.shopmonthu=Mandag til torsdag - 8:30 til 16:30
+employee.shopfri=Fredag - 8:30 til 14:00
+employee.cannotshop=Det er ikke mulig å handle i Medarbeiderbutikken i stengetiden.
+employee.homeaddress=Vær oppmerksom på at artikler som er kjøpt med personalrabatt kun kan leveres til din hjemmeadresse.
+employee.chrome=Medarbeiderbutikken er optimalisert for Google Chrome. Så dersom du opplever problemer på Internet Explorer, anbefaler vi at du bytter til Chrome.
+employee.contact=Hvis du har spørsmål om bestillingen din eller medarbeiderhandel generelt, er kundeservice her for å hjelpe deg: customerservice@bestseller.com.
+employee.bestseller=BESTSELLER
+
+confirmation.messageheader=HVA SKJER NÅ?
+confirmation.message=Så snart vi har pakket bestillingen din, sender vi deg et sporingsnummer på e-post.
+confirmation.contactheader=TRENGER DU HJELP?
+confirmation.contact=Vår {0} står alltid klare til å svare på dine spørsmål.
+confirmation.customerserviceteam=Kundeservice-team
+confirmation.thankyou=Takk for bestillingen din #{0}
+confirmation.shippingestimate=Den bør være hos deg innen de neste {0}
+confirmation.estimate.days=Den bør være hos deg innen de neste {0}-{1} virkedager
+confirmation.multishipment=Du vil motta bestillingen din i flere forsendelser
+
+##############################################
+# Template name: mail/notifyme
+##############################################
+notifyme.hello=Hei!
+notifyme.backinstock=Gode nyheter! Plagget du forelsket deg i er tilbake på lager!
+notifyme.incentive=Kjøp det nå mens vi fortsatt har det inne!
+notifyme.getitnow=Kjøp nå
+notifyme.help=Trenger du hjelp? Kontakt vårt {0}
+notifyme.customerserviceteam=Kundeservice-team
+feedback.message=Vi er glad i kundene våre, og vi er glad i feedback. Vi ville satt pris på å høre fra deg, som stilkjenner, hvordan du mener vi best kan bli bedre på det vi gjør.
+feedback.title=Hvordan var din returopplevelse?
+feedback.emailsubject=Synes du vi holder mål?
+
+﻿##############################################
+# Template name: error/generalerror
+##############################################
+generalerror.title=Oi, dette er pinlig. Det har oppstått en feil. 
+generalerror.message=Vi jobber med å fikse dette. I mellomtiden, hvorfor ikke sjekke ut de mange hundre nye plaggene som vi får inn ukentlig? 
+generalerror.searchlabel=Søk
+
+##############################################
+# Template name: error/siteoffline
+##############################################
+siteoffline.header=Vår nettside er for tiden nede for vedlikehold.
+siteoffline.message=Takk for din tålmodighet.
+
+##############################################
+# Template name: error/notfound
+##############################################
+notfound.pagenotfound.title=Oi, dette er pinlig.
+notfound.pagenotfound.message=Vi kan ikke finne den siden. Nettadressen kan ha endret seg eller eksisterer ikke mer.
+notfound.pagenotfound.message.beforelink=I mellomtiden, hvorfor ikke sjekke ut de mange hundre nye plaggene som vi får inn ukentlig? 
+notfound.pagenotfound.message.link=HJEM
+notfound.pagenotfound.suggestion=eller ta en titt på våre anbefalinger nedenfor og se om det er noe du liker.
+
+##############################################
+# Template name: error/minicarterror
+##############################################
+minicarterror.message=Det ser ut som minihandlevognen har litt trøbbel.
+minicarterror.refresh=Prøv å fornye siden.
+
+##############################################
+# Template name: error/internalservererror
+##############################################
+internalservererror.page.title=Error 500
+internalservererror.title=Intern feil
+internalservererror.message=Serveren støtte på en intern feil som forhindret den i å fullføre denne forespørselen. 
+##############################################
+# Directory: forms
+##############################################
+billing.email=E-post:
+
+billingcoupon.couponenter=rabattkode:
+billingcoupon.applycoupon=Har du en rabattkode?
+billingcoupon.couponexplanation=Hvis du har mottatt et spesialtilbud eller rabatt, kan du angi den unike koden for dette nedenfor.
+billingcoupon.couponinvalid=Ugyldig rabattkode
+billingcoupon.couponused=Denne rabattkoden har allerede vært i bruk
+billingcoupon.couponexpired=Utgått rabattkode
+billingcoupon.couponalreadyapplied=rabattkoden er allerede i bruk
+billingcoupon.couponnotqualified=Denne kupongen kvalifiserer ikke for en rabatt
+
+billinggiftcert.giftcertlabel=Gavekort nummer:
+billinggiftcert.giftcertcvvlabel=Kontrollkoden:
+billinggiftcert.giftcertinvalid=Ugyldig gavekort nummer
+billinggiftcert.giftcertcvvinvalid=Ugyldig kontrollkoden
+billinggiftcert.giftcertwrongcurrency=Gavesertifikatet kan kun løses inn for ordre som utføres i samme valuta som gavesertifikatet
+billinggiftcert.giftcertnofunds=Ugyldig Gavesertifikatsaldo
+
+competition.answer=Svar
+
+country.the.unitedstates=USA
+country.unitedstates=USA
+country.denmark=Danmark
+country.germany=Tyskland
+country.canada=Canada
+country.japan=Japan
+country.france=Frankrike
+country.italy=Italia
+country.china=Kina
+country.unitedkingdom=Storbritannia
+
+country.at=Østerrike
+country.be=Belgia
+country.ca=Canada
+country.ch=Sveits
+country.cn=Kina
+country.dk=Danmark
+country.de=Tyskland
+country.es=Spania
+country.fi=Finland
+country.fr=Frankrike
+country.gb=Storbritannia
+country.gr=Hellas
+country.ie=Irland
+country.it=Italia
+country.jp=Japan
+country.nl=Nederland
+country.no=Norge
+country.se=Sverige
+country.uk=Storbritannia
+country.us=USA
+country.ad=Andorra
+country.au=Australia
+country.by=Hviterussland
+country.cz=Tsjekkisk Republikk
+country.ee=Estland
+country.fo=Færøyene
+country.hr=Kroatia
+country.id=Indonesia
+country.in=India
+country.is=Island
+country.kr=Korea, Republikken
+country.kz=Kasakhstan
+country.lt=Litauen
+country.lu=Luxembourg
+country.lv=Latvia
+country.ma=Marokko
+country.my=Malaysia
+country.ph=Filippinene
+country.pl=Polen
+country.pt=Portugal
+country.ro=Romania
+country.ru=Russland
+country.sg=Singapore
+country.si=Slovenia
+country.th=Thailand
+country.tr=Tyrkia
+country.uz=Usbekistan
+country.za=Sør-Afrika
+country.rw=Verdensomspennende
+
+
+creditcard.visa=Visa
+creditcard.mastercard=Mastercard
+creditcard.amex=Amex
+creditcard.discover=Oppdag
+creditcard.savecard=Lagre dette kortet
+creditcard.type=Type
+creditcard.typemissing=Vennligst velg et kort
+creditcard.number=Nummer
+creditcard.numberexample=Eksempel: 4111111111111111
+creditcard.numberrangeerror=Et antall må ha 13 til 16 sifre
+creditcard.numbermissingerror=Vennligs før inn sifferet slik det vises på kortet ditt
+creditcard.numbervalueerror=Ugyldig Kredittkortnummer
+creditcard.monthmissingerror=Vennligst velg en utgangsmåned
+creditcard.yearmissingerror=Vennligst velg et utgangsår
+creditcard.yearvalueerror=Kredittkortet er utgått
+creditcard.ownerlabel=Navn på kort
+creditcard.ownermissingerror=Vennligst skriv inn navnet slik det vises på kortet ditt
+creditcard.cvnlabel=Sikkerhetskode
+creditcard.cvnmissingerror=Vennligst oppgi din sikkerhetskode
+creditcard.cvnrangeerror=Ugyldig sikkerhetskode
+
+day.001=01
+day.002=02
+day.003=03
+day.004=04
+day.005=05
+day.006=06
+day.007=07
+day.008=08
+day.009=09
+day.010=10
+day.011=11
+day.012=12
+day.013=13
+day.014=14
+day.015=15
+day.016=16
+day.017=17
+day.018=18
+day.019=19
+day.020=20
+day.021=21
+day.022=22
+day.023=23
+day.024=24
+day.025=25
+day.026=26
+day.027=27
+day.028=28
+day.029=29
+day.030=30
+day.031=31
+
+resource.firstname=Fornavn:
+resource.lastname=Etternavn:
+resource.5_100characters=5 - 100 karakterer
+resource.6_255characters=6 - 255 karakterer
+resource.address=Adresse:
+resource.address1=Adresse 1:
+resource.housenumber=Husnummer:
+resource.extension=Utvidelse:
+resource.address2=Ekstra adresseinformasjon:
+resource.addresserror=Vennligst oppgi Adresseinformasjon
+resource.addtocart=Legg i kurv
+resource.city=By:
+resource.town=By:
+resource.country=Land
+resource.day=Dag
+resource.delete=Slett
+resource.find=Finn
+resource.email=E-post
+resource.employeeid=Medarbeider-ID
+resource.employeeiderror=Vennligst oppgi en gyldig Medarbeider-ID
+resource.errorzip=Vennligst oppgi et postnummer
+resource.errorpostal=Vennligst oppgi en postkode
+resource.month=Måned
+resource.select=Velg ...
+resource.send=Send
+resource.shippingmethod=Leveringsmetode
+resource.state=Stat
+resource.stateprovince=Stat/Provins
+resource.province=Provins
+resource.state.other=Annet
+resource.year=År
+resource.zippostalcode=Postnummer
+resource.zipcode=Postnummer:
+resource.postalcode=Postkode
+resource.ssn=Personnummer:
+resource.bank=Bank:
+resource.bank.select=Select a Bank
+resource.birthdate=Fødselsdato:
+
+label.username=E-post:
+label.password=Passord:
+label.newpassword=Nytt passord:
+
+login.rememberme=Husk meg
+
+login.username.missing-error=Vennligst oppgi din e-postadresse
+login.password.missing-error=Vennligst oppgi ditt passord
+
+month.january=Januar
+month.february=Februar
+month.march=Mars
+month.april=April
+month.may=Mai
+month.june=Juni
+month.july=Juli
+month.august=August
+month.september=September
+month.october=Oktober
+month.november=November
+month.december=Desember
+
+state.us.alabama=Alabama
+state.us.alaska=Alaska
+state.us.americansamoa=American Samoa
+state.us.arizona=Arizona
+state.us.arkansas=Arkansas
+state.us.california=California
+state.us.colorado=Colorado
+state.us.connecticut=Connecticut
+state.us.delaware=Delaware
+state.us.dc=District of Columbia
+state.us.florida=Florida
+state.us.georgia=Georgia
+state.us.guam=Guam
+state.us.hawaii=Hawaii
+state.us.idaho=Idaho
+state.us.illinois=Illinois
+state.us.indiana=Indiana
+state.us.iowa=Iowa
+state.us.kansas=Kansas
+state.us.kentucky=Kentucky
+state.us.louisiana=Louisiana
+state.us.maine=Maine
+state.us.maryland=Maryland
+state.us.massachusetts=Massachusetts
+state.us.michigan=Michigan
+state.us.minnesota=Minnesota
+state.us.mississippi=Mississippi
+state.us.missouri=Missouri
+state.us.montana=Montana
+state.us.nebraska=Nebraska
+state.us.nevada=Nevada
+state.us.newhampshire=New Hampshire
+state.us.newjersey=New Jersey
+state.us.newmexico=New Mexico
+state.us.newyork=New York
+state.us.northcarolina=North Carolina
+state.us.northdakota=North Dakota
+state.us.ohio=Ohio
+state.us.oklahoma=Oklahoma
+state.us.oregon=Oregon
+state.us.pennsylvania=Pennsylvania
+state.us.puertorico=Puerto Rico
+state.us.rhodeisland=Rhode Island
+state.us.southcarolina=South Carolina
+state.us.southdakota=South Dakota
+state.us.tennessee=Tennessee
+state.us.texas=Texas
+state.us.utah=Utah
+state.us.vermont=Vermont
+state.us.virginislands=Virgin Islands
+state.us.virginia=Virginia
+state.us.washington=Washington
+state.us.westvirginia=West Virginia
+state.us.wisconsin=Wisconsin
+state.us.wyoming=Wyoming
+state.us.armedforcesafrica=Armed Forces Africa
+state.us.armedforcesamerica=Armed Forces America (ekskl. Canada)
+state.us.armedforcescanada=Armed Forces Canada
+state.us.armedforceseurope=Armed Forces Europe
+state.us.armedforcesmiddleeast=Armed Forces Middle East
+state.us.armedforcespacific=Armed Forces Pacific
+state.us.other=Ikke-US/Annet
+
+state.ca.alberta=Alberta
+state.ca.britishcolumbia=British Columbia
+state.ca.manitoba=Manitoba
+state.ca.newbrunswick=New Brunswick
+state.ca.newfoundland=Newfoundland and Labrador
+state.ca.northwestterritories=Northwest Territories
+state.ca.novascotia=Nova Scotia
+state.ca.nunavut=Nunavut
+state.ca.ontario=Ontario
+state.ca.princeedwardisland=Prince Edward Island
+state.ca.quebec=Quebec
+state.ca.saskatchewan=Saskatchewan
+state.ca.yukon=Yukon
+
+year.2021=2021
+year.2020=2020
+year.2019=2019
+year.2018=2018
+year.2017=2017
+year.2016=2016
+year.2015=2015
+year.2014=2014
+year.2013=2013
+year.2012=2012
+year.2011=2011
+year.2010=2010
+year.2009=2009
+year.2008=2008
+year.2007=2007
+year.2006=2006
+year.2005=2005
+year.2004=2004
+year.2003=2003
+year.2002=2002
+year.2001=2001
+year.2000=2000
+year.1999=1999
+year.1998=1998
+year.1997=1997
+year.1996=1996
+year.1995=1995
+year.1994=1994
+year.1993=1993
+year.1992=1992
+year.1991=1991
+year.1990=1990
+year.1989=1989
+year.1988=1988
+year.1987=1987
+year.1986=1986
+year.1985=1985
+year.1984=1984
+year.1983=1983
+year.1982=1982
+year.1981=1981
+year.1980=1980
+year.1979=1979
+year.1978=1978
+year.1977=1977
+year.1976=1976
+year.1975=1975
+year.1974=1974
+year.1973=1973
+year.1972=1972
+year.1971=1971
+year.1970=1970
+year.1969=1969
+year.1968=1968
+year.1967=1967
+year.1966=1966
+year.1965=1965
+year.1964=1964
+year.1963=1963
+year.1962=1962
+year.1961=1961
+year.1960=1960
+year.1959=1959
+year.1958=1958
+year.1957=1957
+year.1956=1956
+year.1955=1955
+year.1954=1954
+year.1953=1953
+year.1952=1952
+year.1951=1951
+year.1950=1950
+year.1949=1949
+year.1948=1948
+year.1947=1947
+year.1946=1946
+year.1945=1945
+year.1944=1944
+year.1943=1943
+year.1942=1942
+year.1941=1941
+year.1940=1940
+year.1939=1939
+year.1938=1938
+year.1937=1937
+year.1936=1936
+year.1935=1935
+year.1934=1934
+year.1933=1933
+year.1932=1932
+year.1931=1931
+year.1930=1930
+
+##############################################
+# Template name: forms/bml
+##############################################
+bml.dayerror=Oppgi dag
+bml.montherror=Oppgi måned
+bml.yearerror=Oppgi år
+bml.valueerror=Vennligst oppgi gyldig data
+bml.ssn=Siste 4 sifrene av din SSN
+bml.ssnerror=Oppgi de siste fire sifrene i din SSN.
+bml.ssninvalid=Din adgang er ugyldig.
+bml.terms=Jeg har lest og godkjenner alle vilkårene ovenfor
+bml.termserror=Du må godkjenne vilkår og betingelser
+
+##############################################
+# Template name: forms/compare
+##############################################
+compare.category=Kategori
+
+##############################################
+# Template name: forms/customeraddress
+##############################################
+customeraddress.addressid.label=Adressenavn
+customeraddress.addressid.value-error=Du bruker allerede dette Adressenavnet
+customeraddress.addressid.missing-error=Vennligst oppgi Adressenavn
+customeraddress.firstname.missing-error=Vennligst oppgi et Fornavn
+customeraddress.lastname.missing-error=Vennligst oppgi et Etternavn
+customeraddress.address1.description=Gateadresse, P.O. Boks
+customeraddress.address2.description=Leilighet, Suite, Enhet, Etasje
+customeraddress.country.missing-error=Vennligst velg et land
+customeraddress.city.missing-error=Vennligst angi en by
+
+
+##############################################
+# Template name: forms/giftcert
+##############################################
+giftcert.purchase.from.label=Ditt navn
+giftcert.purchase.from.missing-error=Vennligst oppgi ditt navn.
+giftcert.purchase.recipient.label=Vennens navn
+giftcert.purchase.recipient.missing-error=Vennligst oppgi din venns navn.
+giftcert.purchase.recipientemail.label=Vennens e-post
+giftcert.purchase.recipientemail.parse-error=E-postadressen er ugyldig.
+giftcert.purchase.recipientemail.missing-error=Vennligst oppgi din venns e-post.
+giftcert.purchase.recipientemail.value-error=Vennligst oppgi din venns e-post.
+giftcert.purchase.confirmrecipientemail.label=Bekreft din venns e-post
+giftcert.confirmrecipientemailparseerror=E-postadressen er ugyldig.
+giftcert.confirmrecipientemailmissingerror=Vennligst bekreft din venns e-post.
+giftcert.confirmrecipientemailvalueerror=E-postadressen matcher ikke din venns e-post.
+giftcert.balance.giftcertid.missing-error=Vennligst oppgi et gyldig Gavesertifikat.
+giftcert.messagelabel=Melding
+giftcert.purchasemessagedescription=
+giftcert.amountlabel=Beløp
+giftcert.amountdescription=
+giftcert.amountparseerror=Gavesertifikat kan kun kjøpes til minimum 5 og maksimalt 5000
+giftcert.amountmissingerror=Gavesertifikat kan kun kjøpes til minimum 5 og maksimalt 5000
+giftcert.amountvalueerror=Gavesertifikat kan kun kjøpes til minimum 5 og maksimalt 5000
+
+
+##############################################
+# Template name: forms/paymentinstruments
+##############################################
+paymentinstruments.removecc=Fjern gavekort
+
+##############################################
+# Template name: forms/profile
+##############################################
+profile.title=Tittel:
+profile.firstname=Fornavn:
+profile.lastname=Etternavn:
+profile.email=E-post:
+profile.confirmemail=Bekreft e-post
+profile.dob=Fødselsdato:
+profile.dobexample=Eksempel: 03/28/1968
+profile.phoneprefix=Mobilnummer:
+profile.phoneprefix.label=Retningsnummer :
+profile.phone.label=Mobilnummer:
+profile.phoneexample=Format: 333-333-3333
+profile.usernametaken=Brukernavn eller allerede tatt.
+profile.passwordconfirm=Bekreft passord
+profile.passwordnomatch=Matcher ikke passord
+profile.newpassword=Nytt passord:
+profile.newpasswordconfirm=Bekreft nytt passord:
+profile.passworderror=Passordet må være mellom 6 og 225 tegn.
+profile.accountquestion=Sikkerhetsspørsmål
+profile.question1=Mors pikenavn
+profile.question2=Merke på første bil
+profile.question3=Navn på favoritthusdyr
+profile.question4=Pappas fornavn
+profile.question5=Fødselsdato
+profile.accountanswer=Sikkerhetssvar
+profile.addemailtolist=Vennligst legg meg til Demandwares e-postliste.
+profile.remember=Husk meg
+profile.usernameerror=Brukernavn må være mellom 5 og 100 tegn og kan bare inneholde bokstaver, tall, mellomrom, punktum, komma, understreking og @.
+
+##############################################
+# Template name: forms/storelocator
+##############################################
+storelocator.distancelabel=Radius
+storelocator.distanceoption1=15 engelske mil
+storelocator.distanceoption2=30 engelske mil
+storelocator.distanceoption3=100 engelske mil
+storelocator.distanceoption4=300 engelske mil
+storelocator.distanceoption5=USA
+storelocator.statelabel=Stat/Provins:
+storelocator.ziperror=Postnummerformat er ugyldig.
+
+productlist.public=Offentlig
+productlist.eventmonth=Event måned
+productlist.eventyear=Event år
+productlist.eventyearerror=Du må velge et år hvis du har valg måned
+productlist.setpublic=Gjør offentlig
+productlist.setprivate=Gjør privat
+productlist.priority0=Ingen
+productlist.priority1=Høyeste
+productlist.priority2=Høy
+productlist.priority3=Middels
+productlist.priority4=Lav
+productlist.priority5=Laveste
+
+##############################################
+# Template name: forms/wishlist
+##############################################
+wishlist.lname=Etternavn
+wishlist.fname=Fornavn
+wishlist.sendto.email=Send til e-postadresser
+wishlist.check.emailaddress=Sjekk din e-postadresse i Din konto - Personlig informasjon.
+wishlist.enter.validemail=Vennligst oppgi gyldige e-postadresser.
+wishlist.title=Tittel
+wishlist.price.lth=Pris (lav til høy)
+wishlist.price.htl=Pris (høy til lav)
+wishlist.dateadded=Lagt til den
+wishlist.lastupdated=Sist oppdatert
+wishlist.sortby=Sorter etter
+wishlist.validemail=Vennligst oppgi gyldige e-postadresser (separert med ',' eller ';').
+wishlist.search.lastnamereqiured=Du må oppgi etternavn.
+wishlist.quantitydesired=Ønsket antall
+wishlist.priority=Prioritet
+wishlist.makepublic=Gjør denne artikkelen offentlig
+
+##############################################
+# Form name: forms/giftregistry.xml
+##############################################
+giftregistry.wedding=Bryllup
+giftregistry.weddingshower=Utdrikningslag
+giftregistry.babyshower=Babydusj
+giftregistry.other=Annet
+giftregistry.bride=Brud
+giftregistry.groom=Brudgom
+giftregistry.addgiftcertificate=Legg til Gavesertifikat
+giftregistry.editevent=Rediger event
+giftregistry.editshipaddress=Rediger Sendingsadresser
+giftregistry.showpurchase=Vis kjøp
+giftregistry.eventtype=Type event
+giftregistry.eventtype.missing-error=Vennligst oppgi type event.
+giftregistry.eventname=Navn på event
+giftregistry.eventname.missing-error=Vennligst oppgi navn på event.
+giftregistry.eventdate=Dato for event
+giftregistry.eventdate.description=Eksempel: åååå-MM-dd
+giftregistry.eventdate.missing-error=Vennligst oppgi event-dato i formatet åååå-MM-dd.
+giftregistry.eventdate.parse-error=Vennligst oppgi en gyldig event-dato i formatet åååå-MM-dd.
+giftregistry.eventcity=By for event
+giftregistry.eventcity.missing-error=Vennligst oppgi by for event.
+giftregistry.eventstate=Stat for event
+giftregistry.eventcountry=Land for event
+giftregistry.registrantrole=Rolle
+giftregistry.registrantrole.missing-error=Vennligst velg en rolle.
+giftregistry.registrantfirstname=Fornavn
+giftregistry.registrantfirstname.missing-error=Vennligst oppgi fornavn på registrant.
+giftregistry.registrantfirstname.parse-error=Vennligst oppgi et gyldig fornavn.
+giftregistry.registrantlastname=Etternavn
+giftregistry.registrantlastname.missing-error=Vennligst oppgi etternavnet på registranten.
+giftregistry.registrantlastname.parse-error=Vennligst oppgi et gyldig etternavn.
+giftregistry.registrantemail.missing-error=Vennligst oppgi registrantens e-postadresse.
+giftregistry.registrantemail.parse-error=Vennligst oppgi en gyldig e-postadresse.
+giftregistry.addresssource.addressbook=Bruk adresse fra Adressebok
+giftregistry.addresssource.new=Opprett ny adresse
+giftregistry.addresssource.asbefore=Samme adresse som før eventen
+giftregistry.items.quantity=Ønsket mengde
+giftregistry.items.quantity.missing-error=Vennligst oppgi mengde.
+giftregistry.items.quantity.parse-error=Vennligst oppgi en gyldig mengde.
+giftregistry.items.quantity.value-error=Vennligst oppgi en gyldig mengde.
+giftregistry.items.priority=Prioritet
+giftregistry.items.priority.missing-error=Vennligst oppgi prioritet.
+giftregistry.items.update=Oppdater
+giftregistry.items.makepublic=Gjør denne artikkelen offentlig
+giftregistry.items.remove=Fjern
+giftregistry.send.label=Send til e-postadresser
+giftregistry.send.check=Sjekk din e-postadresse i Din konto - Personlig informasjon.
+giftregistry.send.invalid=Vennligst oppgi gyldige e-postadresser.
+giftregistry.send.format=Vennligst oppgi gyldige e-postadresser ( (separert av ',' eller ';').
+giftregistry.addtoaddressbook=Legg til i adressebok
+giftregistry.copyaddress=Bruk denne adressen for Send event-sending
+
+##############################################
+# Form name: forms/ordertrack.xml
+##############################################
+ordertrack.ordernumber=Ordrenummer:
+ordertrack.ordernumber.missing-error=Vennligst oppgi et ordrenummer.
+ordertrack.orderemail=Ordre e-post:
+ordertrack.orderemail.missing-error=Vennligst oppgi e-postadresse for denne ordren.
+ordertrack.postalcode=Sendingadresse postkode
+
+# error messages for address capturing
+address.invalid=Noe av informasjonen nedenfor er enten mangelfull eller må korrigeres
+address.field.invalid=Vennligst oppgi en gyldig verdi
+address.firstname.missing=Vennligst oppgi et Fornavn
+address.lastname.missing=Vennligst oppgi et Etternavn
+address.country.missing=Vennligst velg et Land
+address.state.missing=Vennligst velg en Stat
+address.city.missing=Vennligst angi en By
+address.phone.missing=Vennligst oppgi et Telefonnummer
+address.phone.example=Eksempel: 333-333-3333
+address.email.invalid=Vennligst oppgi en gyldig e-postadresse.
+address.postalcode.example=Eksempel: 12345 eller 12345-1234
+
+address.list.select=Velg fra Lagrede adresser
+# {0} = Address1, {1} = city, {2} = state Code, {3} = postal code
+address.saved.dropdown.format={0} {1} {2} {3}
+
+# labels for address options
+checkout.addtoaddressbook=Legg til i adressebok
+checkout.useasbillingaddress=Dette er også min fakturaadresse
+checkout.addtoemaillist=Ja, registrer meg gjerne for eksklusive nyheter og tilbud, jeg aksepterer
+checkout.addtoemaillistterms=Nyhedsbrevets vilkår og betingelser
+
+# labels for shipment settings in checkout
+checkout.shipment.isgift=Er dette en gave?
+checkout.shipment.yes=Ja
+checkout.shipment.no=Nei
+checkout.shipment.giftmessage=Melding
+
+# descriptions for tooltip in checkout
+checkout.phone.description=Våre leveringsselskaper trenger ditt telefonnummer i tilfelle de får problemer med å levere ut pakken din. Telefonnummeret ditt vil aldri bli delt med 3. part eller brukt i markedsføringsøyemed.
+checkout.email.description=Vi bruker din e-postadresse kun for å holde deg oppdatert om behandlingen av bestillingen din. Hvis du ønsker å melde deg inn i vår kundeklubb, så husk å klikke på samtykke-boksen under eller på slutten av betalingen.
+resource.ssn.description=Klarna trenger ditt personnummer for å kunne sjekke identiteten din som en del av deres kredittsjekk.
+
+# labels for slot content
+subscribe.email.default=E-postadresse
+
+# general
+character.limit=Du har {0} tegn igjen av {1}
+confirm.delete=Vil du fjerne dette {0}?
+title.giftregistry=gaveregister
+title.address=adresse
+title.creditcard=kredittkort
+global.optional=(valgfritt)
+
+##############################################
+# Form name: forms/multishipping.xml
+##############################################
+multishipping.editaddress.select.newaddress=Legg til nye adresser
+store.storemessage=Lagre melding
+shipping.errorclickcollect=Denne butikken aksepterer ikke Click & Collect-bestillinger for øyeblikket. Vennligst prøv en annen butikk eller en annen leveringsmetode.
+shipping.errorparcelshop=Denne butikken aksepterer for øyeblikket ikke pakkeordre. Vennligst prøv en annen butikk eller leveransemåte.
+
+##############################################
+# Validation messages
+##############################################
+validate.required=Dette feltet er påkrevd.
+validate.remote=Vennligst fiks dette feltet.
+validate.email=Vennligst oppgi en gyldig e-postadresse.
+validate.url=Vennligst oppgi en gyldig URL.
+validate.date=Vennligst oppgi en gyldig dato.
+validate.dateiso=Vennligst oppgi en gyldig dato (ISO ).
+validate.number=Vennligst oppgi et gyldig nummer.
+validate.digits=Vennligst oppgi kun sifre.
+validate.creditcard=Vennligst oppgi et gyldig kredittkortnummer.
+validate.equalto=Vennligst oppgi den samme verdien igjen.
+validate.maxlength=Ikke oppgi mer enn {0} tegn.
+validate.minlength=Oppgi minst {0} tegn.
+validate.rangelength=Oppgi en verdi som er mellom {0} og {1} tegn lang.
+validate.range=Oppgi en verdi mellom {0} og {1}.
+validate.max=Oppgi en verdi som er mindre enn eller det samme som {0}.
+validate.min=Oppgi en verdi som er større enn eller det samme som {0}.
+validate.autocomplete=Vennligst velg en fra listen.
+
+﻿##############################################
+# Global Resources
+##############################################
+global.add=Legg
+global.addtocart=Legg i kurv
+global.addalltocart=Legg alle til kurv
+global.addresses=Adresser
+global.addtowishlist=Legg til Ønskeliste
+global.addtowishlist.label=Legg dette produktet til Ønskeliste
+global.addthisitemtowishlist.title=Legg denne artikkelen til Ønskeliste
+global.addtogiftregistry=Legg til Gaveregister
+global.addtogiftregistry.label=Legg dette produktet til Gaveregister
+global.amount=Beløp
+global.apply=Fortsett
+global.applied=Brukt
+global.filter.apply=Lagre
+global.availability=Tilgjengelighet
+global.back=Tilbake
+global.bonus=Bonus
+global.bonusitem=Bonusvare
+global.brandlabel=Merke:
+global.cancel=Slett
+global.categoryrefinement.label=Gå til kategori {0}
+global.checkout=Gå til kassen
+global.checkbalance=Se saldo
+global.close=Lukk
+global.continue=Fortsett
+global.continuecheckout=Fortsett til kassen
+global.continuecheckoutbrief=Neste
+global.continueshopping=Tilbake til nettbutikken
+global.couldntloadaddress=Kunne ikke laste ned adresse
+global.createbutton=Opprett en Konto
+global.createnowbutton=Opprett en konto
+global.creditcard.expirydate.separator={0}.{1}
+global.delete=Slett
+global.description=Beskrivelse
+global.details=Detaljer
+global.edit=Rediger
+global.editaaddress=Rediger adresse
+global.editdetails=Rediger detaljer
+global.email=E-post
+global.error=Feil
+global.find=Finn
+global.firstname=Fornavn
+global.folderrefinement.label.prefix=Gå til side:
+global.free=Gratis
+global.from=Fra
+global.go=Gå
+global.gonext=Gå til Neste
+global.goprevious=Gå til Forrige
+global.goto.label=Gå til: {0}
+global.giftcertificate=Gavesertifikat:
+global.giftcertificates=Gavesertifikater
+global.home=Hjem
+global.i_agree=Jeg samtykker
+global.included=Inkludert
+global.itemno=Artikkelnr.
+global.item=Artikkel
+global.items=Artikler
+global.lastname=Etternavn
+global.loading=Laster inn, vennligst vent
+global.login=Logg inn
+global.logout=Logg ut
+global.more=Mer
+global.seeall=Se alle
+global.seemore=vis mer
+global.seeless=vis mindre
+global.na=N/A
+global.name=Navn
+global.next=Neste
+global.no=Nei
+global.noimageavailable=Ingen bilder tilgjengelig
+global.notapplied=Ikke benyttet
+global.or=eller
+global.qty=Mengde
+global.quantity=Mengde
+global.update=Oppdater
+global.updatecart=Oppdater kurv
+global.orders=Ordre
+global.ordertotal=Total ordre:
+global.estimatedtotal=Estimert total
+global.password=Passord
+global.preview=Forhåndsvisning
+global.previous.abbr=Forrige
+global.previous=Neste
+global.price=Pris
+global.pricerefinement.label.prefix=Raffiner etter pris:
+global.print=Print
+global.privacypolicy=Vilkår og betingelser
+global.registration.privacypolicy=personvernpolitikk
+global.product=Produkt
+global.profile=Profil
+global.readreviews=Se anmeldelser
+global.refinement.label=Raffiner etter {0}: {1}
+global.refinement.selected.label=Nå raffinert etter {0}: {1}
+global.refinement.unselectable.label={0} {1} er ikke valgbar
+global.register=Registrer
+global.remove=Fjern
+global.requiredfield=påkrevd
+global.save=Lagre
+global.search=Søk
+global.searchcatalog=Søk katalog
+global.secondarynavheading=Sekundær navigering
+global.select=Velg
+global.select.colorpattern=Velg farge
+global.select.size=Velg størrelse
+global.select.length=Velg lengde
+global.select.amount=Velg beløp
+global.send=Send
+global.serverconnection=Serverforbindelse feilet!
+global.showall=Vis alle
+global.submit=Fortsett
+global.submitorder=Fortsett til betaling
+global.to=Til
+global.totalprice=Total
+global.user= Bruker
+global.user.name={0} {1}
+global.view=Vis
+global.welcome=Velkommen
+global.writeareview=Skriv en anmeldelse
+global.yes=Ja
+global.missingval=Vennligst oppgi {0}
+global.servererror=Serverforbindelse feilet!
+global.missinglib=Spørsmål er udefinert.
+global.badresponse=Dårlig respons, Analysatorfeil
+global.invalidphone=Vennligst oppgi et gyldig telefonnummer.
+global.invalidname=Dette feltet inneholder ugyldige tegn
+global.nothanks=Nei takk
+global.share=Del
+global.symbol.dash= -
+global.shop=Shop
+global.paymentsettings=Betalingsinnstillinger
+global.customerservice=Trenger du hjelp?
+global.event.location={0}, {1}
+global.cookiepolicy=Vi bruker informasjonskapsler, også kalt cookies, inkludert tredjepart-informasjonskapsler for nettsidefunksjonalitet, analyse og markedsføring. Ved å fortsette å browse nettsiden vår aksepterer du vår bruk av informasjonskapsler. Du kan alltid trekke ditt samtykke ved å deaktivere informasjonskapsler i din nettleser. Les mer om våre informasjonskapsler og hvordan deaktivere informasjonskapsler i våre
+global.cookiecta=Cookies-retningslinjer
+global.cookieappendix=.
+global.oldbrowsers.message=Vår side kunne ikke identifisere nettleseren din. For best mulig shoppingopplevelse må du kanskje oppdatere den, eller bytte til en annen nettleser.
+global.oldbrowsers.action=For å finne den nyeste versjonen av nettleseren, klikk her.
+global.oldbrowsers.location=http://outdatedbrowser.com/
+global.status=Status
+refinement.isnew.true=Nyhet
+global.miss=Frk.
+global.mr.=Hr.
+global.mrs.=Fru.
+
+#########################
+# properties used for jack & jones sub brands in Customer Club signup
+#########################
+global.jj=JACK & JONES
+global.jx=JJXX
+global.junior=JUNIOR
+global.plus=PLUS SIZE
+
+#########################
+# properties used for Vero Moda sub brands in Customer Club signup
+#########################
+global.vm=VERO MODA
+global.curve=VMCurve
+global.maternity=VERO MODA MATERNITY
+global.aware=AWARE by VERO MODA
+
+##############################################
+# Include Resources
+##############################################
+globalaccount.createheader=Har' du ikke en konto?
+globalaccount.createmessage=For å begynne å nyte de eksklusive tilbudene og fordelene av å ha dine egen konto, fyll inn skjemaet nedenfor.
+
+global.returnhome=Returner til Hjemmeside
+global.selectaddressmessage=Velg en adresse
+global.selectaddress=Velg fra Lagrede adresser
+global.nosavedaddress=Det finnes nå ingen lagrede adresser
+global.deliveredviaemail=- Leveranse via e-post
+global.accountbreadcrumb=Konto
+
+global.accountlink=Min konto
+global.helplink=Spørsmål?
+global.storelocatorlink=Finn butikk
+global.aboutuslink=Om oss
+global.languagecountrylink=Språk og land
+
+global.buyall=Kjøp Alle eller En
+global.nocontent=Siden har ikke innhold.
+
+global.storename=Bestseller
+global.storeaddress=Fredskovvej
+global.storecitystate=Brande, DK-7330
+global.storephone=Telefon:+1.888.553.XXXX
+global.storenameurl=demandware.com
+
+global.email.policy=Ved å opprette en konto aksepterer jeg at mine personopplysninger blir behandlet i henhold til BESTSELLERs
+
+global.quantityinstock={0} Artikkel/Artikler på lager
+global.instock=På lager
+global.quantitypreorder={0} artikkel/artikler tilgjengelig(e) for forhåndsbestilling.
+global.allpreorder=Forhåndsbestilling
+global.remainingpreorder=De gjenværende artiklene er tilgjengelige for forhåndsbestilling.
+global.quantitybackorder=Restordre  {0} artikkel/artikler
+global.allbackorder=Restordre
+global.remainingbackorder=De gjenværende artiklene er tilgjengelige for restordre.
+global.allnotavailable=Artikkelen er for tiden ikke tilgjengelig.
+global.remainingnotavailable=De resterende artiklene er for tiden ikke tilgjengelige. Vennligst juster mengden.
+global.instockdate=Den forventede lagerdatoen er {0}.
+global.nonselected=Ingen valgte
+global.iteminwishlist=Denne artikkelen er lagt til din Ønskeliste.
+
+global.homepage.tooltip={0} {1}
+
+##############################################
+# properties used across many pages
+##############################################
+global.error_forbidden.redirect=Ettersend
+global.redirect.title=Vennligst gå til
+
+global.redirect_error.title=Dette var flaut; vi kan ikke finne den siden
+global.redirect_error.message=URL-adressen kan være endret eller eksisterer ikke lenger. Hvorfor ikke sjekke ut de over hundre nye plaggene som kommer inn
+global.redirect_error.home=til oss ukentlig?
+
+global.site.name=SiteGenesis
+
+global.carousel.featuredproducts=Fremviste produkter
+
+
+##############################################
+# Template name: pagecomponents/breadcrumbs
+##############################################
+global.breadcrumbs.home=Hjem
+global.breadcrumbs.refinements.valuedevider=,
+global.breadcrumbs.label.prefix=Gå til
+
+##############################################
+# Template name: pagecomponents/paginginformation
+##############################################
+global.paginginformation.sortby=Sorter etter
+global.paginginformation.undefined=Sorter etter:
+global.paginginformation.showing=Viser
+global.paginginformation.viewallx=Vis Alle ({0})
+global.paginginformation.current.label=På siden nå: {0}
+global.paginginformation.goto.label=Gå til side nummer: {0}
+global.paginginformation.first=Første side
+global.paginginformation.first.label=Gå til første side
+global.paginginformation.last=Siste side
+global.paginginformation.last.label=Gå til siste side
+global.paginginformation.next=Neste side
+global.paginginformation.next.label=Gå til neste side
+global.paginginformation.page=Side
+global.paginginformation.previous=Forrige side
+global.paginginformation.previous.label=Gå til forrige side
+global.paginginformation.of=av
+
+##############################################
+# ISML Directory: components/
+##############################################
+global.browsertoolscheck.javascript=Oi, dette er pinlig. Din Javascript-funksjon er skrudd av. For å oppleve alt vårt nettsted har å tilby, skru den på.
+global.browsertoolscheck.cookies=Din nettleser er ikke satt til å tillate cookies. Juster dine innstillinger eller sjekk om programmet blokkerer dem.
+
+
+##############################################
+# ISML Directory: components/header
+##############################################
+global.headercustomerinfo.currency=Valuta
+global.headercustomerinfo.not=Ikke
+
+global.header.wishlistlink=Ønskeliste
+global.header.registrylink=Gaveregister
+global.header.storelocator=Butikker
+global.header.storelocator.label=Lokaliser butikker
+
+global.link.orders=Sjekk bestilling
+
+##############################################
+# ISML Directory: components/header/countryselector
+##############################################
+global.continent.northamerica=Nord-Amerika
+global.continent.asia=Asia
+global.continent.europe=Europa
+
+##############################################
+# ISML Directory: components/socialsharing
+##############################################
+global.socialshare.facebook=Facebook
+global.socialshare.twitter=Twitter
+global.socialshare.googleplus=Google Plus
+global.socialshare.pinterest=Pinterest
+global.socialshare.email=E-post
+global.socialshare.link=Del Link
+
+global.socialshare.facebook.label=Del på Facebook
+global.socialshare.twitter.label=Del på Twitter
+global.socialshare.googleplus.label=Del på Google+
+global.socialshare.pinterest.label=Del på Pinterest
+global.socialshare.email.label=Del gjennom E-post
+global.socialshare.link.label=Få dele-link
+
+##############################################
+# properties used across customer club popup and signup
+##############################################
+global.customer.club.terms=Ved å melde deg inn i vår Customer Club, godtar du vilkårene og betingelsene og personvernreglene, og du samtykker til at <a target='_blank' href="https://support.bestseller.com/hc/no/articles/360013563998-Vilk%C3%A5r-og-betingelser-for-kundeklubben" title="Terms of use">Selskapene</a>  kan sende deg markedsføring på e-post, SMS, MMS, post og på sosiale medier, jfr. <a target='_blank' href="https://support.bestseller.com/hc/no/articles/360014476017-Customer-Club-samtykke" title="Consent use">samtykketeksten</a>. Du kan når som helst trekke tilbake samtykket ditt.
+global.customer.club.terms.bi=Ved å melde deg inn i vår Customer Club, godtar du vilkårene og betingelsene og personvernreglene, og du samtykker til at <a target='_blank' href="https://support.bestseller.com/hc/no/articles/360013885398" title="Terms of use">Selskapene</a>  kan sende deg markedsføring på e-post, SMS, MMS, post og på sosiale medier, jfr. <a target='_blank' href="https://support.bestseller.com/hc/no/articles/360014476017-Customer-Club-samtykke" title="Consent use">samtykketeksten</a>. Du kan når som helst trekke tilbake samtykket ditt.
+
+##############################################
+# properties used in smart app banner smartappbanner.isml
+##############################################
+global.smartappbanner.view=SE
+global.smartappbanner.subtext=Gratis - På Google Play
+
+##############################################
+# global properties for colors
+##############################################
+global.black=Sort
+global.beige=Beige
+global.blue=Blå
+global.purple=Lilla
+global.red=Rød
+global.brown=Brun
+global.green=Grønn
+global.grey=Grå
+global.pink=Rosa
+global.orange=Oransje
+global.white=Hvit
+global.yellow=Gul
+global.gold=Gull
+
+
+global.buynow=Kjøp nå, betal senere
+
+global.mobile=Mobil #
+global.mobileplaceholder=Før inn nummer (valgfritt)
+
+global.birthdate=Når er du født
+global.day=Dag
+global.month=Måned
+global.year=År
+
+global.newslettercategories=Jeg vil gjerne motta nyheter for
+global.kids=Barn
+global.women=Dame
+global.men=Herre
+global.woman.posh=DAME POSH
+global.woman.cool.fashionista=DAME KUL FASHIONISTA
+global.woman.everyday=DAME HVERDAGS
+global.woman.feminine.classic=DAME FEMININ KLASSISK
+global.woman.feminine.outdoor=DAME FEMININ FRILUFTS
+global.man.cool=HERRE KUL
+global.man.casual=HERRE CASUAL
+global.man.business=HERRE JOBB
+
+global.error_forbidden.hijacked=Dette var flaut.
+global.error_forbidden.message=Noe gikk galt med websiden vår.
+global.error_forbidden.home=Vennligst gå tilbake til hjemmesiden og fortsett handelen.
+
+global.shoponline=Shop på nett
+global.days=dager
+global.abbreviation.hour=t
+
+##############################################
+# global properties for date / time
+##############################################
+global.datetime.hours=timer
+global.datetime.minutes=minutter
+global.datetime.seconds=sekunder
+
+﻿##############################################
+# Resource bundle: order
+##############################################
+
+##############################################
+# Template name: order/orderconfirmation-email
+##############################################
+order.orderconfirmation-email.jumptostore=Hopp til vår butikk
+order.orderconfirmation-email.001=Din bestilling
+order.orderconfirmation-email.confirmnumber=Ordrebekreftelsesnummer:
+order.orderconfirmation-email.thankyou=- Takk for din bestilling!
+order.orderconfirmation-email.storeaddress=5 Wall Street
+order.orderconfirmation-email.storelocation=Burlington, MA 01803
+order.orderconfirmation-email.storephone=Telefon: +1.888.553.XXXX
+order.orderconfirmation-email.print=Vennligst skriv ut og lagre en kopi for referanse.
+order.orderconfirmation-email.thankyouus=Takk for at du handler med oss!
+order.orderconfirmation-email.pleasenote=VENNLIGST MERK:
+order.orderconfirmation-email.note=Ettersom vi begynner å behandle din bestilling like etter at du har sendt den inn på vår nettside, MÅ du kontakte oss på TELEFON KUN dersom noe må endres, på telefonnummer 
+order.orderconfirmation-email.phone=+1.888.553.XXXX
+order.orderconfirmation-email.shipmentnumber=Shipment#
+
+##############################################
+# Template name: order/ordercancellation-email
+##############################################
+order.ordercancellation-email.001=Kansellering av din bestilling {0}
+order.ordercancellation-email.message=Din bestilling {0} er kansellert{1}.
+order.ordercancellation-email.cancelmessage=Bestillingen {0} har blitt kansellert.
+order.ordercancellation-email.generic=grunnet uforutsette omstendigheter
+order.ordercancellation-email.fraud=Ettersom vi ikke kunne verifisere mottakeren
+order.ordercancellation-email.bankissue=ettersom betalingen ble avvist av banken din
+order.ordercancellation-email.requested=. Vennligst kontakt oss for utfyllende detaljer
+order.ordercancellation-email.outofstock=ettersom artikkelen var utilgjengelig
+order.ordercancellation-email.statuscancelled=kansellert
+
+##############################################
+# ISML Directory: components/order/
+##############################################
+order.orderdetails.paymentinfo=Betalingsinformasjon
+order.orderdetails.billingaddress=Faktureringsadresse
+order.orderdetails.paymentmethod=Betalingsmåte
+order.orderdetails.paymentmethods=Betalingsmåter
+order.orderdetails.paymenttotal=Total betaling
+order.orderdetails.shippingmethod=Leveransemetode:
+order.orderdetails.total=Total
+order.orderdetails.shippingtitle=Leveranseadresse:
+order.orderdetails.billingtitle=Fakturaadresse:
+order.orderdetails.shippingstatus=Ordrestatus:
+order.orderdetails.shippingto=Sender til
+order.orderdetails.notshipped=Ikke sendt
+order.orderdetails.shipped=Sendt:
+order.orderdetails.notknown=Ukjent
+order.orderdetails.tracking=Sporingsnummer:
+order.orderdetails.orderplaced=Ordre utført:
+order.orderdetails.ordernumber=Ordre-ID:
+order.orderdetails.giftcertto=Til:
+order.orderdetails.giftcertfrom=Fra:
+order.orderdetails.giftmessage=Gavemelding:
+order.orderdetails.giftcertshippingaddress=Send til:
+order.orderdetails.giftcertshipping=Leveranse via e-post
+order.orderdetails.orderinformation=Ordreinformasjon
+
+order.ordersummary.ordersubtotal=Ordre subtotal
+order.ordersummary.subtotal=Subtotal
+order.ordersummary.subtotalitems=Subtotal ({0}):
+
+order.ordersummary.orderdiscount=Ordrerabatt
+order.ordersummary.ordershipping=Frakt
+order.ordersummary.ordershipping.edit=Leveringsalternativer tilgjengelige i kassen
+order.ordersummary.ordershippingdiscount=Sendingsrabatt
+order.ordersummary.ordertax=Salgsavgift
+order.ordersummary.nodata=N/A
+order.ordersummary.shipping=Leveringsalternativer er tilgjengelige i kassen
+order.ordersummary.addedtobag=lagt til kurven din!
+order.ordersummary.noshippingmethodselected=Ingen fraktmetode er valgt
+
+order.orderdetails.billedto=Fakturert til:
+
+order.orderconfirmation-giftcard.subject=Ditt gavekort
+order.orderconfirmation-giftcard.body=Her er gavekortet du nylig bestilte. Skriv ut PDF-en vi ha lagt ved i denne e-posten, og så har du det du trenger.
+order.orderfeedback.feedbacktitle=Hvordan var din handelsopplevelse?
+order.orderfeedback.feedbackmessage=Din tilbakemelding hjelper oss å bli enda bedre.
+
+﻿##############################################
+# ISML Directory: product/
+##############################################
+
+
+product.breadcrumb.leftintrotext=&laquo; Tilbake til
+
+product.label=Gå til produkt: {0}
+product.articlenumber=Artikkelnummer
+product.viewdetails=Se alle detaljer
+product.tab.description=Beskrivelse
+product.tab.details=Produktdetaljer
+product.tab.attributes=Attributter
+product.tab.reviews=Anmeldelser
+product.missingval=Velg {0}
+product.promotiondetails=Detaljer
+product.selectbonusproducts=Velg Bonusprodukt(er)
+product.bonusproducts=Bonusprodukt(er)
+product.bonusproduct=Bonusprodukt
+product.bonusproductsmax=Maksimalt antall bonusprodukter er valgt.  Vennligst fjern ett for å legge til ekstra bonusprodukter.
+product.bonusproductstoomany=Du har valgt for mange bonusprodukter. Vennligst justere mengden.
+product.bonusproductalert=Du er kvalifisert til et bonusprodukt.
+product.attributedivider=og
+product.variationnotavailable={0} {1} er ikke tilgjengelig for denne kombinasjonen
+product.instorestock=Tilgjengelig for henting
+product.selectforstock=Valgte styles for tilgjengelighet
+product.webstock=Tilgjengelig for sending
+product.zoom.hint=Klikk/Tapp for å zoome
+
+product.saleprice=Salgspris
+product.pricerange=Prisserie
+product.setprice=Sett pris
+product.purchasedisabled=Dette produktet er ikke tilgjengelig i ditt land.
+variant.unavailable=Akkurat utsolgt! Men frykt ikke, vi har den fortsatt i andre varianter!
+variant.all.unavailable=Akkurat utsolgt! Men frykt ikke, vi har flere styles du vil elske!
+variant.all.unavailable.button=Shop lignende styles
+
+##############################################
+# ISML Directory: product/compare/
+##############################################
+product.compareshow.header=Sammenlign
+product.compareshow.noresults=Din sammenligningsliste inneholder for øyeblikket ingen produkter.
+product.compareshow.back=<< tilbake til resultater
+product.compareshow.othercompareitems=Andre sammenlignbare artikler
+product.compareshow.removeitem=Fjern
+
+##############################################
+# ISML Directory: product/components/
+##############################################
+product.display.wishlistitem=Dette er en Ønskeliste-artikkel
+product.display.registryitem=Dette er en Gaveregister-artikkel
+product.display.surcharge=Tilleggsavgift for frakt
+
+product.displayproductlistitems.notavailable=Dette produktet er for øyeblikket utilgjengelig. Vennligst fjern det fra din liste.
+
+product.pricing.payless=Kjøp mer, betal mindre!
+product.pricing.paymore=Kjøp mer, betal mer!
+product.pricing.items=Artikler
+product.pricing.more=eller mer
+product.pricing.off=% rabatt
+product.pricing.noprice=N/A
+
+product.promotions.special=Spesialtilbud
+
+product.recommendations.products=Bruk det til
+
+product.variations.sizechart=Størrelsestabell
+product.variations.sizechart.label=Se størrelsestabell
+product.variations.label=Velg {0}: {1}
+product.quickview=Rask titt
+product.quickview.popup=Produkt rask titt
+
+###############################################
+# Care Instructions
+##############################################
+product.careinstruction.w-no=Må ikke vaskes
+product.careinstruction.w-h=Håndvaskes
+product.careinstruction.w-30=Maskinvask ved 30 °C
+product.careinstruction.w-30s=Maskinvask, halv last, kort sentrifuge 30 °C
+product.careinstruction.w-40=Maskinvask ved maks 40 °C på skånsomt vaskeprogram
+product.careinstruction.w-40s=Maskinvask, halv last, kort sentrifuge 40 °C
+product.careinstruction.w-60=Maskinvask ved 60 °C
+product.careinstruction.w-80=Maskinvask ved 80 °C
+product.careinstruction.w-95=Maskinvask ved 95 °C
+
+product.careinstruction.b-no=Må ikke blekes
+product.careinstruction.b-all=Blekes om nødvendig
+product.careinstruction.b-ncl=Blekes kun med oksygen/uten klor
+
+product.careinstruction.d-no=Tåler ikke tørketrommel
+product.careinstruction.d-flat=Tørkes flatt
+product.careinstruction.d-low=Tørketrommel ved lav temperatur
+product.careinstruction.d-med=Tørketrommel ved middels temperatur
+
+product.careinstruction.nd-dfds=Legges flatt for tørk i skyggen
+product.careinstruction.nd-fds=Legges flatt for tørk i skyggen
+product.careinstruction.nd-ld=Snortørking
+product.careinstruction.nd-dfd=Tørkes fra våt tilstand
+product.careinstruction.nd-dlds=Legges flatt for tørk i skyggen
+product.careinstruction.nd-lds=Linjetørkes i skyggen
+product.careinstruction.nd-dld=Linjetørkes fra våt tilstand
+product.careinstruction.d-shade=Tørkes i skyggen
+product.careinstruction.d-hang=Henges til tørk
+product.careinstruction.nd-fd=Legges flatt til tørk
+
+product.careinstruction.i-med=Strykes ved middels temperatur
+product.careinstruction.i-low=Strykes ved lav temp. Høyeste temp. 100 °C
+product.careinstruction.i-no=Må ikke strykes
+product.careinstruction.i-high=Strykes ved høy temp. Høyeste temp. 200 °C
+
+product.careinstruction.dc-notri=Kjemisk rens (uten trikloretylen)
+product.careinstruction.dc-any=Renses (alle slags løsningsmidler)
+product.careinstruction.dc-all=Kun rens
+product.careinstruction.dc-hs=Rens i hydrokarbon-løsningsmiddel med begrensning for tørketemperatur og tilsetning av vann
+product.careinstruction.dc-notrilimit=Restriksjoner for rens. Søk råd fra et profesjonelt renseri.
+product.careinstruction.dc-no=Må ikke renses på renseri
+product.careinstruction.dc-petr=Renses (kun oljeløsningsmiddel)
+product.careinstruction.dc-w=Våtrens
+
+product.careinstruction.o-wool=Ull
+product.careinstruction.o-lthr=Lær
+
+product.description=Produktbeskrivelse
+product.sizeguide=Størrelsesguide
+product.sizeguide.howto=Slik måler du
+product.ean=EAN
+product.moredetails=Flere detaljer
+product.notifyme=Varsle meg
+product.size.out-of-stock=God stil er tydeligvis på mote. Den størrelsen er vi nemlig tom for.
+product.email.out-of-stock=Men det finnes fortsatt håp! Vi kan sende deg en e-post hvis den kommer tilbake på lager.
+product.notifyme.success-message-title=Den er god
+product.notifyme.success-message-content=Vi varsler deg så snart din størrelse er tilgjengelig.
+product.completethelook=Fullfør looken
+product.seehowtostyle=Se stylingtips
+
+###############################################
+# Reserve and Collect
+##############################################
+product.reservecollect.headline=Reserver online og hent i butikk
+product.reservecollect.emptyoption=VELG DIN BUIKK
+product.reservecollect.choosestore=Denne varen er også tilgjengelig i våre butikker. Velg en av butikkene nedenfor, registrer din kontaktinformasjon, reserver og hent varen innen en begrenset periode fra den valgte butikken.
+product.reservecollect.formheadline=Fyll ut skjemaet nedfor for å reservere varen i valgte butikk.
+product.reservecollect.reservebutton=Reserver.
+product.reservecollect.reserved=Reservasjonen din er sendt. Vi vil se gjennom bestillingen din, og du vil høre fra oss neste virkedag.
+product.reservecollect.notreserved=Vi kunne dessverre ikke lagre reservasjonen. Prøv på nytt senere.
+
+﻿##############################################
+# ISML Directory: rendering/
+##############################################
+
+##############################################
+# ISML Directory: rendering/folder
+##############################################
+rendering.foldercontenthits.yoursearch=Ditt søk resulterte i {0} produkter
+rendering.foldercontenthits.backtoproducts=<< tilbake til Produktresultater
+rendering.foldercontenthits.backtoresults=<< tilbake til Resultater
+rendering.foldercontenthits.noproducts=Ditt søk etter "{0}" ga ingen treff.
+rendering.foldercontenthits.relatedarticles=Relaterte artikler ...
+rendering.foldercontenthits.readmore=Les mer
+﻿##############################################
+# ISML Directory: search/
+##############################################
+simplesearch.searchtext=Søk
+
+search.nohits.header=Vi har lett overalt, men finner fortsatt ikke artikkelen du søker.
+search.nohits.message=Forsøk å endre søket ved å sjekke ut de flere hundre nye plaggene som kommer inn til oss ukentlig.
+search.nohits.didyoumean=Mente du:
+search.nohits.didyoumeanex=Mente du å søke etter:
+search.nohits.searchlabel=Forsøk et nytt søk.
+search.nohits.found=Vi har funnet
+search.nohits.searchtips=Søketips
+search.nohits.tip1=Vi har lett overalt, men kan fortsatt ikke finner artikkelen du ser etter.
+search.nohits.tip2=Forsøk å endre søket ditt.
+search.nohits.tip3=Eller sjekk ut flere hundre nye plagg som kommer inn på siden vår hver uke.
+
+search.pageresults=Side:
+search.results=Resultater
+search.compare=Sammenlign
+
+suggestions.result=resultat
+suggestions.results=resultater
+
+##############################################
+# ISML Directory: search/components/
+##############################################
+productcomparewidget.compareitems=Sammenlign opptil 6 produkter:
+productcomparewidget.compareitemsbutton=Sammenlign artikler
+productcomparewidget.clearall=Klarer alle
+productcomparewidget.empty=Tøm sammenligningsspalte
+productcomparewidget.maxproducts=Dette vil fjerne det første produktet lagt til for sammenligning.  Er det OK?
+productcomparewidget.removefail=Kan ikke fjerne artikkel fra listen
+productcomparewidget.addfail=Kan ikke fjerne denne artikkelen fra listen
+
+productsortingoptions.go=Gå
+
+##############################################
+# Template name: search/
+##############################################
+productresultarea.noresults=Vi kan dessverre ikke finne noen produkter som oppfyller dine raffinementsvalg på dette tidspunktet. Vennligst utvid raffinementsvalg eller prøv dem i en annen kategori.
+productresultarea.viewallcolors=Farger
+
+paginginformation.infinite-scroll=Vis alle
+paginginformation.of=av
+paginginformation.items=Artikler
+paginginformation.itemsperpage=Artikler/Side
+paginginformation.loadprevious=Last forrige
+
+productnav.back=<< Tilbake til {0}
+
+contenthitcount.yoursearch=Ditt søk fant {0} artikkel/artikler
+contenthitcount.goto=Gå til artikkel/artikler
+
+searchrefinebar.searchresults=Filtrer
+searchrefinebar.refineresults=Filtrer dine resultater etter:
+searchrefinebar.viewall=Vis alle
+searchrefinebar.clearselection=Tøm
+searchrefinebar.showmore=Mer
+searchrefinebar.showless=Mindre
+searchrefinebar.showrefinedproduct=Vis {0} produkt(er)
+
+searchbreadcrumbs.resultstext=Dine søkeresultater for
+searchbreadcrumbs.in=i
+searchbreadcrumbs.refinedby=Filtrert etter
+searchbreadcrumbs.to=til
+searchbreadcrumbs.attributedivider=og
+searchbreadcrumbs.sortedby=Sortert etter
+
+##############################################
+# Template name: rendering/category/categoryproducthits
+##############################################
+search.producthits.productsfound=Produkter funnet
+search.producthits.productsfoundcount=Produkter funnet ({0})
+
+search.producthits.products= ({0}) produkter
+search.producthits.product= ({0}) Produkt
+
+##############################################
+# Template name: search/productsearchrefinebar
+##############################################
+search.productsearchrefinebar.clickrefine=Filtrer etter:
+search.productsearchrefinebar.showallopt=Vis alle alternativer
+
+##############################################
+# Template name: search/suggestionsX
+##############################################
+search.suggest.from=fra:
+search.suggest.otherqueries=Andre populære søk
+search.suggest.lookingforbrands=Ser du etter disse merkene?
+search.suggest.categories=Kategorier
+search.suggest.products=Produkter
+search.suggest.didyoumean=Mente du
+search.suggest.viewallresults=Se alle resultater
+search.suggest.pagesofinerested=Sider som kan være interessante
+search.suggest.searchfor=Søk etter
+search.suggest.in=i
+
+##############################################
+# Template name: search/appliedfilters
+##############################################
+search.appliedfilters.clearall=Klarer alle
+search.appliedfilters.to=til
+search.appliedfilters.attributedivider=og
+
+﻿##################################################
+# ISML Directory: storelocator
+##################################################
+storelocator.header=Finn en butikk nær deg
+storelocator.findstoremessage=Butikkfinneren er designet for å hjelpe deg å finne din nærmeste butikk.
+storelocator.searchusacanada=Søk innenfor USA og Canada
+storelocator.searchinternationally=Søk internasjonalt
+storelocator.searchdivider=- - - - - - - - - - - - - - - - - - ELLER - - - - - - - - - - - - - - - - - -
+storelocator.shopbrandnew=Shop den splitter nye:
+storelocator.ukwebsite=Engelske nettsiden
+storelocator.internationalmessage=Europeiske kunder får nå alle våre nyeste produkter på nett. <br />Shop den splitter nye: <a href="http://www.demandware.de/" title="Deutsch Website" target="_blank">Deutsch-nettside</a>
+storelocator.noresults=Enten er det ingen butikker der, eller så har du feilstavet bynavnet eller postnummeret
+storelocator.findstore=Finn butikk
+##################################################
+# ISML Directory: storelocator/storelocatorresults
+##################################################
+storelocator.storelocatorresults.map=Kart
+storelocator.storelocatorresults.backtolocator=Tilbake til Butikkfinner
+storelocator.storelocatorresults.allstores=Alle butikker i
+storelocator.storelocatorresults.yoursearchfound=Ditt søk fant
+storelocator.storelocatorresults.stores=butikker
+storelocator.storelocatorresults.storename=Butikknavn
+storelocator.storelocatorresults.address=Adresse
+storelocator.storelocatorresults.directions=Veibeskrivelse
+storelocator.storelocatorresults.storedetails=Butikkopplysninger
+storelocator.storelocatorresults.storedetails.label=Vis butikkdetaljer
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+storelist.cart=Kurv
+storelist.lightbox.search=Søk steder
+storelist.lightbox.whatsavailable=Det\' som er tilgjengelig i en butikk nær deg
+storelist.lightbox.selectstore=Velg butikk
+storelist.lightbox.selectedstore=Velg butikk
+storelist.lightbox.preferredstore=Foretrukket butikk
+storelist.lightbox.setpreferredstore=Angi som Foretrukket butikk
+storelist.lightbox.postalcodecity=Postkode:
+storelist.lightbox.city=By:
+storelist.lightbox.enterzip=Oppgi postnummer
+storelist.lightbox.invalidpostalcode=Vennligst oppgi et gyldig postnummer
+storelist.lightbox.changelocation=Endre butikk
+storelist.lightbox.continuewithstore=Fortsett med foretrukket butikk
+storelist.lightbox.seemore=Se Flere butikker
+storelist.lightbox.seeless=Se Færre butikker
+storelist.lightbox.viewresultsmap=Se resultat på kart
+storelist.check.availablity=Sjekk ut butikktilgjengelighet
+storelist.online=På nett
+storelist.backtopdp=Tilbake til Produktdetaljsiden
+storelist.changetohd=Endre Hjemmelevering
+storelist.nostorefound=Postkoden eller byen du oppga later til å være feil. Forsøk igjen for å gå videre.
+storelist.internalerror=Kunne ikke hente listen over hentesteder. Vennligst velg en annen fraktmetode for å fortsette.
+storelist.nocities=Kunne ikke hente listen over byer for denne forsendelsesmåten, eller tjenesten er ikke tilgjengelig. Vennligst velg en annen fraktmetode for å fortsette.
+

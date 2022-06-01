@@ -1,0 +1,2449 @@
+﻿##############################################
+# ISML Directory: account/
+##############################################
+account.header=Il mio account
+
+accountredirect.title=Reindirizza
+accountredirect.permanent=Questo account è stato rimosso in maniera permanente. Puoi provare a effettuare il login con un altro account o creare un nuovo account andando sulla
+accountredirect.accountlogin=pagina di login.
+accountprofile.message=Benvenuto al tuo profilo. Qui puoi visualizzare e modificare le tue informazioni personali.
+
+##############################################
+# ISML Directory: account/addressbook/
+##############################################
+account.addressbook.editaddress.editaddress=Modifica indirizzo
+account.addressbook.editaddress.addaddress=Aggiungi indirizzo
+account.addressbook.editaddress.defaultaddress=Indirizzo di spedizione principale
+account.addressbook.editaddress.defaultbillingaddress=Indirizzo di fatturazione principale
+account.addressbook.editaddress.makedefaultaddress=Imposta come indirizzo di spedizione principale
+account.addressbook.editaddress.makedefaultbillingaddress=Imposta come indirizzo di fatturazione principale
+account.addressbook.addressdetails=Informazioni sull'indirizzo
+account.addressbook.addressinclude.delete=Cancella
+account.addressbook.addressinclude.delete.label=Cancella indirizzo
+account.addressbook.addressinclude.edit.label=Modifica indirizzo
+
+account.addressbook.addresslist.header=Indirizzi
+account.addressbook.addresslist.create=Aggiungi indirizzo
+account.addressbook.addresslist.create.label=Crea un nuovo indirizzo per questo account
+
+account.addressbook.miniaddress.registrywishlist=(Lista regalo/Wish List)
+account.addressbook.miniaddress.phone=Numero di cellulare:
+
+account.addressbook.information=Questa è la pagina dei tuoi indirizzi. Qui puoi vedere, modificare e tenere traccia di dove spediamo il tuo ordine.
+account.addressbook.goback=Annulla
+
+addressdetails.customer.address.referenced.by.product.list=Impossibile cancellare questo indirizzo perché è attualmente salvato in una listaregalo o in una Wish List.
+
+##############################################
+# ISML Directory: account/components/
+##############################################
+
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.giftregistry.addresses.beforeheader=Spedizione pre-evento
+account.giftregistry.addresses.beforemessage=Questo è l'indirizzo a cui verranno inviati i regali della lista prima dell'evento Compila l'indirizzo post-evento nel caso in cui la sede di consegna cambi dopo l'evento.
+account.giftregistry.addresses.postheader=Spedizione post-evento
+account.giftregistry.addresses.postmessage=Questo è l'indirizzo a cui saranno inviati i regali della tua lista dopo l'evento.
+account.giftregistry.addresses.usepreevent=Utilizza l'indirizzo di spedizione pre-evento
+
+account.giftregistry.eventparticipant.eventinfo=Informazioni sull'evento
+account.giftregistry.eventparticipant.participants=Informazioni sui partecipanti
+account.giftregistry.eventparticipant.first=Primo partecipante
+account.giftregistry.eventparticipant.second=Secondo partecipante
+
+
+account.giftregistry.title=Lista regalo
+account.giftregistry.searchheader=Trova una lista regalo
+account.giftregistry.searchmessage=Puoi anche cercare fra le liste regalo degli altri utilizzando la funzione di ricerca per lista regalo
+account.giftregistry.advanced=Ricerca avanzata
+account.giftregistry.closeadvanced=Chiudi la ricerca avanzata
+account.giftregistry.addgiftcert=Buoni regalo
+account.giftregistry.addgiftcertmessage=Vuoi inserire dei buoni regalo nella tua lista regalo? Clicca su “Buoni regalo” per far sapere alla tua famiglia e ai tuoi amici che ti piacerebbe ricevere buoni regalo.
+account.giftregistry.makeregprivate=Rendi questa lista privata
+account.giftregistry.makeregpublic=Rendi questa lista pubblica
+account.giftregistry.giftregnoitems=Non hai articoli nella tua lista regalo
+account.giftregistry.emptyadd=Aggiungi articoli
+account.giftregistry.deleteregistryconfirm=Vuoi rimuovere questa lista regalo?
+account.giftregistry.owner=Lista regalo ({0})
+account.giftregistry.userinformation=Informazioni sull'utente
+
+giftregistryconfirmation.eventinfo=Informazioni sull'evento
+giftregistryconfirmation.eventoverview=Informazioni sull'evento
+giftregistryconfirmation.participants=Festeggiato:
+giftregistryconfirmation.eventtype=Tipo di evento:
+giftregistryconfirmation.eventname=Nome dell'evento:
+giftregistryconfirmation.eventdate=Data dell'evento:
+giftregistryconfirmation.eventlocation=Sede dell'evento:
+giftregistryconfirmation.registrants=Informazioni sul festeggiato:
+giftregistryconfirmation.registrant=Festeggiato:
+giftregistryconfirmation.registrant2=Co-festeggiato:
+giftregistryconfirmation.registryaddesses=Indirizzo di spedizione
+giftregistryconfirmation.preshipping=Spedizione pre-evento
+giftregistryconfirmation.postshipping=Spedizione post-evento
+giftregistryconfirmation.verifyinformationmessage=Verifica che le informazioni fornite di seguito siano corrette e poi clicca sul tasto "Invia" per cominciare ad aggiungere prodotti alla tua lista!
+
+giftregistrylanding.create=Crea una lista regalo
+
+giftregistryresults.searchresults=Cerca i risultati
+giftregistryresults.lastheader=Cognome
+giftregistryresults.firstheader=Nome
+giftregistryresults.eventtypeheader=Tipo di evento
+giftregistryresults.dateheader=Data
+giftregistryresults.locationheader=Sede
+giftregistryresults.noitems=Questa lista regalo non contiene alcun articolo.
+
+giftregistryresults.emptymessage=Non è stata trovata una lista regalo per
+giftregistryresults.emptymessage2=, prova di nuovo più sopra.
+
+navigation.tabregistry=lista
+navigation.tabevent=informazioni sull'evento
+navigation.tabshipping=informazioni sulla spedizione
+navigation.tabpurchases=acquisti
+
+registry.priority=Priorità
+registry.sendtitle=Invia la lista regalo a un amico
+registry.share.link=URL della lista regalo
+registry.emailsubject=Controlla la mia lista regalo
+registry.dateadded=Data di inserimento
+registry.notapplicable=Non applicabile
+registry.datepurchased=Data di acquisto:
+registry.purchasedby=Acquistato da:
+registry.noproductsfound=Non è stato acquistato alcun prodotto per questa lista regalo.
+
+account.registrycustomer.giftregistries=Liste regalo
+account.registrycustomer.role=Ruolo:
+account.registrycustomer.name=Nome:
+account.registrycustomer.eventtype=Tipo di evento:
+account.registrycustomer.location=Sede:
+account.registrycustomer.noitems=Non ci sono articoli in questa lista regalo.
+account.registrycustomer.dateadded=Data di inserimento
+account.registrycustomer.priority=Priorità:
+
+registrylist.newregistry=Nuova lista
+registrylist.newregistrydescription=Crea una nuova lista regalo
+registrylist.registriesheader=Le tue liste regalo
+registrylist.eventnameheader=Nome dell'evento
+registrylist.eventtypeheader=Tipo di evento
+registrylist.dateheader=Data
+registrylist.locationheader=Sede
+registrylist.detailsheader=Informazioni
+
+registryselect.header=Seleziona la lista regalo a cui aggiungere il prodotto
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.login.orderheader=Controlla il tuo ordine
+account.login.checkmessage=Non hai bisogno di un account per controllare lo stato del tuo ordine. Inserisci il numero dell'ordine e il tuo indirizzo e-mail.
+account.login.ordererror=Il numero dell'ordine o l'e-mail inseriti non sono corretti.
+account.login.orderbutton=Visualizza gli ordini
+account.login.header=Login al mio account
+
+account.login.logininclude.customersheader=Clienti ricorrenti
+account.login.logininclude.loginerror=Siamo spiacenti, ma non corrisponde alle nostre informazioni. Controlla che non ci siano errori e riprova.
+account.login.logininclude.loginfberror=Siamo spiacenti, questo indirizzo e-mail ha già un account registrato su questo sito.  Effettua il login e usa la funzione Hai dimenticato la password? per reimpostare la tua password.
+account.login.logininclude.locked=Questo account è bloccato al momento.  Ti preghiamo di riprovare a breve.
+account.login.logininclude.willbelocked=Password non valida.  Questo account verrà bloccato in seguito a un ulteriore tentativo di login non valido.
+account.login.logininclude.forgotpassword=Hai dimenticato la password?
+account.login.logininclude.forgotpassword.label=Richiedi di ripristinare la tua password
+account.login.logininclude.registered=Se sei un utente registrato, inserisci la tua email e password.
+account.login.logininclude.employeeemail=Stai effettuando il login nello store per i dipendenti con il seguente indirizzo email: {0}
+
+account.login.logininclude.oauthcustomersheader=Effettua il login utilizzando il tuo account di
+account.login.logininclude.oauthcustomersheaderreturning=In passato, hai effettuato il login con il provider esterno seguente. Clicca su di esso per effettuare nuovamente il login.
+account.login.logininclude.oauthloginerror=Il login con il tuo account esterno non è stato completato con successo oppure non hai concesso al nostro store il permesso di accedere ai dati del tuo profilo sul sito del fornitore di autentificazione esterno.
+account.login.logininclude.oauthselect=Seleziona un fornitore e poi clicca sull'icona corrispondente
+account.login.logininclude.oauth.google=Google
+account.login.logininclude.oauth.microsoft=Microsoft
+account.login.logininclude.oauth.linkedin=LinkedIn
+account.login.logininclude.oauth.facebook=Facebook
+account.login.logininclude.oauth.github=GitHub
+
+##############################################
+# ISML Directory: account/orders/
+##############################################
+account.orders.orderstitle=Ordini
+account.orders.ordersmessage=Ci auguriamo che tu sia soddisfatto dei tuoi articoli. Se hai delle domande sui resi o sullo stato del tuo ordine, dai un'occhiata alla nostra pagina del
+account.orders.orderscustomerservice=SERVIZIO CLIENTI
+account.orders.orderspage=.
+account.orders.orderid=ID dell'ordine:
+account.orders.orderdate=Ordine piazzato il:
+account.orders.orderbuttontext=Visualizza altro
+
+##############################################
+# ISML Directory: account/orderhistory/
+##############################################
+account.orderdetails.returnorder=<< Ritorna alla cronologia degli ordini
+account.orderdetails.returnshopping=Continua a fare shopping
+
+account.orders.orderhistory=Cronologia degli ordini
+account.orders.noorders=Non hai ancora piazzato nessun ordine. Visita la nostra home page per lasciarti ispirare dagli ultimi look.
+account.orders.notfound=Non riusciamo a trovare l'ordine che stai cercando di rintracciare.
+account.orders.datelabel=Data dell'ordine:
+account.orders.orderdetail=Informazioni sull'ordine
+account.orders.numberlabel=Numero dell'ordine:
+account.orders.shippedto=Inviato a:
+account.orders.ordertotal=Totale dell'ordine:
+account.orders.items=Articoli:
+account.orders.returnitems=Articoli resi
+
+account.orderstatusinclude.statuslabel=Stato dell'ordine:
+account.orderstatusinclude.ordershipped=Inviato
+account.orderstatusinclude.orderprocessed=In elaborazione
+account.orderstatusinclude.ordercancelled=Annullato
+account.orderstatusinclude.ordercontact=Contatta il supporto clienti:
+
+##############################################
+# ISML Directory: account/password/
+##############################################
+account.passwordemail.subject=La tua password
+account.passwordemail.dear=Gentile
+account.passwordemail.message1=Abbiamo ricevuto una richiesta di reset della password associata a questo indirizzo e-mail. Se la richiesta è partita da te, metti in atto le istruzioni seguenti.
+account.passwordemail.message2=Se non hai richiesto il reset della password, ignora questa e-mail. Il tuo account è al sicuro.
+account.passwordemail.message3=Clicca sul link seguente per resettare la tua password:
+account.passwordemail.message4=Se il link non funziona, puoi copiare e incollare l'indirizzo nella barra del browser oppure ridigitarlo lì.  Ti forniremo istruzioni per reimpostare la tua password.  Questo link è attivo solo per un breve periodo di tempo.
+account.passwordemail.message5=Per motivi di sicurezza, il link scadrà fra trenta minuti o dopo il reset della password.
+account.passwordemail.message6=Questa è un'email generata automaticamente. Ti preghiamo di non rispondere.
+
+account.passwordchangedemail.subject=La tua nuova password
+account.passwordchangedemail.dear=Gentile
+account.passwordchangedemail.message1=Hai creato con successo una nuova password per il tuo account.
+account.passwordchangedemail.message2=Puoi visitare il tuo account su
+account.passwordchangedemail.message3=Questa è un'email generata automaticamente. Ti preghiamo di non rispondere.
+
+account.password.reset.title=Hai dimenticato la password?
+account.password.reset.message=Inserisci il tuo indirizzo e-mail di seguito. Riceverai un link per resettare la tua password
+account.password.reset.button=Invia
+account.password.reset.sent=Controlla la tua email per verificare se hai ricevuto il link per resettare la tua password.
+account.password.reset.resubmit=Per inviare un'altra richiesta, clicca qui
+account.password.reset.notfounderror=Non è stato trovato nessun indirizzo email corrispondente.\r\nControlla lo spelling e prova di nuovo.
+account.password.reset.formnotvalid=Non è stato possibile trovare l'account dell'utente in questione.
+account.password.reset.invalidtokenerror=Questa richiesta di reset della password è scaduta. Ti preghiamo di riprovare.
+
+account.passwordresetconfirm.title=Abbiamo ricevuto la tua richiesta
+account.passwordresetconfirm.message1=Di recente hai chiesto di resettare la password. Grazie.
+account.passwordresetconfirm.message2=Ti abbiamo inviato un'email che ti aiuterà a completare questa operazione. Se non arriva entro un paio di minuti, controlla la cartella dello spam o prova di nuovo.
+account.passwordresetconfirm.homepagelink=Vai alla home page
+
+account.setnewpassword.title=Imposta la nuova password
+
+account.setnewpasswordconfirm.title=Tutto fatto.
+account.setnewpasswordconfirm.message=La tua nuova password è confermata.
+account.setnewpasswordconfirm.homepagelink=Vai alla home page
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.lockoutemail.title=Il tuo account
+account.lockoutemail.message1=Il tuo account è stato temporaneamente bloccato a causa di un numero eccessivo di inserimenti di password errate.
+account.lockoutemail.message2=Ti preghiamo di riprovare a effettuare il login a breve.
+account.lockoutemail.message3=Se pensi di aver ricevuto questa email per errore, contatta il servizio clienti.
+account.lockoutemail.message4=Questa è un'email generata automaticamente. Ti preghiamo di non rispondere.
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.createnew=Crea nuovo account
+account.user.registration.editaccount=Modifica account
+account.user.registration.editprofile=Modifica il profilo
+account.user.registration.savechanges=Salva
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.payment.minicardcard.expires=Scad.
+
+account.paymentinstruments.forbidden=Questa pagina è scaduta.  Devi chiudere la finestra ed effettuare il login per continuare.
+account.paymentinstrumentdetails.expires=Scade il:
+
+account.paymentinstrumentlist.header=Informazioni sulla carta di credito
+account.paymentinstrumentlist.addcard=Aggiungi una carta di credito
+account.paymentinstrumentlist.addcard.label=Aggiungi una carta di credito a questo account
+account.paymentinstrumentlist.deletecard=Cancella la carta
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.name=Nome
+account.user.registration.logininfo=Email/Informazioni di login
+
+##############################################
+# ISML Directory: account/wishlist/
+##############################################
+account.wishlist.breadcrumb=Wish List
+wishlist.searchheader=Trova Wish List
+wishlist.createheader=Crea Wish List
+wishlist.addaddress=Aggiungi un indirizzo di spedizione
+wishlist.addaddressmessage=Aggiungi l'indirizzo di spedizione alla Wish List
+wishlist.addgiftcert=Buoni regalo
+wishlist.addgiftcertmessage=Vuoi inserire dei buoni regalo sulla tua Wish List? Clicca su “Aggiungi buoni regalo” per far sapere alla tua famiglia e ai tuoi amici che ti piacerebbe ricevere buoni regalo.
+wishlist.listpublic=Rendi questa lista pubblica
+wishlist.listprivate=Rendi questa lista privata
+wishlist.empty=Non hai articoli nella tua Wish List.
+wishlist.emptyadd=Clicca qui per cominciare ad aggiungere articoli.
+wishlist.addresslabel=Indirizzo di spedizione per la Wish List
+wishlist.noaddresses=Al momento, non ci sono indirizzi salvati
+wishlist.dateadded=Data di inserimento
+wishlist.priority=Priorità
+wishlist.itemprivate=Rendi questo articolo privato
+wishlist.itempublic=Rendi questo articolo pubblico
+wishlist.share.link=URL della Wish List
+wishlist.sendwishlist=Invia la mia lista a un amico
+wishlist.emailsubject=Controlla la mia Wish List
+wishlist.noshippingaddress=Nessun indirizzo di spedizione assegnato
+wishlist.nolocationtoshow=-
+wishlistresult.lastname=Cognome
+wishlistresult.firstname=Nome
+wishlistresult.location=Sede
+wishlistresult.view=Visualizza
+wishlist.share=Condividi
+wishlist.copiedtoclipboard=link copiato negli appunti.
+
+
+account.wishlist.landing.createheader=Crea una Wish List
+account.wishlist.landing.findmessage=Puoi cercare anche Wish List di altre persone utilizzando Cerca Wish List
+
+searchresult.emptymessage=Nessuna Wish List per {0}, prova di nuovo più sopra.
+
+other.wishlistheader=Wish List di
+productlist.wishlistemailheader=La mia Wish List
+productlist.visitwishlist=Visita questa Wish List qui
+productlist.visitgr=Visita questa lista regalo qui
+productlist.purchaseitem=Acquista questo articolo
+productlist.1=Massimo
+productlist.2=Alto
+productlist.3=Medio
+productlist.4=Basso
+productlist.5=Minimo
+productlist.eventtype=Tipo di evento
+productlist.eventdate=Data dell'evento
+productlist.eventlocation=Sede
+productlist.qtydesired=Quantità desiderata
+productlist.qtypurchased=Quantità acquistata
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.registrycustomer.giftregistry=Lista regalo
+account.registrycustomer.notfound=Non è stato possibile trovare la lista regalo richiesta.
+account.registrycustomer.private=Non è possibile accedere alla lista regalo richiesta perché il proprietario non l'ha resa disponibile in maniera pubblica.
+
+##############################################
+# ISML Directory: account/facebook/
+##############################################
+account.facebook.newcustomer=Nuovo cliente
+account.facebook.usefbtoregister=Usa Facebook per registrarti
+
+##############################################
+# ISML Directory: mail/
+##############################################
+register.dear=Ciao
+register.welcome=Benvenuto al tuo account {0}.
+register.message=Ora che sei diventato membro, puoi acquistare da tutti i nostri brand nonché aggiornare e conservare le tue informazioni personali in un unico account.
+register.helpquestion=HAI BISOGNO DI AIUTO
+register.customerservice=Il nostro team del servizio clienti (customerservice@bestseller.com) è sempre lieto di aiutarti.
+register.salutation=Siamo felici di averti a bordo,
+account.orderdetails.trackinfo=Se desideri visualizzare più informazioni sul tuo ordine, clicca su TRACCIA L'ORDINE.
+account.orderdetails.tracknumber=Tracciamento n.:
+account.orderdetails.trackorder=Traccia l'ordine
+account.orderdetails.deliverycount=Delivery {0} of {1}
+
+verifyemployee.success=Ora puoi goderti lo store BESTSELLER con il tuo sconto per dipendenti.
+verifyemployee.expired=Il link che hai utilizzato è scaduto. Effettua di nuovo il login per ricevere un nuovo link
+verifyemployee.notemployee=Non sei membro di alcun gruppo di dipendenti.
+verifyemployee.notvalidtoken=Hai utilizzato un link non valido per la verifica del dipendente.
+
+account.orderstatusinclude.orderdispatched=Inviato
+account.orderstatusinclude.orderpartiallydispatched=Parzialmente inviato
+account.orderstatusinclude.orderreturned=Restituito
+account.orderstatusinclude.orderrefunded=Rimborsato
+account.orderstatusinclude.orderplaced=Piazzato
+
+shipping.estimate=Consegna stimata in {0} dopo il piazzamento dell''ordine
+
+employee.storegreeting=Salve! Prepariamoci per l'Employee Shop.
+employee.storeinfo=A breve riceverai un'email. Segui il link in questa email per accedere all'Employee Shop. Questo link può essere inoltrato al tuo indirizzo email personale ed è valido 24 ore.
+employee.storetitle=Employee Store pagina di destinazione
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+cart.header=Carrello
+cart.cartempty=Abbiamo cercato a fondo, ma non abbiamo trovato nulla.
+cart.coupon=Coupon
+cart.couponcode=Codice promozionale:
+cart.couponinvalid=Coupon non valido
+cart.giftcertdelivery=– Il buono regalo verrà inviato via e-mail
+cart.registryitem=Questo è un articolo della lista regalo
+cart.removeditem=Questo prodotto è stato rimosso di recente dal nostro catalogo online. Cancella l'articolo dal tuo carrello per poter procedere con il pagamento.
+cart.carterror={0} Il tuo carrello non può essere ordinato al momento poiché uno o più prodotti\r\n    al suo interno presentano un prezzo non valido o non sono disponibili nella quantità richiesta. Rimuovi i prodotti che presentano il prezzo\r\n N/A dal carrello o modifica le quantità in base a quelle disponibili. Se hai altre domande, contatta il servizio clienti.
+cart.cartcouponinvalid=Il tuo carrello contiene un coupon non attualmente valido.  Rimuovi il coupon prima di proseguire nel pagamento.
+cart.taxinvalid=Si è verificato un errore nel calcolo delle tasse per uno o più prodotti nel tuo carrello.
+cart.entercouponcode=Inserisci qui il codice del coupon
+cart.shippingmethodsnotavailable=Aspetta un attimo. Non possiamo procedere con l'ordine poiché non rispetta il valore minimo o massimo richiesto. Modifica gli articoli nel carrello e riprova. Se hai bisogno di aiuto o hai qualche dubbio, non esitare a contattare il servizio clienti.
+cart.product.purchasedisabled=Non siamo in grado di procedere con il tuo ordine in quanto uno o più prodotti nel carrello non sono disponibili nel tuo paese. Rimuovi i prodotti contrassegnati. Se hai bisogno di aiuto o hai qualche dubbio, non esitare a contattare il servizio clienti.
+cart.employeeshoppingforbidden=Aspetta un attimo. Gli impiegati non possono fare acquisti durante l'orario di lavoro. Lun.-Gio. 08:00-15:30, Ven. 08:00-12:00.
+cart.option=Opzione
+cart.listprice=Listino
+cart.itemtotal=Totale degli articoli
+cart.bonusmaxitems=Questo sconto ti dà diritto a {0} articoli in omaggio.
+cart.bonusnumselected=Hai selezionato {0} articoli.
+cart.updatebonusproducts=Aggiorna i prodotti in omaggio
+cart.updatebonusproduct=Aggiorna il prodotto in omaggio
+cart.updatesneeded=Sono necessari degli aggiornamenti nel carrello
+cart.selectbonusproducts=Seleziona i prodotti in omaggio
+cart.selectbonusproduct=Seleziona il prodotto in omaggio
+cart.limitedquantity=Non siamo in grado di elaborare il tuo ordine in quanto uno o più prodotti al suo interno presentano un prezzo non valido o non sono disponibili nelle quantità che hai richiesto. Rimuovi i prodotti con i prezzi contrassegnati come N/A o cambia le quantità in modo da rispecchiare i numeri disponibili. Se hai bisogno di aiuto o hai delle domande, non esitare a contattare il servizio clienti.
+cart.limitedquantity.error=QUANTITÀ NON DISPONIBILE
+cart.soldout=Esaurito
+cart.unabletoadd=Non è stato possibile aggiungere l''articolo \"{0}\" al carrello
+cart.lastvisited.header=Visitato l'ultima volta il
+
+cart.store.availableinstore=In assortimento
+cart.store.notavailable=Non disponibile
+cart.store.deliveryoptions=Opzioni di consegna
+cart.store.homedelivery=Consegna a domicilio
+cart.store.instorepickup=Consegna nello store
+cart.store.storepickupaddress=Indirizzo dello store per la consegna
+
+cart.coupon.code.already.in.basket=Questo codice promozionale è stato già utilizzato.
+cart.coupon.already.in.basket=Il codice promozionale \"{0}\" non può essere associato all''altro codice promozionale già nel carrello.
+cart.coupon.code.already.redeemed=Il codice promozionale \"{0}\" è già stato usato.
+cart.coupon.code.unknown=Inserisci un codice promozionale valido.
+cart.coupon.disabled=Il codice promozionale \"{0}\" non può essere attualmente aggiunto al carrello.
+cart.redemption.limit.exceeded=Il codice promozionale \"{0}\" non può essere attualmente aggiunto al carrello.
+cart.customer.redemption.limit.exceeded=Il codice promozionale \"{0}\" non può essere attualmente aggiunto al carrello.
+cart.timeframe.redemption.limit.exceeded=Il codice promozionale \"{0}\" non può essere attualmente aggiunto al carrello.
+cart.no.active.promotion=Il codice promozionale \"{0}\" non può essere attualmente aggiunto al carrello.
+cart.coupon.code.missing=Inserisci un codice promozionale valido
+cart.ok={0} codice promozionale applicato
+cart.info=Inserisci un codice promozionale per applicare lo sconto.
+cart.applycouponcode=Voglio applicare un codice promozionale
+cart.itemscount.single={0} articolo
+cart.itemscount={0} articoli
+
+cart.promotionsheader=Non fartelo sfuggire
+cart.promotionsbonusavailable=Il tuo ordine dà diritto a un regalo in omaggio. Aggiungilo al tuo carrello qui sotto.
+cart.bonussection=In omaggio con il tuo ordine
+cart.bonusselect=Seleziona il tuo regalo in omaggio
+
+minicart.viewcart=Visualizza il carrello
+minicart.viewcart.label=Vai al carrello
+minicart.title=Il tuo carrello
+
+approachingpromo.purchase=Acquista
+approachingpromo.more=altro
+approachingpromo.receive=e ricevi
+
+##############################################
+# ISML Directory: checkout/checkoutlogin
+##############################################
+checkoutlogin.checkoutguestbutton=Pagamento come ospite
+checkoutlogin.guestheader=Ospiti o nuovi clienti
+checkoutlogin.guestmessage=Non hai bisogno di un account per ordinare. Se vuoi registrarti e cominciare ad approfittare dei vantaggi di un account, crea una password alla fine del processo di pagamento.
+checkoutlogin.registerbenefits=Quali sono i vantaggi?
+
+##############################################
+# ISML Directory: checkout/billing
+##############################################
+billing.header.address=Qual è il tuo indirizzo di fatturazione?
+billing.header.redeemable=Codici di coupon/sconto o buono regalo
+billing.header.payment=Come desideri pagare?
+billing.header.giftcardcheckbalance=Controlla il saldo rimanente sulla tua carta regalo
+billing.bmlhelp=Devi fornire la tua data di nascita e le ultime quattro cifre del tuo numero di sicurezza sociale
+billing.giftcardredeemed=è stato scontato dal tuo ordine.
+billing.giftcardnomethod=Il tuo ordine è stato pagato utilizzando buoni regalo. Se non desideri completare l'ordine utilizzando buoni regalo, puoi rimuoverli qui sopra.
+billing.zerobalance=Il tuo ordine non presenta un saldo e pertanto non è necessario un metodo di pagamento per completare questo ordine.
+billing.linkcvn=Cos'è questo?
+billing.custompaymentmethod=L'integrazione del tuo metodo di pagamento personalizzato va qui
+billing.couponswitch=Hai un codice promozionale?
+billing.couponspecialoffer=Se hai ricevuto un codice di offerta speciale o uno sconto, inserisci di seguito il codice unico
+billing.couponlabel=Inserisci qui il codice del coupon
+billing.couponnotapplied=Il codice promozionale {0} è stato aggiunto al tuo ordine, ma non è stato applicato.
+billing.couponapplied=Il codice promozionale {0} è stato aggiunto al tuo ordine ed è stato applicato.
+billing.couponinvalid=Codice promozionale non valido
+billing.seeordersummary=Consulta il riepilogo dell'ordine aggiornato.
+billing.giftcardswitch=Hai una gift card?
+billing.giftcardnote=Inserisci qui sotto il numero di 19 cifre ed il codice della tua gift card
+billing.bonusproductalert=Il tuo ordine è risultato idoneo per un omaggio.  Clicca sul tasto “Seleziona” per ritornare al carrello e selezionare i tuoi prodotti o su “No, grazie” per continuare con il tuo ordine.
+billing.giftcardlabel=Usa il buono regalo
+billing.giftcardcvvlabel=Codice CVV:
+billing.giftcardapplied={0} sono stati utilizzati dal buono regalo {1}
+billing.giftcardbalance=Il saldo attuale del tuo buono regalo è
+billing.giftcardremainingtotal=Il totale del suo ordine è {0}. Il pagamento avviene a pagina seguente dopo aver confermato l''ordine.
+billing.giftcarderror=Non è stato possibile rimuovere il buono regalo.
+billing.giftcardbalancetoolow=Il saldo della gift card è troppo basso. Prova un'altra gift card o un diverso metodo di pagamento.
+billing.giftcardbalancetoohigh=Hai raggiunto il limite massimo che puoi spendere con i buono regalo.
+billing.giftcardinvalid=Codice promozionale non valido
+billing.giftcardidmissing=Inserisci il codice di un buono regalo.
+billing.giftcardadderror=Abbiamo verificato un errore nei dettagli della carta regalo forniti. Ti preghiamo di riprovare o contattare il servizio clienti.
+billing.giftcardfraud=Ci risulta che i dati della tua carta regalo siano incorretti. Ti preghiamo di contattare il nostro customer service per richiedere aiuto.
+billing.giftcertificate.pending=Buono regalo in sospeso.
+billing.giftcertificate.notfound=Non è stato possibile individuare il buono regalo \"{0}\".
+billing.giftcertificate.currency.mesmatch=Il buono regalo può essere utilizzato solo su ordini piazzati nella stessa valuta del buono regalo.
+billing.creditcardlistselect=Seleziona dalle carte salvate
+billing.creditcardlistnocards=Al momento, non ci sono carte salvate
+billing.creditcardlistexp=Scadenza
+billing.creditcardexpires=Scade il
+billing.creditcardlistexpdate=Data di scadenza:
+billing.creditcardloaderror=Non è stato possibile caricare la carta di credito.
+billing.creditcardnotdeleted=Non è stato possibile rimuovere la carta di credito.
+billing.creditcarddeleted=La carta di credito è stata rimossa.
+billing.creditcarddeletenotselected=Seleziona la carta di credito da cancellare.
+billing.creditcarddeleteconfirm=Vuoi rimuovere questa carta di credito?
+billing.deletecard=Cancella carta
+billing.requiredindicator=•
+billing.newcreditcardadded=La nuova carta di credito è stata aggiunta.
+billing.missingprocessorerror=Il tuo metodo di pagamento selezionato non è disponibile al momento.  Seleziona un altro metodo.
+billing.ownerparseerror=Questo sembra essere un numero di carta di credito.  Inserisci il nome del proprietario della carta di credito.
+billing.selectcreditcard=Seleziona una carta di credito
+billing.useshippingaddress=Usa il mio indirizzo di spedizione
+billing.notavailable=Non disponibile
+
+minibillinginfo.billingaddress=Indirizzo di fatturazione
+minibillinginfo.expiration=Int.
+minibillinginfo.giftcertificate=Buono regalo
+minibillinginfo.bml=Inviami la fattura in seguito
+minibillinginfo.adyencreditcard=Paga con la tua carta di credito o di debito.  Ti chiederemo di inserire le tue informazioni di pagamento una volta che hai controllato l'ordine e l'importo verrà addebitato non appena l'ordine lascia il magazzino.
+minibillinginfo.adyenideal=iDEAL ti permette di pagare direttamente senza addebiti aggiuntivi
+minibillinginfo.adyenpaypal=Paga tramite PayPal, un portafoglio digitale semplice e sicuro per i pagamenti online.  Se non hai un account, puoi crearne uno con facilità e in maniera gratuita sul loro sito. Ti verrà chiesto di inserire le tue informazioni di pagamento dopo che hai controllato il tuo ordine.
+minibillinginfo.klarnaaccount=L'account Klarna ti permette di acquistare merci e pagarle a distanza di un mese, in un'unica soluzione e in piccole rate regolari. Devi pagare solo gli articoli che decidi di trattenere.
+minibillinginfo.klarnainvoice=Fattura Klarna: Ordina ora e paga in seguito. Klarna invia una fattura al tuo indirizzo email. Hai quattordici giorni per pagare e devi saldare solo gli articoli che hai deciso di trattenere. La fattura di Klarna richiede la tua data di nascita e il tuo codice fiscale.
+minibillinginfo.klarnaaccountsurcharge=Il pagamento con un account Klarna costa {0}.
+minibillinginfo.klarnainvoicesurcharge=Il costo per poter pagare con Fattura Klarna è {0}.
+minibillinginfo.sofort=SOFORT ti permette di effettuare il login e pagare direttamente utilizzando solo le tue informazioni bancarie esistenti.
+minibillinginfo.adyenafterpay=Afterpay Invoicing: Order now, pay later. Afterpay will send you an invoice. You have 14 days to pay and you only have to pay for the items you keep. It costs EUR 1.95 to pay with Afterpay invoice.
+minibillinginfo.adyenmobilepay=
+minibillinginfo.googlepay=
+
+##############################################
+# ISML Directory: checkout/components/
+##############################################
+checkoutprogressindicator.step1=Passaggio 1:
+checkoutprogressindicator.step2=Passaggio 2:
+checkoutprogressindicator.step3=Passaggio 3:
+checkoutprogressindicator.step4=Passaggio 4:
+checkoutprogressindicator.shipping=Consegna
+checkoutprogressindicator.billing=Fatturazione
+checkoutprogressindicator.placeorder=Controlla l'ordine
+checkoutprogressindicator.shippingaddresses=Indirizzi di spedizione
+checkoutprogressindicator.shippingmethods=Metodi di spedizione
+checkoutprogressindicator.shippingaddress=Indirizzo di spedizione:
+checkoutprogressindicator.billingaddress=Indirizzo di fatturazione:
+checkoutprogressindicator.billingemail=Email:
+checkoutprogressindicator.billingpayment=Metodo di pagamento:
+checkoutprogressindicator.shippingstep.skipped=Il tuo ordine non ha bisogno di un metodo di spedizione. Ti invieremo qualsiasi prodotto online all'indirizzo email fornito con le informazioni di fatturazione.
+
+##############################################
+# ISML Directory: checkout/giftcert/
+##############################################
+giftcertpurchase.giftcertificates=Buoni regalo
+giftcertpurchase.amount=Importo
+giftcertpurchase.errorinfo=Inserisci le informazioni corrette
+giftcertpurchase.balancealert=Il saldo del tuo buono regalo corrente è
+
+##############################################
+# ISML Directory: checkout/shipping/
+##############################################
+singleshipping.enteraddress=Dove dobbiamo consegnare i tuoi articoli?
+singleshipping.multiple=Vuoi che la spedizione avvenga su più indirizzi?
+singleshipping.apofpo=APO/FPO
+singleshipping.phonerequired=Perché tutto ciò è necessario?
+singleshipping.shippingmethodheader=Qual è il tuo metodo di consegna preferito?
+singleshipping.noshippingmethods=Non ci sono metodi di spedizione applicabili per la selezione.
+singleshipping.details=Informazioni
+singleshipping.discount=Sconti sulla spedizione:
+singleshipping.total=Totale:
+singleshipping.standard=Costo di spedizione standard:
+singleshipping.surcharge=Sovrapprezzo
+singleshipping.wishlist=Wish List di {0}''
+singleshipping.giftregistry=Lista regalo di {0}''
+singleshipping.select=Seleziona
+singleshipping.signoutconfirmation=Sei sicuro di voler uscire?
+singleshipping.signoutconfirmbutton=Sì, grazie
+singleshipping.signoutcancelbutton=No, grazie
+singleshipping.alreadyanaccount=Sembra che tu abbia già creato un account.
+singleshipping.speedycheckout=Perché non effettui il login in modo da godere di un processo di pagamento più veloce?
+singleshipping.welcomeback=Ben tornato, {0}!
+minishipments.shippingaddress=Indirizzo di spedizione
+minishipments.shipping=Spedizione
+minishipments.giftcertdelivery=- Consegna tramite email
+
+multishippingaddresses.locationheader=Sede di spedizione
+multishippingaddresses.noaddresses=Nessun indirizzo disponibile per la selezione
+multishippingaddresses.editaddress=Modifica l'indirizzo
+multishippingaddresses.addaddress=Aggiungi un nuovo indirizzo
+multishippingaddresses.select=Seleziona
+
+multishippingshipments.shipment=Spedizione n. {0}
+multishippingshipments.gcshipment=Metodo di spedizione: Consegna tramite email
+multishippingshipments.selectmethod=Seleziona il metodo di spedizione:
+multishippingshipments.shippingdetails=Informazioni sulla spedizione
+multishippingshipments.shipimmediante=Data di spedizione: Immediatamente
+multishippingshipments.giftmessage=Messaggio:
+
+shipment.qualifiesfor=Questa spedizione è idonea per
+shipment.methodswarning=ANCORA UN ATTIMO: gli articoli nel carrello non rispettano i nostri valori di ordine minimo o massimo per alcuni dei metodi di spedizione.
+shippingmethod.minordervaluemessage=Minimo di {0} non raggiunto
+shippingmethod.maxordervaluemessage=Massimo di {0} superato
+
+shipping.errorparcelshop=Questo negozio non accetta ordini per acquisti presso punti di consegna al momento. Prova un altro negozio o un altro metodo di consegna.
+shipping.errorclickcollect=Questo negozio non accetta ordini per acquisti “clicca e ritira” Prova un altro negozio o un altro metodo di consegna.
+shipping.errorpostalcode=Ci dispiace, ma non effettuiamo spedizioni presso questo indirizzo. La preghiamo di scegliere un altro metodo di spedizione.
+shipping.estimate.days={0}-{1} giorni lavorativi
+
+##############################################
+# ISML Directory: checkout/confirmation/
+##############################################
+confirmation.thankyou=Grazie per aver fatto acquisti presso di noi.
+confirmation.order=Il tuo numero di ordine è:
+confirmation.email=Verrà inviata un''email a {0} con le informazioni sul tuo ordine.
+confirmation.account.title=Pagamento più rapido la prossima volta
+confirmation.account.message=Crea un account con un unico, rapido passaggio
+confirmation.account.action=CREA UNA PASSWORD
+confirmation.account.save=Salva
+confirmation.account.termsmessage=Con la creazione di un account, acconsenti ai nostri
+confirmation.account.terms=Termini e condizioni del Customer Club
+confirmation.message=E ORA? Non appena avremo confezionato il tuo ordine, ti invieremo un numero di tracciamento tramite email. Possono volerci fino a due giorni lavorativi.
+confirmation.contact=HAI BISOGNO DI AIUTO? Il nostro team al servizio clienti (customerservice@bestseller.com) è sempre a disposizione per rispondere a qualsiasi domanda tu possa avere.
+confirmation.print=Stampa la ricevuta
+confirmation.returnshop=Continua a fare shopping
+confirmation.payment.method=Modalità di pagamento:
+
+pt_orderconfirmation.createheader=Crea un account
+pt_orderconfirmation.accountmessage=Vuoi creare un account sulla base delle informazioni che hai inserito per questo ordine
+
+
+##############################################
+# ISML Directory: checkout/summary/
+##############################################
+summary.applied=Applicato
+summary.coupon=Coupon
+summary.editcart=&laquo; Modifica il carrello
+summary.orderdiscount=Sconto dell'ordine:
+summary.notapplied=Non applicato
+summary.review.ordertotal=Totale
+summary.title=Riepilogo dell'ordine
+summary.termsandconditions.employee.label=e all''impiegato/a {0}
+summary.termsandconditions.message=Conferma che tutte le informazioni siano corrette. Nel passaggio seguente, ti verranno richieste le informazioni per il pagamento.
+summary.termsandconditions.label= Acconsento alle condizioni
+summary.termsandconditions.klarna= e a un accordo di pagamento con il partner di BESTSELLER Klarna e alle loro
+summary.termsandconditions.afterpay= and to a payment agreement with BESTSELLER's partner AfterPay and their
+summary.termsandconditions.privacy = Linee guida sulla privacy
+summary.termsandconditions.termsforinvoice=TERMINI DI FATTURAZIONE
+summary.termsandconditions.privacypostlabel= di BESTSELLER HANDELS B.V.
+summary.termsandconditions.privacyseperator= e
+summary.paymenterror.adyen_credit_card.failed=Errore nell'elaborazione della carta di credito. È possibile che ci sia stato un time-out nel sistema, procedi con il pagamento e prova di nuovo. Si consiglia di verificare che i dati di pagamento forniti siano corretti e che il Suo conto disponga di abbastanza credito disponibile prima di riprovare.
+summary.paymenterror.adyen_paypal.failed=Errore nell'elaborazione della transazione con PayPal. È possibile che si siano verificati problemi di connessione, ritorna al carrello e prova di nuovo.
+summary.paymenterror.adyen_ratepay.failed=Errore nell'elaborazione della transazione con RatePAY. È possibile che si siano verificati problemi di connessione, ritorna al carrello e prova di nuovo.
+summary.paymenterror.adyen_afterpay.failed=Error processing the AfterPay transaction. There might have been connection problems, please return to the bag and try again.
+summary.paymenterror.adyen_credit_card.authorised=Ottime notizie. Il tuo pagamento è stato autorizzato con successo.
+summary.paymenterror.adyen_credit_card.refused=Non siamo riusciti ad autorizzare il tuo pagamento e, per questo motivo, abbiamo dovuto rifiutarlo.
+summary.paymenterror.adyen_credit_card.cancelled=Sembrerebbe che tu abbia annullato il tuo pagamento prima del completamento o che sia ritornato sul nostro sito prima che la transazione fosse giunta a termine.
+summary.paymenterror.adyen_credit_card.pending=Non siamo in grado di trovare lo stato finale del tuo pagamento.
+summary.paymenterror.adyen_credit_card.error=Si è verificato un errore durante l'elaborazione del tuo pagamento.
+giftcert.currentbalance=Il saldo attuale del tuo buono regalo è
+giftcert.remove.error=Non è stato possibile rimuovere il buono regalo.
+
+giftcertpurchase.checkinvalid=Controlla il codice del buono regalo
+giftcertpurchase.missingcode=Inserisci il codice del buono regalo
+
+summary.paymenterror.oc_giftcard.failed=C'è un problema con il tuo pagamento. Ti preghiamo di contattare il servizio clienti.
+summary.paymenterror.adyen_mobilepay.failed=
+summary.giftcard.delivery=Ti invieremo la tua gift card via email dopo l'elaborazione del pagamento.
+
+##############################################
+# Pipelines
+##############################################
+confirm.error.technical=Siamo spiacenti, ma non è stato possibile piazzare l'ordine. Ciò è dovuto probabilmente a un volume elevato di ordine o a errori temporanei nella connessione. Attendi qualche minuto e invia nuovamente il tuo ordine. Non elaboreremo il tuo pagamento fino a quando l'ordine non viene piazzato con successo. Se hai altre domande, contattaci:
+confirm.error.declined=Non è stato possibile inviare il tuo ordine. Controlla le impostazioni di pagamento e prova di nuovo. Ti ringraziamo per la tua pazienza.
+
+##############################################
+# Multi Shipping Checkout
+##############################################
+multishipping.error.attributenotdefined=\n\tAttributo personalizzato \"sessionAddressBook\" non definito per l'oggetto del sistema \"Cestino\".\n\tControlla la documentazione e imposta un attributo tramite BM.
+multishipping.error.parsejson=\n\tErrore nel parsing di una stringa in un oggetto JSON:\n\t{0}
+multishipping.error.addaddressrequirements=\n\tRequisiti assenti per AddAddressToSessionAddressBook.ds.\n\tLe variabili di input FormAddress e/o CBasket sono nulle.
+multishipping.editaddress=Aggiungi/Modifica un indirizzo
+multishipping.editaddress.headline=Aggiungi o modifica indirizzi
+
+##############################################
+# Instore Checkout
+##############################################
+instore.shipping.storemessage=Messaggio di spedizione nello store
+
+##############################################
+# pickup location
+##############################################
+pickuplocation.results.resultcount=Visualizzazione di {0} risultati nei paraggi
+pickuplocation.select=Seleziona
+
+shipping.estimate=Consegna stimata in {0}
+shipping.shipping.estimate=Consegna stimata: {0} - {1}
+shipping.summary.estimate=Consegna stimata in {0}-{1} giorni lavorativi
+
+shipping.errormessage=Completa i campi vuoti dell'indirizzo
+
+billing.adyen_credit_card=Carta di credito
+billing.adyen_paypal=PayPal
+billing.oc_giftcard=Buono regalo
+billing.klarna_invoice=Fattura Klarna
+billing.klarna_account=Account Klarna
+billing.adyen_ideal=IDEAL
+billing.adyen_sofort=Sofort
+billing.adyen_afterpay=Afterpay invoice
+billing.adyen_ratepay=Pay later
+billing.adyen_mobilepay=
+billing.paymentheader=Come desideri pagare? Ti verrà chiesto di inserire le tue informazioni di pagamento dopo che hai controllato il tuo ordine.
+
+##############################################
+# Klarna order confirmation page
+##############################################
+summary.paymenterror.klarna_invoice.unspecified_error=Purtroppo non è stato possibile elaborare il tuo pagamento Klarna. Riprova in seguito oppure utilizza un altro metodo di pagamento.
+summary.paymenterror.klarna_invoice.address=Purtroppo non riusciamo a elaborare il tuo pagamento Klarna. Assicurati che l'indirizzo sia corretto.
+summary.paymenterror.klarna_invoice.amount=Purtroppo non riusciamo a elaborare il tuo pagamento Klarna. Scegli un altro metodo di pagamento oppure riduci l'importo del tuo carrello.
+summary.paymenterror.klarna_invoice.under_aged=Devi avere più di 18 anni per utilizzare il metodo di pagamento Klarna.
+summary.paymenterror.klarna_invoice.cellno=Il numero di cellulare composto non corrisponde al formato standard. Controlla se sono presenti errori e ricomponi il numero. Se continui a ricevere questo messaggio di errore, seleziona un metodo di pagamento diverso.
+summary.paymenterror.klarna_invoice.failed=Errore nell'elaborazione della transazione della fattura Klarna. È possibile che si siano verificati problemi di connessione, torna al carrello e prova di nuovo.
+summary.paymenterror.klarna_account.failed=Errore nell'elaborazione della transazione dell'account Klarna. È possibile che si siano verificati problemi di connessione, torna al carrello e prova di nuovo.
+
+##############################################
+# ISML Directory: slots/
+##############################################
+cart.recommendations.products=Ti potrebbe anche piacere
+
+##############################################
+# ISML Directory: slots/
+##############################################
+feedback.review.negative.label=Oh... che peccato!
+feedback.review.negative.placeholder=Cosa avremmo potuto fare meglio?
+feedback.review.positive.label=Che bello!
+feedback.review.positive.placeholder=C'è qualcosa che avremmo potuto fare meglio?
+feedback.review.thankyou.text=Grazie di averci offerto la tua opinione. Il tuo feedback ci permette di migliorare. Se hai bisogno di qualcos'altro, contatta il nostro servizio clienti.
+feedback.review.thankyou.copy=Copia il mio feedback
+feedback.review.thankyou.share=Condividi il mio feedback su Trustpilot
+
+login.haveaccount=Sembra che tu abbia un account.\n\tRegistrati per un pagamento più rapido!
+login.email=Qual è la tua email?
+login.forgotpassword=Ho dimenticato la password
+login.welcomeback=Ben tornato,
+competition.terms=Termini del concorso
+competition.customerclubterms=Effettuando la registrazione, confermi di aver preso visione e di avere accettato i {0} del nostro Customer Club.
+competition.customerclubtermslink=termini e condizioni
+competition.datadisclamer=Tutte le informazioni personali inviate in connessione con il concorso in questione verranno detenute da BESTSELLER e trattate nel rispetto dell''Atto danese sull''elaborazione dei dati personali e delle nostre condizioni di adesione al {0} Members Club.
+competition.successcontinue=Continua a {0}
+competition.termsreadmore=Leggi i {0}.
+competition.termsreadmorelink=termini del concorso
+competition.selectsize=Seleziona qui
+competition.sizeerror=Seleziona la taglia
+competition.selectprize=Scegli fra i seguenti:
+competition.submit=Invia
+competition.invalidfields=Che imbarazzo. Controlla i campi rossi.
+competition.serviceerror=Il servizio non è disponibile al momento.
+competition.onesize=Taglia unica
+competition.termslabel=Accetto i termini e condizioni del concorso e del {0} {1}
+competition.customerclub=CUSTOMER CLUB
+competition.answer=Risposta
+﻿########################################
+# strings in content images
+########################################
+content.20_40_off=20-40% di sconto
+
+content.apparel.accessories=accessori
+content.apparel.apparel=abbigliamento
+content.apparel.boots=stivali
+content.apparel.coat=cappotto
+content.apparel.collection=collezione
+content.apparel.dresses=vestiti
+content.apparel.earrings=orecchini
+content.apparel.fleeceandknits=pile e capi in maglia
+content.apparel.hats=cappelli
+content.apparel.jackets=giacche
+content.apparel.jewelry=gioielli
+content.apparel.leather=pelle
+content.apparel.neckties=cravatte
+content.apparel.necklaces=collane
+content.apparel.outerwear=cappotti e giacche
+content.apparel.pants=pantaloni
+content.apparel.scarves=sciarpe
+content.apparel.shirt=camicia
+content.apparel.shirts=camicie
+content.apparel.shoes=scarpe
+content.apparel.shorts=shorts
+content.apparel.sportcoat=giacca sportiva
+content.apparel.suits=abiti
+content.apparel.sweater=maglione
+content.apparel.tops=top
+content.apparel.tshirt=t-shirt
+content.apparel.tshirts=t-shirt
+
+content.category.kids=bambini
+content.category.mens=uomo
+content.category.womens=donna
+
+content.season.fall=autunno
+content.season.spring=primavera
+content.season.summer=estate
+content.season.winter=inverno
+
+content.classicfit=vestibilità classica
+content.cool_savings=risparmi fantastici
+content.dressforsucess=vestiti per il successo
+content.free_shipping=spedizione gratuita
+content.freegroundshipping=spedizione via terra gratuita su ordini pari o superiori a $150
+content.new=nuovo
+content.new_arrivals=nuovi arrivi
+content.new_styles=nuovi modelli
+content.promocode=codice promozionale “GCshipping”
+content.sale=saldi
+content.save_20=risparmia il 20%
+content.save_20_40=risparmia il 20-40%
+content.save_some_cash=risparmia un po' di soldi
+content.shop=acquista
+content.shop_now=acquista ora >
+content.thisweeksdeals=le offerte della settimana
+content.use_a_gift_card=usa una carta regalo per ricevere la spedizione in omaggio
+content.warmthandstyle=calore e stile
+
+homepage.banners_homepage_05b_headline=il compagno perfetto
+homepage.banners_homepage_05d_action=20% di sconto solo per questa settimana
+homepage.banners_homepage_05e_headline=lanciati in
+homepage.img01=risparmia fino al 40% su modelli di calzature da donna selezionati
+homepage.img02=svendita: 10% di sconto sull'abbigliamento da uomo
+homepage.img05=acquista un articolo outerwear per bambini e ottieni uno sconto del 50% sul secondo capo
+homepage.img06=acquista una valigia per ottenere il 25% di sconto su qualsiasi zaino
+
+slot.landing.kids-clothing=svendita: fino al 25% di sconto su tutte le felpe con cappuccio per bambini
+slot.landing.kids-footwear=nuovi modelli per i bambini
+slot.landing.mens-clothing=aggiorna il tuo look appena in tempo per la prossima stagione
+slot.landing.mens-footwear-boots=risparmia il 20% su stivaletti da uomo selezionati
+slot.landing.womens-footwear-shoes=indossa stile e comfort
+slot.landing.womens-greatstyles=dai un'occhiata ai nostri fantastici modelli per la nuova stagione...
+slot.sub_banners.kids-accessories-hats=cappelli a maglia a partire da $11,99
+slot.sub_banners.kids-clothing-footwear=tutto a meno di $25
+slot.sub_banners.kids-clothing-tops=acquista tre articoli o più per $10 ciascuno
+slot.sub_banners.kids-merchandise=risparmia $5 su tutti i prodotti per bambini
+slot.sub_banners.mens-accessories-luggage=acquista una valigia per ottenere uno sconto del 25% su tutti gli zaini
+slot.sub_banners.mens-accessories-ties=trova il regalo perfetto per papà
+slot.sub_banners.mens-clothing-pants=trova il paio perfetto
+slot.sub_banners.mens-clothing-suits=su tutti gli abiti formali
+slot.sub_banners.mens-footwear-boots=su tutti gli stivaletti
+slot.sub_banners.mensclothingbottoms=denim a partire da $29,99
+slot.sub_banners.standard_mensaccessorieshats=cappelli da baseball
+slot.sub_banners.standard_mensaccessorieswallets=portafogli in pelle da $29 a $37
+slot.sub_banners.standard_mensclothingouterwear=sul pile da uomo
+slot.sub_banners.standard_mensfootwear=Scarpe da barca Ottime per tutte le stagioni
+slot.sub_banners.standard_storelocator=trova uno store vicino a te
+slot.sub_banners.womens-accessories-handbags=Saldi sulle borse
+slot.sub_banners.womens-accessories-handbags.freewallet=portafoglio in omaggio con un acquisto
+slot.sub_banners.womens-clothing-dresses=vestiti casual
+slot.sub_banners.womens-clothing-outerwear=kit per la cura della pelle in omaggio con l'acquisto di una giacca
+slot.sub_banners.womens-clothing-tops=top civettuoli
+slot.sub_banners.womens-footwear=scarpe da trail da donna
+slots.categorylanding.lowbanners.mens-footwear-boots=risparmia il 20% su stivaletti da uomo selezionati
+
+##############################################
+# Languages Country Selector
+##############################################
+language.en = English
+language.fr = Français
+language.it = Italiano
+language.da = Dansk
+language.fi = Suomi
+language.sv = Svenska
+language.no = Norsk bokmål
+language.es = Español
+language.de = Deutsch
+language.nl = Nederlands
+language.is = Íslenska
+language.pl = Polski
+language.zh = 中文
+language.tr = Türkçe
+
+##############################################
+# Languages Country Switch
+##############################################
+
+countryswitch.headline=Scegli il tuo indirizzo di consegna
+countryswitch.viewall=Visualizza tutti i paesi
+countryswitch.gotosite=Vai
+
+##############################################
+# Manufacturing Page
+##############################################
+manufacturing.header=THE MANUFACTURING MAP
+manufacturing.manufactures=Manufactures
+manufacturing.facilities=Facilities
+manufacturer.header=MANUFACTURER
+
+﻿﻿##############################################
+# Common resources
+##############################################
+resource.passwordassistance=Assistenza con la password
+resource.ordergcemsg=Un buono regalo da
+resource.youraccount=Il tuo account
+resource.employeestore=Verifica dello store per i dipendenti
+resource.whatnext=E ORA?
+resource.needhelp=HAI BISOGNO DI AIUTO?
+resource.greeting=Ciao {0},
+resource.quantity=Quantità:
+
+##############################################
+# Template name: mail/giftcert
+##############################################
+giftcert.msghasbeenleftforyou=ha lasciato il commento seguente per:
+giftcert.msgleftforyou=Il messaggio seguente è stato lasciato per te:
+giftcert.toredeem=Per riscattare il tuo buono regalo, usa il codice seguente nel passaggio di fatturazione durante il pagamento:
+giftcert.dearcustomer=Gentile cliente,
+giftcert.dear=Caro {0},
+giftcert.someone=Qualcuno
+giftcert.paysattention=ti ha a cuore e ti ha inviato un buono regalo {0} per il nostro
+giftcert.dwonlinestore=È sufficiente stampare il PDF che abbiamo allegato a questa email e il gioco è fatto.
+giftcert.period=.
+giftcert.message=Ecco la tua gift card dell''ordine #{0}.
+giftcert.customermessage=Ci auguriamo che tu possa trovare qualcosa di tuo gusto.
+giftcert.tips=Ecco fatto! Ora sei pronto di fare acquisti con la tua gift card sia nei punti vendita che online.
+giftcert.confirmation=Non appena il pagamento sarà processato, la tua gift card verrà inviata tramite email.
+
+##############################################
+# Template name: mail/orderreturns.isml
+##############################################
+return.subject=Articoli restituiti dell''ordine {0}
+return.message=Articoli restituiti dell''ordine {0} che abbiamo ricevuto
+return.refundmessage=Elaboreremo il tuo rimborso quanto prima.
+return.statusreturned=Restituito
+return.refundconfirmation=Ci sono degli articoli mancanti che hai reso nello stesso momento? Può succedere. A volte è necessario un po' più di tempo per processare determinati articoli. Non appena processiamo un articolo, te lo faremo sapere immediatamente tramite email. 
+return.process=Riceverai un'email da parte nostra entro otto giorni per confermare il tuo rimborso. Nel frattempo, se hai domande, il nostro team del Servizio clienti è sempre lieto di aiutarti.
+return.contact=Riceverai un'email da parte nostra entro otto giorni per confermare il tuo rimborso. Nel frattempo, se hai domande, il nostro team del Servizio clienti è sempre lieto di aiutarti.
+return.customermessage=Ci auguriamo di rivederti presto.
+
+##############################################
+# Template name: mail/refundmail.isml
+##############################################
+refund.subject=Articoli rimborsati dell''ordine {0}
+refund.message=Ti abbiamo rimborsato i resi dell''ordine {0}.
+refund.totalmessage=In base agli articoli che ci hai reso, ti rimborseremo {0}. Si tratta del prezzo degli articoli meno l''eventuale sconto.
+refund.statusrefunded=Rimborsato
+refund.itemtotal=Totale
+refund.refundmessage=Ti abbiamo rimborsato gli articoli resi.
+refund.moneyrefund=L''importo dovrebbe essere rimborsato entro i prossimi 5-10 giorni, a seconda del metodo di pagamento usato. Oppure, ti verrà inviata una gift card tramite email nel caso in cui l''ordine sia stato pagato con una gift card.
+refund.tips=Abbiamo stilato altri suggerimenti utili in merito ai Resi e ai Rimborsi che crediamo possano esserti di aiuto. Li puoi trovare nella nostra sezione Guida.
+refund.customerservice=Il nostro team al Servizio clienti (customerservice@bestseller.com) è sempre lieto di aiutarti a capire come funziona il nostro processo di rimborso.
+
+refund.servicefee=Commissione per la fattura
+refund.deliverycharge=Spese di spedizione
+refund.returnfee=Commissione per la restituzione
+refund.contact=Il nostro {0} è sempre a disposizione per rispondere a tutte le tue domande.
+refund.help=Abbiamo stilato altri suggerimenti utili in merito ai Resi e ai Rimborsi che crediamo possano esserti di aiuto. Li puoi trovare nella nostra {0}.
+refund.customermessage=Ci auguriamo di rivederti presto
+refund.helpsection=Sezione aiuto
+
+##############################################
+# Template name: mail/dispatchnotificationmail
+##############################################
+dispatch.subject=Abbiamo spedito il tuo ordine
+dispatch.tracking=Clicca sul numero di tracciamento qui sotto per seguire il tuo pacco. Questo link potrebbe impiegare tempo per attivarsi:
+dispatch.message=Il tuo ordine {0} è stato spedito
+dispatch.shipmessage=Ottime notizie, il tuo ordine {0} è in viaggio!
+dispatch.parcelshop=Se hai scelto {0} Parcel Shop, riceverai un''email o un SMS quando il pacco è pronto per il ritiro.
+dispatch.customerservice=Il nostro team al Servizio clienti (customerservice@bestseller.com) è sempre lieto di aiutarti.
+dispatch.shipmessagepartial=Il tuo ordine {0} è in viaggio
+dispatch.partial=Buone notizie! Alcuni degli straordinari articoli dell''ordine {0} sono ora in viaggio verso di te. Se mancano ancora alcuni articoli dal tuo ordine, non preoccuparti: ti manderemo presto un altro pacco.
+dispatch.messageheader=E ORA?
+dispatch.contactheader=HAI BISOGNO DI AIUTO?
+dispatch.contact=I nostri {0} sono sempre a disposizione per rispondere a tutte le tue domande.
+dispatch.customerserviceteam=team al servizio clienti
+dispatch.partialcancelledheader=Tuttavia, a causa della disponibilità corrente, non sarà possibile consegnare l'articolo o gli articoli indicati in grigio qui di seguito. Siamo spiacenti.
+dispatch.partialcancelled=Non preoccuparti, però. Ti rimborseremo {0} entro 3-5 giorni lavorativi.
+dispatch.partialcancelledsubject=Aggiornamento importante sul tuo ordine
+dispatch.partialcancelledextramessage=Ci auguriamo che tu possa trovare qualcos'altro di tuo gusto.
+dispatch.unavailable=Al momento non disponibile 
+
+##############################################
+# Template name: mail/ordercancellation
+##############################################
+cancellation.information=Ovviamente, non ti addebiteremo nulla. Nel frattempo, sul sito ci sono modelli nuovi tutte le settimane. Ci auguriamo che tu possa trovare qualcos''altro di tuo gusto.
+cancellation.customerservice=Il nostro team al Servizio Clienti (customerservice@bestseller.com) sarà lieto di spiegarti che cosa è successo.
+
+footer.companyname=BESTSELLER HANDELS B.V.
+footer.companydetails=Sint Jorissteeg 2, 1012 XV Paesi Bassi - VAT NL853685757B01 / 59896604
+footer.automatic=Nota: Questa è un''email generata automaticamente a cui non è possibile rispondere. Se hai bisogno di aiuto, visita la nostra {0}.
+footer.customerservicepage=pagina del servizio clienti
+
+##############################################
+# Template name: mail/employeestoreemail
+##############################################
+employee.welcome=Benvenuto al BESTSELLER Employee Shop.
+employee.clicklink=Clicca sul link sotto per confermare la tua registrazione ed accedere all''Employee Shop.
+employee.linkhours=Questo link sarà valido per 24 ore.
+employee.shopclosed=L''Employee Shop è chiuso nei seguenti orari:
+employee.shopmonthu=Da lunedì a giovedì - 8:30 - 16:30
+employee.shopfri=Venerdì - 8:30 - 14:00
+employee.cannotshop=Durante gli orari di chiusura non è possibile acquistare articoli sull''Employee Shop.
+employee.homeaddress=Gli articoli acquistati con lo sconto per il personale possono essere consegnati esclusivamente all''indirizzo di residenza.
+employee.chrome=L''employee shop è ottimizzato per Google Chrome. Se si verificano dei problemi su Internet Explorer, vi consigliamo di passare a Chrome.
+employee.contact=Per eventuali domande sull''ordine o sugli acquisti come dipendente in generale, il servizio assistenza clienti sarà lieto di aiutarti: customerservice@bestseller.com.
+employee.bestseller=BESTSELLER
+
+confirmation.messageheader=E ORA?
+confirmation.message=Non appena avremo preparato il tuo ordine, ti invieremo il numero di tracciamento via email.
+confirmation.contactheader=HAI BISOGNO DI AIUTO?
+confirmation.contact=Il nostro {0} è sempre a disposizione per rispondere a tutte le tue domande.
+confirmation.customerserviceteam=team al servizio clienti
+confirmation.thankyou=Grazie per aver effettuato l''ordine {0}
+confirmation.shippingestimate=Dovrebbe raggiungerti nei prossimi {0}
+confirmation.estimate.days=Dovrebbe raggiungerti nei prossimi {0}-{1} giorni lavorativi
+confirmation.multishipment=Riceverai il tuo ordine in più spedizioni
+
+##############################################
+# Template name: mail/notifyme
+##############################################
+notifyme.hello=Ciao,
+notifyme.backinstock=Buone notizie! L'articolo che ti piaceva tanto è di nuovo in assortimento!
+notifyme.incentive=Acquistalo ora finché è disponibile!
+notifyme.getitnow=Acquistalo ora
+notifyme.help=Hai bisogno di aiuto? Contatta il nostro {0}
+notifyme.customerserviceteam=team al servizio clienti
+feedback.message=Amiamo i nostri clienti tanto quanto amiamo il feedback. Visto che hai tanto stile, non vediamo l'ora di sapere cosa pensi che potrebbe aiutarci a migliorare il nostro.
+feedback.title=Com'è stata la tua esperienza di reso?
+feedback.emailsubject=Siamo stati all'altezza?
+
+﻿##############################################
+# Template name: error/generalerror
+##############################################
+generalerror.title=Che imbarazzo! C'è stato un errore. 
+generalerror.message=Stiamo cercando di risolverlo. Nel frattempo, perché non dai un'occhiata alle centinaia di nuovi modelli che arrivano sul nostro sito tutte le settimane? 
+generalerror.searchlabel=Cerca
+
+##############################################
+# Template name: error/siteoffline
+##############################################
+siteoffline.header=Il nostro sito è momentaneamente offline per manutenzione.
+siteoffline.message=Ti ringraziamo per la tua pazienza.
+
+##############################################
+# Template name: error/notfound
+##############################################
+notfound.pagenotfound.title=Che imbarazzo!
+notfound.pagenotfound.message=Non siamo riusciti a trovare la pagina richiesta. È possibile che l'URL sia cambiata o non esista più.
+notfound.pagenotfound.message.beforelink=Nel frattempo, perché non dai un'occhiata alle centinaia di nuovi modelli che arrivano sul nostro sito tutte le settimane?
+notfound.pagenotfound.message.link=HOME
+notfound.pagenotfound.suggestion=oppure dai un'occhiata ai nostri consigli qui sotto per vedere se c'è qualcosa che ti piace.
+
+##############################################
+# Template name: error/minicarterror
+##############################################
+minicarterror.message=Qualcosa non ha funzionato con il pop-up carrello...
+minicarterror.refresh=Prova a ricaricare la pagina.
+
+##############################################
+# Template name: error/internalservererror
+##############################################
+internalservererror.page.title=Error 500
+internalservererror.title=Errore interno
+internalservererror.message=Il server ha riscontrato un errore interno che ha impedito il completamento della richiesta.
+﻿##############################################
+# Directory: forms
+##############################################
+billing.email=Email:
+
+billingcoupon.couponenter=Codice promozionale:
+billingcoupon.applycoupon=Hai un codice promozionale?
+billingcoupon.couponexplanation=Se hai ricevuto un codice di offerta speciale o uno sconto, inserisci di seguito il codice unico.
+billingcoupon.couponinvalid=Codice promozionale non valido
+billingcoupon.couponused=Questo codice promozionale è stato già usato
+billingcoupon.couponexpired=Codice promozionale scaduto
+billingcoupon.couponalreadyapplied=Il coupon è già stato applicato
+billingcoupon.couponnotqualified=Questo coupon non dà diritto a uno sconto
+
+billinggiftcert.giftcertlabel=Numero di carta regalo:
+billinggiftcert.giftcertcvvlabel=Codice di controllo:
+billinggiftcert.giftcertinvalid=Numero di carta regalo non valido
+billinggiftcert.giftcertcvvinvalid=Codice di controllo non valido
+billinggiftcert.giftcertwrongcurrency=Il buono regalo può essere utilizzato solo su ordini piazzati nella stessa valuta del buono regalo.
+billinggiftcert.giftcertnofunds=Saldo del buono regalo non sufficiente
+
+competition.answer=Risposta
+
+country.the.unitedstates=Stati Uniti d'America
+country.unitedstates=Stati Uniti d'America
+country.denmark=Danimarca
+country.germany=Germania
+country.canada=Canada
+country.japan=Giappone
+country.france=Francia
+country.italy=Italia
+country.china=Cina
+country.unitedkingdom=Regno Unito
+
+country.at=Austria
+country.be=Belgio
+country.ca=Canada
+country.ch=Svizzera
+country.cn=Cina
+country.dk=Danimarca
+country.de=Germania
+country.es=Spagna
+country.fi=Finlandia
+country.fr=Francia
+country.gb=Regno Unito
+country.gr=Grecia
+country.ie=Irlanda
+country.it=Italia
+country.jp=Giappone
+country.nl=Paesi Bassi
+country.no=Norvegia
+country.se=Svezia
+country.uk=Regno Unito
+country.us=Stati Uniti d'America
+country.ad=Andorra
+country.au=Australia
+country.by=Bielorussia
+country.cz=Repubblica Ceca
+country.ee=Estonia
+country.fo=Isole Faroe
+country.hr=Croazia
+country.id=Indonesia
+country.in=India
+country.is=Islanda
+country.kr=Corea del Sud
+country.kz=Kazakhstan
+country.lt=Lituania
+country.lu=Lussemburgo
+country.lv=Lettonia
+country.ma=Marocco
+country.my=Malaysia
+country.ph=Filippine
+country.pl=Polonia
+country.pt=Portogallo
+country.ro=Romania
+country.ru=Russia
+country.sg=Singapore
+country.si=Slovenia
+country.th=Thailandia
+country.tr=Turchia
+country.uz=Uzbekistan
+country.za=Sudafrica
+country.rw=Nel mondo
+
+
+creditcard.visa=Visa
+creditcard.mastercard=Mastercard
+creditcard.amex=Amex
+creditcard.discover=Discover
+creditcard.savecard=Salva questa carta
+creditcard.type=Tipo
+creditcard.typemissing=Seleziona una carta
+creditcard.number=Numero
+creditcard.numberexample=Esempio: 4111111111111111
+creditcard.numberrangeerror=Il numero deve avere fra 13 e 16 cifre
+creditcard.numbermissingerror=Inserisci il numero così come compare sulla carta
+creditcard.numbervalueerror=Numero di carta di credito non valido
+creditcard.monthmissingerror=Seleziona il mese di scadenza
+creditcard.yearmissingerror=Seleziona l'anno di scadenza
+creditcard.yearvalueerror=La carta di credito è scaduta
+creditcard.ownerlabel=Nome sulla carta
+creditcard.ownermissingerror=Inserisci il nome così come compare sulla carta
+creditcard.cvnlabel=Codice di sicurezza
+creditcard.cvnmissingerror=Inserisci il codice di sicurezza
+creditcard.cvnrangeerror=Codice di sicurezza non valido
+
+day.001=01
+day.002=02
+day.003=03
+day.004=04
+day.005=05
+day.006=06
+day.007=07
+day.008=08
+day.009=09
+day.010=10
+day.011=11
+day.012=12
+day.013=13
+day.014=14
+day.015=15
+day.016=16
+day.017=17
+day.018=18
+day.019=19
+day.020=20
+day.021=21
+day.022=22
+day.023=23
+day.024=24
+day.025=25
+day.026=26
+day.027=27
+day.028=28
+day.029=29
+day.030=30
+day.031=31
+
+resource.firstname=Nome:
+resource.lastname=Cognome:
+resource.5_100characters=5-100 caratteri
+resource.6_255characters=6-255 caratteri
+resource.address=Indirizzo:
+resource.address1=Indirizzo 1:
+resource.housenumber=Numero civico:
+resource.extension=Interno:
+resource.address2=Informazioni di indirizzo aggiuntive:
+resource.addresserror=Inserisci le informazioni relative all'indirizzo
+resource.addtocart=Aggiungi al carrello
+resource.city=Città:
+resource.town=Città:
+resource.country=Paese:
+resource.day=Giorno
+resource.delete=Cancella
+resource.find=Trova
+resource.email=Email
+resource.employeeid=ID del dipendente
+resource.employeeiderror=La preghiamo di immettere un ID valido
+resource.errorzip=Inserisci il CAP
+resource.errorpostal=Inserisci il CAP
+resource.month=Mese
+resource.select=Seleziona...
+resource.send=Invia
+resource.shippingmethod=Metodo di spedizione
+resource.state=Stato
+resource.stateprovince=Stato/Provincia
+resource.province=Provincia
+resource.state.other=Altro
+resource.year=Anno
+resource.zippostalcode=CAP
+resource.zipcode=CAP:
+resource.postalcode=CAP
+resource.ssn=Numero di previdenza sociale:
+resource.bank=Bank:
+resource.bank.select=Select a Bank
+resource.birthdate=Data di nascita:
+
+label.username=Email:
+label.password=Password:
+label.newpassword=Nuova password
+
+login.rememberme=Ricordami
+
+login.username.missing-error=Inserisci il tuo indirizzo email
+login.password.missing-error=Inserisci la tua password
+
+month.january=Gennaio
+month.february=Febbraio
+month.march=Marzo
+month.april=Aprile
+month.may=Maggio
+month.june=Giugno
+month.july=Luglio
+month.august=Agosto
+month.september=Settembre
+month.october=Ottobre
+month.november=Novembre
+month.december=Dicembre
+
+state.us.alabama=Alabama
+state.us.alaska=Alaska
+state.us.americansamoa=Samoa Americane
+state.us.arizona=Arizona
+state.us.arkansas=Arkansas
+state.us.california=California
+state.us.colorado=Colorado
+state.us.connecticut=Connecticut
+state.us.delaware=Delaware
+state.us.dc=Distretto di Columbia
+state.us.florida=Florida
+state.us.georgia=Georgia
+state.us.guam=Guam
+state.us.hawaii=Hawaii
+state.us.idaho=Idaho
+state.us.illinois=Illinois
+state.us.indiana=Indiana
+state.us.iowa=Iowa
+state.us.kansas=Kansas
+state.us.kentucky=Kentucky
+state.us.louisiana=Louisiana
+state.us.maine=Maine
+state.us.maryland=Maryland
+state.us.massachusetts=Massachusetts
+state.us.michigan=Michigan
+state.us.minnesota=Minnesota
+state.us.mississippi=Mississippi
+state.us.missouri=Missouri
+state.us.montana=Montana
+state.us.nebraska=Nebraska
+state.us.nevada=Nevada
+state.us.newhampshire=New Hampshire
+state.us.newjersey=New Jersey
+state.us.newmexico=Nuovo Messico
+state.us.newyork=New York
+state.us.northcarolina=Carolina del Nord
+state.us.northdakota=Dakota del Nord
+state.us.ohio=Ohio
+state.us.oklahoma=Oklahoma
+state.us.oregon=Oregon
+state.us.pennsylvania=Pennsylvania
+state.us.puertorico=Porto Rico
+state.us.rhodeisland=Rhode Island
+state.us.southcarolina=Carolina del Sud
+state.us.southdakota=Dakota del Sud
+state.us.tennessee=Tennessee
+state.us.texas=Texas
+state.us.utah=Utah
+state.us.vermont=Vermont
+state.us.virginislands=Isole Vergini
+state.us.virginia=Virginia
+state.us.washington=Washington
+state.us.westvirginia=Virginia Occidentale
+state.us.wisconsin=Wisconsin
+state.us.wyoming=Wyoming
+state.us.armedforcesafrica=Forze armate Africa
+state.us.armedforcesamerica=Forze armate America (escl. Canada)
+state.us.armedforcescanada=Forze armate Canada
+state.us.armedforceseurope=Forze armate Europa
+state.us.armedforcesmiddleeast=Forze armate Medio Oriente
+state.us.armedforcespacific=Forze armate Pacifico
+state.us.other=Non-USA/Altro
+
+state.ca.alberta=Alberta
+state.ca.britishcolumbia=Columbia Britannica
+state.ca.manitoba=Manitoba
+state.ca.newbrunswick=Nuovo Brunswick
+state.ca.newfoundland=Terranova e Labrador
+state.ca.northwestterritories=Territori del Nord-Ovest
+state.ca.novascotia=Nuova Scozia
+state.ca.nunavut=Nunavut
+state.ca.ontario=Ontario
+state.ca.princeedwardisland=Isola del Principe Edoardo
+state.ca.quebec=Quebec
+state.ca.saskatchewan=Saskatchewan
+state.ca.yukon=Yukon
+
+year.2021=2021
+year.2020=2020
+year.2019=2019
+year.2018=2018
+year.2017=2017
+year.2016=2016
+year.2015=2015
+year.2014=2014
+year.2013=2013
+year.2012=2012
+year.2011=2011
+year.2010=2010
+year.2009=2009
+year.2008=2008
+year.2007=2007
+year.2006=2006
+year.2005=2005
+year.2004=2004
+year.2003=2003
+year.2002=2002
+year.2001=2001
+year.2000=2000
+year.1999=1999
+year.1998=1998
+year.1997=1997
+year.1996=1996
+year.1995=1995
+year.1994=1994
+year.1993=1993
+year.1992=1992
+year.1991=1991
+year.1990=1990
+year.1989=1989
+year.1988=1988
+year.1987=1987
+year.1986=1986
+year.1985=1985
+year.1984=1984
+year.1983=1983
+year.1982=1982
+year.1981=1981
+year.1980=1980
+year.1979=1979
+year.1978=1978
+year.1977=1977
+year.1976=1976
+year.1975=1975
+year.1974=1974
+year.1973=1973
+year.1972=1972
+year.1971=1971
+year.1970=1970
+year.1969=1969
+year.1968=1968
+year.1967=1967
+year.1966=1966
+year.1965=1965
+year.1964=1964
+year.1963=1963
+year.1962=1962
+year.1961=1961
+year.1960=1960
+year.1959=1959
+year.1958=1958
+year.1957=1957
+year.1956=1956
+year.1955=1955
+year.1954=1954
+year.1953=1953
+year.1952=1952
+year.1951=1951
+year.1950=1950
+year.1949=1949
+year.1948=1948
+year.1947=1947
+year.1946=1946
+year.1945=1945
+year.1944=1944
+year.1943=1943
+year.1942=1942
+year.1941=1941
+year.1940=1940
+year.1939=1939
+year.1938=1938
+year.1937=1937
+year.1936=1936
+year.1935=1935
+year.1934=1934
+year.1933=1933
+year.1932=1932
+year.1931=1931
+year.1930=1930
+
+##############################################
+# Template name: forms/bml
+##############################################
+bml.dayerror=Inserisci il giorno
+bml.montherror=Inserisci il mese
+bml.yearerror=Inserisci l'anno
+bml.valueerror=Inserisci dati validi
+bml.ssn=Ultime 4 cifre del tuo numero di previdenza sociale
+bml.ssnerror=Inserisci le ultime quattro cifre del tuo SSN.
+bml.ssninvalid=Il dato inserito non è valido.
+bml.terms=Ho letto e accetto i Termini e condizioni di cui sopra
+bml.termserror=Devi accettare i Termini e le Condizioni
+
+##############################################
+# Template name: forms/compare
+##############################################
+compare.category=Categoria
+
+##############################################
+# Template name: forms/customeraddress
+##############################################
+customeraddress.addressid.label=Nome dell'indirizzo
+customeraddress.addressid.value-error=Stai già utilizzando questo nome dell'indirizzo
+customeraddress.addressid.missing-error=Inserisci un nome dell'indirizzo
+customeraddress.firstname.missing-error=Inserisci un nome
+customeraddress.lastname.missing-error=Inserisci un cognome
+customeraddress.address1.description=Via, Casella postale
+customeraddress.address2.description=Appartamento, Interno, Unità, Piano
+customeraddress.country.missing-error=Seleziona un paese
+customeraddress.city.missing-error=Seleziona una città
+
+
+##############################################
+# Template name: forms/giftcert
+##############################################
+giftcert.purchase.from.label=Il tuo nome
+giftcert.purchase.from.missing-error=Inserisci il tuo nome.
+giftcert.purchase.recipient.label=Nome dell'amico
+giftcert.purchase.recipient.missing-error=Inserisci il nome del tuo amico.
+giftcert.purchase.recipientemail.label=Indirizzo email dell'amico
+giftcert.purchase.recipientemail.parse-error=L'indirizzo email non è valido.
+giftcert.purchase.recipientemail.missing-error=Inserisci l'indirizzo email del tuo amico.
+giftcert.purchase.recipientemail.value-error=Inserisci l'indirizzo email del tuo amico.
+giftcert.purchase.confirmrecipientemail.label=Conferma l'indirizzo email dell'amico
+giftcert.confirmrecipientemailparseerror=L'indirizzo email non è valido.
+giftcert.confirmrecipientemailmissingerror=Conferma l'indirizzo email del tuo amico.
+giftcert.confirmrecipientemailvalueerror=L'indirizzo email non corrisponde a quello del tuo amico.
+giftcert.balance.giftcertid.missing-error=Inserisci un buono regalo valido.
+giftcert.messagelabel=Messaggio
+giftcert.purchasemessagedescription=
+giftcert.amountlabel=Importo
+giftcert.amountdescription=
+giftcert.amountparseerror=Il buono regalo può essere acquistato solo con un minimo di 5 e un massimo di 5000
+giftcert.amountmissingerror=Il buono regalo può essere acquistato solo con un minimo di 5 e un massimo di 5000
+giftcert.amountvalueerror=Il buono regalo può essere acquistato solo con un minimo di 5 e un massimo di 5000
+
+
+##############################################
+# Template name: forms/paymentinstruments
+##############################################
+paymentinstruments.removecc=Rimuovi la carta di credito
+
+##############################################
+# Template name: forms/profile
+##############################################
+profile.title=Titolo:
+profile.firstname=Nome:
+profile.lastname=Cognome:
+profile.email=Email:
+profile.confirmemail=Conferma l'email
+profile.dob=Data di nascita
+profile.dobexample=Esempio: 03/28/1968
+profile.phoneprefix=Numero di cellulare:
+profile.phoneprefix.label=Prefisso telefonico:
+profile.phone.label=Numero di cellulare:
+profile.phoneexample=Formato 333-333-3333
+profile.usernametaken=Nome utente già in uso.
+profile.passwordconfirm=Conferma la password
+profile.passwordnomatch=La password non corrisponde
+profile.newpassword=Nuova password:
+profile.newpasswordconfirm=Conferma la nuova password:
+profile.passworderror=La password deve contenere tra gli 6 e i 255 caratteri.
+profile.accountquestion=Domanda di sicurezza
+profile.question1=Cognome da nubile della madre
+profile.question2=Marca della prima automobile
+profile.question3=Nome dell'animale domestico preferito
+profile.question4=Nome del padre
+profile.question5=Luogo di nascita
+profile.accountanswer=Risposta di sicurezza
+profile.addemailtolist=Aggiungimi alla lista e-mail di Demandware.
+profile.remember=Ricordami
+profile.usernameerror=Lo username deve contenere fra 5 e 100 caratteri e può essere composto solo di lettere, numeri, spazi, punti, trattini, tratti bassi e @.
+
+##############################################
+# Template name: forms/storelocator
+##############################################
+storelocator.distancelabel=Raggio
+storelocator.distanceoption1=15 miglia
+storelocator.distanceoption2=30 miglia
+storelocator.distanceoption3=100 miglia
+storelocator.distanceoption4=300 miglia
+storelocator.distanceoption5=USA
+storelocator.statelabel=Stato/Provincia:
+storelocator.ziperror=Il formato del CAP non è valido.
+
+productlist.public=Pubblico
+productlist.eventmonth=Mese dell'evento
+productlist.eventyear=Anno dell'evento
+productlist.eventyearerror=Se selezioni un mese, devi selezionare anche un anno
+productlist.setpublic=Rendi pubblico
+productlist.setprivate=Rendi privato
+productlist.priority0=Nessuno
+productlist.priority1=Massimo
+productlist.priority2=Alto
+productlist.priority3=Medio
+productlist.priority4=Basso
+productlist.priority5=Minimo
+
+##############################################
+# Template name: forms/wishlist
+##############################################
+wishlist.lname=Cognome
+wishlist.fname=Nome
+wishlist.sendto.email=Invia agli indirizzi email
+wishlist.check.emailaddress=Controlla il tuo indirizzo email in Il tuo account – Informazioni personali.
+wishlist.enter.validemail=Inserisci indirizzi email validi.
+wishlist.title=Titolo
+wishlist.price.lth=Prezzo (da basso ad alto)
+wishlist.price.htl=Prezzo (da alto a basso)
+wishlist.dateadded=Data di inserimento
+wishlist.lastupdated=Ultimo aggiornamento
+wishlist.sortby=Filtra per
+wishlist.validemail=Inserisci indirizzi email validi (separati da "," o ";").
+wishlist.search.lastnamereqiured=Devi indicare un cognome.
+wishlist.quantitydesired=Quantità desiderata
+wishlist.priority=Priorità
+wishlist.makepublic=Rendi questo articolo pubblico
+
+##############################################
+# Form name: forms/giftregistry.xml
+##############################################
+giftregistry.wedding=Matrimonio
+giftregistry.weddingshower=Wedding Shower
+giftregistry.babyshower=Baby Shower
+giftregistry.other=Altro
+giftregistry.bride=Sposa
+giftregistry.groom=Sposo
+giftregistry.addgiftcertificate=Aggiungi un buono regalo
+giftregistry.editevent=Modifica l'evento
+giftregistry.editshipaddress=Aggiungi gli indirizzi di spedizione
+giftregistry.showpurchase=Mostra gli acquisti
+giftregistry.eventtype=Tipo di evento
+giftregistry.eventtype.missing-error=Seleziona un tipo di evento.
+giftregistry.eventname=Nome dell'evento
+giftregistry.eventname.missing-error=Inserisci un nome per questo evento.
+giftregistry.eventdate=Data dell'evento
+giftregistry.eventdate.description=Esempio: aaaa-MM-gg
+giftregistry.eventdate.missing-error=Inserisci la data dell'evento nel formato aaaa-MM-gg.
+giftregistry.eventdate.parse-error=Inserisci una data dell'evento valida nel formato aaaa-MM-gg.
+giftregistry.eventcity=Città dell'evento
+giftregistry.eventcity.missing-error=Inserisci la città dell'evento.
+giftregistry.eventstate=Stato dell'evento
+giftregistry.eventcountry=Paese dell'evento
+giftregistry.registrantrole=Ruolo
+giftregistry.registrantrole.missing-error=Seleziona un ruolo.
+giftregistry.registrantfirstname=Nome
+giftregistry.registrantfirstname.missing-error=Inserisci il nome del festeggiato.
+giftregistry.registrantfirstname.parse-error=Inserisci un nome valido.
+giftregistry.registrantlastname=Cognome
+giftregistry.registrantlastname.missing-error=Inserisci il cognome del festeggiato.
+giftregistry.registrantlastname.parse-error=Inserisci un cognome valido.
+giftregistry.registrantemail.missing-error=Inserisci l'indirizzo email del festeggiato.
+giftregistry.registrantemail.parse-error=Inserisci un indirizzo email valido.
+giftregistry.addresssource.addressbook=Usa un indirizzo dalla rubrica
+giftregistry.addresssource.new=Crea un nuovo indirizzo
+giftregistry.addresssource.asbefore=Stesso indirizzo dell'evento precedente
+giftregistry.items.quantity=Quantità desiderata
+giftregistry.items.quantity.missing-error=Inserisci una quantità.
+giftregistry.items.quantity.parse-error=Inserisci una quantità valida.
+giftregistry.items.quantity.value-error=Inserisci una quantità valida.
+giftregistry.items.priority=Priorità
+giftregistry.items.priority.missing-error=Inserisci una priorità.
+giftregistry.items.update=Aggiorna
+giftregistry.items.makepublic=Rendi questo articolo pubblico
+giftregistry.items.remove=Rimuovi
+giftregistry.send.label=Invia agli indirizzi email
+giftregistry.send.check=Controlla il tuo indirizzo email in Il tuo account – Informazioni personali.
+giftregistry.send.invalid=Inserisci indirizzi email validi.
+giftregistry.send.format=Inserisci indirizzi email validi (separati da "," o ";").
+giftregistry.addtoaddressbook=Aggiungi alla rubrica
+giftregistry.copyaddress=Utilizza questo indirizzo per la spedizione post-evento
+
+##############################################
+# Form name: forms/ordertrack.xml
+##############################################
+ordertrack.ordernumber=Numero dell'ordine:
+ordertrack.ordernumber.missing-error=Inserisci un numero dell'ordine.
+ordertrack.orderemail=Email dell'ordine:
+ordertrack.orderemail.missing-error=Inserisci l'indirizzo email utilizzato per questo ordine.
+ordertrack.postalcode=CAP per la fatturazione
+
+# error messages for address capturing
+address.invalid=Alcune informazioni di seguito sono incomplete o devono essere corrette
+address.field.invalid=Inserisci un valore valido
+address.firstname.missing=Inserisci un nome
+address.lastname.missing=Inserisci un cognome
+address.country.missing=Seleziona un paese
+address.state.missing=Seleziona uno stato
+address.city.missing=Seleziona una città
+address.phone.missing=Inserisci un numero di telefono
+address.phone.example=Esempio: 333-333-3333
+address.email.invalid=Inserisci un indirizzo email valido
+address.postalcode.example=Esempio: 12345 o 12345-1234
+
+address.list.select=Seleziona dagli indirizzi salvati
+# {0} = Address1, {1} = city, {2} = state Code, {3} = postal code
+address.saved.dropdown.format={0} {1} {2} {3}
+
+# labels for address options
+checkout.addtoaddressbook=Aggiungi alla rubrica
+checkout.useasbillingaddress=Quest è anche il mio indirizzo di fatturazione
+checkout.addtoemaillist=Certo, voglio essere registrato per ricevere notizie ed offerte esclusive. Accetto i
+checkout.addtoemaillistterms=Termini e condizioni della newsletter
+
+# labels for shipment settings in checkout
+checkout.shipment.isgift=È un regalo?
+checkout.shipment.yes=Sì
+checkout.shipment.no=No
+checkout.shipment.giftmessage=Messaggio
+
+# descriptions for tooltip in checkout
+checkout.phone.description=I nostri corrieri hanno bisogno del tuo numero di telefono in caso ci siano problemi nella consegna del tuo pacco. Il tuo numero di telefono non verrà mai condiviso con terze parti o utilizzato a scopi di marketing.
+checkout.email.description=Utilizziamo il tuo indirizzo email solo per tenerti aggiornato sul progresso del tuo ordine. Se vuoi aderire al nostro club clienti, ricorda di cliccare la casella in cui esprimi il tuo consenso di seguito o alla fine del processo di pagamento.
+
+# labels for slot content
+subscribe.email.default=Indirizzo email
+
+# general
+character.limit=Ti sono rimasti {0} caratteri su {1}
+confirm.delete=Vuoi rimuovere questo {0}?
+title.giftregistry=lista regalo
+title.address=indirizzo
+title.creditcard=carta di credito
+global.optional=(opzionale)
+
+##############################################
+# Form name: forms/multishipping.xml
+##############################################
+multishipping.editaddress.select.newaddress=Aggiungi un nuovo indirizzo
+store.storemessage=Conserva il messaggio
+shipping.errorclickcollect=Questo negozio non accetta ordini per acquisti “clicca e ritira” Prova un altro negozio o un altro metodo di consegna.
+shipping.errorparcelshop=Questo negozio non accetta ordini per acquisti presso punti di consegna al momento. Prova un altro negozio o un altro metodo di consegna.
+
+##############################################
+# Validation messages
+##############################################
+validate.required=Questo campo è obbligatorio.
+validate.remote=Correggi questo campo.
+validate.email=Inserisci un indirizzo email valido.
+validate.url=Inserisci un'URL valido.
+validate.date=Inserisci una data valida.
+validate.dateiso=Inserisci una data valida (ISO).
+validate.number=Inserisci un numero valido.
+validate.digits=Inserisci solo cifre.
+validate.creditcard=Inserisci un numero di carta di credito valido.
+validate.equalto=Inserisci nuovamente lo stesso valore.
+validate.maxlength=Inserisci non più di {0} caratteri.
+validate.minlength=Inserisci almeno {0} caratteri.
+validate.rangelength=Inserisci un valore fra {0} e {1} caratteri.
+validate.range=Inserisci un valore fra {0} e {1}.
+validate.max=Inserisci un valore inferiore o pari a {0}.
+validate.min=Inserisci un valore maggiore o pari a {0}.
+validate.autocomplete=Selezionarne una dalla lista.
+
+﻿##############################################
+# Global Resources
+##############################################
+global.add=Aggiungi
+global.addtocart=Aggiungi al carrello
+global.addalltocart=Aggiungi tutti al carrello
+global.addresses=Indirizzi
+global.addtowishlist=Aggiungi alla Wish List
+global.addtowishlist.label=Aggiungi questo prodotto alla Wish List
+global.addthisitemtowishlist.title=Aggiungi questo articolo alla Wish List
+global.addtogiftregistry=Aggiungi alla lista regalo
+global.addtogiftregistry.label=Aggiungi questo prodotto alla lista regalo
+global.amount=Importo
+global.apply=Procedi
+global.applied=Applicato
+global.filter.apply=Applica
+global.availability=Disponibilità
+global.back=Indietro
+global.bonus=Omaggio
+global.bonusitem=Articolo in omaggio
+global.brandlabel=Marchio:
+global.cancel=Annulla
+global.categoryrefinement.label=Vai alla categoria: {0}
+global.checkout=Paga
+global.checkbalance=Controlla il saldo
+global.close=Chiudi
+global.continue=Continua
+global.continuecheckout=Continua con il pagamento
+global.continuecheckoutbrief=Avanti
+global.continueshopping=Continua lo shopping
+global.couldntloadaddress=Non è stato possibile caricare l'indirizzo
+global.createbutton=Crea un account
+global.createnowbutton=Crea un account
+global.creditcard.expirydate.separator={0}.{1}
+global.delete=Cancella
+global.description=Descrizione
+global.details=Informazioni
+global.edit=Modifica
+global.editaaddress=Modifica indirizzo
+global.editdetails=Modifica informazioni
+global.email=Email
+global.error=Errore
+global.find=Trova
+global.firstname=Nome
+global.folderrefinement.label.prefix=Vai alla pagina:
+global.free=Gratis
+global.from=Da
+global.go=Vai
+global.gonext=Vai alla prossima pagina
+global.goprevious=Vai alla pagina precedente
+global.goto.label=Vai a: {0}
+global.giftcertificate=Buono regalo
+global.giftcertificates=Buoni regalo
+global.home=Home
+global.i_agree=Accetto
+global.included=Incluso
+global.itemno=Articolo n.
+global.item=Articolo
+global.items=Articoli
+global.lastname=Cognome
+global.loading=Caricamento in corso. Ti preghiamo di attendere.
+global.login=Effettua il login
+global.logout=Effettua il logout
+global.more=Altro
+global.seeall=Vedi tutti
+global.seemore=vedi di più
+global.seeless=vedi di meno
+global.na=N/A
+global.name=Nome
+global.next=Avanti
+global.no=No
+global.noimageavailable=Nessuna immagine disponibile
+global.notapplied=Non applicato
+global.or=oppure
+global.qty=Q.tà
+global.quantity=Quantità
+global.update=Aggiorna
+global.updatecart=Aggiorna il carrello
+global.orders=Ordini
+global.ordertotal=Totale dell'ordine:
+global.estimatedtotal=Totale stimato
+global.password=Password
+global.preview=Anteprima
+global.previous.abbr=Prec.
+global.previous=Precedente
+global.price=Prezzo
+global.pricerefinement.label.prefix=Filtra per prezzo:
+global.print=Stampa
+global.privacypolicy=Termini e condizioni
+global.registration.privacypolicy=le Linee guida sulla privacy di BESTSELLER
+global.product=Prodotto
+global.profile=Profilo
+global.readreviews=Leggi le recensioni
+global.refinement.label=Filtra per {0}: {1}
+global.refinement.selected.label=Al momento filtrato per {0}: {1}
+global.refinement.unselectable.label={0} {1} non è selezionabile
+global.register=Registra
+global.remove=Rimuovi
+global.requiredfield=richiesto
+global.save=Salva
+global.search=Cerca
+global.searchcatalog=Cerca nel catalogo
+global.secondarynavheading=Navigazione secondaria
+global.select=Seleziona
+global.select.colorpattern=Seleziona il colore
+global.select.size=Seleziona la taglia
+global.select.length=Seleziona la lunghezza
+global.select.amount=Seleziona importo
+global.send=Invia
+global.serverconnection=Connessione al server fallita.
+global.showall=Mostra tutti
+global.submit=Continua
+global.submitorder=Procedi al pagamento
+global.to=A
+global.totalprice=Totale
+global.user= Utente
+global.user.name={0} {1}
+global.view=Visualizza
+global.welcome=Benvenuto
+global.writeareview=Scrivi una recensione
+global.yes=Sì
+global.missingval=Inserisci {0}
+global.servererror=Connessione al server fallita.
+global.missinglib=jQuery non definita.
+global.badresponse=Risposta non valida, errore del parser.
+global.invalidphone=Inserisci un numero di telefono valido.
+global.invalidname=Questo campo contiene caratteri non validi
+global.nothanks=No, grazie
+global.share=Condividi
+global.symbol.dash= -
+global.shop=Acquista
+global.paymentsettings=Impostazioni di pagamento
+global.customerservice=Hai bisogno di aiuto?
+global.event.location={0}, {1}
+global.cookiepolicy=Utilizziamo cookie, compresi cookie di terze parti, per le funzionalità, l'analisi e il marketing del sito. Se continui a visitare il nostro sito, accetti il nostro utilizzo dei cookie. Puoi sempre ritirare il tuo consenso disattivando i cookie nel tuo browser. Puoi trovare maggiori informazioni sui nostri cookie e su come disattivare i cookie
+global.cookiecta=nella Policy sui cookie
+global.cookieappendix=.
+global.oldbrowsers.message=Il nostro sito non è stato in grado di identificare il tuo browser. Per la migliore esperienza di shopping possibile, potresti dover aggiornare il browser o passare a uno diverso.
+global.oldbrowsers.action=Clicca qui per trovare la versione più recente del tuo browser.
+global.oldbrowsers.location=http://outdatedbrowser.com/
+global.status=Stato
+refinement.isnew.true=Nuovo arrivo
+
+global.mr.=Sig.
+global.mrs.=Sig.ra
+
+#########################
+# properties used for jack & jones sub brands in Customer Club signup
+#########################
+global.jj=JACK & JONES
+global.jx=JJXX
+global.junior=JUNIOR
+global.plus=PLUS SIZE
+
+#########################
+# properties used for Vero Moda sub brands in Customer Club signup
+#########################
+global.vm=VERO MODA
+global.curve=VMCurve
+global.maternity=VERO MODA MATERNITY
+global.aware=AWARE by VERO MODA
+
+##############################################
+# Include Resources
+##############################################
+globalaccount.createheader=Non hai un account?
+globalaccount.createmessage=Per cominciare a usufruire di offerte esclusive e vantaggi associati a un account personale, completa il modulo seguente.
+
+global.returnhome=Torna alla home page
+global.selectaddressmessage=Seleziona un indirizzo
+global.selectaddress=Seleziona dagli indirizzi salvati
+global.nosavedaddress=Al momento, non ci sono indirizzi salvati
+global.deliveredviaemail=- Consegna tramite email
+global.accountbreadcrumb=Account
+
+global.accountlink=Il mio account
+global.helplink=Domande?
+global.storelocatorlink=Trova uno store
+global.aboutuslink=A proposito
+global.languagecountrylink=Lingua e paese
+
+global.buyall=Acquista tutti o uno solo
+global.nocontent=La pagina non presenta alcun contenuto.
+
+global.storename=Bestseller
+global.storeaddress=Fredskovvej
+global.storecitystate=Brande, DK-7330
+global.storephone=Telefono: +1.888.553.XXXX
+global.storenameurl=demandware.com
+
+global.email.policy=Creando un account, acconsento al trattamento dei miei dati personali in conformità con
+
+global.quantityinstock={0} Articoli in assortimento
+global.instock=In assortimento
+global.quantitypreorder={0} articoli sono disponibili per il pre-ordine.
+global.allpreorder=Pre-ordine
+global.remainingpreorder=Gli altri articoli sono disponibili per il pre-ordine.
+global.quantitybackorder=Ordina al riassortimento {0} articoli
+global.allbackorder=Ordina al riassortimento
+global.remainingbackorder=Gli altri articoli sono disponibili per l'ordine al riassortimento.
+global.allnotavailable=Questo articolo non è disponibile al momento.
+global.remainingnotavailable=Gli altri articoli non sono disponibili al momento. Modifica la quantità.
+global.instockdate=La data prevista di disponibilità in assortimento è {0}.
+global.nonselected=Non selezionato
+global.iteminwishlist=Questo articolo è stato aggiunto alla tua Wish List.
+
+global.homepage.tooltip={0} {1}
+
+##############################################
+# properties used across many pages
+##############################################
+global.error_forbidden.redirect=Reindirizza
+global.redirect.title=Vai a
+
+global.redirect_error.title=Che imbarazzo, non siamo riusciti a trovare la pagina richiesta
+global.redirect_error.message=È possibile che l'URL sia cambiato o che non esista più Perché non dai un'occhiata alle centinaia di nuovi modelli che arrivano
+global.redirect_error.home=sul nostro sito tutte le settimane?
+
+global.site.name=SiteGenesis
+
+global.carousel.featuredproducts=Prodotti in evidenza
+
+
+##############################################
+# Template name: pagecomponents/breadcrumbs
+##############################################
+global.breadcrumbs.home=Home
+global.breadcrumbs.refinements.valuedevider=,
+global.breadcrumbs.label.prefix=Vai a
+
+##############################################
+# Template name: pagecomponents/paginginformation
+##############################################
+global.paginginformation.sortby=Ordina per
+global.paginginformation.undefined=Ordina per:
+global.paginginformation.showing=Visualizzazione
+global.paginginformation.viewallx=Visualizza tutti ({0})
+global.paginginformation.current.label=Al momento a pagina: {0}
+global.paginginformation.goto.label=Vai alla pagina numero: {0}
+global.paginginformation.first=Prima pagina
+global.paginginformation.first.label=Vai alla prima pagina
+global.paginginformation.last=Ultima pagina
+global.paginginformation.last.label=Vai all'ultima pagina
+global.paginginformation.next=Prossima pagina
+global.paginginformation.next.label=Vai alla prossima pagina
+global.paginginformation.page=Pagina
+global.paginginformation.previous=Pagina precedente
+global.paginginformation.previous.label=Vai alla pagina precedente
+global.paginginformation.of=di
+
+##############################################
+# ISML Directory: components/
+##############################################
+global.browsertoolscheck.javascript=Che imbarazzo! La tua funzionalità Javascript è disattivata. Per sperimentare tutte le potenzialità del nostro sito, attivala.
+global.browsertoolscheck.cookies=Il tuo browser Web non è impostato in modo da accettare cookie. Regola le impostazioni o controlla se c'è un altro programma che li sta bloccando
+
+
+##############################################
+# ISML Directory: components/header
+##############################################
+global.headercustomerinfo.currency=Valuta
+global.headercustomerinfo.not=Non
+
+global.header.wishlistlink=Wish List
+global.header.registrylink=Lista regalo
+global.header.storelocator=Store
+global.header.storelocator.label=Trova gli store
+
+global.link.orders=Controlla l'ordine
+
+##############################################
+# ISML Directory: components/header/countryselector
+##############################################
+global.continent.northamerica=Nord America
+global.continent.asia=Asia
+global.continent.europe=Europa
+
+##############################################
+# ISML Directory: components/socialsharing
+##############################################
+global.socialshare.facebook=Facebook
+global.socialshare.twitter=Twitter
+global.socialshare.googleplus=Google Plus
+global.socialshare.pinterest=Pinterest
+global.socialshare.email=Email
+global.socialshare.link=Condividi il link
+
+global.socialshare.facebook.label=Condividi su Facebook
+global.socialshare.twitter.label=Condividi su Twitter
+global.socialshare.googleplus.label=Condividi su Google+
+global.socialshare.pinterest.label=Condividi su Pinterest
+global.socialshare.email.label=Condividi tramite email
+global.socialshare.link.label=Ottieni la condivisione del link
+
+##############################################
+# properties used across customer club popup and signup
+##############################################
+global.customer.club.terms=Con l'adesione al nostro Customer Club, accetti i <a target='_blank' href="https://support.bestseller.com/hc/it/articles/360013563098-Termini-e-le-condizioni-del-Customer-Club" title="Terms of use">Termini e le Condizioni e l'Informativa sulla Privacy</a> e acconsenti a ricevere dalle Aziende (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) materiale promozionale tramite e-mail, SMS, MMS, posta ordinaria e social media, cfr. <a target='_blank' href="https://support.bestseller.com/hc/it/articles/360014475977-Customer-Club-consenso" title="Consent use">testo del consenso</a>. Puoi ritirare il tuo consenso in qualsiasi momento.
+global.customer.club.terms.bi=Con l'adesione al nostro Customer Club, accetti i <a target='_blank' href="https://support.bestseller.com/hc/it/articles/360013884898" title="Terms of use">Termini e le Condizioni e l'Informativa sulla Privacy</a> e acconsenti a ricevere dalle Aziende (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) materiale promozionale tramite e-mail, SMS, MMS, posta ordinaria e social media, cfr. <a target='_blank' href="https://support.bestseller.com/hc/it/articles/360014475977-Customer-Club-consenso" title="Consent use">testo del consenso</a>. Puoi ritirare il tuo consenso in qualsiasi momento.
+
+##############################################
+# properties used in smart app banner smartappbanner.isml
+##############################################
+global.smartappbanner.view=VISUALIZZA
+global.smartappbanner.subtext=Gratis – Su Google Play
+
+##############################################
+# global properties for colors
+##############################################
+global.black=Nero
+global.beige=Beige
+global.blue=Blu
+global.purple=Viola
+global.red=Rosso
+global.brown=Marrone
+global.green=Verde
+global.grey=Grigio
+global.pink=Rosa
+global.orange=Arancione
+global.white=Bianco
+global.yellow=Giallo
+global.gold=Dorato
+
+global.buynow=Acquista ora, paga in seguito
+
+global.mobile=Numero di telefono cellulare
+global.mobileplaceholder=Inserisci il tuo numero (opzionale)
+
+global.birthdate=Qual è la tua data di nascita?
+global.day=Giorno
+global.month=Mese
+global.year=Anno
+
+global.newslettercategories=Voglio ricevere notizie per
+global.kids=Bambini
+global.women=Donna
+global.men=Uomo
+global.woman.posh=DONNA ELEGANTE
+global.woman.cool.fashionista=DONNA COOL FASHIONISTA
+global.woman.everyday=DONNA QUOTIDIANA
+global.woman.feminine.classic=DONNA FEMMINILE CLASSICA
+global.woman.feminine.outdoor=DONNA FEMMINILE ALL'APERTO
+global.man.cool=UOMO COOL
+global.man.casual=UOMO CASUAL
+global.man.business=UOMO BUSINESS
+
+global.error_forbidden.hijacked=Che imbarazzo.
+global.error_forbidden.message=C'è un problema nel sito.
+global.error_forbidden.home=Torna alla home page e continua a fare shopping.
+
+global.shoponline=Compra online
+global.days=giorni
+global.abbreviation.hour=h.
+
+##############################################
+# global properties for date / time
+##############################################
+global.datetime.hours=ore
+global.datetime.minutes=minuti
+global.datetime.seconds=secondi
+
+﻿##############################################
+# Resource bundle: order
+##############################################
+
+##############################################
+# Template name: order/orderconfirmation-email
+##############################################
+order.orderconfirmation-email.jumptostore=Vai al nostro store
+order.orderconfirmation-email.001=Conferma del tuo ordine
+order.orderconfirmation-email.confirmnumber=Numero di conferma dell'ordine:
+order.orderconfirmation-email.thankyou=Ti ringraziamo per il tuo ordine.
+order.orderconfirmation-email.storeaddress=5 Wall Street
+order.orderconfirmation-email.storelocation=Burlington, MA 01803
+order.orderconfirmation-email.storephone=Telefono: +1.888.553.XXXX
+order.orderconfirmation-email.print=Stampa e salva una copia come tuo riferimento.
+order.orderconfirmation-email.thankyouus=Ti ringraziamo per l'acquisto effettuato.
+order.orderconfirmation-email.pleasenote=NOTA:
+order.orderconfirmation-email.note=Poiché cominciamo a elaborare il tuo ordine poco dopo averlo ricevuto sul nostro sito, nel caso in cui siano necessarie delle modifiche DEVI contattarci SOLO tramite TELEFONO al numero 
+order.orderconfirmation-email.phone=+1.888.553.XXXX
+order.orderconfirmation-email.shipmentnumber=Spedizione n.
+
+##############################################
+# Template name: order/ordercancellation-email
+##############################################
+order.ordercancellation-email.001=Annullamento del tuo ordine {0}
+order.ordercancellation-email.message=Il tuo ordine {0} è stato annullato{1}.
+order.ordercancellation-email.cancelmessage=Il tuo ordine {0} è stato annullato.
+order.ordercancellation-email.generic=a causa di un imprevisto
+order.ordercancellation-email.fraud=poiché non siamo stati in grado di verificare il destinatario
+order.ordercancellation-email.bankissue=in quanto la tua banca non ha autorizzato il pagamento
+order.ordercancellation-email.requested=, contattaci per ulteriori informazioni
+order.ordercancellation-email.outofstock=poiché l'articolo non era disponibile
+order.ordercancellation-email.statuscancelled=annullato
+
+##############################################
+# ISML Directory: components/order/
+##############################################
+order.orderdetails.paymentinfo=Informazioni sul pagamento
+order.orderdetails.billingaddress=Indirizzo di fatturazione
+order.orderdetails.paymentmethod=Metodo di pagamento
+order.orderdetails.paymentmethods=Metodi di pagamento
+order.orderdetails.paymenttotal=Totale del pagamento
+order.orderdetails.shippingmethod=Metodo di consegna:
+order.orderdetails.total=Totale
+order.orderdetails.shippingtitle=Indirizzo di consegna:
+order.orderdetails.billingtitle=Indirizzo di fatturazione:
+order.orderdetails.shippingstatus=Stato dell'ordine:
+order.orderdetails.shippingto=Da inviare a
+order.orderdetails.notshipped=Non inviato
+order.orderdetails.shipped=Inviato
+order.orderdetails.notknown=Sconosciuto
+order.orderdetails.tracking=Numero di tracciamento:
+order.orderdetails.orderplaced=Ordine piazzato il:
+order.orderdetails.ordernumber=ID dell'ordine:
+order.orderdetails.giftcertto=A:
+order.orderdetails.giftcertfrom=Da:
+order.orderdetails.giftmessage=Messaggio del regalo:
+order.orderdetails.giftcertshippingaddress=Inviato a:
+order.orderdetails.giftcertshipping=Consegna tramite email
+order.orderdetails.orderinformation=Informazioni sull'ordine
+
+order.ordersummary.ordersubtotal=Subtotale dell'ordine
+order.ordersummary.subtotal=Subtotale
+order.ordersummary.subtotalitems=Subtotale ({0}):
+
+order.ordersummary.orderdiscount=Sconto dell'ordine
+order.ordersummary.ordershipping=Spedizione
+order.ordersummary.ordershipping.edit=Opzioni di consegna disponibili al pagamento
+order.ordersummary.ordershippingdiscount=Sconto sulla spedizione
+order.ordersummary.ordertax=Tasse di vendita
+order.ordersummary.nodata=N/A
+order.ordersummary.shipping=Opzioni di consegna disponibili al pagamento
+order.ordersummary.addedtobag=aggiunto al tuo carrello.
+order.ordersummary.noshippingmethodselected=Nessun metodo di spedizione selezionato
+
+order.orderdetails.billedto=Fatturato a:
+
+order.orderconfirmation-giftcard.subject=Il tuo Buono regalo
+order.orderconfirmation-giftcard.body=Ecco il Buono regalo ordinato di recente. Basta solo stampare il PDF che abbiamo allegato all'email
+order.orderfeedback.feedbacktitle=Com'è stata la tua esperienza di acquisto?
+order.orderfeedback.feedbackmessage=Il tuo feedback ci aiuta a migliorare.
+
+﻿##############################################
+# ISML Directory: product/
+##############################################
+
+
+product.breadcrumb.leftintrotext=&laquo; Torna a
+
+product.label=Vai al prodotto: {0}
+product.articlenumber=Numero dell'articolo
+product.viewdetails=Visualizza tutte le informazioni
+product.tab.description=Descrizione
+product.tab.details=Informazioni sul prodotto
+product.tab.attributes=Attributi
+product.tab.reviews=Recensioni
+product.missingval=Seleziona {0}
+product.promotiondetails=Informazioni
+product.selectbonusproducts=Seleziona i prodotti in omaggio
+product.bonusproducts=Prodotti in omaggio
+product.bonusproduct=Prodotto in omaggio
+product.bonusproductsmax=Hai selezionato il numero massimo di prodotti in omaggio.  Rimuovine uno per aggiungere altri prodotti in omaggio.
+product.bonusproductstoomany=Hai selezionato troppi prodotti in omaggio. Modifica la quantità.
+product.bonusproductalert=Il tuo ordine è risultato idoneo per un omaggio.
+product.attributedivider=e
+product.variationnotavailable={0} {1} non è disponibile per questa combinazione
+product.instorestock=Disponibile per il ritiro
+product.selectforstock=Seleziona i modelli per disponibilità
+product.webstock=Disponibile per la spedizione
+product.zoom.hint=Fai clic/Tocca per zoomare
+
+product.saleprice=Prezzo di vendita
+product.pricerange=Intervallo di prezzo
+product.setprice=Imposta il prezzo
+product.purchasedisabled=Questo prodotto non è disponibile nel tuo paese.
+variant.unavailable=Appena esaurito! Ma non preoccuparti, lo abbiamo in altre versioni!
+variant.all.unavailable=Appena esaurito! Ma non preoccuparti, però: abbiamo altri modelli che adorerai!
+variant.all.unavailable.button=Compra modelli simili
+
+##############################################
+# ISML Directory: product/compare/
+##############################################
+product.compareshow.header=Confronta
+product.compareshow.noresults=La tua lista di confronto non contiene alcun prodotto al momento.
+product.compareshow.back=<< torna ai risultati
+product.compareshow.othercompareitems=Altri articoli per il confronto
+product.compareshow.removeitem=Rimuovi
+
+##############################################
+# ISML Directory: product/components/
+##############################################
+product.display.wishlistitem=Questo è un articolo della Wish List
+product.display.registryitem=Questo è un articolo della lista regalo
+product.display.surcharge=Sovrapprezzo per la spedizione
+
+product.displayproductlistitems.notavailable=Questo prodotto non è al momento disponibile. Rimuovilo dall'elenco.
+
+product.pricing.payless=Acquista di più, paga di meno!
+product.pricing.paymore=Acquista di più, paga di più!
+product.pricing.items=articoli
+product.pricing.more=o più
+product.pricing.off=% di sconto
+product.pricing.noprice=N/A
+
+product.promotions.special=Offerta speciale
+
+product.recommendations.products=Si abbina con
+
+product.variations.sizechart=Guida alle taglie
+product.variations.sizechart.label=Visualizza la guida alle taglie
+product.variations.label=Seleziona {0}: {1}
+product.quickview=Visualizzazione rapida
+product.quickview.popup=Visualizzazione rapida del prodotto
+
+###############################################
+# Care Instructions
+##############################################
+product.careinstruction.w-no=Non lavare
+product.careinstruction.w-h=Lavare a mano
+product.careinstruction.w-30=Lavare in lavatrice a 30 °C
+product.careinstruction.w-30s=Lavare in lavatrice, mezzo carico, centrifuga breve, 30 °C
+product.careinstruction.w-40=Lavare in lavatrice a massimo 40 °C con programma per capi delicati
+product.careinstruction.w-40s=Lavare in lavatrice, mezzo carico, centrifuga breve, 40 °C
+product.careinstruction.w-60=Lavare in lavatrice a 60 °C
+product.careinstruction.w-80=Lavare in lavatrice a 80 °C
+product.careinstruction.w-95=Lavare in lavatrice a 95 °C
+
+product.careinstruction.b-no=Non candeggiare
+product.careinstruction.b-all=Candeggiare se necessario
+product.careinstruction.b-ncl=Solo sbiancante a base di ossigeno/senza cloro
+
+product.careinstruction.d-no=Non asciugare in asciugatrice
+product.careinstruction.d-flat=Asciugare in piano
+product.careinstruction.d-low=Asciugatrice a basse temperature
+product.careinstruction.d-med=Asciugatrice a medie temperature
+
+product.careinstruction.nd-dfds=Asciugare per gocciolamento in piano all'ombra
+product.careinstruction.nd-fds=Asciugare in piano all'ombra
+product.careinstruction.nd-ld=Asciugare appeso
+product.careinstruction.nd-dfd=Asciugare per gocciolamento in piano
+product.careinstruction.nd-dlds=Asciugare appeso per gocciolamento all'ombra
+product.careinstruction.nd-lds=Asciugare appeso all'ombra
+product.careinstruction.nd-dld=Asciugare appeso per gocciolamento
+product.careinstruction.d-shade=Asciugare all'ombra
+product.careinstruction.d-hang=Appendere
+product.careinstruction.nd-fd=Asciugare in piano
+
+product.careinstruction.i-med=Stirare a temperature medie
+product.careinstruction.i-low=Ferro da stiro a temperature basse. Massima temperatura 100 °C
+product.careinstruction.i-no=Non stirare
+product.careinstruction.i-high=Ferro da stiro a temperature alte. Massima temperatura 200 °C
+
+product.careinstruction.dc-notri=Lavare a secco (senza tricloroetilene)
+product.careinstruction.dc-any=Lavare a secco (qualsiasi solvente)
+product.careinstruction.dc-all=Lavare solo a secco
+product.careinstruction.dc-hs=Lavare a secco con idrocarburi, limitando la temperatura di asciugatura e con aggiunta di acqua
+product.careinstruction.dc-notrilimit=Restrizioni sul lavaggio a secco. Chiedere consiglio a un professionista del lavaggio a secco.
+product.careinstruction.dc-no=Non lavare a secco
+product.careinstruction.dc-petr=Lavare a secco (solo solventi a petrolio)
+product.careinstruction.dc-w=Lavare in acqua
+
+product.careinstruction.o-wool=Lana
+product.careinstruction.o-lthr=Pelle
+
+product.description=Descrizione del prodotto
+product.sizeguide=Guida alle taglie
+product.sizeguide.howto=Come misurare
+product.ean=EAN
+product.moredetails=Maggiori dettagli
+product.notifyme=Inviami una notifica
+product.size.out-of-stock=Questo modello straordinario è proprio di tendenza. Purtroppo, questa taglia non è disponibile.
+product.email.out-of-stock=C'è ancora speranza, però! Possiamo inviarti un'email se torna in assortimento.
+product.notifyme.success-message-title=Ricevuto
+product.notifyme.success-message-content=Ti invieremo una notifica non appena la tua taglia è disponibile.
+product.completethelook=Completa il look
+product.seehowtostyle=Scopri come abbinarlo
+
+###############################################
+# Reserve and Collect
+##############################################
+product.reservecollect.headline=Riserva online e ritira in negozio
+product.reservecollect.emptyoption=SELEZIONA IL TUO NEGOZIO
+product.reservecollect.choosestore=Questo stile è disponibile anche nei nostri negozi! Puoi scegliere uno dei negozi nell'elenco qui sotto, registrare le tue informazioni personali e di contatto, riservare il modello che ti interessa e andarlo a prendere nel negozio selezionato entro un certo periodo di tempo.
+product.reservecollect.formheadline=La preghiamo di completare il modulo qui sotto per riservare il modello scelto nel negozio selezionato.
+product.reservecollect.reservebutton=Riserva
+product.reservecollect.reserved=La sua riserva è stata inviata con successo. Verificheremo il suo ordine e avrà notizie da noi il giorno lavorativo successivo.
+product.reservecollect.notreserved=Sfortunatamente la sua prenotazione non è andata a buon fine. La preghiamo di riprovare più tardi.
+
+﻿##############################################
+# ISML Directory: rendering/
+##############################################
+
+##############################################
+# ISML Directory: rendering/folder
+##############################################
+rendering.foldercontenthits.yoursearch=La tua ricerca ha individuato {0} prodotti
+rendering.foldercontenthits.backtoproducts=<< Torna ai risultati del prodotto
+rendering.foldercontenthits.backtoresults=<< Torna ai risultati
+rendering.foldercontenthits.noproducts=La tua ricerca di "{0}" non ha prodotti risultati
+rendering.foldercontenthits.relatedarticles=Articoli correlati...
+rendering.foldercontenthits.readmore=Continua a leggere
+﻿##############################################
+# ISML Directory: search/
+##############################################
+simplesearch.searchtext=Cerca
+
+search.nohits.header=Abbiamo cercato ovunque, ma non siamo riusciti a trovare l'articolo richiesto.
+search.nohits.message=Prova a modificare la tua ricerca o a dare un'occhiata alle centinaia di nuovi modelli che arrivano sul nostro sito tutte le settimane.
+search.nohits.didyoumean=Intendevi forse:
+search.nohits.didyoumeanex=Cercavi forse:
+search.nohits.searchlabel=Prova un'altra ricerca.
+search.nohits.found=Abbiamo trovato
+search.nohits.searchtips=Suggerimenti per la ricerca
+search.nohits.tip1=Abbiamo cercato ovunque, ma non siamo riusciti a trovare l'articolo richiesto.
+search.nohits.tip2=Prova a modificare la tua ricerca
+search.nohits.tip3=o a dare un'occhiata alle centinaia di nuovi modelli che arrivano sul nostro sito tutte le settimane.
+
+search.pageresults=Pagina:
+search.results=Risultati
+search.compare=Confronta
+
+suggestions.result=risultato
+suggestions.results=risultati
+
+##############################################
+# ISML Directory: search/components/
+##############################################
+productcomparewidget.compareitems=Confronta fino a sei prodotti:
+productcomparewidget.compareitemsbutton=Confronta gli articoli
+productcomparewidget.clearall=Cancella tutto
+productcomparewidget.empty=Svuota la slot di confronto
+productcomparewidget.maxproducts=In questo modo, il primo prodotto aggiunto al confronto verrà eliminato.  Va bene?
+productcomparewidget.removefail=Non è stato possibile rimuovere l'articolo dall'elenco
+productcomparewidget.addfail=Non è stato possibile aggiungere l'articolo all'elenco
+
+productsortingoptions.go=Vai
+
+##############################################
+# Template name: search/
+##############################################
+productresultarea.noresults=Non siamo stati in grado di individuare prodotti che rispondano ai tuoi criteri di filtro al momento. Prova a espandere i tuoi criteri di filtro o a filtrare una categoria diversa.
+productresultarea.viewallcolors=Colori
+
+paginginformation.infinite-scroll=Mostra tutti
+paginginformation.of=Di
+paginginformation.items=Articoli
+paginginformation.itemsperpage=Articoli/Pagina
+paginginformation.loadprevious=Carica precedenti
+
+productnav.back=<< Torna a {0}
+
+contenthitcount.yoursearch=La tua ricerca ha trovato {0} articoli
+contenthitcount.goto=Vai agli articoli
+
+searchrefinebar.searchresults=Filtro
+searchrefinebar.refineresults=Filtra i tuoi risultati per:
+searchrefinebar.viewall=Visualizza tutti
+searchrefinebar.clearselection=Cancella
+searchrefinebar.showmore=Altro
+searchrefinebar.showless=Meno
+searchrefinebar.showrefinedproduct=Mostra {0} prodotti
+
+searchbreadcrumbs.resultstext=I risultati della tua ricerca per
+searchbreadcrumbs.in=In
+searchbreadcrumbs.refinedby=Filtrato per
+searchbreadcrumbs.to=a
+searchbreadcrumbs.attributedivider=e
+searchbreadcrumbs.sortedby=Disposto per
+
+##############################################
+# Template name: rendering/category/categoryproducthits
+##############################################
+search.producthits.productsfound=Prodotti trovati
+search.producthits.productsfoundcount=Prodotti trovati ({0})
+
+search.producthits.products= {0} prodotti
+search.producthits.product= {0} prodotto
+
+##############################################
+# Template name: search/productsearchrefinebar
+##############################################
+search.productsearchrefinebar.clickrefine=Filtra per:
+search.productsearchrefinebar.showallopt=Mostra tutte le opzioni
+
+##############################################
+# Template name: search/suggestionsX
+##############################################
+search.suggest.from=da:
+search.suggest.otherqueries=Altre ricerche popolari
+search.suggest.lookingforbrands=Stai cercando questi marchi?
+search.suggest.categories=Categorie
+search.suggest.products=Prodotti
+search.suggest.didyoumean=Forse intendevi
+search.suggest.viewallresults=Visualizza tutti i risultati
+search.suggest.pagesofinerested=Pagine che potrebbero interessarti
+search.suggest.searchfor=Cerca per
+search.suggest.in=in
+
+##############################################
+# Template name: search/appliedfilters
+##############################################
+search.appliedfilters.clearall=Cancella tutto
+search.appliedfilters.to=a
+search.appliedfilters.attributedivider=e
+
+﻿##################################################
+# ISML Directory: storelocator
+##################################################
+storelocator.header=Trova uno store vicino a te
+storelocator.findstoremessage=Il Localizzatore di store è pensato per aiutarti a trovare lo store più vicino a te.
+storelocator.searchusacanada=Cerca in USA e in Canada
+storelocator.searchinternationally=Cerca a livello internazionale
+storelocator.searchdivider=- - - - - - - - - - - - - - - - - - O - - - - - - - - - - - - - - - - - -
+storelocator.shopbrandnew=Acquista nel nuovissimo:
+storelocator.ukwebsite=Sito britannico
+storelocator.internationalmessage=I clienti europei possono ora acquistare tutti i nostri prodotti più recenti online. <br />Acquista nel nuovissimo: <a href="http://www.demandware.de/" title="Deutsch Website" target="_blank">Sito nederlandese</a>
+storelocator.noresults=O non ci sono store o hai scritto male il nome della città o il CAP
+storelocator.findstore=Trova lo store
+##################################################
+# ISML Directory: storelocator/storelocatorresults
+##################################################
+storelocator.storelocatorresults.map=Mappa
+storelocator.storelocatorresults.backtolocator=Torna al localizzatore di store
+storelocator.storelocatorresults.allstores=Tutti gli store in
+storelocator.storelocatorresults.yoursearchfound=La tua ricerca ha individuato
+storelocator.storelocatorresults.stores=store
+storelocator.storelocatorresults.storename=Nome dello store
+storelocator.storelocatorresults.address=Indirizzo
+storelocator.storelocatorresults.directions=Indicazioni
+storelocator.storelocatorresults.storedetails=Informazioni sullo store
+storelocator.storelocatorresults.storedetails.label=Visualizza le informazioni sullo store
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+storelist.cart=Carrello
+storelist.lightbox.search=Cerca le sedi
+storelist.lightbox.whatsavailable=Cosa è disponibile in uno store vicino a te
+storelist.lightbox.selectstore=Seleziona store
+storelist.lightbox.selectedstore=Store selezionato
+storelist.lightbox.preferredstore=Store preferito
+storelist.lightbox.setpreferredstore=Imposta uno store preferito
+storelist.lightbox.postalcodecity=CAP:
+storelist.lightbox.city=Città:
+storelist.lightbox.enterzip=Inserire il CAP
+storelist.lightbox.invalidpostalcode=Inserisci un CAP valido
+storelist.lightbox.changelocation=Cambia store
+storelist.lightbox.continuewithstore=Continua con lo store preferito
+storelist.lightbox.seemore=Visualizza più store
+storelist.lightbox.seeless=Visualizza meno store
+storelist.lightbox.viewresultsmap=Visualizza i risultati su una mappa
+storelist.check.availablity=Controlla la disponibilità nello store
+storelist.online=Online
+storelist.backtopdp=Torna alla pagina con le informazioni sul prodotto
+storelist.changetohd=Passa alla consegna a domicilio
+storelist.nostorefound=Il codice postale o la città inserita non sembrano essere corretti. Prova a digitarli di nuovo per proseguire.
+storelist.internalerror=Non è stato possibile recuperare l'elenco di punti di ritiro. Seleziona un metodo di spedizione diverso per procedere.
+storelist.nocities=Non è stato possibile recuperare l'elenco delle città per questo metodo di spedizione oppure il servizio non è disponibile. Seleziona un metodo di spedizione diverso per procedere.
+

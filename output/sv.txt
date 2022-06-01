@@ -1,0 +1,2787 @@
+﻿##############################################
+# ISML Directory: account/
+##############################################
+account.header=Min Sida
+
+accountredirect.title=Omdirigera
+accountredirect.permanent=Detta konto har tagits bort permanent. Du kan försöka att logga in med ett annat konto eller skapa ett nytt konto genom att gå till
+accountredirect.accountlogin=inloggningssidan.
+accountprofile.message=Välkommen till din profil. Här kan du titta på och redigera dina personliga uppgifter.
+
+##############################################
+# ISML Directory: account/addressbook/
+##############################################
+account.addressbook.editaddress.editaddress=Redigera adress
+account.addressbook.editaddress.addaddress=Lägg till adress
+account.addressbook.editaddress.defaultaddress=Standardleveransadress
+account.addressbook.editaddress.defaultbillingaddress=Standardfaktureringsadress
+account.addressbook.editaddress.makedefaultaddress=Ange som standardleveransadress
+account.addressbook.editaddress.makedefaultbillingaddress=Ange som standardfaktureringsadress
+account.addressbook.addressdetails=Adressuppgifter
+account.addressbook.addressinclude.delete=Ta bort
+account.addressbook.addressinclude.delete.label=Ta bort denna adress
+account.addressbook.addressinclude.edit.label=Redigera denna adress
+
+account.addressbook.addresslist.header=Adresser
+account.addressbook.addresslist.create=Lägg till adress
+account.addressbook.addresslist.create.label=Skapa ny adress för detta konto
+
+account.addressbook.miniaddress.registrywishlist=(Register/Önskelista)
+account.addressbook.miniaddress.phone=Mobilnummer:
+
+account.addressbook.information=Detta är din adressida. Här kan du se, redigera och hålla koll på vart vi skickar din order.
+account.addressbook.goback=Gå tillbaka
+
+addressdetails.customer.address.referenced.by.product.list=Du kan inte ta bort denna adress eftersom den för närvarande används av ett presentregister eller en önskelista.
+
+##############################################
+# ISML Directory: account/components/
+##############################################
+
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.giftregistry.addresses.beforeheader=Leverans före evenemang
+account.giftregistry.addresses.beforemessage=Denna adress är den plats dit dina registerpresenter kommer att skickas före ditt evenemang. Fyll i adressen för leverans efter evenemang, ifall leveransadressen kommer att ändras efter ditt evenemang.
+account.giftregistry.addresses.postheader=Leverans efter evenemang
+account.giftregistry.addresses.postmessage=Denna adress är den plats till vilken dina registerpresenter kommer att skickas efter ditt evenemang.
+account.giftregistry.addresses.usepreevent=Adress för leverans före evenemang
+
+account.giftregistry.eventparticipant.eventinfo=Evenemangsinformation
+account.giftregistry.eventparticipant.participants=Deltagarinformation
+account.giftregistry.eventparticipant.first=Första deltagare
+account.giftregistry.eventparticipant.second=Andra deltagare
+
+
+account.giftregistry.title=Presentregister
+account.giftregistry.searchheader=Hitta någons presentregister
+account.giftregistry.searchmessage=Du kan även söka efter andra personers presentregister genom att använda sökfunktionen för presentregister.
+account.giftregistry.advanced=Avancerad sökning
+account.giftregistry.closeadvanced=Stäng Avancerad sökning
+account.giftregistry.addgiftcert=Presentkort
+account.giftregistry.addgiftcertmessage=Vill du att presentkort ska visas i ditt presentregister? Om du klickar på "Presentkort" kommer dina vänner och din familj att kunna se att detta är något du önskar dig.
+account.giftregistry.makeregprivate=Gör detta register privat
+account.giftregistry.makeregpublic=Gör detta register offentligt
+account.giftregistry.giftregnoitems=Du har inga poster i ditt presentregister.
+account.giftregistry.emptyadd=Lägg till varor
+account.giftregistry.deleteregistryconfirm=Vill du ta bort detta presentregister?
+account.giftregistry.owner=Presentregister ({0})
+account.giftregistry.userinformation=Användarinformation
+
+giftregistryconfirmation.eventinfo=Evenemangsinformation
+giftregistryconfirmation.eventoverview=Evenemangsinformation
+giftregistryconfirmation.participants=Registrerad(e):
+giftregistryconfirmation.eventtype=Evenemangstyp:
+giftregistryconfirmation.eventname=Evenemangsnamn:
+giftregistryconfirmation.eventdate=Evenemangsdatum:
+giftregistryconfirmation.eventlocation=Evenemangsplats:
+giftregistryconfirmation.registrants=Information om registrerad(e):
+giftregistryconfirmation.registrant=Registrerad:
+giftregistryconfirmation.registrant2=Medregistrerad:
+giftregistryconfirmation.registryaddesses=Leveransadress(er):
+giftregistryconfirmation.preshipping=Leverans före evenemang:
+giftregistryconfirmation.postshipping=Leverans efter evenemang:
+giftregistryconfirmation.verifyinformationmessage=Verifiera att den information som du har angett nedan är korrekt, och klicka därefter på knappen "Skicka" för att börja lägga till produkter till ditt register!
+
+giftregistrylanding.create=Skapa ett presentregister
+
+giftregistryresults.searchresults=Sökresultat
+giftregistryresults.lastheader=Efternamn
+giftregistryresults.firstheader=Förnamn
+giftregistryresults.eventtypeheader=Evenemangstyp
+giftregistryresults.dateheader=Datum
+giftregistryresults.locationheader=Plats
+giftregistryresults.noitems=Detta presentregister innehåller inte några varor.
+
+giftregistryresults.emptymessage=Inget presentregister hittades för
+giftregistryresults.emptymessage2=, vänligen försök igen ovan.
+
+navigation.tabregistry=register
+navigation.tabevent=evenemangsinformation
+navigation.tabshipping=leveransinformation
+navigation.tabpurchases=inköp
+
+registry.priority=Prioritet
+registry.sendtitle=Skicka presentregister till en vän
+registry.share.link=Presentregister-URL
+registry.emailsubject=Visa mitt presentregister
+registry.dateadded=Datum tillagt
+registry.notapplicable=Inte tillämpligt
+registry.datepurchased=Inköpsdatum:
+registry.purchasedby=Inköpt av:
+registry.noproductsfound=Inga produkter har köpts in till detta presentregistrer.
+
+account.registrycustomer.giftregistries=Presentregister
+account.registrycustomer.role=Roll:
+account.registrycustomer.name=Namn:
+account.registrycustomer.eventtype=Evenemangstyp:
+account.registrycustomer.location=Plats:
+account.registrycustomer.noitems=Det finns inga poster i detta presentregistrer.
+account.registrycustomer.dateadded=Datum för tillägg
+account.registrycustomer.priority=Prioritet:
+
+registrylist.newregistry=Nytt register
+registrylist.newregistrydescription=Skapa ett nytt presentregister
+registrylist.registriesheader=Dina presentregister
+registrylist.eventnameheader=Evenemangsnamn
+registrylist.eventtypeheader=Evenemangstyp
+registrylist.dateheader=Datum
+registrylist.locationheader=Plats
+registrylist.detailsheader=Detaljer
+
+registryselect.header=Välj det presentregister som du vill lägga till produkten i
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.login.orderheader=Kontrollera din beställning.
+account.login.checkmessage=Du behöver inte ha ett konto för att kontrollera din orderstatus. Ange ordernumret och din e-postadress.
+account.login.ordererror=Du har angett fel ordernummer, e-postadress eller postnummer.
+account.login.orderbutton=Visa beställningar
+account.login.header=Inloggning på mitt konto
+
+account.login.logininclude.customersheader=Återkommande kunder
+account.login.logininclude.loginerror=Tyvärr, detta stämmer inte överens med vårt register. Kontrollera stavningen och försök igen.
+account.login.logininclude.loginfberror=Det finns redan ett konto med den här e-postadressen.  Logga in eller tryck på länken för glömt lösenord för att återställa ditt lösenord.
+account.login.logininclude.locked=Detta konto är spärrat för närvarande.  Försök igen senare.
+account.login.logininclude.willbelocked=Ogiltigt lösenord.  Detta konto kommer att spärras efter nästa ogiltiga inloggning.
+account.login.logininclude.forgotpassword=Glömt bort ditt lösenord?
+account.login.logininclude.forgotpassword.label=Begäran om att återställa ditt lösenord
+account.login.logininclude.registered=Om du är en registrerad användare, vänligen ange din e-postadress och ditt lösenord.
+account.login.logininclude.employeeemail=Du loggar in på medarbetarbutiken med följande e-postadress: {0}
+
+account.login.logininclude.oauthcustomersheader=Logga in med användning av ditt konto från
+account.login.logininclude.oauthcustomersheaderreturning=Du hat tidigare loggat in med den externa leverantören nedan. Klicka på den för att logga in igen.
+account.login.logininclude.oauthloginerror=Inloggningen med ditt externa konto misslyckades eller så fick du inte behörighet till vår butik för att få åtkomst till dina profildata på den externa autentiseringsleverantörens webbplats.
+account.login.logininclude.oauthselect=Välj en leverantör och klicka därefter på den matchande ikonen.
+account.login.logininclude.oauth.google=Google
+account.login.logininclude.oauth.microsoft=Microsoft
+account.login.logininclude.oauth.linkedin=LinkedIn
+account.login.logininclude.oauth.facebook=Facebook
+account.login.logininclude.oauth.github=GitHub
+
+##############################################
+# ISML Directory: account/orders/
+##############################################
+account.orders.orderstitle=Beställningar
+account.orders.ordersmessage=Vi hoppas att du uppskattar dina varor. Om du har några frågor om returer eller din orderstatus, titta på vår
+account.orders.orderscustomerservice=KUNDTJÄNST
+account.orders.orderspage=-sida.
+account.orders.orderid=Beställnings-ID:
+account.orders.orderdate=Beställning gjord:
+account.orders.orderbuttontext=Visa mer
+
+##############################################
+# ISML Directory: account/orderhistory/
+##############################################
+account.orderdetails.returnorder=<< Gå tillbaka till orderhistoriken
+account.orderdetails.returnshopping=Gå tillbaka till Shopping
+
+account.orders.orderhistory=Orderhistorik
+account.orders.noorders=Du har ännu inte beställt något. Gå till vår hemsida för att bli inspirerad av våra senaste looks.
+account.orders.notfound=Tyvärr så kan vi inte hitta den order du försöker spåra.
+account.orders.datelabel=Beställningsdatum:
+account.orders.orderdetail=Beställningsuppgifter
+account.orders.numberlabel=Ordernummer:
+account.orders.shippedto=Skickad till:
+account.orders.ordertotal=Totalt beställningsbelopp:
+account.orders.items=Varor:
+account.orders.returnitems=Returvaror
+
+account.orderstatusinclude.statuslabel=Orderstatus:
+account.orderstatusinclude.ordershipped=Skickad
+account.orderstatusinclude.orderprocessed=Under behandling
+account.orderstatusinclude.ordercancelled=Annullerad
+account.orderstatusinclude.ordercontact=Vänligen kontakta kundservice:
+
+##############################################
+# ISML Directory: account/password/
+##############################################
+account.passwordemail.subject=Ditt lösenord
+account.passwordemail.dear=Hej
+account.passwordemail.message1=Vi har tagit emot en begäran om att återställa det lösenord som är associerat med denna e-postadress. Om du har begärt detta, vänligen följ instruktionerna nedan.
+account.passwordemail.message2=Om du inte har bett om att ändra ditt lösenord kan du strunta i det här meddelandet. Ditt konto är säkert.
+account.passwordemail.message3=Klicka på länken nedan för att återställa ditt lösenord:
+account.passwordemail.message4=Om det inte fungerar att klicka, kan du kopiera och klistra in länken i din webbläsares adressfönster eller skriva in den på nytt här.  Vi kommer att instruera dig om hur du återställer ditt lösenord.  Observera att denna länk endast är aktiv under en kortare tidsperiod.
+account.passwordemail.message5=Av säkerhetsskäl förfaller denna länk efter 30 minuter eller efter det att du har återställt ditt lösenord.
+account.passwordemail.message6=Detta e-postmeddelande är automatiskt genererat och går inte att svara på.
+
+account.passwordchangedemail.subject=Ditt nya lösenord
+account.passwordchangedemail.dear=Hej
+account.passwordchangedemail.message1=Nu har du skapat ett nytt lösenord till ditt konto
+account.passwordchangedemail.message2=Du kan gå till ditt konto på
+account.passwordchangedemail.message3=Detta e-postmeddelande är automatiskt genererat och går inte att svara på.
+
+account.password.reset.title=Glömt lösenordet?
+account.password.reset.message=Ange din e-postadress nedan. Du kommer att erhålla en länk med vilken du kan återställa ditt lösenord.
+account.password.reset.button=Skicka
+account.password.reset.sent=Kontrollera om du har fått en länk angående återställning av lösenord till din inkorg.
+account.password.reset.resubmit=Om du vill skicka ännu en begäran, klicka här
+account.password.reset.notfounderror=Ingen matchande e-postadress hittades.\r\nKontrollera stavningen och försök igen.
+account.password.reset.formnotvalid=Vi hittade inte detta användarkonto.
+account.password.reset.invalidtokenerror=Denna begäran om lösenordsåterställning har förfallit. Försök igen senare.
+
+account.passwordresetconfirm.title=Vi har tagit emot din begäran.
+account.passwordresetconfirm.message1=Du begärde nyligen en lösenordsåterställning. Det tackar vi för.
+account.passwordresetconfirm.message2=Vi har skickat ett e-postmeddelande som hjälper dig att göra detta. Om du inte har fått e-postmeddelandet inom några minuter, vänligen kika i din skräppostkorg eller försök igen.
+account.passwordresetconfirm.homepagelink=Gå till hemsidan
+
+account.setnewpassword.title=Ange nytt lösenord
+
+account.setnewpasswordconfirm.title=Åtgärden slutfördes.
+account.setnewpasswordconfirm.message=Ditt nya lösenord har bekräftats.
+account.setnewpasswordconfirm.homepagelink=Gå till hemsidan
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.lockoutemail.title=Ditt konto
+account.lockoutemail.message1=Ditt konto har tillfälligt spärrats pga. av alltför många ogiltiga lösenordsförsök.
+account.lockoutemail.message2=Försök att logga in senare.
+account.lockoutemail.message3=Om du anser att du har fått detta e-postmeddelande på felaktiga grunder, vänligen kontakta vår kundtjänst.
+account.lockoutemail.message4=Detta e-postmeddelande är automatiskt genererat och går inte att svara på.
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.createnew=Skapa konto
+account.user.registration.editaccount=Redigera konto
+account.user.registration.editprofile=Redigera profil
+account.user.registration.savechanges=Spara
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.payment.minicardcard.expires=Förf.
+
+account.paymentinstruments.forbidden=Denna sida har förfallit tidsmässigt.  Du måste stänga fönstret och logga in för att fortsätta.
+account.paymentinstrumentdetails.expires=Förfaller:
+
+account.paymentinstrumentlist.header=Kreditkortsuppgifter
+account.paymentinstrumentlist.addcard=Lägg till ett kreditkort
+account.paymentinstrumentlist.addcard.label=Lägg till ett kreditkort till detta konto
+account.paymentinstrumentlist.deletecard=Ta bort kreditkort
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.name=Namn
+account.user.registration.logininfo=E-post/Inloggningsinformation
+
+##############################################
+# ISML Directory: account/wishlist/
+##############################################
+account.wishlist.breadcrumb=Önskelista
+wishlist.searchheader=Hitta någons önskelista
+wishlist.createheader=Skapa en önskelista
+wishlist.addaddress=Lägg till en leveransadress
+wishlist.addaddressmessage=Lägg till en leveransadress till din önskelista
+wishlist.addgiftcert=Presentcertifikat
+wishlist.addgiftcertmessage=Vill du att presentkort ska visas på din önskelista? Om du klickar på "Lägg till presentkort" kommer dina vänner och din familj att kunna se att detta är något du önskar dig.
+wishlist.listpublic=Gör denna lista offentlig
+wishlist.listprivate=Gör denna lista privat
+wishlist.empty=Du har inga poster på din önskelista.
+wishlist.emptyadd=Klicka här för att börja lägga till varor.
+wishlist.addresslabel=Önskelistans leveransadress
+wishlist.noaddresses=För närvarande finns inga sparade adresser
+wishlist.dateadded=Datum tillagt
+wishlist.priority=Prioritet
+wishlist.itemprivate=Gör denna vara privat
+wishlist.itempublic=Gör denna vara offentlig
+wishlist.share.link=Önskelistans URL
+wishlist.sendwishlist=Skicka min önskelista till en vän
+wishlist.emailsubject=Visa min önskelista
+wishlist.noshippingaddress=Ingen leveransadress har tilldelats
+wishlist.nolocationtoshow=-
+wishlistresult.lastname=Efternamn
+wishlistresult.firstname=Förnamn
+wishlistresult.location=Plats
+wishlistresult.view=Visa
+wishlist.share=Dela
+wishlist.copiedtoclipboard=länk kopierad till urklipp.
+
+
+account.wishlist.landing.createheader=Skapa en önskelista
+account.wishlist.landing.findmessage=Du kan även söka efter andras önskelistor när du använder sökfunktionen för önskelistor.
+
+searchresult.emptymessage=Ingen önskelista hittades för {0}, vänligen försök igen ovan.
+
+other.wishlistheader=:s önskelista
+productlist.wishlistemailheader=Min önskelista
+productlist.visitwishlist=Besök denna önskelista här
+productlist.visitgr=Besök detta presentregister här
+productlist.purchaseitem=Köp denna vara
+productlist.1=Högsta
+productlist.2=Högt
+productlist.3=Medel
+productlist.4=Lågt
+productlist.5=Lägsta
+productlist.eventtype=Evenemangstyp
+productlist.eventdate=Evenemangsdatum
+productlist.eventlocation=Plats
+productlist.qtydesired=Önskat antal
+productlist.qtypurchased=Inköpt antal
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.registrycustomer.giftregistry=Presentregister
+account.registrycustomer.notfound=Det begärda presentregistret hittades inte.
+account.registrycustomer.private=Det begärda presentregistret kan inte öppnas eftersom dess ägare inte har gjort det offentligt tillgängligt.
+
+##############################################
+# ISML Directory: account/facebook/
+##############################################
+account.facebook.newcustomer=Ny kund
+account.facebook.usefbtoregister=Använd Facebook för registrering
+
+##############################################
+# ISML Directory: mail/
+##############################################
+register.dear=Hejsan
+register.welcome=Välkommen till ditt konto hos {0}.
+register.message=Nu är du medlem och kan shoppa bland alla våra varumärken samt uppdatera och lagra din personliga information på ett och samma ställe.
+register.helpquestion=BEHÖVER DU HJÄLP
+register.customerservice=Vårt kundtjänstteam (customerservice@bestseller.com) hjälper dig gärna.
+register.salutation=Vi är glada att ha dig hos oss,
+account.orderdetails.trackinfo=Om du vill se fler detaljer om din beställning, vänligen klicka på knappen SPÅRA BESTÄLLNING.
+account.orderdetails.tracknumber=Spårningsnummer:
+account.orderdetails.trackorder=Spåra beställning
+account.orderdetails.deliverycount=Delivery {0} of {1}
+
+verifyemployee.success=Nu kan du shoppa i  BESTSELLER-butiken med din medarbetarrabatt.
+verifyemployee.expired=Länken du använde har förfallit, vänligen logga in igen för att få en ny länk.
+verifyemployee.notemployee=Du är inte medlem i någon medarbetargrupp.
+verifyemployee.notvalidtoken=Du har använt en ogiltig länk för medarbetarverifiering.
+
+account.orderstatusinclude.orderdispatched=Skickad
+account.orderstatusinclude.orderpartiallydispatched=Delvis skickad
+account.orderstatusinclude.orderreturned=Returnerad
+account.orderstatusinclude.orderrefunded=Återbetalat
+account.orderstatusinclude.orderplaced=Beställning gjord
+
+shipping.estimate=Beräknad leverans i {0} efter gjord beställning
+
+employee.storegreeting=Hej! Nu är det dags för dig att komma igång med BESTSELLER:s personalbutik.
+employee.storeinfo=Du får snart ett e-postmeddelande från oss. Följ länken i detta e-postmeddelande för att gå till vår personalbutik. Länken kan vidarebefordras till din privata e-postadress och gäller i 24 timmar. 
+employee.storetitle=BESTSELLER:s personalbutik
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+cart.header=Min kundvagn
+cart.cartempty=Vi har kikat ordentligt, men det finns inget här.
+cart.coupon=Kupong
+cart.couponcode=Kampanjkod:
+cart.couponinvalid=Ogiltig kupong
+cart.giftcertdelivery=- Presentkort skickas via e-post
+cart.registryitem=Detta är en presentregistervara
+cart.removeditem=Den här produkten har nyligen tagits bort från vårt sortiment online. Ta bort varan från din kundvagn och gå vidare till kassan.
+cart.carterror={0} Din kundvagn kan inte beställas just nu eftersom en eller flera av produkterna\r\n i din kundvagn antingen har ett ogiltigt pris eller också inte är tillgängliga i begärt antal. Vänligen ta bort den/de produkt(er) med priser märkta\r\n som Ej tillämpliga från din kundvagn, eller ändra antalet till det tillgängliga antalet. Om du har några frågor, vänligen kontakta kundservice.
+cart.cartcouponinvalid=Din kundvagn innehåller en ogiltig kupong.  Ta bort kupongen innan du fortsätter till kassan.
+cart.taxinvalid=Ett fel inträffade när momsen skulle beräknas för en eller flera produkter i din kundvagn.
+cart.entercouponcode=Ange kupongkod
+cart.shippingmethodsnotavailable=Ursäkta ett ögonblick. Vi kan inte behandla din order eftersom den inte uppfyller våra krav på lägsta eller högsta orderbelopp. Vänligen anpassa varorna i din kundvagn och försök igen. Om du behöver hjälp eller har några frågor, är du mycket välkommen att kontakta vår kundservice.
+cart.product.purchasedisabled=Vi kan tyvärr inte behandla din order eftersom en eller flera produkter i din kundvagn inte är tillgängliga i ditt land. Vänligen ta bort den eller de markerade produkterna. Om du behöver hjälp eller har några frågor, är du mycket välkommen att kontakta vår kundtjänst.
+cart.employeeshoppingforbidden=Ursäkta ett ögonblick. Anställda kan inte shoppa under arbetstid. Måndag-torsdag 08:00-15:30 och fredag 08:00-12:00.
+
+cart.option=Alternativ
+cart.listprice=Listpris
+cart.itemtotal=Totalt belopp
+cart.bonusmaxitems=Denna rabatt berättigar dig till {0} bonusprodukter.
+cart.bonusnumselected=Du har valt {0} produkt(er).
+cart.updatebonusproducts=Uppdatera bonusprodukter
+cart.updatebonusproduct=Uppdatera bonusprodukt
+cart.updatesneeded=Kundvagnen behöver uppdateras
+cart.selectbonusproducts=Välj bonusprodukter
+cart.selectbonusproduct=Välj bonusprodukt
+cart.limitedquantity=Vi kan inte behandla din order eftersom en eller flera produkter i din kundvagn har ett ogiltigt pris eller inte finns tillgängliga i det antal du har begärt. Vänligen ta bort produkter med priser markerade som \"Ej tillämpliga\" från din varukorg eller ändra antalet till ett antal som är tillgängligt. Om du behöver hjälp eller har några frågor, är du välkommen att kontakta vår kundtjänst.
+cart.limitedquantity.error=EJ TILLGÄNGLIGT ANTAL
+cart.soldout=Slutsålt
+cart.unabletoadd=Det gick inte att lägga till varan ''{0}''  '' i vagnen
+cart.lastvisited.header=Senaste besök
+
+cart.store.availableinstore=Finns i lager
+cart.store.notavailable=Inte tillgängligt
+cart.store.deliveryoptions=Leveransalternativ
+cart.store.homedelivery=Hemleverans
+cart.store.instorepickup=Avhämtning i butik
+cart.store.storepickupaddress=Butiksadress för avhämtning
+
+cart.coupon.code.already.in.basket=Denna kod har redan använts.
+cart.coupon.already.in.basket=Kupongkoden \"{0}\" kan inte kombineras med andra kupongkoder i din kundvagn.
+cart.coupon.code.already.redeemed=Kupongkod \"{0}\" har redan lösts in.
+cart.coupon.code.unknown=Vänligen ange en giltig kampanjkod.
+cart.coupon.disabled=Kupongkoden \"{0}\" kan för närvarande inte läggas till i din kundvagn
+cart.redemption.limit.exceeded=Kupongkoden \"{0}\" kan för närvarande inte läggas till i din kundvagn
+cart.customer.redemption.limit.exceeded=Kupongkoden \"{0}\" kan för närvarande inte läggas till i din kundvagn
+cart.timeframe.redemption.limit.exceeded=Kupongkoden \"{0}\" kan för närvarande inte läggas till i din kundvagn
+cart.no.active.promotion=Kupongkoden \"{0}\" kan för närvarande inte läggas till i din kundvagn
+cart.coupon.code.missing=Vänligen ange en giltig kampanjkod.
+cart.ok={0} kampanjkod tillämpad
+cart.info=Vänligen ange en kampanjkod för att utnyttja en rabatt.
+cart.applycouponcode=Jag vill använda en kampanjkod.
+cart.itemscount.single={0} vara
+cart.itemscount={0} varor
+
+cart.promotionsheader=Missa inte detta
+cart.promotionsbonusavailable=Du får en gåva med din order. Lägg till gåvan i kundvagnen nedan.
+cart.bonussection=Gratis med din order
+cart.bonusselect=Välj gåva
+
+minicart.viewcart=Visa varukorg
+minicart.viewcart.label=Gå till varukorg
+minicart.title=Din varukorg
+
+approachingpromo.purchase=Köp
+approachingpromo.more=mer
+approachingpromo.receive=och få
+
+##############################################
+# ISML Directory: checkout/checkoutlogin
+##############################################
+checkoutlogin.checkoutguestbutton=Gå till kassan som gäst
+checkoutlogin.guestheader=Gäster eller nya kunder
+checkoutlogin.guestmessage=Du behöver inte ha ett konto för att beställa. Om du vill registrera dig och ta del av fördelarna med att ha ett konto, behöver du bara ange ett lösenord i slutet av kassaprocessen.
+checkoutlogin.registerbenefits=Vilka är fördelarna?
+
+##############################################
+# ISML Directory: checkout/billing
+##############################################
+billing.header.address=Vilken faktureringsadress har du?
+billing.header.redeemable=Kupong- /rabattkoder eller presentkorts
+billing.header.payment=Hur vill du betala?
+billing.header.giftcardcheckbalance=Kontrollera det återstående saldot på ditt presentkort
+billing.bmlhelp=Du måste tillhandahålla födelsedatum och de sista fyra siffrorna i ditt personnummer.
+billing.giftcardredeemed=har dragits av från din beställning.
+billing.giftcardnomethod=Din order har betalats med presentcertifikat. Om du inte vill slutföra din order med användning av ditt/dina presentcertifikat, kan du ta bort det/dem ovan.
+billing.zerobalance=Din beställning saknar saldo, och därmed krävs ingen betalningsmetod för att slutföra denna beställning.
+billing.linkcvn=Vad är detta?
+billing.custompaymentmethod=Här ska din anpassade betalningsmetodsintegration anges
+billing.couponswitch=Har du en kampanjkod?
+billing.couponspecialoffer=Om du har fått en specialerbjudandekod eller rabatt, kan du ange den unika koden nedan.
+billing.couponlabel=Ange kupongkod
+billing.couponnotapplied=Kampanjkod {0} har lagts till din beställning, men användes inte.
+billing.couponapplied=Kampanjkod {0} har lagts till din beställning och använts.
+billing.couponinvalid=Ogiltig kampanjkod
+billing.seeordersummary=Se den uppdatera ordersammanfattningen.
+billing.giftcardswitch=Har du ett presentkort?
+billing.giftcardnote=Skriv in det 19-siffriga numret och koden från presentkortet nedan
+billing.bonusproductalert=Din beställning berättigar dig till en gratispresent.  Klicka på knappen \"Välj\" för att gå tillbaka till kundvagnen och välja dina produkter, eller välj \"Nej tack\" för att fortsätta med din beställning.
+billing.giftcardlabel=Lös in presentkort
+billing.giftcardcvvlabel=CVV-kod:
+billing.giftcardapplied={0} har lösts in med presentkort {1}
+billing.giftcardbalance=Ditt aktuella presentkortssaldo är
+billing.giftcardremainingtotal=Din totala ordersumma är {0}. Alla betalningar görs efter det att du har granskat din order i det nästa steget.
+billing.giftcarderror=Det gick inte att ta bort presentkortet.
+billing.giftcardbalancetoolow=Saldot på ditt presentkort är för litet. Försök med ett annat presentkort eller en annan betalningsmetod.
+billing.giftcardbalancetoohigh=Du har uppnått maxbeloppet för betalning med presentkort.
+billing.giftcardinvalid=Ogiltig kampanjkod
+billing.giftcardidmissing=Vänligen ange en presentcertifikatkod.
+billing.giftcardadderror=Det verkar vara något problem med de presentkortsuppgifter du angav. Vänligen försök igen eller kontakta kundtjänst.
+billing.giftcardfraud=Det verkar som om dina presentkortsuppgifter inte stämmer. Vänligen kontakta kundservice för att få hjälp.
+billing.giftcertificate.pending=Väntande presentkort.
+billing.giftcertificate.notfound=Presentkort \"{0}\" hittades inte.
+billing.giftcertificate.currency.mesmatch=Presentcertifikat kan endast lösas in för ordrar som har gjorts i samma valuta som presentcertifikatet.
+billing.creditcardlistselect=Välj bland Sparade kort.
+billing.creditcardlistnocards=För närvarande finns inga sparade kort.
+billing.creditcardlistexp=Förfallodag
+billing.creditcardexpires=Förfaller
+billing.creditcardlistexpdate=Förfallodatum:
+billing.creditcardloaderror=Det gick inte att ladda kreditkort!
+billing.creditcardnotdeleted=Kreditkortet kunde inte tas bort!
+billing.creditcarddeleted=Kreditkortet har tagits bort!
+billing.creditcarddeletenotselected=Välj ett kreditkort som du vill ta bort.
+billing.creditcarddeleteconfirm=Vill du ta bort detta kreditkort?
+billing.deletecard=Ta bort kreditkort
+billing.requiredindicator=•
+billing.newcreditcardadded=Ett nytt kreditkort har lagts till.
+billing.missingprocessorerror=Din valda betalningsmetod är inte tillgänglig för tillfället.  Vänligen välj en annan betalningsmetod.
+billing.ownerparseerror=Detta verkar vara ett kreditkortsnummer.  Ange namnet på kreditkortsinnehavaren.
+billing.selectcreditcard=Välj ett kreditkort
+billing.useshippingaddress=Använd min leveransadress
+billing.notavailable=Inte tillgängligt
+
+minibillinginfo.billingaddress=Faktureringsadress
+minibillinginfo.expiration=Ext.
+minibillinginfo.giftcertificate=Presentkort
+minibillinginfo.bml=Fakturera mig senare
+minibillinginfo.adyencreditcard=Betala med ditt debet- eller kreditkort.  Du uppmanas att ange dina betalningsuppgifter när du har granskat din order, och du faktureras så snart din order har lämnat vårt lager.
+minibillinginfo.adyenideal=Med iDEAL kan du betala direkt utan några extra avgifter.
+minibillinginfo.adyenpaypal=Betala via PayPal, en enkel och säker digital plånbok för online-betalningar.  Om du inte har något konto kan du enkelt och kostnadsfritt skapa ett konto på deras webbplats. Du kommer att uppmanas att ange dina betalningsuppgifter när du har granskat din order.
+minibillinginfo.klarnaaccount=Betala för de varor du vill behålla en månad senare, antingen i en klumpsumma eller med mindre, regelbundna delbetalningar.
+minibillinginfo.klarnainvoice=Betala efter leverans för de varor som du vill behålla. Du får ett e-postmeddelande från Klarna när din order har lämnat lagret, och du har 14 dagar på dig att betala via deras app eller webbplats. Du behöver bara ange ditt personnummer för att betala senare.
+minibillinginfo.klarnaaccountsurcharge=Det kostar {0} att betala via Klarna konto.
+minibillinginfo.klarnainvoicesurcharge=Det kostar {0} att betala via Klarna faktura.
+minibillinginfo.sofort=SOFORT låter dig logga in och betala direkt med användning av dina befintliga bankuppgifter.
+minibillinginfo.adyenafterpay=Afterpay Invoicing: Order now, pay later. Afterpay will send you an invoice. You have 14 days to pay and you only have to pay for the items you keep. It costs EUR 1.95 to pay with Afterpay invoice.
+minibillinginfo.adyenmobilepay=
+minibillinginfo.googlepay=
+
+##############################################
+# ISML Directory: checkout/components/
+##############################################
+checkoutprogressindicator.step1=Steg 1:
+checkoutprogressindicator.step2=Steg 2:
+checkoutprogressindicator.step3=Steg 3:
+checkoutprogressindicator.step4=Steg 4:
+checkoutprogressindicator.shipping=Leverans
+checkoutprogressindicator.billing=Fakturering
+checkoutprogressindicator.placeorder=Granska beställning
+checkoutprogressindicator.shippingaddresses=Leveransadresser
+checkoutprogressindicator.shippingmethods=Leveranssätt
+checkoutprogressindicator.shippingaddress=Leveransadress:
+checkoutprogressindicator.billingaddress=Faktureringsadress:
+checkoutprogressindicator.billingemail=E-post
+checkoutprogressindicator.billingpayment=Betalningsmetod:
+checkoutprogressindicator.shippingstep.skipped=Din beställning behöver inte en leveransmetod. Vi skickar alla online-produkter till den e-postadress du anger tillsammans med dina faktureringsuppgifter.
+
+##############################################
+# ISML Directory: checkout/giftcert/
+##############################################
+giftcertpurchase.giftcertificates=Presentkort
+giftcertpurchase.amount=Belopp
+giftcertpurchase.errorinfo=Vänligen ange korrekt information
+giftcertpurchase.balancealert=Ditt aktuella presentkortssaldo är
+
+##############################################
+# ISML Directory: checkout/shipping/
+##############################################
+singleshipping.enteraddress=Vart ska vi skicka dina varor?
+singleshipping.multiple=Vill du få leveranser till flera adresser?
+singleshipping.apofpo=APO/FPO
+singleshipping.phonerequired=Varför krävs detta?
+singleshipping.shippingmethodheader=Vilket leveranssätt föredrar du?
+singleshipping.noshippingmethods=Inga tillämpliga leveransmetoder kan väljas.
+singleshipping.details=Detaljer
+singleshipping.discount=Leveransrabatter:
+singleshipping.total=Totalt:
+singleshipping.standard=Standardfraktkostnad:
+singleshipping.surcharge=Tilläggsavgift
+singleshipping.wishlist={0}'':s önskelista
+singleshipping.giftregistry={0}'':s presentregister
+singleshipping.select=Välj
+singleshipping.signoutconfirmation=Är du säker på att du vill logga ut?
+singleshipping.signoutconfirmbutton=Ja
+singleshipping.signoutcancelbutton=Nej
+singleshipping.alreadyanaccount=Du verkar redan ha ett konto.
+singleshipping.speedycheckout=Om du loggar in går det snabbare i kassan.
+singleshipping.welcomeback=Välkommen tillbaka {0}!
+minishipments.shippingaddress=Leveransadress
+minishipments.shipping=Leverans
+minishipments.giftcertdelivery=- Leverans via e-post
+
+multishippingaddresses.locationheader=Leveransadress
+multishippingaddresses.noaddresses=Ingen adress kan väljas
+multishippingaddresses.editaddress=Redigera adress
+multishippingaddresses.addaddress=Lägg till ny adress
+multishippingaddresses.select=Välj
+
+multishippingshipments.shipment=Leverans # {0}
+multishippingshipments.gcshipment=Leveransmetod: Leverans via e-post
+multishippingshipments.selectmethod=Välj leveransmetod:
+multishippingshipments.shippingdetails=Leveransdetaljer
+multishippingshipments.shipimmediante=Leveransdatum: Omgående
+multishippingshipments.giftmessage=Meddelande:
+
+shipment.qualifiesfor=Denna leverans berättigar till
+shipment.methodswarning=ETT ÖGONBLICK: varorna i din kundvagn uppfyller inte våra min. eller max. ordervärden för vissa leveransmetoder.
+shippingmethod.minordervaluemessage=Min. beloppet på {0} har inte uppfyllts
+shippingmethod.maxordervaluemessage=Max. beloppet på {0} har överskridits
+
+shipping.errorclickcollect=Denna butik kan inte ta emot Click & Collect-beställningar för närvarande. Vänligen välj en annan butik eller leveransmetod.
+shipping.errorparcelshop=Denna butik tar inte emot paketleveranser för närvarande. Vänligen försök med en annan butik eller leveransmetod.
+shipping.errorpostalcode=Tyvärr så levererar vi inte till detta postnummer. Vänligen försök med en annan leveransmetod.
+shipping.estimate.days={0}-{1} arbetsdagar
+
+##############################################
+# ISML Directory: checkout/confirmation/
+##############################################
+confirmation.thankyou=Tack för att du handlar hos BESTSELLER.
+confirmation.order=Ditt ordernr. är:
+confirmation.email=Ett e-postmeddelade kommer att skickas till {0} med dina orderuppgifter.
+confirmation.account.title=Gå snabbare genom kassan nästa gång
+confirmation.account.message=Skapa ett konto i ett enda snabbt steg
+confirmation.account.action=SKAPA ETT LÖSENORD
+confirmation.account.save=Spara
+confirmation.account.termsmessage=Genom att skapa ett konto godkänner du vår
+confirmation.account.terms=Customer Clubs villkor och bestämmelser
+confirmation.message=VAD HÄNDER NU? Så snart vi har packat din order, kommer vi att skicka ett spårningsnummer dig till via e-post. Detta kan ta upp till två vardagar.
+confirmation.contact=BEHÖVER DU HJÄLP? Vårt kundtjänstteam (customerservice@bestseller.com) står alltid redo att besvara eventuella frågor du har.
+confirmation.print=Skriv ut kvitto
+confirmation.returnshop=Gå tillbaka till Shopping
+confirmation.payment.method=Betalningsmetod:
+
+pt_orderconfirmation.createheader=Skapa ett konto
+pt_orderconfirmation.accountmessage=Vill du skapa ett konto baserat på den information du fyllde i för denna order?
+
+
+##############################################
+# ISML Directory: checkout/summary/
+##############################################
+summary.applied=Använd
+summary.coupon=Kupong
+summary.editcart=&laquo; Redigera kundvagn
+summary.orderdiscount=Beställningsrabatt:
+summary.notapplied=Ej använd
+summary.review.ordertotal=Summa
+summary.title=Beställningssammanfattning
+summary.termsandconditions.employee.label=och till {0} för anställda
+summary.termsandconditions.message=Kontrollera att all information stämmer. I nästa etapp kommer vi be dig om dina betalningsuppgifter
+summary.termsandconditions.label=Jag godkänner
+summary.termsandconditions.klarna= och ett betalningsavtal med BESTSELLER:s partner Klarna samt deras
+summary.termsandconditions.afterpay= and to a payment agreement with BESTSELLER's partner AfterPay and their
+summary.termsandconditions.privacy = sekretesspolicy
+summary.termsandconditions.termsforinvoice=FAKTURAVILLKOR
+summary.termsandconditions.privacypostlabel=för BESTSELLER HANDELS B.V.
+summary.termsandconditions.privacyseperator=och
+summary.paymenterror.adyen_credit_card.failed=Fel inträffade när kreditkortet skulle behandlas. Systemets tidsgräns kan ha passerats, gå till betalningssidan och försök igen. Vi rekommenderar att du kontrollerar att de betalningsuppgifter du har angett stämmer och att det finns pengar på ditt konto innan du försöker igen.
+summary.paymenterror.adyen_paypal.failed=Fel inträffade när PayPal-transaktionen skulle behandlas. Det kan ha uppstått anslutningsproblem. Vänligen gå till kundvagnen och försök igen.
+summary.paymenterror.adyen_ratepay.failed=Fel inträffade när RatePAY-transaktionen skulle behandlas. Det kan ha uppstått anslutningsproblem. Vänligen gå till kundvagnen och försök igen.
+summary.paymenterror.adyen_afterpay.failed=Error processing the AfterPay transaction. There might have been connection problems, please return to the bag and try again.
+summary.paymenterror.adyen_credit_card.authorised=Goda nyheter. Din betalning har godkänts.
+summary.paymenterror.adyen_credit_card.refused=Vi kunde inte godkänna din betalning utan tvingades stoppa den.
+summary.paymenterror.adyen_credit_card.cancelled=Det verkar som om du annullerade din betalning innan den var genomförd eller återvände till vår webbplats innan transaktionen var slutförd.
+summary.paymenterror.adyen_credit_card.pending=Vi hittar inte den slutgiltiga statusen för din betalning.
+summary.paymenterror.adyen_credit_card.error=Ett fel inträffade medan din betalning behandlades.
+giftcert.currentbalance=Ditt nuvarande presentcertifikatsaldo är
+giftcert.remove.error=Det gick inte att ta bort presentkortet.
+
+giftcertpurchase.checkinvalid=Vänligen kontrollera presentkortskoden
+giftcertpurchase.missingcode=Vänligen ange presentkortskoden
+
+summary.paymenterror.oc_giftcard.failed=Något gick på tok med din betalning. Vänligen kontakta kundservice.
+summary.paymenterror.adyen_mobilepay.failed=
+summary.giftcard.delivery=Vi skickar ditt presentkort med e-post så snart vi har behandlat din betalning.
+
+##############################################
+# Pipelines
+##############################################
+confirm.error.technical=Tyvärr kunde din beställning inte slutföras. Detta beror förmodligen på en stor beställningsvolym eller på tillfälliga anslutningsproblem. Vänligen vänta några minuter och skicka därefter in din beställning på nytt. Vi kommer inte att behandla din betalning förrän din beställning är slutförd. Om du har några frågor, vänligen kontakta oss.
+confirm.error.declined=Din beställning kunde inte skickas. Vänligen granska dina betalningsinställningar och försök igen. Tack för ditt tålamod!
+
+##############################################
+# Multi Shipping Checkout
+##############################################
+multishipping.error.attributenotdefined=\n\tAnpassat attribut \" sessionAddressBook \" är inte definierat för systemobjektet \"Basket\".\n\tVänligen granska dokumentationen och ställ in attributet via BM.
+multishipping.error.parsejson=\n\tFel inträffade när en sträng skulle parsas in i JSON-objekt:\n\t{0}
+multishipping.error.addaddressrequirements=\n\tKrav saknas för AddAddressToSessionAddressBook.ds.\n\tIngångsvariabler för FormAddress och/eller CBasket är noll.
+multishipping.editaddress=Lägg till/redigera adress
+multishipping.editaddress.headline=Lägg till eller redigera adresser
+
+##############################################
+# Instore Checkout
+##############################################
+instore.shipping.storemessage=I butik-leveransmeddelande
+
+##############################################
+# pickup location
+##############################################
+pickuplocation.results.resultcount=Visar {0} resultat i närheten
+pickuplocation.select=Välj
+
+shipping.estimate=Beräknad leverans i {0}
+shipping.shipping.estimate=Beräknad leverans: {0} - {1}
+shipping.summary.estimate=Beräknad leverans i {0}-{1} arbetsdagar
+
+shipping.errormessage=Vänligen fyll i de tomma adressfälten
+
+billing.adyen_credit_card=Kreditkort/Bankkort
+billing.adyen_paypal=PayPal
+billing.oc_giftcard=Presentcertifikat
+billing.klarna_invoice=Klarna faktura
+billing.klarna_account=Klarna konto
+billing.adyen_ideal=IDEAL
+billing.adyen_sofort=Sofort
+billing.adyen_afterpay=Afterpay invoice
+billing.adyen_ratepay=Pay later
+billing.paymentheader=Hur vill du betala? Du kommer att uppmanas att ange dina betalningsuppgifter när du har granskat din beställning.
+billing.adyen_mobilepay=
+
+##############################################
+# Klarna order confirmation page
+##############################################
+summary.paymenterror.klarna_invoice.unspecified_error=Tyvärr kunde vi inte behandla din betalning. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.address=Tyvärr kunde vi inte behandla din betalning. Kontrollera dem angivna upplysningarna är korrekta och försök igen.
+summary.paymenterror.klarna_invoice.amount=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.under_aged=Tyvärr måste man vara 18 år för att kunna få handla genom Klarna.
+summary.paymenterror.klarna_invoice.cellno=Mobiltelefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.failed=Ett fel inträffade när Klarna faktura-transaktionen skulle behandlas. Det kan ha uppstått anslutningsproblem. Vänligen gå tillbaka till kundvagnen och försök igen.
+summary.paymenterror.klarna_invoice.legacy_error5=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.legacy_error4=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.legacy_error3=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.legacy_error2=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.legacy_error1=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.estore_overrun=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.estore_blacklisted=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.misc_estore_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.credit=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.customer_credit_overrun=Tyvärr kan vi inte godkänna ditt köp genom Klarna. Vänligen välj ett annat betalsätt för att slutföra ditt köp.
+summary.paymenterror.klarna_invoice.blocked=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unpaid_bills=Just nu kan vi inte godkänna ditt köp med Klarna då du har obetalda fakturor. Vänligen betala dem för att fortsätta handla med Klarna. För mer information om dina köp, gå till Mina sidor på www.klarna.se/mina-sidor. Om du vill genomföra ditt köp nu, välj ett annat betalsätt.
+summary.paymenterror.klarna_invoice.customer_not_accepted=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.customer_blacklisted=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.tno_blocked=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.no_power_of_attorney=Fullmakten för denna person finns ej registrerad hos Klarna.
+summary.paymenterror.klarna_invoice.get_address_blocked=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.pno=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.invalid_pno=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_invoice.pno_not_real_person=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.dead=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_invoice.customer_not_18=Tyvärr måste man vara 18 år för att kunna få handla genom Klarna.
+summary.paymenterror.klarna_invoice.no_such_person=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_invoice.customer_missing=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.no_such_customer=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_invoice.unknown_customer=Köpet blev inte genomfört - okänt personnummer. Vi kan inte hitta angivet personnummer. Var vänlig kontrollera om du råkat skriva in fel personnummer. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt personnummer och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.bad_customer_password=Du har angivit ett felaktigt lösenord.
+summary.paymenterror.klarna_invoice.test_customer_but_estore_is_live=Det är inte möjligt att använda testpersoner när butiken är live. Vill du testa din med integration mot Klarna, vänligen använd testflaggan i API-anropet.
+summary.paymenterror.klarna_invoice.real_customer_with_test_flag=För att kunna genomföra eller aktivera köp hos Klarna med riktiga personer måste du ta bort testflaggan i API-anropet.
+summary.paymenterror.klarna_invoice.tno_not_found=Första gången du använder Klarna mobil behöver du registrera dig. Det gör du enkelt genom att ringa 08-120 129 00 eller gå in på klarna.se. Mvh Klarna
+summary.paymenterror.klarna_invoice.pin_error=Tyvärr så var PIN koden felaktig!
+summary.paymenterror.klarna_invoice.wrong_pin=Tyvärr så var PIN koden felaktig!
+summary.paymenterror.klarna_invoice.no_pin=Det finns ingen beställd PIN kod!
+summary.paymenterror.klarna_invoice.orgno=Första gången du använder din företagsmobil för att betala via Klarna mobil behöver du uppge ditt personnummer genom att skicka; REG ÅÅMMDDXXXX till 71200. Mvh Klarna
+summary.paymenterror.klarna_invoice.phone_getaddr_failed=Vi hittar ingen registrerad folkbokföringsadress för det angivna telefonnumret.
+summary.paymenterror.klarna_invoice.poa_pno=Personnumret för fullmaktsinnehavaren har inte rätt format. Vänligen ange personnummer som ÅÅÅÅMMDDNNNN.
+summary.paymenterror.klarna_invoice.poa_group=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.poa_org=Organisationsnumret har inte rätt format.
+summary.paymenterror.klarna_invoice.misc_customer_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.foreign_addr=Du har angivit en adress som inte stämmer överens med ditt personnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_addr=Vi kan inte identifiera dig på adressen du angivit. Korrigera eventuella stavfel, skriv ut din fullständiga adress och försök igen. Om du fortfarande får detta meddelande, kontakta Klarna på www.klarna.se/kundtjanst.
+summary.paymenterror.klarna_invoice.bad_address=Du har angivit en adress som inte stämmer överens med ditt personnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.postno=Du har angivit ett felaktigt postnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_postno=Du har angivit ett felaktigt postnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_name=Vi kan inte identifiera namnet du angivit tillsammans med ditt personnummer. Korrigera eventuella stavfel, skriv ut ditt fullständiga namn och försök igen. Om du fortfarande får detta meddelande, kontakta Klarna på www.klarna.se/kundtjanst.
+summary.paymenterror.klarna_invoice.no_address="Vi kan inte hitta någon folkbokförd adress för det angivna personnummret. Vänligen kontrollera dina uppgifter eller välj ett annat betalsätt för att slutföra ditt köp."
+summary.paymenterror.klarna_invoice.bad_addr_limited=Ditt köp kan tyvärr inte godkännas. Det beror på att beloppsgränsen för köp till en icke folkbokförd adress har överskridits. För att genomföra ditt köp kan du antingen ändra så att varorna levereras till din folkbokförda adress, eller välja ett annat betalningsalternativ.
+summary.paymenterror.klarna_invoice.unidentified=Tack för ditt köp! Tyvärr kan Klarna inte verifiera att du bor på den adress du angivit. Vänligen ange din folkbokföringsadress eller skicka en kopia av ID (pass, körkort, ID) till identification@klarna.com. Vi hör av oss inom 24 timmar. Självklart använder vi bara denna information i samband med dina framtida köp hos Klarna!
+summary.paymenterror.klarna_invoice.zip=Postnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: NNN NN. Om du fortfarande får detta meddelande, var god välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.telno=Telefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: 0X(XX)-XXXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.email=E-postadressen som du har angivit är felaktig. Du kanske har råkat skriva in fel? Om inte, välj ett annat sätt att betala på.
+summary.paymenterror.klarna_invoice.country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.city=Köpet blev inte genomfört - felaktig stad eller ort. Orten eller staden du angivit stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att orten eller staden är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.street=Köpet blev inte genomfört - felaktig gatuadress. Gatuadressen du angivit stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att adressen är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.client_ip=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.proto_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.goods_list=Något är fel i varulistan du försökte skicka in till Klarna. Kontrollera igen att allt är korrekt innan du skickar in den.
+summary.paymenterror.klarna_invoice.artnos=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_invoice.shipmenttype=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.language=Detta språk stöds inte av Klarna.
+summary.paymenterror.klarna_invoice.gender=Vänligen ange ditt kön och försök igen.
+summary.paymenterror.klarna_invoice.date_of_birth=Födelsedatumet du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.addr=Köpet blev inte genomfört - felaktig gatuadress. Adressen du angivit (tex gata eller väg) stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att adressen är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.house_number=Du har angivit ett felaktigt husnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.phone=Mobiltelefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: 07NN NN NN NN. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.income_expense_format=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna ((http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.delay_adjust=Ett fel har uppstått och vi kan för tillfället tyvärr inte genomföra ditt köp med Klarna. Korrigera eventuella stavfel och försök igen. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp. Tack för din förståelse.
+summary.paymenterror.klarna_invoice.bad_name_and_address=Köpet blev inte genomfört - felaktig namn och adress. Namn och adress du angivit stämmer inte överens med din folkbokföringsadress. Var vänlig kontrollera att namn och adress är korrekt inskrivet. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt namn och adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.bad_last_name=Vänligen ange ditt efternamn.
+summary.paymenterror.klarna_invoice.bad_first_name=Vänligen ange ditt förnamn.
+summary.paymenterror.klarna_invoice.bad_first_name_and_last_name=Köpet blev inte genomfört - felaktig för och efternamn. Namnet du angivit stämmer inte överens med din folkbokföringsadress. Var vänlig kontrollera att för och efternamn är korrekt inskrivet. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt namn och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_invoice.group=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.misc_submission_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.orgno_pclass_not_allowed=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.sum_low_for_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unknown_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.not_annuity_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.pclass_expired=Kampanjen som du försöker använda är inte längre giltig. Vänligen prova en annan kampanj.
+summary.paymenterror.klarna_invoice.sum_high_for_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.misc_pclass_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.misc_subscription_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unknown_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.negative_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_not_active=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_bad_status=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_is_passive=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_is_archived=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_is_suspect=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_is_frozen=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_is_pre_pay=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_stale=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_not_passive_or_frozen=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_in_test_mode=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invoice_not_passive=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.misc_invoice_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.cno_already_in_use=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unknown_csid=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.not_allowed_operation=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.ip_from_wrong_country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unknown_type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_artnolist=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_invoice.unknown_artno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.rno=Vi kunde inte hitta den reservation som du försöker använda. Kontrollera att du använder korrekt reservationsnummer och försök igen.
+summary.paymenterror.klarna_invoice.split=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_order_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_invoice.unknown_estore=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.invalid_estore_secret=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.bad_module_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.pno_encoding=Personnummertypen är inte godkänd.
+summary.paymenterror.klarna_invoice.currency=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.currency_country_pnoencoding=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.timeout=Just nu kan vi inte genomföra ditt köp med Klarna på grund av ett tekniskt fel. Försök igen om en stund. Om du fortfarande får detta meddelande, vänligen välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.invalid_country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.negative_amount=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.eid=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.unknown_bclass=Det finns inget definierat beteende för det angivna estore_behaviour värdet.
+summary.paymenterror.klarna_invoice.flags=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.estore_user=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.ready_date=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.under_manual_review=Denna order är under manuell granskning, använd check_order_status för att undersöka aktuell orderstatus.
+summary.paymenterror.klarna_invoice.unknown_order=Vi kunde inte hitta ordern för detta. Kontrollera att du hänvisar till korrekt order och försök igen.
+summary.paymenterror.klarna_invoice.timeout_fe=Just nu kan vi inte genomföra ditt köp med Klarna på grund av ett tekniskt fel. Försök igen om en stund. Om du fortfarande får detta meddelande, vänligen välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_invoice.aid=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.careof=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.cellphone=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.client_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.comment=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.credit_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.cust_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.customer_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.digest_secret=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.estore_order_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.estore_subsc_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.expiry_date=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.faddr=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.handlingfee=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.house_extension=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.lev_addr=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.new_amount=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.new_passwd=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.new_qty=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.notes=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.orderid1=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.orderid2=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.orderno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.passwd=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.rand_str=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.referens=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.referens_code=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.shipmentfee=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.store_id=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.sum=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.telcellno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.username=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.vat=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.yearly_salary=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.session_id=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.not_unique_artnos_on_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_invoice.proto_vsn_test=Ett problem har uppstått i integrationen då protokollsversionen inte överensstämmer med era inställningar. Vänligen kontakta Klarna för hjälp med uppgradering till den senaste versionen.
+summary.paymenterror.klarna_invoice.income_expense_info=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+
+summary.paymenterror.klarna_account.failed=Ett fel inträffade när Klarna konto-transaktionen skulle behandlas. Det kan ha uppstått anslutningsproblem. Vänligen gå tillbaka till kundvagnen och försök igen.
+summary.paymenterror.klarna_account.unspecified_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.legacy_error5=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.legacy_error4=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.legacy_error3=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.legacy_error2=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.legacy_error1=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.estore_overrun=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.estore_blacklisted=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.misc_estore_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.credit=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.amount=Tyvärr kan vi inte godkänna ditt köp genom Klarna. Vänligen välj ett annat betalsätt för att slutföra ditt köp.
+summary.paymenterror.klarna_account.customer_credit_overrun=Tyvärr kan vi inte godkänna ditt köp genom Klarna. Vänligen välj ett annat betalsätt för att slutföra ditt köp.
+summary.paymenterror.klarna_account.blocked=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unpaid_bills=Just nu kan vi inte godkänna ditt köp med Klarna då du har obetalda fakturor. Vänligen betala dem för att fortsätta handla med Klarna. För mer information om dina köp, gå till Mina sidor på www.klarna.se/mina-sidor. Om du vill genomföra ditt köp nu, välj ett annat betalsätt.
+summary.paymenterror.klarna_account.customer_not_accepted=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.customer_blacklisted=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.tno_blocked=Tyvärr kan inte Klarna, som sköter vår fakturering, godkänna ditt köp då du har överskridit din kreditgräns. Vänligen kontakta Klarnas kundtjänst (http://www.klarna.se) för att tillsammans hitta en lösning eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.no_power_of_attorney=Fullmakten för denna person finns ej registrerad hos Klarna.
+summary.paymenterror.klarna_account.get_address_blocked=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.pno=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.invalid_pno=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_account.pno_not_real_person=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.dead=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_account.under_aged=Du behöver vara 18 år eller äldre för att använda detta betalsätt. Vänligen välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.customer_not_18=Tyvärr måste man vara 18 år för att kunna få handla genom Klarna.
+summary.paymenterror.klarna_account.no_such_person=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_account.customer_missing=Personnumret du angett har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD-XXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.no_such_customer=Du har angivit ett felaktigt personnummer, var vänlig och kontrollera om du har råkat skriva fel.
+summary.paymenterror.klarna_account.unknown_customer=Köpet blev inte genomfört - okänt personnummer. Vi kan inte hitta angivet personnummer. Var vänlig kontrollera om du råkat skriva in fel personnummer. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt personnummer och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.bad_customer_password=Du har angivit ett felaktigt lösenord.
+summary.paymenterror.klarna_account.test_customer_but_estore_is_live=Det är inte möjligt att använda testpersoner när butiken är live. Vill du testa din med integration mot Klarna, vänligen använd testflaggan i API-anropet.
+summary.paymenterror.klarna_account.real_customer_with_test_flag=För att kunna genomföra eller aktivera köp hos Klarna med riktiga personer måste du ta bort testflaggan i API-anropet.
+summary.paymenterror.klarna_account.tno_not_found=Första gången du använder Klarna mobil behöver du registrera dig. Det gör du enkelt genom att ringa 08-120 129 00 eller gå in på klarna.se. Mvh Klarna
+summary.paymenterror.klarna_account.pin_error=Tyvärr så var PIN koden felaktig!
+summary.paymenterror.klarna_account.wrong_pin=Tyvärr så var PIN koden felaktig!
+summary.paymenterror.klarna_account.no_pin=Det finns ingen beställd PIN kod!
+summary.paymenterror.klarna_account.orgno=Första gången du använder din företagsmobil för att betala via Klarna mobil behöver du uppge ditt personnummer genom att skicka; REG ÅÅMMDDXXXX till 71200. Mvh Klarna
+summary.paymenterror.klarna_account.phone_getaddr_failed=Vi hittar ingen registrerad folkbokföringsadress för det angivna telefonnumret.
+summary.paymenterror.klarna_account.poa_pno=Personnumret för fullmaktsinnehavaren har inte rätt format. Vänligen ange personnummer som ÅÅÅÅMMDDNNNN.
+summary.paymenterror.klarna_account.poa_group=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.poa_org=Organisationsnumret har inte rätt format.
+summary.paymenterror.klarna_account.misc_customer_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.foreign_addr=Du har angivit en adress som inte stämmer överens med ditt personnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_addr=Vi kan inte identifiera dig på adressen du angivit. Korrigera eventuella stavfel, skriv ut din fullständiga adress och försök igen. Om du fortfarande får detta meddelande, kontakta Klarna på www.klarna.se/kundtjanst.
+summary.paymenterror.klarna_account.bad_address=Du har angivit en adress som inte stämmer överens med ditt personnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.postno=Du har angivit ett felaktigt postnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_postno=Du har angivit ett felaktigt postnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_name=Vi kan inte identifiera namnet du angivit tillsammans med ditt personnummer. Korrigera eventuella stavfel, skriv ut ditt fullständiga namn och försök igen. Om du fortfarande får detta meddelande, kontakta Klarna på www.klarna.se/kundtjanst.
+summary.paymenterror.klarna_account.address=Vi kan inte identifiera dig på adressen du angivit. Korrigera eventuella stavfel, skriv ut din fullständiga adress och försök igen. Om du fortfarande får detta meddelande, kontakta Klarna på www.klarna.se/kundtjanst.
+summary.paymenterror.klarna_account.no_address="Vi kan inte hitta någon folkbokförd adress för det angivna personnummret. Vänligen kontrollera dina uppgifter eller välj ett annat betalsätt för att slutföra ditt köp."
+summary.paymenterror.klarna_account.bad_addr_limited=Ditt köp kan tyvärr inte godkännas. Det beror på att beloppsgränsen för köp till en icke folkbokförd adress har överskridits. För att genomföra ditt köp kan du antingen ändra så att varorna levereras till din folkbokförda adress, eller välja ett annat betalningsalternativ.
+summary.paymenterror.klarna_account.unidentified=Tack för ditt köp! Tyvärr kan Klarna inte verifiera att du bor på den adress du angivit. Vänligen ange din folkbokföringsadress eller skicka en kopia av ID (pass, körkort, ID) till identification@klarna.com. Vi hör av oss inom 24 timmar. Självklart använder vi bara denna information i samband med dina framtida köp hos Klarna!
+summary.paymenterror.klarna_account.zip=Postnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: NNN NN. Om du fortfarande får detta meddelande, var god välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.cellno=Mobiltelefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: 07NN NN NN NN. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.telno=Telefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: 0X(XX)-XXXXX. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.email=E-postadressen som du har angivit är felaktig. Du kanske har råkat skriva in fel? Om inte, välj ett annat sätt att betala på.
+summary.paymenterror.klarna_account.country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.city=Köpet blev inte genomfört - felaktig stad eller ort. Orten eller staden du angivit stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att orten eller staden är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.street=Köpet blev inte genomfört - felaktig gatuadress. Gatuadressen du angivit stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att adressen är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.client_ip=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.proto_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.goods_list=Något är fel i varulistan du försökte skicka in till Klarna. Kontrollera igen att allt är korrekt innan du skickar in den.
+summary.paymenterror.klarna_account.artnos=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_account.shipmenttype=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.language=Detta språk stöds inte av Klarna.
+summary.paymenterror.klarna_account.gender=Vänligen ange ditt kön och försök igen.
+summary.paymenterror.klarna_account.date_of_birth=Födelsedatumet du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: ÅÅÅÅMMDD. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.addr=Köpet blev inte genomfört - felaktig gatuadress. Adressen du angivit (tex gata eller väg) stämmer inte överens med din folkbokföringsadress. Vänligen kontrollera att adressen är korrekt inskriven. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.house_number=Du har angivit ett felaktigt husnummer. Var vänlig och kontrollera om du har råkat skriva fel eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.phone=Mobiltelefonnumret du angivit har inte rätt format. Kontrollera att alla siffror stämmer och försök igen med följande format: 07NN NN NN NN. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.income_expense_format=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna ((http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.delay_adjust=Ett fel har uppstått och vi kan för tillfället tyvärr inte genomföra ditt köp med Klarna. Korrigera eventuella stavfel och försök igen. Om du fortfarande får detta meddelande, välj ett annat betalsätt för att genomföra ditt köp. Tack för din förståelse.
+summary.paymenterror.klarna_account.bad_name_and_address=Köpet blev inte genomfört - felaktig namn och adress. Namn och adress du angivit stämmer inte överens med din folkbokföringsadress. Var vänlig kontrollera att namn och adress är korrekt inskrivet. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt namn och adress och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst:http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.bad_last_name=Vänligen ange ditt efternamn.
+summary.paymenterror.klarna_account.bad_first_name=Vänligen ange ditt förnamn.
+summary.paymenterror.klarna_account.bad_first_name_and_last_name=Köpet blev inte genomfört - felaktig för och efternamn. Namnet du angivit stämmer inte överens med din folkbokföringsadress. Var vänlig kontrollera att för och efternamn är korrekt inskrivet. Vår fakturering och delbetalning hanteras av Klarna. Kontakta Klarnas kundtjänst om du angivit korrekt namn och ändå får detta meddelande. Klicka på länken nedan för att komma till Klarnas kundtjänst: http://www.klarna.se/sv/privat/kundtjaenst
+summary.paymenterror.klarna_account.group=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.misc_submission_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.orgno_pclass_not_allowed=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.sum_low_for_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unknown_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.not_annuity_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.pclass_expired=Kampanjen som du försöker använda är inte längre giltig. Vänligen prova en annan kampanj.
+summary.paymenterror.klarna_account.sum_high_for_pclass=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.misc_pclass_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.misc_subscription_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unknown_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.negative_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_not_active=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_bad_status=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_is_passive=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_is_archived=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_is_suspect=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_is_frozen=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_is_pre_pay=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_stale=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_not_passive_or_frozen=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_in_test_mode=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invoice_not_passive=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.misc_invoice_error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.cno_already_in_use=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unknown_csid=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.not_allowed_operation=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.ip_from_wrong_country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unknown_type=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_artnolist=Vi känner inte igen artikellistan i den här ordern. Vänligen kontrollera att artikelnumret matchar ordern och försök igen.
+summary.paymenterror.klarna_account.unknown_artno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.rno=Vi kunde inte hitta den reservation som du försöker använda. Kontrollera att du använder korrekt reservationsnummer och försök igen.
+summary.paymenterror.klarna_account.split=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_order_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_account.unknown_estore=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.invalid_estore_secret=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.bad_module_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.pno_encoding=Personnummertypen är inte godkänd.
+summary.paymenterror.klarna_account.currency=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.currency_country_pnoencoding=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.timeout=Just nu kan vi inte genomföra ditt köp med Klarna på grund av ett tekniskt fel. Försök igen om en stund. Om du fortfarande får detta meddelande, vänligen välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.invalid_country=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.negative_amount=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.eid=Det har uppstått ett integrationsfel mellan butiken och Klarna. Kontakta Webbutiken för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.unknown_bclass=Det finns inget definierat beteende för det angivna estore_behaviour värdet.
+summary.paymenterror.klarna_account.flags=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.estore_user=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.ready_date=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.under_manual_review=Denna order är under manuell granskning, använd check_order_status för att undersöka aktuell orderstatus.
+summary.paymenterror.klarna_account.unknown_order=Vi kunde inte hitta ordern för detta. Kontrollera att du hänvisar till korrekt order och försök igen.
+summary.paymenterror.klarna_account.timeout_fe=Just nu kan vi inte genomföra ditt köp med Klarna på grund av ett tekniskt fel. Försök igen om en stund. Om du fortfarande får detta meddelande, vänligen välj ett annat betalsätt för att genomföra ditt köp.
+summary.paymenterror.klarna_account.aid=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.careof=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.cellphone=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.client_vsn=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.comment=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.credit_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.cust_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.customer_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.digest_secret=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.estore_order_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.estore_subsc_no=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.expiry_date=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.faddr=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.handlingfee=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.house_extension=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.lev_addr=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.new_amount=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.new_passwd=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.new_qty=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.notes=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.orderid1=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.orderid2=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.orderno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.passwd=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.rand_str=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.referens=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.referens_code=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.shipmentfee=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.store_id=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.sum=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.telcellno=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.username=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.vat=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.yearly_salary=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.session_id=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.error=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.not_unique_artnos_on_invoice=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+summary.paymenterror.klarna_account.proto_vsn_test=Ett problem har uppstått i integrationen då protokollsversionen inte överensstämmer med era inställningar. Vänligen kontakta Klarna för hjälp med uppgradering till den senaste versionen.
+summary.paymenterror.klarna_account.income_expense_info=Ett problem har uppstått i kommunikationen med Klarna, som sköter vår fakturering. Vänligen kontakta Klarna (http://www.klarna.se) för mer information eller välj ett annat sätt att betala.
+
+##############################################
+# ISML Directory: slots/
+##############################################
+cart.recommendations.products=Kanske tycker du också om
+
+##############################################
+# ISML Directory: slots/
+##############################################
+feedback.review.negative.label=Oj... det var inte bra.
+feedback.review.negative.placeholder=Vad kunde vi ha gjort bättre?
+feedback.review.positive.label=Det var riktigt goda nyheter!
+feedback.review.positive.placeholder=Finns det något vi kunde ha gjort bättre?
+feedback.review.thankyou.text=Tack för att du utvärderar oss. Med hjälp av din feedback kan vi förbättra oss. Om du behöver något mer, är du välkommen att kontakta vår kundtjänst.
+feedback.review.thankyou.copy=Kopiera min feedback
+feedback.review.thankyou.share=Dela min feedback på Trustpilot
+
+login.haveaccount=Du verkar ha ett konto.\n\tLogga in så går det snabbare i kassan!
+login.email=Vilken e-postadress har du?
+login.forgotpassword=Glömt lösenordet
+login.welcomeback=Välkommen tillbaka,
+competition.terms=Tävlingsvillkor
+competition.customerclubterms=Genom att registrera dig accepterar du {0} för vår kundklubb.
+competition.customerclubtermslink=villkor och bestämmelser
+competition.datadisclamer=All personlig information som skickas in i samband med denna tävling kommer att lagras av BESTSELLER och behandlas i enlighet med den danska persondataskyddslagen och våra villkor för medlemskap i {0} medlemsklubb.
+competition.successcontinue=Fortsätt till {0}
+competition.termsreadmore=Läs {0}.
+competition.termsreadmorelink=tävlingsvillkor
+competition.selectsize=Välj här
+competition.sizeerror=Vänligen välj storlek
+competition.selectprize=Välj bland följande:
+competition.submit=Skicka
+competition.invalidfields=Det var konstigt. Vänligen kontrollera de röda fälten.
+competition.serviceerror=Tjänsten är inte tillgänglig just nu.
+competition.onesize=One size
+competition.termslabel=Jag godkänner villkor och bestämmelser för tävlingen och {0} {1}
+competition.customerclub=KUNDKLUBB
+competition.answer=Svar
+﻿########################################
+# strings in content images
+########################################
+content.20_40_off=20-40 % rabatt
+
+content.apparel.accessories=accessoarer
+content.apparel.apparel=kläder
+content.apparel.boots=kängor
+content.apparel.coat=kappa
+content.apparel.collection=kollektion
+content.apparel.dresses=klänningar
+content.apparel.earrings=örhängen
+content.apparel.fleeceandknits=fleece och stickat
+content.apparel.hats=hattar
+content.apparel.jackets=jackor
+content.apparel.jewelry=smycken
+content.apparel.leather=läder
+content.apparel.neckties=slipsar
+content.apparel.necklaces=halsband
+content.apparel.outerwear=ytterkläder
+content.apparel.pants=byxor
+content.apparel.scarves=halsdukar
+content.apparel.shirt=skjorta
+content.apparel.shirts=skjortor
+content.apparel.shoes=skor
+content.apparel.shorts=shorts
+content.apparel.sportcoat=sportjacka
+content.apparel.suits=kostymer
+content.apparel.sweater=tröjor
+content.apparel.tops=toppar
+content.apparel.tshirt=t-shirt
+content.apparel.tshirts=t-shirts
+
+content.category.kids=barn
+content.category.mens=herr
+content.category.womens=dam
+
+content.season.fall=höst
+content.season.spring=vår
+content.season.summer=sommar
+content.season.winter=vinter
+
+content.classicfit=klassisk passform
+content.cool_savings=coola besparingar
+content.dressforsucess=dress for success
+content.free_shipping=gratis frakt
+content.freegroundshipping=gratis markbunden frakt för beställningar på minst $150
+content.new=nytt
+content.new_arrivals=nyinkommet
+content.new_styles=nya modeller
+content.promocode=kampanjkod "GCshipping"
+content.sale=rea
+content.save_20=spara 20 %
+content.save_20_40=spara 20-40 %
+content.save_some_cash=spara pengar
+content.shop=handla
+content.shop_now=handla nu >
+content.thisweeksdeals=veckans klipp
+content.use_a_gift_card=använd ett presentkort, få gratis leverans
+content.warmthandstyle=värme och stil
+
+homepage.banners_homepage_05b_headline=den perfekta följeslagaren
+homepage.banners_homepage_05d_action=20 % rabatt endast denna vecka
+homepage.banners_homepage_05e_headline=hoppa i
+homepage.img01=spara upp till 40 % på utvalda damskor
+homepage.img02=utrensning: 10 % rabatt på alla herrkläder
+homepage.img05=köp barnytterkläder och få det andra plagget med 50 % rabatt
+homepage.img06=köp en resväska och få 25 % rabatt på valfri ryggsäck
+
+slot.landing.kids-clothing=utgallring: upp till 25 % på alla hoodies till barn
+slot.landing.kids-footwear=nya modeller till barn
+slot.landing.mens-clothing=uppdatera din look inför den kommande säsongen
+slot.landing.mens-footwear-boots=spara 20 % på utvalda herrstövlar
+slot.landing.womens-footwear-shoes=slip-on-modell och komfort
+slot.landing.womens-greatstyles=kolla in alla våra snygga modeller till den nya säsongen...
+slot.sub_banners.kids-accessories-hats=stickade mössor från $11,99
+slot.sub_banners.kids-clothing-footwear=alla kostar mindre än $25
+slot.sub_banners.kids-clothing-tops=köp 3 eller fler för $10 styck
+slot.sub_banners.kids-merchandise=spara $5 på alla varor till barn
+slot.sub_banners.mens-accessories-luggage=köp valfri resväska och få 25 % rabatt på valfri ryggsäck
+slot.sub_banners.mens-accessories-ties=hitta den perfekta presenten till pappa
+slot.sub_banners.mens-clothing-pants=hitta det perfekta paret
+slot.sub_banners.mens-clothing-suits=på alla formella kostymer
+slot.sub_banners.mens-footwear-boots=på alla 6-tumsstövlar
+slot.sub_banners.mensclothingbottoms=denim från $29,99
+slot.sub_banners.standard_mensaccessorieshats=basebollkepsar
+slot.sub_banners.standard_mensaccessorieswallets=läderplånböcker $29-$37
+slot.sub_banners.standard_mensclothingouterwear=på alla herrfleeceplagg
+slot.sub_banners.standard_mensfootwear=Seglarskor - lika snygga året runt
+slot.sub_banners.standard_storelocator=hitta en butik nära dig
+slot.sub_banners.womens-accessories-handbags=Handväskrea
+slot.sub_banners.womens-accessories-handbags.freewallet=gratis plånbok vid köp
+slot.sub_banners.womens-clothing-dresses=avslappnade klänningar
+slot.sub_banners.womens-clothing-outerwear=gratis lädervårdskit när du köper en jacka
+slot.sub_banners.womens-clothing-tops=flirtiga toppar
+slot.sub_banners.womens-footwear=friluftsskor för damer
+slots.categorylanding.lowbanners.mens-footwear-boots=spara 20 % på utvalda herrstövlar
+
+##############################################
+# Languages Country Selector
+##############################################
+language.en = English
+language.fr = Français
+language.it = Italiano
+language.da = Dansk
+language.fi = Suomi
+language.sv = Svenska
+language.no = Norsk bokmål
+language.es = Español
+language.de = Deutsch
+language.nl = Nederlands
+language.is = Íslenska
+language.pl = Polski
+language.zh = 中文
+language.tr = Türkçe
+
+##############################################
+# Languages Country Switch
+##############################################
+
+countryswitch.headline=Välj en leveransplats
+countryswitch.viewall=Se alla länder
+countryswitch.gotosite=Fortsätt
+
+##############################################
+# Manufacturing Page
+##############################################
+manufacturing.header=THE MANUFACTURING MAP
+manufacturing.manufactures=Manufactures
+manufacturing.facilities=Facilities
+manufacturer.header=MANUFACTURER
+
+##############################################
+# Common resources
+##############################################
+resource.passwordassistance=Lösenordshjälp
+resource.ordergcemsg=Ett presentcertifikat från
+resource.youraccount=Ditt konto
+resource.employeestore=Verifiering till medarbetarbutik
+resource.whatnext=VAD HÄNDER NU?
+resource.needhelp=BEHÖVER DU HJÄLP?
+resource.greeting=Hej {0},
+resource.quantity=Antal:
+
+##############################################
+# Template name: mail/giftcert
+##############################################
+giftcert.msghasbeenleftforyou=har lämnat följande meddelande till dig:
+giftcert.msgleftforyou=Följande meddelande har lämnats till dig:
+giftcert.toredeem=Du löser in ditt presentcertifikat genom att använda följande kod i faktureringssteget i kassan:
+giftcert.dearcustomer=Till dig som kund,
+giftcert.dear=Bästa {0},
+giftcert.someone=Någon
+giftcert.paysattention=tänker på dig och har skickat dig ett {0} presentcertifikat för vår
+giftcert.dwonlinestore=Allt du behöver göra är att skriva ut den PDF-fil som vi bifogar med detta e-postmeddelande, och sedan är presentkortet klart att användas.
+giftcert.period=.
+giftcert.message=Här är ditt presentkort från order #{0}
+giftcert.customermessage=Vi hoppas att du hittar något som faller dig i smaken.
+giftcert.tips=Klart. Nu kan du shoppa med ditt presentkort både i våra butiker och online.
+giftcert.confirmation=Ditt presentkort kommer att skickas via e-post så snart vi har behandlat din betalning.
+##############################################
+# Template name: mail/orderreturns.isml
+##############################################
+return.subject=Returnerade varor från order {0}
+return.message=Returnerade varor mottagna från order {0}
+return.refundmessage=Vi ska genast börja behandla din återbetalning.
+return.statusreturned=Returnerad
+return.refundconfirmation=Saknas det några varor i din retur? Så kan det bli ibland. Det kan ta lite längre tid att behandla vissa varor. Så fort vi behandlar en vara, meddelar vi dig detta genast via e-post.
+return.process=Du kan förvänta dig att inom åtta dagar få ett e-postmeddelande från oss som bekräftar din återbetalning. Under tiden är du alltid välkommen att vända dig till vårt kundtjänstteam ifall du har några frågor.
+return.contact=Du kan förvänta dig att inom åtta dagar få ett e-postmeddelande från oss som bekräftar din återbetalning. Under tiden är du alltid välkommen att vända dig till vårt kundtjänstteam ifall du har några frågor.
+return.customermessage=Vi ser fram emot att få träffa dig igen snart.
+
+##############################################
+# Template name: mail/refundmail.isml
+##############################################
+refund.subject=Återbetalade varor från order {0}
+refund.message=Återbetalning har utförts för order {0}.
+refund.totalmessage=Enligt de varor du har returnerat kommer vi att återbetala {0} till dig. Detta är priset för dessa varor minus eventuella rabatter.
+refund.statusrefunded=Återbetalat
+refund.itemtotal=Summa
+refund.refundmessage=Återbetalning har gjorts för dina returnerade varor.
+refund.moneyrefund=Pengarna bör finnas på ditt konto inom 5-10 dagar, beroende på den använda betalningsmetoden. Eller så skickas ett presentkort via e-post till dig, om du betalade din beställning med ett presentkort.
+refund.tips=Vi har skrivit ner några praktiska tips om returer och återbetalning. Du hittar dessa tips i sektionen Hjälp.
+refund.customerservice=Vårt kundserviceteam (customerservice@bestseller.com) hjälper dig gärna och kan förklara hur våra återbetalningsrutiner fungerar.
+
+refund.servicefee=Fakturaavgift
+refund.deliverycharge=Fraktkostnad
+refund.returnfee=Returfrakt
+refund.contact=Vårt {0} finns alltid här för att besvara alla frågor du kan tänkas ha.
+refund.help=Vi har skrivit ner några praktiska tips om returer och återbetalning. Du hittar dessa tips i {0}.
+refund.customermessage=Vi ser fram emot att få träffa dig igen snart
+refund.helpsection=Hjälpsektion
+
+##############################################
+# Template name: mail/dispatchnotificationmail
+##############################################
+dispatch.subject=Vi har skickat din beställning
+dispatch.tracking=Klicka på spårningsnumret nedan för att följa ditt paket. Det kan ta en liten stund innan länken aktiveras:
+dispatch.message=Din order {0} har skickats.
+dispatch.shipmessage=Spännande nyheter, din order {0} är på väg till dig.
+dispatch.parcelshop=Om du har valt ett {0}-serviceställe, kommer de att skicka ett e-postmeddelande eller SMS till dig när du kan hämta paketet.
+dispatch.customerservice=Vårt kundtjänstteam (customerservice@bestseller.com) hjälper dig gärna.
+dispatch.shipmessagepartial=Din order {0} är på väg till dig
+dispatch.partial=Goda nyheter! Nu är några av de stilsäkra varorna från order {0} på väg till dig. Saknas det några varor från din order? Oroa dig inte, vi skickar snart ett paket till.
+dispatch.messageheader=VAD HÄNDER NU?
+dispatch.contactheader=BEHÖVER DU HJÄLP?
+dispatch.contact=Vårt {0} finns alltid här för att besvara alla frågor du kan tänkas ha.
+dispatch.customerserviceteam=kundserviceteam
+dispatch.partialcancelledheader=På grund av nuvarande tillgänglighetsproblem kan vi inte leverera den eller de varorna som är markerade i grått nedan. Vi beklagar verkligen detta. 
+dispatch.partialcancelled=Men oroa dig inte - vi kommer att återbetala {0} till dig inom 3-5 vardagar.
+dispatch.partialcancelledsubject=Viktig uppdatering om din order
+dispatch.partialcancelledextramessage=Vi hoppas att du hittar något annat som faller dig i smaken.
+dispatch.unavailable=Ej tillgänglig för närvarande
+
+##############################################
+# Template name: mail/ordercancellation
+##############################################
+cancellation.information=Självklart kostar detta inget. Samtidigt dyker nya varor upp på webbplatsen varje vecka. Vi hoppas att du hittar något annat som faller dig i smaken.
+cancellation.customerservice=Vårt kundserviceteam (customerservice@bestseller.com) förklarar gärna för dig varför detta har hänt.
+
+footer.companyname=BESTSELLER HANDELS B.V.
+footer.companydetails=Sint Jorissteeg 2, 1012 XV Nederland - MOMS NL853685757B01 / 59896604
+footer.automatic=Observera: Detta är ett automatiskt e-postmeddelande som du inte kan svara på. Om du behöver hjälp, gå till vår {0}
+footer.customerservicepage=kundservicesida
+
+##############################################
+# Template name: mail/employeestoreemail
+##############################################
+employee.welcome=Välkommen till BESTSELLER:s personalbutik.
+employee.clicklink=Klicka på länken nedan för att bekräfta din registrering och gå till personalbutiken.
+employee.linkhours=Du kan använda denna länk i upp till 24 timmar.
+employee.shopclosed=Personalbutiken är stängd under följande tider:
+employee.shopmonthu=Måndag till torsdag - 08:30 till 16:30
+employee.shopfri=Fredag - 08:30 till 14:00
+employee.cannotshop=När personalbutiken är stängd kan du inte handla där.
+employee.homeaddress=Tänk på att varor som köpts med personalrabatt endast kan levereras till din hemadress.
+employee.chrome=Personalbutiken är optimerad för Google Chrome. Om du använder Internet Explorer och får problem, rekommenderar vi att du byter till Chrome.
+employee.contact=Om du har några frågor om din order eller personalshopping i allmänhet, hjälper vår kundservice dig gärna: customerservice@bestseller.com.
+employee.bestseller=BESTSELLER
+
+confirmation.messageheader=VAD HÄNDER NU?
+confirmation.message=Så snart vi har packat din order, kommer vi att skicka ett spårningsnummer till dig via e-post.
+confirmation.contactheader=BEHÖVER DU HJÄLP?
+confirmation.contact=Vårt {0} finns alltid här för att besvara alla frågor du kan tänkas ha.
+confirmation.customerserviceteam=kundserviceteam
+confirmation.thankyou=Tack för din order #{0}
+confirmation.shippingestimate=Den bör levereras till dig inom {0}
+confirmation.estimate.days=Den bör levereras till dig inom {0}-{1} arbetsdagar
+confirmation.multishipment=Du kommer att få dina beställda varor i flera leveranser
+
+##############################################
+# Template name: mail/notifyme
+##############################################
+notifyme.hello=Hej!
+notifyme.backinstock=Goda nyheter. Din favoritvara finns åter i lager!
+notifyme.incentive=Köp den nu innan den tar slut igen.
+notifyme.getitnow=Köp nu
+notifyme.help=Behöver du hjälp? Kontakta vårt {0}
+notifyme.customerserviceteam=kundserviceteam
+feedback.message=Vi hoppas att du är nöjd med ditt köp hos oss. Vi värdesätter dina åsikter om våra produkter och service och vill gärna höra mer om din köpupplevelse. Tack för att du delar din feedback med oss så att vi kan bli ännu bättre.
+feedback.title=Hur var din returupplevelse?
+feedback.emailsubject=Tycker du att vi gör bra ifrån oss?
+
+﻿##############################################
+# Template name: error/generalerror
+##############################################
+generalerror.title=Hoppsan, det här var pinsamt. Det har uppstått ett fel. 
+generalerror.message=Vi jobbar på att åtgärda det. Under tiden kanske du vill kika på alla de hundratals nya modeller som kommer till vår webbplats varje vecka? 
+generalerror.searchlabel=Sök
+
+##############################################
+# Template name: error/siteoffline
+##############################################
+siteoffline.header=Vår webbplats ligger tillfälligt nere för underhåll.
+siteoffline.message=Tack för ditt tålamod.
+
+##############################################
+# Template name: error/notfound
+##############################################
+notfound.pagenotfound.title=Hoppsan, det här var pinsamt
+notfound.pagenotfound.message=Vi kan tyvärr inte hitta den sidan. Webbsideadressen kan ha ändrats eller så finns den inte längre.
+notfound.pagenotfound.message.beforelink=Under tiden kanske du vill kika på alla de hundratals nya modeller som kommer till vår webbplats varje vecka?
+notfound.pagenotfound.message.link=HEM
+notfound.pagenotfound.suggestion=eller kika på våra rekommendationer nedan och se om du hittar något som du gillar.
+
+##############################################
+# Template name: error/minicarterror
+##############################################
+minicarterror.message=Mini-kundvagnen verkar ha fått problem.
+minicarterror.refresh=Testa att uppdatera sidan.
+
+##############################################
+# Template name: error/internalservererror
+##############################################
+internalservererror.page.title=Error 500
+internalservererror.title=Internt fel
+internalservererror.message=Servern råkade ut för ett internt fel och kunde inte slutföra denna begäran.
+##############################################
+# Directory: forms
+##############################################
+billing.email=E-post:
+
+billingcoupon.couponenter=Kampanjkod:
+billingcoupon.applycoupon=Har du en kampanjkod?
+billingcoupon.couponexplanation=Om du har fått en specialerbjudandekod eller rabatt, kan du ange den unika koden nedan.
+billingcoupon.couponinvalid=Ogiltig kupongkod
+billingcoupon.couponused=Denna kampanjkod har redan använts
+billingcoupon.couponexpired=Förfallen kampanjkod
+billingcoupon.couponalreadyapplied=Kupongen har redan tillämpats
+billingcoupon.couponnotqualified=Denna kupong berättigar inte till rabatt
+
+billinggiftcert.giftcertlabel=Presentkortet nummer:
+billinggiftcert.giftcertcvvlabel=Styrkod:
+billinggiftcert.giftcertinvalid=Ogiltigt presentkortet nummer
+billinggiftcert.giftcertcvvinvalid=Ogiltigt styrkod
+billinggiftcert.giftcertwrongcurrency=Presentkortet kan endast lösas in för ordrar som har gjorts i samma valuta som presentcertifikatet.
+billinggiftcert.giftcertnofunds=Otillräckligt saldo på presentkortet
+
+competition.answer=Svar
+
+country.the.unitedstates=USA
+country.unitedstates=USA
+country.denmark=Danmark
+country.germany=Tyskland
+country.canada=Kanada
+country.japan=Japan
+country.france=Frankrike
+country.italy=Italien
+country.china=Kina
+country.unitedkingdom=Storbritannien
+
+country.at=Österrike
+country.be=Belgien
+country.ca=Kanada
+country.ch=Schweiz
+country.cn=Kina
+country.dk=Danmark
+country.de=Tyskland
+country.es=Spanien
+country.fi=Finland
+country.fr=Frankrike
+country.gb=Storbritannien
+country.gr=Grekland
+country.ie=Irland
+country.it=Italien
+country.jp=Japan
+country.nl=Nederländerna
+country.no=Norge
+country.se=Sverige
+country.uk=Storbritannien
+country.us=USA
+country.ad=Andorra
+country.au=Australien
+country.by=Vitryssland
+country.cz=Tjeckien
+country.ee=Estland
+country.fo=Färöarna
+country.hr=Kroatien
+country.id=Indonesien
+country.in=Indien
+country.is=Island
+country.kr=Korea, Republiken av
+country.kz=Kazakstan
+country.lt=Litauen
+country.lu=Luxemburg
+country.lv=Lettland
+country.ma=Marocko
+country.my=Malaysia
+country.ph=Filippinerna
+country.pl=Polen
+country.pt=Portugal
+country.ro=Rumänien
+country.ru=Ryssland
+country.sg=Singapore
+country.si=Slovenien
+country.th=Thailand
+country.tr=Turkiet
+country.uz=Uzbekistan
+country.za=Sydafrika
+country.rw=Hela världen
+
+creditcard.visa=Visa
+creditcard.mastercard=Mastercard
+creditcard.amex=Amex
+creditcard.discover=Discover
+creditcard.savecard=Spara detta kort
+creditcard.type=Typ
+creditcard.typemissing=Välj ett kort
+creditcard.number=Nummer
+creditcard.numberexample=Exempel: 4111111111111111
+creditcard.numberrangeerror=Ett nummer måste innehålla 13-16 siffror
+creditcard.numbermissingerror=Ange numret precis som det står på kortet
+creditcard.numbervalueerror=Ogiltigt kreditkortsnummer
+creditcard.monthmissingerror=Välj en förfallomånad
+creditcard.yearmissingerror=Välj ett förfalloår
+creditcard.yearvalueerror=Kreditkortet har utgått
+creditcard.ownerlabel=Namn på kortet
+creditcard.ownermissingerror=Ange ditt namn precis som det står på kortet
+creditcard.cvnlabel=Säkerhetskod
+creditcard.cvnmissingerror=Ange din säkerhetskod
+creditcard.cvnrangeerror=Ogiltig säkerhetskod
+
+day.001=01
+day.002=02
+day.003=03
+day.004=04
+day.005=05
+day.006=06
+day.007=07
+day.008=08
+day.009=09
+day.010=10
+day.011=11
+day.012=12
+day.013=13
+day.014=14
+day.015=15
+day.016=16
+day.017=17
+day.018=18
+day.019=19
+day.020=20
+day.021=21
+day.022=22
+day.023=23
+day.024=24
+day.025=25
+day.026=26
+day.027=27
+day.028=28
+day.029=29
+day.030=30
+day.031=31
+
+resource.firstname=Förnamn:
+resource.lastname=Efternamn:
+resource.5_100characters=5-100 tecken
+resource.6_255characters=6-255 tecken
+resource.address=Adress:
+resource.address1=Adress 1:
+resource.housenumber=Husnummer:
+resource.extension=Ext.
+resource.address2=Ytterligare adressinformations
+resource.addresserror=Ange adressinformation
+resource.addtocart=Lägg till i varukorgen
+resource.city=Stad:
+resource.town=Town:
+resource.country=Land
+resource.day=Dag
+resource.delete=Ta bort
+resource.find=Sök
+resource.email=e-post
+resource.employeeid=Medarbetar-ID
+resource.employeeiderror=Vänligen ange ett giltigt medarbetar-ID
+resource.errorzip=Ange postnummer
+resource.errorpostal=Ange postnummer
+resource.month=Månad
+resource.select=Välj...
+resource.send=Skicka
+resource.shippingmethod=Leveranssätt
+resource.state=Delstat
+resource.stateprovince=Delstat/Provins
+resource.province=Provins
+resource.state.other=Övrigt
+resource.year=År
+resource.zippostalcode=Postnummer
+resource.zipcode=Postnummer:
+resource.postalcode=Postnummer
+resource.ssn=Personnummer:
+resource.bank=Bank:
+resource.bank.select=Select a Bank
+resource.birthdate=Födelsedatum
+
+label.username=E-post
+label.password=Lösenord:
+label.newpassword=Nytt lösenord
+
+login.rememberme=Kom ihåg mig
+
+login.username.missing-error=Ange din e-postadress
+login.password.missing-error=Ange ditt lösenord
+
+month.january=Januari
+month.february=Februari
+month.march=Mars
+month.april=April
+month.may=Maj
+month.june=Juni
+month.july=Juli
+month.august=Augusti
+month.september=September
+month.october=Oktober
+month.november=November
+month.december=December
+
+state.us.alabama=Alabama
+state.us.alaska=Alaska
+state.us.americansamoa=Amerikanska Samoa
+state.us.arizona=Arizona
+state.us.arkansas=Arkansas
+state.us.california=Kalifornien
+state.us.colorado=Colorado
+state.us.connecticut=Connecticut
+state.us.delaware=Delaware
+state.us.dc=District of Columbia
+state.us.florida=Florida
+state.us.georgia=Georgia
+state.us.guam=Guam
+state.us.hawaii=Hawaii
+state.us.idaho=Idaho
+state.us.illinois=Illinois
+state.us.indiana=Indiana
+state.us.iowa=Iowa
+state.us.kansas=Kansas
+state.us.kentucky=Kentucky
+state.us.louisiana=Louisiana
+state.us.maine=Maine
+state.us.maryland=Maryland
+state.us.massachusetts=Massachusetts
+state.us.michigan=Michigan
+state.us.minnesota=Minnesota
+state.us.mississippi=Mississippi
+state.us.missouri=Missouri
+state.us.montana=Montana
+state.us.nebraska=Nebraska
+state.us.nevada=Nevada
+state.us.newhampshire=New Hampshire
+state.us.newjersey=New Jersey
+state.us.newmexico=New Mexico
+state.us.newyork=New York
+state.us.northcarolina=North Carolina
+state.us.northdakota=North Dakota
+state.us.ohio=Ohio
+state.us.oklahoma=Oklahoma
+state.us.oregon=Oregon
+state.us.pennsylvania=Pennsylvania
+state.us.puertorico=Puerto Rico
+state.us.rhodeisland=Rhode Island
+state.us.southcarolina=South Carolina
+state.us.southdakota=South Dakota
+state.us.tennessee=Tennessee
+state.us.texas=Texas
+state.us.utah=Utah
+state.us.vermont=Vermont
+state.us.virginislands=Jungfruöarna
+state.us.virginia=Virginia
+state.us.washington=Washington
+state.us.westvirginia=West Virginia
+state.us.wisconsin=Wisconsin
+state.us.wyoming=Wyoming
+state.us.armedforcesafrica=Militär Afrika
+state.us.armedforcesamerica=Amerikanska väpnade styrkor (exkl. Kanada)
+state.us.armedforcescanada=Militär Kanada
+state.us.armedforceseurope=Militär Europa
+state.us.armedforcesmiddleeast=Militär Mellanöstern
+state.us.armedforcespacific=Militär Stilla havet
+state.us.other=Icke USA/Övriga
+
+state.ca.alberta=Alberta
+state.ca.britishcolumbia=British Columbia
+state.ca.manitoba=Manitoba
+state.ca.newbrunswick=New Brunswick
+state.ca.newfoundland=Newfoundland och Labrador
+state.ca.northwestterritories=Nordvästra territorierna
+state.ca.novascotia=Nova Scotia
+state.ca.nunavut=Nunavut
+state.ca.ontario=Ontario
+state.ca.princeedwardisland=Prince Edward Island
+state.ca.quebec=Quebec
+state.ca.saskatchewan=Saskatchewan
+state.ca.yukon=Yukon
+
+year.2021=2021
+year.2020=2020
+year.2019=2019
+year.2018=2018
+year.2017=2017
+year.2016=2016
+year.2015=2015
+year.2014=2014
+year.2013=2013
+year.2012=2012
+year.2011=2011
+year.2010=2010
+year.2009=2009
+year.2008=2008
+year.2007=2007
+year.2006=2006
+year.2005=2005
+year.2004=2004
+year.2003=2003
+year.2002=2002
+year.2001=2001
+year.2000=2000
+year.1999=1999
+year.1998=1998
+year.1997=1997
+year.1996=1996
+year.1995=1995
+year.1994=1994
+year.1993=1993
+year.1992=1992
+year.1991=1991
+year.1990=1990
+year.1989=1989
+year.1988=1988
+year.1987=1987
+year.1986=1986
+year.1985=1985
+year.1984=1984
+year.1983=1983
+year.1982=1982
+year.1981=1981
+year.1980=1980
+year.1979=1979
+year.1978=1978
+year.1977=1977
+year.1976=1976
+year.1975=1975
+year.1974=1974
+year.1973=1973
+year.1972=1972
+year.1971=1971
+year.1970=1970
+year.1969=1969
+year.1968=1968
+year.1967=1967
+year.1966=1966
+year.1965=1965
+year.1964=1964
+year.1963=1963
+year.1962=1962
+year.1961=1961
+year.1960=1960
+year.1959=1959
+year.1958=1958
+year.1957=1957
+year.1956=1956
+year.1955=1955
+year.1954=1954
+year.1953=1953
+year.1952=1952
+year.1951=1951
+year.1950=1950
+year.1949=1949
+year.1948=1948
+year.1947=1947
+year.1946=1946
+year.1945=1945
+year.1944=1944
+year.1943=1943
+year.1942=1942
+year.1941=1941
+year.1940=1940
+year.1939=1939
+year.1938=1938
+year.1937=1937
+year.1936=1936
+year.1935=1935
+year.1934=1934
+year.1933=1933
+year.1932=1932
+year.1931=1931
+year.1930=1930
+
+##############################################
+# Template name: forms/bml
+##############################################
+bml.dayerror=Ange dag
+bml.montherror=Ange månad
+bml.yearerror=Ange år
+bml.valueerror=Ange giltiga data
+bml.ssn=De sista 4 siffrorna i ditt personnummer
+bml.ssnerror=Ange de fyra sista siffrorna i ditt SSN-nummer.
+bml.ssninvalid=Din inmatning är ogiltig.
+bml.terms=Jag har läst igenom och godkänner ovanstående villkor
+bml.termserror=Du måste godkänna avtalsvillkoren
+
+##############################################
+# Template name: forms/compare
+##############################################
+compare.category=Kategori
+
+##############################################
+# Template name: forms/customeraddress
+##############################################
+customeraddress.addressid.label=Adressnamn
+customeraddress.addressid.value-error=Du använder redan detta adressnamn
+customeraddress.addressid.missing-error=Ange ett adressnamn
+customeraddress.firstname.missing-error=Ange ett förnamn
+customeraddress.lastname.missing-error=Ange ett efternamn
+customeraddress.address1.description=Gatuadress, P.O. Box
+customeraddress.address2.description=Lägenhet, svit, enhet, våning
+customeraddress.country.missing-error=Välj ett land
+customeraddress.city.missing-error=Välj en ort
+
+
+##############################################
+# Template name: forms/giftcert
+##############################################
+giftcert.purchase.from.label=Ditt namn
+giftcert.purchase.from.missing-error=Ange ditt namn.
+giftcert.purchase.recipient.label=Vännens namn
+giftcert.purchase.recipient.missing-error=Ange din väns namn.
+giftcert.purchase.recipientemail.label=Min väns e-postadress
+giftcert.purchase.recipientemail.parse-error=E-postadressen är ogiltig.
+giftcert.purchase.recipientemail.missing-error=Vänligen ange din väns e-postadress.
+giftcert.purchase.recipientemail.value-error=Vänligen ange din väns e-postadress.
+giftcert.purchase.confirmrecipientemail.label=Bekräfta din väns e-postadress
+giftcert.confirmrecipientemailparseerror=E-postadressen är ogiltig.
+giftcert.confirmrecipientemailmissingerror=Vänligen bekräfta din väns e-postadress.
+giftcert.confirmrecipientemailvalueerror=E-postadressen matchar inte din väns e-postadress.
+giftcert.balance.giftcertid.missing-error=Vänligen ange ett giltigt presentkort.
+giftcert.messagelabel=Meddelande
+giftcert.purchasemessagedescription=
+giftcert.amountlabel=Belopp
+giftcert.amountdescription=
+giftcert.amountparseerror=Presentcertifikat kan endast köpas till ett värde av min. 5 och max. 5000
+giftcert.amountmissingerror=Presentcertifikat kan endast köpas till ett värde av min. 5 och max. 5000
+giftcert.amountvalueerror=Presentcertifikat kan endast köpas till ett värde av min. 5 och max. 5000
+
+
+##############################################
+# Template name: forms/paymentinstruments
+##############################################
+paymentinstruments.removecc=Ta bort kreditkort
+
+##############################################
+# Template name: forms/profile
+##############################################
+profile.title=Titel:
+profile.firstname=Förnamn:
+profile.lastname=Efternamn:
+profile.email=E-post
+profile.confirmemail=Bekräftelse-e-postadress:
+profile.dob=Födelsedatum
+profile.dobexample=Exempel: 03/28/1968
+profile.phoneprefix=Mobilnummer:
+profile.phoneprefix.label=Telefonprefix:
+profile.phone.label=Mobilnummer:
+profile.phoneexample=Format: 333-333-3333
+profile.usernametaken=Användarnamnet är redan taget.
+profile.passwordconfirm=Bekräfta lösenord
+profile.passwordnomatch=Lösenordet matchar inte
+profile.newpassword=Nytt lösenord:
+profile.newpasswordconfirm=Bekräfta nytt lösenord:
+profile.accountquestion=Säkerhetsfråga
+profile.passworderror=Lösenordet måste innehålla mellan 6 och 255 tecken.
+profile.question1=Mammas flicknamn
+profile.question2=Märke på min första bil
+profile.question3=Namn på mitt favorithusdjur
+profile.question4=Pappas förnamn
+profile.question5=Födelseort
+profile.accountanswer=Säkerhetssvar
+profile.addemailtolist=Lägg till mitt namn i Demanwares e-postlista.
+profile.remember=Kom ihåg mig
+profile.usernameerror=Användarnamnet måste vara mellan 5 och 100 tecken, och får endast innehålla bokstäver, siffror, mellanslag, punkter, bindestreck, understreck och @.
+
+##############################################
+# Template name: forms/storelocator
+##############################################
+storelocator.distancelabel=Radie
+storelocator.distanceoption1=15 engelska mil
+storelocator.distanceoption2=30 engelska mil
+storelocator.distanceoption3=100 engelska mil
+storelocator.distanceoption4=300 engelska mil
+storelocator.distanceoption5=USA
+storelocator.statelabel=Delstat/provins:
+storelocator.ziperror=ZIP-filen har ett ogiltigt format.
+
+productlist.public=Offentlig
+productlist.eventmonth=Evenemangsmånad
+productlist.eventyear=Evenemangsår
+productlist.eventyearerror=Du måste välja ett år ifall du har valt en månad
+productlist.setpublic=Gör offentlig
+productlist.setprivate=Gör privat
+productlist.priority0=Ingen
+productlist.priority1=Högsta
+productlist.priority2=Högt
+productlist.priority3=Medel
+productlist.priority4=Lågt
+productlist.priority5=Lägsta
+
+##############################################
+# Template name: forms/wishlist
+##############################################
+wishlist.lname=Efternamn
+wishlist.fname=Förnamn
+wishlist.sendto.email=Skicka till e-postadresser
+wishlist.check.emailaddress=Kontrollera din e-postadress i Ditt konto - Personlig information.
+wishlist.enter.validemail=Vänligen ange giltiga e-postadresser.
+wishlist.title=Titel
+wishlist.price.lth=Pris (lågt till högt)
+wishlist.price.htl=Pris (högt till lågt)
+wishlist.dateadded=Datum tillagt
+wishlist.lastupdated=Senast uppdaterad
+wishlist.sortby=Sortera efter
+wishlist.validemail=Vänligen ange giltiga e-postadresser (åtskilda med ',' eller ';').
+wishlist.search.lastnamereqiured=Du måste ange ett efternamn.
+wishlist.quantitydesired=Önskat antal
+wishlist.priority=Prioritet
+wishlist.makepublic=Gör denna vara offentlig
+
+##############################################
+# Form name: forms/giftregistry.xml
+##############################################
+giftregistry.wedding=Bröllop
+giftregistry.weddingshower=Möhippa
+giftregistry.babyshower=Babyshower
+giftregistry.other=Övrigt
+giftregistry.bride=Brud
+giftregistry.groom=Brudgum
+giftregistry.addgiftcertificate=Lägg till presentkort
+giftregistry.editevent=Redigera evenemang
+giftregistry.editshipaddress=Redigera leveransadresser
+giftregistry.showpurchase=Visa köp
+giftregistry.eventtype=Evenemangstyp
+giftregistry.eventtype.missing-error=Välj en evenemangstyp.
+giftregistry.eventname=Evenemangsnamn
+giftregistry.eventname.missing-error=Ange ett namn på detta evenemang.
+giftregistry.eventdate=Evenemangsdatum
+giftregistry.eventdate.description=Exempel: åååå-mm-dd
+giftregistry.eventdate.missing-error=Vänligen ange evenemangsdatumet i formatet åååå-mm-dd.
+giftregistry.eventdate.parse-error=Vänligen ange ett giltigt evenemangsdatum i formatet åååå-mm-dd.
+giftregistry.eventcity=Evenemangsort
+giftregistry.eventcity.missing-error=Ange evenemangsort.
+giftregistry.eventstate=Evenemangsdelstat
+giftregistry.eventcountry=Evenemangsland
+giftregistry.registrantrole=Roll
+giftregistry.registrantrole.missing-error=Välj en roll.
+giftregistry.registrantfirstname=Efternamn
+giftregistry.registrantfirstname.missing-error=Ange den registrerade personens förnamn.
+giftregistry.registrantfirstname.parse-error=Ange ett giltigt förnamn.
+giftregistry.registrantlastname=Efternamn
+giftregistry.registrantlastname.missing-error=Ange den registrerade personens efternamn.
+giftregistry.registrantlastname.parse-error=Ange ett giltigt efternamn.
+giftregistry.registrantemail.missing-error=Ange den registrerade personens e-postadress.
+giftregistry.registrantemail.parse-error=Ange en giltig e-postadress.
+giftregistry.addresssource.addressbook=Använd adress från adressboken
+giftregistry.addresssource.new=Skapa ny adress
+giftregistry.addresssource.asbefore=Samma adress som före evenemanget
+giftregistry.items.quantity=Önskat antal
+giftregistry.items.quantity.missing-error=Ange ett antal.
+giftregistry.items.quantity.parse-error=Ange ett giltigt antal.
+giftregistry.items.quantity.value-error=Ange ett giltigt antal.
+giftregistry.items.priority=Prioritet
+giftregistry.items.priority.missing-error=Ange en prioritet.
+giftregistry.items.update=Uppdatera
+giftregistry.items.makepublic=Gör denna vara offentlig
+giftregistry.items.remove=Ta bort
+giftregistry.send.label=Skicka till e-postadresser
+giftregistry.send.check=Kontrollera din e-postadress i Ditt konto - Personlig information.
+giftregistry.send.invalid=Vänligen ange giltiga e-postadresser.
+giftregistry.send.format=Vänligen ange giltiga e-postadresser (åtskilda med ',' eller ';').
+giftregistry.addtoaddressbook=Lägg till i adressbok
+giftregistry.copyaddress=Använd denna adress för leverans efter evenemang
+
+##############################################
+# Form name: forms/ordertrack.xml
+##############################################
+ordertrack.ordernumber=Ordernummer:
+ordertrack.ordernumber.missing-error=Ange ett ordernummer.
+ordertrack.orderemail=E-post för beställning
+ordertrack.orderemail.missing-error=Ange den e-postadress som använts för denna order.
+ordertrack.postalcode=Postnummer i faktureringsadress
+
+# error messages for address capturing
+address.invalid=En del av informationen nedan är antingen ofullständig eller behöver korrigeras.
+address.field.invalid=Ange ett giltigt värde
+address.firstname.missing=Ange ett förnamn
+address.lastname.missing=Välj ett efternamn
+address.country.missing=Välj ett land
+address.state.missing=Välj en delstat
+address.city.missing=Välj en ort
+address.phone.missing=Ange ett telefonnummer.
+address.phone.example=Exempel: 333-333-3333
+address.email.invalid=Ange en giltig e-postadress
+address.postalcode.example=Exempel: 12345 eller 12345-1234
+
+address.list.select=Välj bland Sparade adresser
+# {0} = Address1, {1} = city, {2} = state Code, {3} = postal code
+address.saved.dropdown.format={0} {1} {2} {3}
+
+# labels for address options
+checkout.addtoaddressbook=Lägg till i adressbok
+checkout.useasbillingaddress=Detta är även min faktureringsadress
+checkout.addtoemaillist=Ja tack, jag vill gärna få exklusiva nyheter och erbjudanden, och jag accepterar
+checkout.addtoemaillistterms=Nyhetbrevets villkor och betingelser
+
+# labels for shipment settings in checkout
+checkout.shipment.isgift=Är detta en present?
+checkout.shipment.yes=Ja
+checkout.shipment.no=Nej
+checkout.shipment.giftmessage=Meddelande
+
+# descriptions for tooltip in checkout
+checkout.phone.description=Våra speditörsföretag behöver ditt telefonnummer ifall de skulle få problem med att leverera ditt paket. Ditt telefonnummer lämnas aldrig ut till tredje part och används inte för marknadsföringssyften.
+checkout.email.description=Vi använder din e-postadress enbart för att hålla dig uppdaterad om hur långt din beställning har kommit. Om du vill anmäla dig till vår kundklubb, behöver du bara kryssa i godkännanderutan nedan eller i kassan.
+resource.ssn.description=Klarna behöver ditt personnummer för att kontrollera din identitet och verifiera din kredithistorik.
+
+# labels for slot content
+subscribe.email.default=E-postadress
+
+# general
+character.limit=Du har {0} tecken kvar av {1}
+confirm.delete=Vill du ta bort denna {0}?
+title.giftregistry=presentregister
+title.address=adress
+title.creditcard=kreditkort
+global.optional=(valfritt)
+
+##############################################
+# Form name: forms/multishipping.xml
+##############################################
+multishipping.editaddress.select.newaddress=Lägg till ny adress
+store.storemessage=Spara meddelande
+shipping.errorclickcollect=Denna butik kan inte ta emot Click & Collect-beställningar för närvarande. Vänligen välj en annan butik eller leveransmetod.
+shipping.errorparcelshop=Denna butik tar inte emot paketleveranser för närvarande. Vänligen försök med en annan butik eller leveransmetod.
+
+##############################################
+# Validation messages
+##############################################
+validate.required=Detta fält är obligatoriskt.
+validate.remote=Vänligen korrigera detta fält.
+validate.email=Ange en giltig e-postadress.
+validate.url=Ange en giltig URL.
+validate.date=Ange ett giltigt datum.
+validate.dateiso=Ange ett giltigt datum (ISO).
+validate.number=Ange ett giltigt nummer.
+validate.digits=Ange endast siffror.
+validate.creditcard=Ange ett giltigt kreditkortsnummer.
+validate.equalto=Ange samma värde en gång till.
+validate.maxlength=Ange högst {0} tecken.
+validate.minlength=Ange minst {0} tecken.
+validate.rangelength=Ange ett värde mellan {0} och {1} tecken.
+validate.range=Ange ett värde mellan {0} och {1}.
+validate.max=Ange ett värde som är mindre än eller lika med {0}.
+validate.min=Ange ett värde som är större än eller lika med {0}.
+validate.autocomplete=Vänligen välj en ort från listan.
+
+﻿##############################################
+# Global Resources
+##############################################
+global.add=Lägg
+global.addtocart=Lägg till i varukorgen
+global.addalltocart=Lägg till alla i varukorgen
+global.addresses=Adresser
+global.addtowishlist=Lägg till på önskelista
+global.addtowishlist.label=Lägg till denna produkt på en önskelista
+global.addthisitemtowishlist.title=Lägg till denna vara på en önskelista
+global.addtogiftregistry=Lägg till i presentregistret
+global.addtogiftregistry.label=Lägg till denna produkt i presentregistret
+global.amount=Belopp
+global.apply=Fortsätt
+global.applied=Tillagd
+global.filter.apply=Använd
+global.availability=Tillgänglighet
+global.back=Tillbaka
+global.bonus=Bonus
+global.bonusitem=Bonusvara
+global.brandlabel=Märke:
+global.cancel=Avbryt
+global.categoryrefinement.label=Gå till kategori: {0}
+global.checkout=Gå till kassan
+global.checkbalance=Kontrollera saldo
+global.close=Stäng
+global.continue=Fortsätt
+global.continuecheckout=Fortsätt med kassaprocessen
+global.continuecheckoutbrief=Nästa
+global.continueshopping=Fortsätt handla
+global.couldntloadaddress=Det gick inte att ladda adress
+global.createbutton=Skapa ett konto
+global.createnowbutton=Skapa ett konto
+global.creditcard.expirydate.separator={0}.{1}
+global.delete=Ta bort
+global.description=Beskrivning
+global.details=Detaljer
+global.edit=Redigera
+global.editaaddress=Redigera adress
+global.editdetails=Redigera detaljer
+global.email=e-post
+global.error=Fel
+global.find=Sök
+global.firstname=Förnamn
+global.folderrefinement.label.prefix=Gå till sida:
+global.free=Gratis
+global.from=Från
+global.go=Gå
+global.gonext=Gå till nästa
+global.goprevious=Gå till föregående
+global.goto.label=Gå till: {0}
+global.giftcertificate=Presentkort
+global.giftcertificates=Presentkort
+global.home=Hem
+global.i_agree=Jag godkänner
+global.included=Inkluderat
+global.itemno=Varunr:
+global.item=Vara
+global.items=Varor
+global.lastname=Efternamn
+global.loading=Hämtar. Var god vänta
+global.login=Logga in
+global.logout=Logga ut
+global.more=Mer
+global.seeall=Visa alla
+global.seemore=se mer
+global.seeless=se mindre
+global.na=Ej tillämpligt
+global.name=Namn
+global.next=Nästa
+global.no=Nej
+global.noimageavailable=Ingen bild finns
+global.notapplied=Ej tillagd
+global.or=eller
+global.qty=Ant.
+global.quantity=Antal
+global.update=Uppdatera
+global.updatecart=Uppdatera kundvagn
+global.orders=Beställningar
+global.ordertotal=Totalt beställningsbelopp:
+global.estimatedtotal=Beräknad totalsumma
+global.password=Lösenord
+global.preview=Förhandsgranska
+global.previous.abbr=Föreg.
+global.previous=Föregående
+global.price=Pris
+global.pricerefinement.label.prefix=Filtrera efter pris:
+global.print=Skriv ut
+global.privacypolicy=Villkor och bestämmelser
+global.registration.privacypolicy=sekretesspolicy
+global.product=Produkt
+global.profile=Profil
+global.readreviews=Läs omdömen
+global.refinement.label=Filtrera efter {0}: {1}
+global.refinement.selected.label=För närvarande filtrerad efter {0}: {1}
+global.refinement.unselectable.label={0} {1} kan inte väljas
+global.register=Register
+global.remove=Ta bort
+global.requiredfield=obligatorisk
+global.save=Spara
+global.search=Sök
+global.searchcatalog=Sök katalog
+global.secondarynavheading=Sekundär navigation
+global.select=Välj
+global.select.colorpattern=Välj färg
+global.select.size=Välj storlek
+global.select.length=Välj längd
+global.select.amount=Välj belopp
+global.send=Skicka
+global.serverconnection=Serveranslutning misslyckades!
+global.showall=Visa alla
+global.submit=Fortsätt
+global.submitorder=Gå till betalningssidan
+global.to=Till
+global.totalprice=Summa
+global.user= Användare
+global.user.name={0} {1}
+global.view=Visa
+global.welcome=Välkommen
+global.writeareview=Skriv ett omdöme
+global.yes=Ja
+global.missingval=Vänligen ange {0}
+global.servererror=Serveranslutning misslyckades!
+global.missinglib=jQuery är inte definierad.
+global.badresponse=Dålig respons, parsningsfel
+global.invalidphone=Ange ett giltigt telefonnummer.
+global.invalidname=Detta fält innehåller ogiltiga tecken
+global.nothanks=Nej tack
+global.share=Dela
+global.symbol.dash= -
+global.shop=Handla
+global.paymentsettings=Betalningsinställningar
+global.customerservice=Behöver du hjälp?
+global.event.location={0}, {1}
+global.cookiepolicy=Vi använder cookies, inklusive cookies från tredje part, för webbplatsfunktionalitet, analys och marknadsföring. Genom att surfa på vår webbplats godkänner du vår användning av cookies. Du kan när som helst dra tillbaka ditt samtycke genom att inaktivera cookies i din webbläsare. Läs mer om våra cookies och hur du inaktiverar cookies i vår cookiepolicy.
+global.cookiecta=du vår cookiepolicy
+global.cookieappendix=.
+global.oldbrowsers.message=Vår webbplats kunde inte identifiera din webbläsare. För en optimal shoppingupplevelse måste du uppdatera din webbläsare eller byta till en annan webbläsare.
+global.oldbrowsers.action=Du hittar den senaste versionen av din webbläsare genom att klicka här.
+global.oldbrowsers.location=http://outdatedbrowser.com/
+global.status=Status
+refinement.isnew.true=Nyinkommet
+global.miss=Fröken
+global.mr.=Hr.
+global.mrs.=Fru.
+
+#########################
+# properties used for jack & jones sub brands in Customer Club signup
+#########################
+global.jj=JACK & JONES
+global.jx=JJXX
+global.junior=JUNIOR
+global.plus=PLUS SIZE
+
+#########################
+# properties used for Vero Moda sub brands in Customer Club signup
+#########################
+global.vm=VERO MODA
+global.curve=VMCurve
+global.maternity=VERO MODA MATERNITY
+global.aware=AWARE by VERO MODA
+
+##############################################
+# Include Resources
+##############################################
+globalaccount.createheader=Har du inget konto?
+globalaccount.createmessage=För att börja ta del av våra exklusiva erbjudanden och förmåner via ett eget konto räcker det med att du fyller i nedanstående formulär.
+
+global.returnhome=Gå tillbaka till förstasidan
+global.selectaddressmessage=Välj en adress
+global.selectaddress=Välj bland Sparade adresser
+global.nosavedaddress=För närvarande finns inga sparade adresser
+global.deliveredviaemail=- Levererad via e-post
+global.accountbreadcrumb=Konto
+
+global.accountlink=Min Sida
+global.helplink=Frågor?
+global.storelocatorlink=Hitta en butik
+global.aboutuslink=Om oss
+global.languagecountrylink=Språk och land
+
+global.buyall=Köp alla eller en
+global.nocontent=Sidan saknar innehåll.
+
+global.storename=Bestseller
+global.storeaddress=Fredskovvej
+global.storecitystate=Brande, DK-7330
+global.storephone=Telefon:+1.888.553.XXXX
+global.storenameurl=demandware.com
+
+global.email.policy=Genom att skapa ett konto godkänner jag att mina personuppgifter behandlas i enlighet med BESTSELLER:s
+
+global.quantityinstock={0} produkt(er) i lager.
+global.instock=Finns i lager
+global.quantitypreorder={0} produkt(er) kan förhandsbeställas.
+global.allpreorder=Förhandsbeställ
+global.remainingpreorder=Återstående varor kan förhandsbeställas.
+global.quantitybackorder={0} restorderprodukt(er)
+global.allbackorder=Restorder
+global.remainingbackorder=Återstående varor kan beställas som restorder.
+global.allnotavailable=Denna vara är inte tillgänglig för tillfället.
+global.remainingnotavailable=Återstående varor är för tillfället inte tillgängliga. Vänligen justera antalet.
+global.instockdate=Förväntat datum då produkten åter finns i lager är {0}.
+global.nonselected=Ej vald
+global.iteminwishlist=Denna vara har lagts till på din önskelista.
+
+global.homepage.tooltip={0} {1}
+
+##############################################
+# properties used across many pages
+##############################################
+global.error_forbidden.redirect=Omdirigera
+global.redirect.title=Vänligen gå till
+
+global.redirect_error.title=Pinsamt, men vi kan tyvärr inte hitta den sidan.
+global.redirect_error.message=Kanske har sidans URL ändrats eller så finns sidan inte längre. Vad sägs om att kolla in de hundratals nyinkomna modellerna
+global.redirect_error.home=på vår webbplats varje vecka?
+
+global.site.name=SiteGenesis
+
+global.carousel.featuredproducts=Visade produkter
+
+
+##############################################
+# Template name: pagecomponents/breadcrumbs
+##############################################
+global.breadcrumbs.home=Hem
+global.breadcrumbs.refinements.valuedevider=,
+global.breadcrumbs.label.prefix=Gå till
+
+##############################################
+# Template name: pagecomponents/paginginformation
+##############################################
+global.paginginformation.sortby=Sortera efter
+global.paginginformation.undefined=Sortera efter:
+global.paginginformation.showing=Visar
+global.paginginformation.viewallx=Visa alla ({0})
+global.paginginformation.current.label=Aktuell sida: {0}
+global.paginginformation.goto.label=Gå till sidnummer: {0}
+global.paginginformation.first=Första sidan
+global.paginginformation.first.label=Gå till första sidan
+global.paginginformation.last=Sista sidan
+global.paginginformation.last.label=Gå till sista sidan
+global.paginginformation.next=Nästa sida
+global.paginginformation.next.label=Gå till nästa sida
+global.paginginformation.page=Sida
+global.paginginformation.previous=Föregående sida
+global.paginginformation.previous.label=Gå till föregående sida
+global.paginginformation.of=av
+
+##############################################
+# ISML Directory: components/
+##############################################
+global.browsertoolscheck.javascript=Hm, det här var konstigt. Din Javascript-funktion är inaktiverad. Vänligen aktivera den för att kunna uppleva allt på vår webbplats.
+global.browsertoolscheck.cookies=Din webbläsare tillåter inte cookies. Justera dina inställningar eller kontrollera om det är något annat program som blockerar cookies.
+
+
+##############################################
+# ISML Directory: components/header
+##############################################
+global.headercustomerinfo.currency=Valuta
+global.headercustomerinfo.not=Inte
+
+global.header.wishlistlink=Önskelista
+global.header.registrylink=Presentregister
+global.header.storelocator=Butiker
+global.header.storelocator.label=Sök butiker
+
+global.link.orders=Kontrollera beställning
+
+##############################################
+# ISML Directory: components/header/countryselector
+##############################################
+global.continent.northamerica=Nordamerika
+global.continent.asia=Asien
+global.continent.europe=Europa
+
+##############################################
+# ISML Directory: components/socialsharing
+##############################################
+global.socialshare.facebook=Facebook
+global.socialshare.twitter=Twitter
+global.socialshare.googleplus=Google Plus
+global.socialshare.pinterest=Pinterest
+global.socialshare.email=e-post
+global.socialshare.link=Dela länk
+
+global.socialshare.facebook.label=Dela på Facebook
+global.socialshare.twitter.label=Dela på Twitter
+global.socialshare.googleplus.label=Dela på Google+
+global.socialshare.pinterest.label=Dela på Pinterest
+global.socialshare.email.label=Dela via e-post
+global.socialshare.link.label=Hämta delningslänk
+
+##############################################
+# properties used across customer club popup and signup
+##############################################
+global.customer.club.terms=Genom att gå med i vår Customer Club accepterar du <a target='_blank' href="https://support.bestseller.com/hc/sv/articles/360013459797-Villkor-och-best%C3%A4mmelser-f%C3%B6r-Kundklubben">villkor och bestämmelser samt vår sekretesspolicy</a> och du ger ditt samtycke till att våra Företag (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) får skicka marknadsföringsmaterial till dig via e-post, SMS, MMS, brev och via sociala medier i enlighet med <a target='_blank' href="https://support.bestseller.com/hc/sv/articles/360014476077-Customer-Club-samtycke">texten om samtycke</a>. Du kan när som helst dra tillbaka ditt samtycke.
+global.customer.club.terms.bi=Genom att gå med i vår Customer Club accepterar du <a target='_blank' href="https://support.bestseller.com/hc/sv/articles/360013788597">villkor och bestämmelser samt vår sekretesspolicy</a> och du ger ditt samtycke till att våra Företag (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) får skicka marknadsföringsmaterial till dig via e-post, SMS, MMS, brev och via sociala medier i enlighet med <a target='_blank' href="https://support.bestseller.com/hc/sv/articles/360014476077-Customer-Club-samtycke">texten om samtycke</a>. Du kan när som helst dra tillbaka ditt samtycke.
+
+##############################################
+# properties used in smart app banner smartappbanner.isml
+##############################################
+global.smartappbanner.view=VISA
+global.smartappbanner.subtext=Gratis - på Google Play
+
+##############################################
+# global properties for colors
+##############################################
+global.black=Svart
+global.beige=Beige
+global.blue=Blå
+global.purple=Lila
+global.red=Röd
+global.brown=Brun
+global.green=Grön
+global.grey=Grå
+global.pink=Rosa
+global.orange=Orange
+global.white=Vit
+global.yellow=Gul
+global.gold=Guld
+
+global.buynow=Köp nu, betala senare
+
+global.mobile=Mobilnummer
+global.mobileplaceholder=Ange ditt nummer (valfritt)
+
+global.birthdate=Vilket är ditt födelsedatum
+global.day=Dag
+global.month=Månad
+global.year=År
+
+global.newslettercategories=Jag vill få nyheter om
+global.kids=Barn
+global.women=Kvinnor
+global.men=Män
+global.woman.posh=KVINNA LYX
+global.woman.cool.fashionista=KVINNA COOL FASHIONISTA
+global.woman.everyday=KVINNA VARDAG
+global.woman.feminine.classic=KVINNA FEMININT KLASSISKT
+global.woman.feminine.outdoor=WOMAN FEMININT FRILUFTSLIV
+global.man.cool=MAN COOL
+global.man.casual=MAN AVSLAPPNAT
+global.man.business=MAN BUSINESS
+
+global.error_forbidden.hijacked=Det här var konstigt.
+global.error_forbidden.message=Något gick på tok med vår webbplats.
+global.error_forbidden.home=Vänligen gå tillbaka till hemsidan och fortsätt shoppa.
+
+global.shoponline=Shoppa online
+global.days=dagar
+global.abbreviation.hour=tim.
+
+##############################################
+# global properties for date / time
+##############################################
+global.datetime.hours=timmar
+global.datetime.minutes=minuter
+global.datetime.seconds=sekunder
+
+﻿##############################################
+# Resource bundle: order
+##############################################
+
+##############################################
+# Template name: order/orderconfirmation-email
+##############################################
+order.orderconfirmation-email.jumptostore=Gå vidare till vår butik
+order.orderconfirmation-email.001=Orderbekräftelse
+order.orderconfirmation-email.confirmnumber=Orderbekräftelsenummer:
+order.orderconfirmation-email.thankyou=- Tack för din order!
+order.orderconfirmation-email.storeaddress=5 Wall Street
+order.orderconfirmation-email.storelocation=Burlington, MA 01803
+order.orderconfirmation-email.storephone=Telefon: +1.888.553.XXXX
+order.orderconfirmation-email.print=Vänligen skriv ut och spara ett exemplar som referens.
+order.orderconfirmation-email.thankyouus=Tack för att du handlar hos BESTSELLER!
+order.orderconfirmation-email.pleasenote=OBSERVERA:
+order.orderconfirmation-email.note=Eftersom vi börjar behandla din order kort efter det att du skickat in den på vår webbplats, MÅSTE du kontakta oss ENBART VIA TELEFON om du vill ändra din order:
+order.orderconfirmation-email.phone=+1.888.553.XXXX
+order.orderconfirmation-email.shipmentnumber=Leverans#
+
+##############################################
+# Template name: order/ordercancellation-email
+##############################################
+order.ordercancellation-email.001=Annullering av order {0}
+order.ordercancellation-email.message=Din order {0} har annullerats{1}.
+order.ordercancellation-email.cancelmessage=Din order {0} har annullerats.
+order.ordercancellation-email.generic=p.g.a. oförutsedda omständigheter
+order.ordercancellation-email.fraud=eftersom vi inte kunde verifiera mottagaren
+order.ordercancellation-email.bankissue=p.g.a. din bank inte godkänt betalningen
+order.ordercancellation-email.requested=, vänligen kontakta oss för att få mer information
+order.ordercancellation-email.outofstock=p.g.a. att varan inte var tillgänglig
+order.ordercancellation-email.statuscancelled=annullerad
+
+##############################################
+# ISML Directory: components/order/
+##############################################
+order.orderdetails.paymentinfo=Betalningsinformation
+order.orderdetails.billingaddress=Faktureringsadress
+order.orderdetails.paymentmethod=Betalningsmetod
+order.orderdetails.paymentmethods=Betalningsmetoder
+order.orderdetails.paymenttotal=Totalsumma
+order.orderdetails.shippingmethod=Leveransmetod:
+order.orderdetails.total=Summa
+order.orderdetails.shippingtitle=Leveransadress:
+order.orderdetails.billingtitle=Faktureringsadress:
+order.orderdetails.shippingstatus=Beställningsstatus:
+order.orderdetails.shippingto=Leverans till
+order.orderdetails.notshipped=Ej levererad
+order.orderdetails.shipped=Skickad
+order.orderdetails.notknown=Okänd
+order.orderdetails.tracking=Spårningsnummer:
+order.orderdetails.orderplaced=Beställning gjord:
+order.orderdetails.ordernumber=Beställnings-ID:
+order.orderdetails.giftcertto=Till:
+order.orderdetails.giftcertfrom=Från:
+order.orderdetails.giftmessage=Presentmeddelande:
+order.orderdetails.giftcertshippingaddress=Skickad till:
+order.orderdetails.giftcertshipping=Leverans via e-post
+order.orderdetails.orderinformation=Beställningsinformation
+
+order.ordersummary.ordersubtotal=Delsumma för beställning
+order.ordersummary.subtotal=Delsumma
+order.ordersummary.subtotalitems=Delsumma ({0}):
+
+order.ordersummary.orderdiscount=Beställningsrabatt
+order.ordersummary.ordershipping=Leverans
+order.ordersummary.ordershipping.edit=Leveransalternativ finns i kassa
+order.ordersummary.ordershippingdiscount=Leveransrabatt
+order.ordersummary.ordertax=Moms
+order.ordersummary.nodata=Ej tillämpligt
+order.ordersummary.shipping=Du hittar olika fraktalternativ i kassan
+order.ordersummary.addedtobag=har lagts till i din varukorg!
+order.ordersummary.noshippingmethodselected=Ingen leveransmetod är vald
+
+order.orderdetails.billedto=Fakturerad till:
+
+order.orderconfirmation-giftcard.subject=Ditt presentkort
+order.orderconfirmation-giftcard.body=Här är presentkortet du beställde nyligen. Allt du behöver göra är att skriva ut den PDF-fil som vi bifogar med detta e-postmeddelande, och sedan är presentkortet klart att användas.
+order.orderfeedback.feedbacktitle=Hur var din shoppingupplevelse?
+order.orderfeedback.feedbackmessage=Din feedback hjälper oss att bli bättre.
+
+﻿##############################################
+# ISML Directory: product/
+##############################################
+
+
+product.breadcrumb.leftintrotext=&laquo; Tillbaka till
+
+product.label=Gå till produkt: {0}
+product.articlenumber=Artikelnummer
+product.viewdetails=Visa fullständiga detaljer
+product.tab.description=Beskrivning
+product.tab.details=Produktdetaljer
+product.tab.attributes=Attribut
+product.tab.reviews=Omdömen
+product.missingval=Välj {0}
+product.promotiondetails=Detaljer
+product.selectbonusproducts=Välj bonusprodukt(er)
+product.bonusproducts=Bonusprodukt(er)
+product.bonusproduct=Bonusprodukt
+product.bonusproductsmax=Max. antal bonusprodukter har valts.  Vänligen ta bort en bonusprodukt för att kunna lägga till en annan bonusprodukt.
+product.bonusproductstoomany=Du har valt för många bonusprodukter. Vänligen ändra antalet.
+product.bonusproductalert=Din beställning berättigar dig till en gratispresent.
+product.attributedivider=och
+product.variationnotavailable={0} {1} är inte tillgänglig för denna kombination
+product.instorestock=Tillgänglig för avhämtning
+product.selectforstock=Välj tillgängliga modeller
+product.webstock=Tillgänglig för leverans
+product.zoom.hint=Klicka/trycka för att zooma
+
+product.saleprice=Försäljningspris
+product.pricerange=Prisintervall
+product.setprice=Ange pris
+product.purchasedisabled=Denna produkt är inte tillgänglig i ditt land.
+variant.unavailable=Nyss slutsåld! Men oroa dig inte, vi har fler varianter av produkten!
+variant.all.unavailable=Nyss slutsåld! Men oroa dig inte, vi har massor av stilar som du kommer att älska!
+variant.all.unavailable.button=Shoppa liknande stilar
+
+##############################################
+# ISML Directory: product/compare/
+##############################################
+product.compareshow.header=Jämför
+product.compareshow.noresults=Din jämförelselista innehåller inte några produkter för tillfället.
+product.compareshow.back=<< tillbaka till resultat
+product.compareshow.othercompareitems=Andra jämförelsevaror
+product.compareshow.removeitem=Ta bort
+
+##############################################
+# ISML Directory: product/components/
+##############################################
+product.display.wishlistitem=Detta är en önskelistevara
+product.display.registryitem=Detta är en presentregistervara
+product.display.surcharge=Tilläggsavgift för leverans
+
+product.displayproductlistitems.notavailable=Denna produkt är inte tillgänglig för tillfället. Vänligen ta bort den från din lista.
+
+product.pricing.payless=Köp mer, betala mindre!
+product.pricing.paymore=Köp mer, betala mer!
+product.pricing.items=varor
+product.pricing.more=eller mer
+product.pricing.off=% rabatt
+product.pricing.noprice=Ej tillämpligt
+
+product.promotions.special=Specialerbjudande
+
+product.recommendations.products=Bär tilsammans med
+
+product.variations.sizechart=Storleksguide
+product.variations.sizechart.label=Visa storleksguide
+product.variations.label=Välj {0}: {1}
+product.quickview=Snabbtitt
+product.quickview.popup=Snabbtitt på produkt
+
+###############################################
+# Care Instructions
+##############################################
+product.careinstruction.w-no=Får ej tvättas
+product.careinstruction.w-h=Handtvätt
+product.careinstruction.w-30=Maskintvätt i 30 °C
+product.careinstruction.w-30s=Maskintvätt, halvfull maskin, kort centrifugering vid 30 °C
+product.careinstruction.w-40=Maskintvätt vid max. 40 °C, skonsamt tvättprogram
+product.careinstruction.w-40s=Maskintvätt, halvfull maskin, kort centrifugering vid 40 °C
+product.careinstruction.w-60=Maskintvätt i 60 °C
+product.careinstruction.w-80=Maskintvätt i 80 °C
+product.careinstruction.w-95=Maskintvätt i 95 °C
+
+product.careinstruction.b-no=Får ej blekas
+product.careinstruction.b-all=Kan blekas vid behov
+product.careinstruction.b-ncl=Endast syre/klorfri blekning
+
+product.careinstruction.d-no=Får ej torktumlas
+product.careinstruction.d-flat=Torkas plant
+product.careinstruction.d-low=Torktumling med låg värme
+product.careinstruction.d-med=Medelvarm torktumling
+
+product.careinstruction.nd-dfds=Dropptorkas plant i skugga
+product.careinstruction.nd-fds=Torkas plant i skugga
+product.careinstruction.nd-ld=Torkas på klädstreck
+product.careinstruction.nd-dfd=Dropptorkas plant
+product.careinstruction.nd-dlds=Dropptorkas på klädstreck i skugga
+product.careinstruction.nd-lds=Torkas på klädstreck i skugga
+product.careinstruction.nd-dld=Dropptorkas på klädstreck
+product.careinstruction.d-shade=Torkas i skugga
+product.careinstruction.d-hang=Torkas hängande
+product.careinstruction.nd-fd=Torkas plant
+
+product.careinstruction.i-med=Medelvarm strykning
+product.careinstruction.i-low=Strykning med låg värme. Högsta temp. 100 °C
+product.careinstruction.i-no=Får ej strykas
+product.careinstruction.i-high=Strykning med hög värme. Högsta temp. 200 °C
+
+product.careinstruction.dc-notri=Kemtvätt (utan trikloretylen)
+product.careinstruction.dc-any=Kemtvätt (alla lösningsmedel)
+product.careinstruction.dc-all=Endast kemtvätt
+product.careinstruction.dc-hs=Kemtvätt med kolväte med begränsad torkningstemperatur och tillsats av vatten
+product.careinstruction.dc-notrilimit=Restriktioner för kemtvätt. Rådfråga en professionell kemtvätt.
+product.careinstruction.dc-no=Får ej kemtvättas
+product.careinstruction.dc-petr=Kemtvätt (endast petroleum)
+product.careinstruction.dc-w=Våtrengöring
+
+product.careinstruction.o-wool=Ylle
+product.careinstruction.o-lthr=Läder
+
+product.description=Produktbeskrivning
+product.sizeguide=Storleksguide
+product.sizeguide.howto=Så här mäter du
+product.ean=EAN
+product.moredetails=Fler detaljer
+product.notifyme=Meddela mig
+product.size.out-of-stock=Snygga stilar är populära. Denna storlek är tyvärr slut just nu.
+product.email.out-of-stock=Men det finns hopp! Vi kan skicka ett e-postmeddelande till dig när varan åter finns i lager.
+product.notifyme.success-message-title=Klart
+product.notifyme.success-message-content=Vi hör av oss så snart din storlek finns tillgänglig.
+product.completethelook=Fullända looken
+product.seehowtostyle=Här hittar du stylingtips
+
+###############################################
+# Reserve and Collect
+##############################################
+product.reservecollect.headline=Boka online & hämta i butik
+product.reservecollect.emptyoption=VÄLJ DIN BUTIK
+product.reservecollect.choosestore=Denna produkt finns också i våra fysiska butiker! Du kan välja en av butikerna nedan, registrera din kontaktinformation, reservera varan och hämta den inom en begränsad tid från den valda butiken.
+product.reservecollect.formheadline=Fyll i formuläret nedan för att reservera produkten i butik.
+product.reservecollect.reservebutton=Reservera
+product.reservecollect.reserved=Din reservation har tagits emot. Vi kommer att se över din beställning och hör av oss nästa vardag.
+product.reservecollect.notreserved=Tyvärr kunde vi inte genomföra din reservation. Försök igen senare.
+
+﻿##############################################
+# ISML Directory: rendering/
+##############################################
+
+##############################################
+# ISML Directory: rendering/folder
+##############################################
+rendering.foldercontenthits.yoursearch=Din sökning ledde till {0} produkter
+rendering.foldercontenthits.backtoproducts=<< Tillbaka till produktresultat
+rendering.foldercontenthits.backtoresults=<< Tillbaka till resultat
+rendering.foldercontenthits.noproducts=Din sökning efter "{0}" fick inga träffar.
+rendering.foldercontenthits.relatedarticles=Liknande varor...
+rendering.foldercontenthits.readmore=Läs mer
+﻿##############################################
+# ISML Directory: search/
+##############################################
+simplesearch.searchtext=Sök
+
+search.nohits.header=Vi har letat överallt men hittar inte den vara du sökte.
+search.nohits.message=Prova att ändra din sökning eller kika på några av de hundratals nya modeller som dyker upp på vår webbplats varje vecka.
+search.nohits.didyoumean=Menade du:
+search.nohits.didyoumeanex=Ville du söka efter:
+search.nohits.searchlabel=Prova med en annan sökning.
+search.nohits.found=Vi hittade
+search.nohits.searchtips=Söktips
+search.nohits.tip1=Vi har letat överallt men hittar inte den vara du söker.
+search.nohits.tip2=Försök med att ändra din sökning
+search.nohits.tip3=eller kika på några av de hundratals nya modeller som dyker upp på vår webbplats varje vecka.
+
+search.pageresults=Sida:
+search.results=Resultat
+search.compare=Jämför
+
+suggestions.result=resultat
+suggestions.results=resultat
+
+##############################################
+# ISML Directory: search/components/
+##############################################
+productcomparewidget.compareitems=Jämför upp till sex produkter:
+productcomparewidget.compareitemsbutton=Jämför varor
+productcomparewidget.clearall=Rensa alla
+productcomparewidget.empty=Töm jämförelsesektionen
+productcomparewidget.maxproducts=Detta tar bort den första produkten som lagts till för att jämföras.  Är det OK?
+productcomparewidget.removefail=Det gick inte att ta bort varan från listan
+productcomparewidget.addfail=Det gick inte att lägga till varan i listan
+
+productsortingoptions.go=Gå
+
+##############################################
+# Template name: search/
+##############################################
+productresultarea.noresults=Vi hittade inga varor som uppfyller dina filtreringsval för tillfället. Utöka din filtrering eller försök med din filtrering i en annan kategori.
+productresultarea.viewallcolors=Färger
+
+paginginformation.infinite-scroll=Visa alla
+paginginformation.of=av
+paginginformation.items=varor
+paginginformation.itemsperpage=Poster/Sida
+paginginformation.loadprevious=Läs in föregående
+
+productnav.back=<< Tillbaka till {0}
+
+contenthitcount.yoursearch=Din sökning hittade {0} artikel(artiklar)
+contenthitcount.goto=Gå till artikel(artiklar)
+
+searchrefinebar.searchresults=Filtrera
+searchrefinebar.refineresults=Filtrera dina resultat efter:
+searchrefinebar.viewall=Visa alla
+searchrefinebar.clearselection=Rensa
+searchrefinebar.showmore=Mer
+searchrefinebar.showless=Mindre
+searchrefinebar.showrefinedproduct=Visa {0} produkt(er)
+
+searchbreadcrumbs.resultstext=Dina sökresultat för
+searchbreadcrumbs.in=i
+searchbreadcrumbs.refinedby=Filtrerat efter
+searchbreadcrumbs.to=till
+searchbreadcrumbs.attributedivider=och
+searchbreadcrumbs.sortedby=Sorterat efter
+
+##############################################
+# Template name: rendering/category/categoryproducthits
+##############################################
+search.producthits.productsfound=Produkter hittades
+search.producthits.productsfoundcount=Produkter hittades ({0})
+
+search.producthits.products= {0} produkter
+search.producthits.product= {0} produkt
+
+##############################################
+# Template name: search/productsearchrefinebar
+##############################################
+search.productsearchrefinebar.clickrefine=Filtrera efter:
+search.productsearchrefinebar.showallopt=Visa alla alternativ
+
+##############################################
+# Template name: search/suggestionsX
+##############################################
+search.suggest.from=från:
+search.suggest.otherqueries=Andra populära sökningar
+search.suggest.lookingforbrands=Är du på jakt efter dessa märken?
+search.suggest.categories=Kategorier
+search.suggest.products=Produkter
+search.suggest.didyoumean=Menade du
+search.suggest.viewallresults=Se alla resultat
+search.suggest.pagesofinerested=Andra sidor som kanske kan intressera dig
+search.suggest.searchfor=Sök efter
+search.suggest.in=i
+
+##############################################
+# Template name: search/appliedfilters
+##############################################
+search.appliedfilters.clearall=Rensa alla
+search.appliedfilters.to=till
+search.appliedfilters.attributedivider=och
+
+﻿##################################################
+# ISML Directory: storelocator
+##################################################
+storelocator.header=Hitta en butik nära dig
+storelocator.findstoremessage=Butikssökfunktionen hjälper dig att hitta den butik som ligger närmast dig.
+storelocator.searchusacanada=Sök inom USA och Kanada
+storelocator.searchinternationally=Sök internationellt
+storelocator.searchdivider=- - - - - - - - - - - - - - - - - - ELLER - - - - - - - - - - - - - - - - - -
+storelocator.shopbrandnew=Handla sprillans nya:
+storelocator.ukwebsite=Brittisk webbplats
+storelocator.internationalmessage=Nu kan europeiska kunder köpa alla våra senaste produkter online. <br />Handla sprillans nya: <a href="http://www.demandware.de/" title="Deutsch Website" target="_blank">Tysk webbplats</a>
+storelocator.noresults=Antingen finns det inga butiker eller så har du angett fel platsnamn eller postnummer
+storelocator.findstore=Sök butik
+##################################################
+# ISML Directory: storelocator/storelocatorresults
+##################################################
+storelocator.storelocatorresults.map=Karta
+storelocator.storelocatorresults.backtolocator=Tillbaka till Store Locator
+storelocator.storelocatorresults.allstores=Alla butiker i
+storelocator.storelocatorresults.yoursearchfound=Din sökning hittade
+storelocator.storelocatorresults.stores=butiker
+storelocator.storelocatorresults.storename=Butiksnamn
+storelocator.storelocatorresults.address=Adress
+storelocator.storelocatorresults.directions=Hitta dit
+storelocator.storelocatorresults.storedetails=Butiksdetaljer
+storelocator.storelocatorresults.storedetails.label=Visa butiksdetaljer
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+storelist.cart=Kundvagn
+storelist.lightbox.search=Sök platser
+storelist.lightbox.whatsavailable=Detta är tillgängligt i en butik nära dig
+storelist.lightbox.selectstore=Välj butik
+storelist.lightbox.selectedstore=Vald butik
+storelist.lightbox.preferredstore=Föredragen butik
+storelist.lightbox.setpreferredstore=Ange föredragen butik
+storelist.lightbox.postalcodecity=Postnummer:
+storelist.lightbox.city=Ort:
+storelist.lightbox.enterzip=Ange postnummer
+storelist.lightbox.invalidpostalcode=Ange ett giltigt postnummer
+storelist.lightbox.changelocation=Byt butik
+storelist.lightbox.continuewithstore=Fortsätt med föredragen butik
+storelist.lightbox.seemore=Se fler butiker
+storelist.lightbox.seeless=Se färre butiker
+storelist.lightbox.viewresultsmap=Visa resultat på en karta
+storelist.check.availablity=Kontrollera butikstillgänglighet
+storelist.online=Online
+storelist.backtopdp=Tillbaka till sidan för produktdetaljer
+storelist.changetohd=Byt till hemleverans
+storelist.nostorefound=Det verkar som om du angivit ett ogiltigt platsnamn eller postnummer Försök igen för att fortsätta.
+storelist.internalerror=Det gick inte att hämta listan över utlämningsställen. Vänligen välj en annan leveransmetod för att fortsätta.
+storelist.nocities=Det gick inte att hämta listan över orter för denna leveransmetod, eller så är tjänsten inte tillgänglig. Vänligen välj en annan leveransmetod för att fortsätta.
+

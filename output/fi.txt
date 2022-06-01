@@ -1,0 +1,2790 @@
+﻿##############################################
+# ISML Directory: account/
+##############################################
+account.header=Oma tili
+
+accountredirect.title=Uudelleenohjaus
+accountredirect.permanent=Tämä tili on poistettu pysyvästi. Voit yrittää kirjautua sisään käyttämällä toista tiliä tai luoda uuden tilin
+accountredirect.accountlogin=kirjautumissivulla.
+accountprofile.message=Tervetuloa profiiliisi. Täällä voit tarkastella ja muokata tietojasi.
+
+##############################################
+# ISML Directory: account/addressbook/
+##############################################
+account.addressbook.editaddress.editaddress=Muokkaa osoitetta
+account.addressbook.editaddress.addaddress=Lisää osoite
+account.addressbook.editaddress.defaultaddress=Ensisijainen toimitusosoite
+account.addressbook.editaddress.defaultbillingaddress=Ensisijainen laskutusosoite
+account.addressbook.editaddress.makedefaultaddress=Aseta ensisijaiseksi toimitusosoitteeksi
+account.addressbook.editaddress.makedefaultbillingaddress=Aseta ensisijaiseksi laskutusosoitteeksi
+account.addressbook.addressdetails=Osoitetiedot
+account.addressbook.addressinclude.delete=Poista
+account.addressbook.addressinclude.delete.label=Poista tämä osoite
+account.addressbook.addressinclude.edit.label=Muokkaa tätä osoitetta
+
+account.addressbook.addresslist.header=Osoitteet
+account.addressbook.addresslist.create=Lisää osoite
+account.addressbook.addresslist.create.label=Luo uusi osoite tälle tilille
+
+account.addressbook.miniaddress.registrywishlist=(Lahjalista/toivelista)
+account.addressbook.miniaddress.phone=Puhelinnumero:
+
+account.addressbook.information=Tämä on osoitesivusi. Täällä voit tarkastella, muokata ja seurata tilaustesi toimitustietoja.
+account.addressbook.goback=Palaa takaisin
+
+addressdetails.customer.address.referenced.by.product.list=Et voi poistaa tätä osoitetta, koska se on lahja- tai toivelistan käytössä.
+
+##############################################
+# ISML Directory: account/components/
+##############################################
+
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.giftregistry.addresses.beforeheader=Toimitus ennen tapahtumaa
+account.giftregistry.addresses.beforemessage=Lahjalistasi lahjat lähetetään tähän osoitteeseen ennen tapahtumaa. Jos toimituspaikka on eri tapahtuman jälkeen, täytä Toimitus tapahtuman jälkeen -osoite.
+account.giftregistry.addresses.postheader=Toimitus tapahtuman jälkeen
+account.giftregistry.addresses.postmessage=Lahjalistasi lahjat lähetetään tähän osoitteeseen tapahtuman jälkeen.
+account.giftregistry.addresses.usepreevent=Käytä Toimitus ennen tapahtumaa -osoitetta
+
+account.giftregistry.eventparticipant.eventinfo=Tapahtumatiedot
+account.giftregistry.eventparticipant.participants=Osallistujatiedot
+account.giftregistry.eventparticipant.first=Ensimmäinen osallistuja
+account.giftregistry.eventparticipant.second=Toinen osallistuja
+
+
+account.giftregistry.title=Lahjalista
+account.giftregistry.searchheader=Etsi lahjalista
+account.giftregistry.searchmessage=Voit myös etsiä muiden lahjalistoja käyttämällä lahjalistahakua
+account.giftregistry.advanced=Tarkennettu haku
+account.giftregistry.closeadvanced=Sulje tarkennettu haku
+account.giftregistry.addgiftcert=Lahjakortit
+account.giftregistry.addgiftcertmessage=Haluatko, että lahjakortit näkyvät lahjalistallasi? Kun klikkaat Lahjakortit-kohtaa, ystäväsi ja perheesi tietävät, että toivot niitä.
+account.giftregistry.makeregprivate=Aseta tämä lista yksityiseksi
+account.giftregistry.makeregpublic=Aseta tämä lista julkiseksi
+account.giftregistry.giftregnoitems=Lahjalistallasi ei ole tuotteita.
+account.giftregistry.emptyadd=Lisää tuotteita
+account.giftregistry.deleteregistryconfirm=Haluatko poistaa tämän lahjalistan?
+account.giftregistry.owner=Lahjalista ({0})
+account.giftregistry.userinformation=Käyttäjätiedot
+
+giftregistryconfirmation.eventinfo=Tapahtumatiedot
+giftregistryconfirmation.eventoverview=Tapahtumatiedot
+giftregistryconfirmation.participants=Lahjalistan omistaja(t):
+giftregistryconfirmation.eventtype=Tapahtuman tyyppi:
+giftregistryconfirmation.eventname=Tapahtuman nimi:
+giftregistryconfirmation.eventdate=Tapahtuman päivämäärä:
+giftregistryconfirmation.eventlocation=Tapahtumapaikka:
+giftregistryconfirmation.registrants=Lahjalistan omistajan/omistajien tiedot
+giftregistryconfirmation.registrant=Lahjalistan omistaja:
+giftregistryconfirmation.registrant2=Lahjalistan toinen omistaja:
+giftregistryconfirmation.registryaddesses=Toimitusosoite/-osoitteet
+giftregistryconfirmation.preshipping=Toimitus ennen tapahtumaa:
+giftregistryconfirmation.postshipping=Toimitus tapahtuman jälkeen:
+giftregistryconfirmation.verifyinformationmessage=Varmista, että alla antamasi tiedot ovat oikein. Klikkaa sitten Lähetä-painiketta, niin voit lisätä tuotteita lahjalistallesi.
+
+giftregistrylanding.create=Luo lahjalista
+
+giftregistryresults.searchresults=Hakutulokset
+giftregistryresults.lastheader=Sukunimi
+giftregistryresults.firstheader=Etunimi
+giftregistryresults.eventtypeheader=Tapahtuman tyyppi
+giftregistryresults.dateheader=Päivämäärä
+giftregistryresults.locationheader=Paikka
+giftregistryresults.noitems=Tällä lahjalistalla ei ole tuotteita.
+
+giftregistryresults.emptymessage=Lahjalistaa ei löytynyt hakuehdolla
+giftregistryresults.emptymessage2=, yritä uudelleen.
+
+navigation.tabregistry=lista
+navigation.tabevent=tapahtumatiedot
+navigation.tabshipping=toimitustiedot
+navigation.tabpurchases=ostot
+
+registry.priority=Prioriteetti
+registry.sendtitle=Lähetä lahjalista ystävälle
+registry.share.link=Lahjalistan URL-osoite
+registry.emailsubject=Tutustu lahjalistaani
+registry.dateadded=Lisäyspäivä
+registry.notapplicable=–
+registry.datepurchased=Ostopäivä:
+registry.purchasedby=Ostanut:
+registry.noproductsfound=Tältä lahjalistalta ei ole ostettu tuotteita.
+
+account.registrycustomer.giftregistries=Lahjalistat
+account.registrycustomer.role=Rooli:
+account.registrycustomer.name=Nimi:
+account.registrycustomer.eventtype=Tapahtuman tyyppi:
+account.registrycustomer.location=Paikka:
+account.registrycustomer.noitems=Tällä lahjalistalla ei ole tuotteita.
+account.registrycustomer.dateadded=Lisäyspäivä
+account.registrycustomer.priority=Prioriteetti:
+
+registrylist.newregistry=Uusi lista
+registrylist.newregistrydescription=Luo uusi lahjalista
+registrylist.registriesheader=Omat lahjalistat
+registrylist.eventnameheader=Tapahtuman nimi
+registrylist.eventtypeheader=Tapahtuman tyyppi
+registrylist.dateheader=Päivämäärä
+registrylist.locationheader=Paikka
+registrylist.detailsheader=Tiedot
+
+registryselect.header=Valitse lahjalista, johon tuote lisätään
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.login.orderheader=Tarkista tilauksesi.
+account.login.checkmessage=Et tarvitse tiliä tilauksen tilan tarkistamiseen. Anna tilausnumero ja sähköpostiosoitteesi.
+account.login.ordererror=Antamasi tilausnumero tai sähköpostiosoite on virheellinen.
+account.login.orderbutton=Näytä tilaus
+account.login.header=Kirjautuminen omalle tilille
+
+account.login.logininclude.customersheader=Nykyiset asiakkaat
+account.login.logininclude.loginerror=Tämä ei vastaa tietojamme. Tarkista oikeinkirjoitus ja yritä uudelleen.
+account.login.logininclude.loginfberror=Sivustolle on jo rekisteröity tili tällä sähköpostiosoitteella.  Kirjaudu sisään tai nollaa salasanasi klikkaamalla Unohditko salasanasi? -linkkiä.
+account.login.logininclude.locked=Tämä tili on lukittu.  Yritä myöhemmin uudelleen.
+account.login.logininclude.willbelocked=Virheellinen salasana.  Tämä tili lukitaan seuraavan epäonnistuneen kirjautumisyrityksen jälkeen.
+account.login.logininclude.forgotpassword=Unohditko salasanasi?
+account.login.logininclude.forgotpassword.label=Salasanan nollauspyyntö
+account.login.logininclude.registered=Jos olet jo rekisteröitynyt käyttäjäksi, anna sähköpostiosoite ja salasana.
+account.login.logininclude.employeeemail=Kirjaudut työntekijäkauppaan sähköpostiosoitteella: {0}
+
+account.login.logininclude.oauthcustomersheader=Kirjaudu sisään käyttämällä seuraavaa ulkoista palveluntarjoajaa:
+account.login.logininclude.oauthcustomersheaderreturning=Kirjauduit aiemmin sisään käyttämällä alla olevaa ulkoista palveluntarjoajaa. Klikkaa sitä, niin voit kirjautua sisään uudelleen.
+account.login.logininclude.oauthloginerror=Kirjautuminen ulkoisella tililläsi ei onnistunut tai et antanut liikkeellemme lupaa käyttää ulkoisen todennuksen tarjoajan sivustolla olevia profiilitietojasi.
+account.login.logininclude.oauthselect=Valitse palveluntarjoaja ja klikkaa sen kuvaketta
+account.login.logininclude.oauth.google=Google
+account.login.logininclude.oauth.microsoft=Microsoft
+account.login.logininclude.oauth.linkedin=LinkedIn
+account.login.logininclude.oauth.facebook=Facebook
+account.login.logininclude.oauth.github=GitHub
+
+##############################################
+# ISML Directory: account/orders/
+##############################################
+account.orders.orderstitle=Tilaukset
+account.orders.ordersmessage=Toivottavasti pidät saamistasi tuotteista. Jos sinulla on kysyttävää palautuksista tai tilauksesi tilasta, tutustu
+account.orders.orderscustomerservice=ASIAKASPALVELU
+account.orders.orderspage=-sivuumme.
+account.orders.orderid=Tilaustunnus:
+account.orders.orderdate=Tilaus tehty:
+account.orders.orderbuttontext=Näytä lisää
+
+##############################################
+# ISML Directory: account/orderhistory/
+##############################################
+account.orderdetails.returnorder=<< Takaisin tilaushistoriaan
+account.orderdetails.returnshopping=Jatka ostoksia
+
+account.orders.orderhistory=Tilaushistoria
+account.orders.noorders=Et ole vielä tehnyt tilausta. Suuntaa etusivullemme ja inspiroidu uusimmista lookeista.
+account.orders.notfound=Emme löytäneet tilausta, jota haluat seurata.
+account.orders.datelabel=Tilauspäivä:
+account.orders.orderdetail=Tilauksen tiedot
+account.orders.numberlabel=Tilausnumero:
+account.orders.shippedto=Toimitusosoite:
+account.orders.ordertotal=Tilaus yhteensä:
+account.orders.items=Tuotteet:
+account.orders.returnitems=Palauta tuotteita
+
+account.orderstatusinclude.statuslabel=Tilauksen tila:
+account.orderstatusinclude.ordershipped=Lähetetty
+account.orderstatusinclude.orderprocessed=Käsittelyssä
+account.orderstatusinclude.ordercancelled=Peruutettu
+account.orderstatusinclude.ordercontact=Ota yhteys asiakaspalveluun:
+
+##############################################
+# ISML Directory: account/password/
+##############################################
+account.passwordemail.subject=Salasanasi
+account.passwordemail.dear=Hei
+account.passwordemail.message1=Saimme pyynnön nollata tähän sähköpostiosoitteeseen liittyvän salasanan. Jos pyysit salasanan nollaamista, noudata alla olevia ohjeita.
+account.passwordemail.message2=Jos et pyytänyt salasanan nollaamista, voit jättää tämän viestin huomiotta. Tilisi on turvassa.
+account.passwordemail.message3=Nollaa salasanasi klikkaamalla alla olevaa linkkiä:
+account.passwordemail.message4=Jos klikkaaminen ei onnistu, voit kopioida ja liittää linkin selaimesi osoiteriville tai kirjoittaa sen siihen.  Saat sen jälkeen ohjeet salasanasi nollaamiseen.  Huomaa, että linkki toimii vain lyhyen ajan.
+account.passwordemail.message5=Turvallisuussyistä linkki vanhenee 30 minuutin kuluttua tai kun olet nollannut salasanasi.
+account.passwordemail.message6=Älä vastaa tähän automaattiseen viestiin.
+
+account.passwordchangedemail.subject=Uusi salasanasi
+account.passwordchangedemail.dear=Hei
+account.passwordchangedemail.message1=Uuden salasanan luominen tilillesi onnistui.
+account.passwordchangedemail.message2=Voit siirtyä tiliisi osoitteessa
+account.passwordchangedemail.message3=Älä vastaa tähän automaattiseen viestiin.
+
+account.password.reset.title=Unohditko salasanan?
+account.password.reset.message=Kirjoita alle sähköpostiosoitteesi. Saat linkin salasanasi nollaamista varten
+account.password.reset.button=Lähetä
+account.password.reset.sent=Sähköpostissasi pitäisi olla linkki salasanan nollaamiseen.
+account.password.reset.resubmit=Voit lähettää uuden pyynnön klikkaamalla tätä
+account.password.reset.notfounderror=Sähköpostiosoitetta ei löytynyt.\r\nTarkista oikeinkirjoitus ja yritä uudelleen.
+account.password.reset.formnotvalid=Käyttäjätiliä ei löydy.
+account.password.reset.invalidtokenerror=Salasanan nollauspyyntö on vanhentunut. Yritä uudelleen.
+
+account.passwordresetconfirm.title=Pyyntö vastaanotettu
+account.passwordresetconfirm.message1=Pyysit äskettäin salasanasi nollaamista. Kiitos pyynnöstäsi.
+account.passwordresetconfirm.message2=Lähetimme sinulle sähköpostiviestin, jonka avulla voit tehdä tämän. Jos et ole saanut sitä muutaman minuutin kuluttua, tarkista roskapostikansiosi tai yritä uudelleen.
+account.passwordresetconfirm.homepagelink=Siirry etusivulle
+
+account.setnewpassword.title=Aseta uusi salasana
+
+account.setnewpasswordconfirm.title=Onnistui.
+account.setnewpasswordconfirm.message=Uusi salasanasi on vahvistettu.
+account.setnewpasswordconfirm.homepagelink=Siirry etusivulle
+
+##############################################
+# ISML Directory: account/login/
+##############################################
+account.lockoutemail.title=Tilisi
+account.lockoutemail.message1=Tilisi on tilapäisesti lukittu, sillä salasana on annettu väärin liian monta kertaa.
+account.lockoutemail.message2=Yritä kirjautua sisään myöhemmin.
+account.lockoutemail.message3=Jos epäilet saaneesi tämän viestin aiheetta, ota yhteys asiakaspalveluun.
+account.lockoutemail.message4=Älä vastaa tähän automaattiseen viestiin.
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.createnew=Luo tili
+account.user.registration.editaccount=Muokkaa tiliä
+account.user.registration.editprofile=Muokkaa profiilia
+account.user.registration.savechanges=Tallenna
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.payment.minicardcard.expires=Vanh.
+
+account.paymentinstruments.forbidden=Tämä sivu on vanhentunut.  Sulje ikkuna ja kirjaudu sisään, jotta voit jatkaa.
+account.paymentinstrumentdetails.expires=Vanhenee:
+
+account.paymentinstrumentlist.header=Luottokorttitiedot
+account.paymentinstrumentlist.addcard=Lisää luottokortti
+account.paymentinstrumentlist.addcard.label=Lisää luottokortti tälle tilille
+account.paymentinstrumentlist.deletecard=Poista kortti
+
+##############################################
+# ISML Directory: account/user/
+##############################################
+account.user.registration.name=Nimi
+account.user.registration.logininfo=Sähköposti/kirjautumistiedot
+
+##############################################
+# ISML Directory: account/wishlist/
+##############################################
+account.wishlist.breadcrumb=Toivelista
+wishlist.searchheader=Etsi toivelista
+wishlist.createheader=Luo toivelista
+wishlist.addaddress=Lisää toimitusosoite
+wishlist.addaddressmessage=Lisää toimitusosoite toivelistaasi
+wishlist.addgiftcert=Lahjakortit
+wishlist.addgiftcertmessage=Haluatko, että lahjakortit näkyvät toivelistallasi? Kun klikkaat Lisää lahjakortit -kohtaa, ystäväsi ja perheesi tietävät, että toivot niitä.
+wishlist.listpublic=Aseta tämä lista julkiseksi
+wishlist.listprivate=Aseta tämä lista julkiseksi
+wishlist.empty=Toivelistallasi ei ole tuotteita.
+wishlist.emptyadd=Voit lisätä tuotteita klikkaamalla tästä.
+wishlist.addresslabel=Toivelistan toimitusosoite
+wishlist.noaddresses=Ei tallennettuja osoitteita
+wishlist.dateadded=Lisäyspäivä
+wishlist.priority=Prioriteetti
+wishlist.itemprivate=Aseta tämä tuote yksityiseksi
+wishlist.itempublic=Aseta tämä tuote julkiseksi
+wishlist.share.link=Toivelistan URL-osoite
+wishlist.sendwishlist=Lähetä lista ystävälle
+wishlist.emailsubject=Tutustu toivelistaani
+wishlist.noshippingaddress=Toimitusosoitetta ei ole määritetty
+wishlist.nolocationtoshow=–
+wishlistresult.lastname=Sukunimi
+wishlistresult.firstname=Etunimi
+wishlistresult.location=Paikka
+wishlistresult.view=Näytä
+wishlist.share=Jaa
+wishlist.copiedtoclipboard=linkki kopioitu leikepöydälle.
+
+account.wishlist.landing.createheader=Luo toivelista
+account.wishlist.landing.findmessage=Voit myös etsiä muiden toivelistoja käyttämällä toivelistahakua
+
+searchresult.emptymessage=Hakuehdolla {0} ei löytynyt toivelistaa, yritä uudelleen.
+
+other.wishlistheader=: toivelista
+productlist.wishlistemailheader=Oma toivelista
+productlist.visitwishlist=Tutustu tähän toivelistaan täällä
+productlist.visitgr=Tutustu tähän lahjalistaan täällä
+productlist.purchaseitem=Osta tämä tuote
+productlist.1=Suurin
+productlist.2=Suuri
+productlist.3=Normaali
+productlist.4=Pieni
+productlist.5=Pienin
+productlist.eventtype=Tapahtuman tyyppi
+productlist.eventdate=Tapahtuman päivämäärä
+productlist.eventlocation=Paikka
+productlist.qtydesired=Haluttu määrä
+productlist.qtypurchased=Ostettu määrä
+
+##############################################
+# ISML Directory: account/giftregistry/
+##############################################
+account.registrycustomer.giftregistry=Lahjalista
+account.registrycustomer.notfound=Pyydettyä lahjalistaa ei löytynyt.
+account.registrycustomer.private=Pyydetty lahjalista ei ole käytettävissä, koska omistaja ei ole asettanut sitä julkiseksi.
+
+##############################################
+# ISML Directory: account/facebook/
+##############################################
+account.facebook.newcustomer=Uusi asiakas
+account.facebook.usefbtoregister=Rekisteröidy käyttäen Facebook-tiliä
+
+##############################################
+# ISML Directory: mail/
+##############################################
+register.dear=Hei
+register.welcome=Tervetuloa {0} tiliisi.
+register.message=Nyt voit jäsenenä ostaa kaikkien brändiemme tuotteita ja päivittää henkilötietosi ja säilyttää niitä yhdessä paikassa.
+register.helpquestion=TARVITSETKO APUA
+register.customerservice=Asiakaspalvelumme (customerservice@bestseller.com) auttaa mielellään.
+register.salutation=Kiitos jäsenyydestäsi!
+
+verifyemployee.success=Nyt saat työntekijäalennuksen BESTSELLER-kaupassa.
+verifyemployee.expired=Käyttämäsi linkki on vanhentunut. Kirjaudu sisään uudelleen, niin saat uuden linkin.
+verifyemployee.notemployee=Et ole minkään työntekijäryhmän jäsen.
+verifyemployee.notvalidtoken=Käyttämäsi työntekijän vahvistustunnus on virheellinen.
+
+account.orderdetails.trackinfo=Jos haluat lisätietoja tilauksestasi, klikkaa SEURAA TILAUSTA -painiketta.
+account.orderdetails.tracknumber=Seurantanumero:
+account.orderdetails.trackorder=Seuraa tilausta
+account.orderdetails.deliverycount=Delivery {0} of {1}
+
+account.orderstatusinclude.orderdispatched=Lähetetty
+account.orderstatusinclude.orderpartiallydispatched=Osittain lähetetty
+account.orderstatusinclude.orderreturned=Palautettu
+account.orderstatusinclude.orderrefunded=Hyvitetty
+account.orderstatusinclude.orderplaced=Tilattu
+
+shipping.estimate=Arvioitu toimitus {0} tilauksen tekemisen jälkeen
+
+employee.storegreeting=Hei! Nyt on aika ryhtyä käyttämään henkilökuntakauppaa.
+employee.storeinfo=Saat pian sähköpostiviestin. Klikkaa siinä olevaa linkkiä, niin pääset kauppaan. Voit välittää linkin henkilökohtaiseen sähköpostiosoitteeseesi, ja se on voimassa 24 tuntia. 
+employee.storetitle=Työntekijän Store aloitussivu
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+cart.header=Oma ostoskori
+cart.cartempty=Yritimme etsiä, mutta mitään ei löydy.
+cart.coupon=Kuponki
+cart.couponcode=Kampanjakoodi:
+cart.couponinvalid=Virheellinen kuponki
+cart.giftcertdelivery=– Lahjakortti toimitetaan sähköpostitse
+cart.registryitem=Tämä on lahjalistatuote
+cart.removeditem=Tämä tuote on äskettäin poistettu nettivalikoimastamme. Poista tuote ostoskorista, jotta voit siirtyä maksamaan.
+cart.carterror={0} Ostoskorisi sisältöä ei voi tällä hetkellä tilata, koska yhdellä tai useammalla ostoskorisi tuotteella\r\n    on virheellinen hinta tai sitä ei ole saatavilla pyydettyä määrää. Poista ostoskorista tuote tai tuotteet, joiden hinnaksi on\r\n merkitty \"–\", tai muuta määrä sellaiseksi, joka on saatavilla. Jos sinulla on kysyttävää, ota yhteys asiakaspalveluun.
+cart.cartcouponinvalid=Ostoskorissasi on kuponki, joka ei tällä hetkellä kelpaa.  Poista kuponki, ennen kuin siirryt maksamaan.
+cart.taxinvalid=Virhe laskettaessa yhden tai useamman ostoskorissasi olevan tuotteen veroja.
+cart.entercouponcode=Anna kuponkikoodi
+cart.shippingmethodsnotavailable=Hetkinen. Tilausta ei voida tehdä, koska sen loppusumma on liian pieni tai suuri. Muokkaa ostoskorissa olevia tuotteita ja yritä uudelleen. Jos tarvitset ohjeita tai sinulla on kysyttävää, ota yhteys asiakaspalveluun.
+cart.product.purchasedisabled=Tilausta ei voi tehdä, koska yhtä tai useampaa ostoskorisi tuotetta ei ole saatavilla maassasi. Poista merkityt tuotteet. Jos tarvitset ohjeita tai sinulla on kysyttävää, ota yhteys asiakaspalveluun.
+cart.employeeshoppingforbidden=Hetkinen. Työntekijät eivät voi tehdä ostoksia työaikana. Ma–to klo 8.00–15.30 ja pe klo 8.00–12.00.
+
+cart.option=Optio
+cart.listprice=Listahinta
+cart.itemtotal=Tuotteet yhteensä
+cart.bonusmaxitems=Tämä alennus oikeuttaa {0} bonustuotteeseen.
+cart.bonusnumselected=Olet valinnut {0} tuotteen/tuotetta.
+cart.updatebonusproducts=Päivitä bonustuotteet
+cart.updatebonusproduct=Päivitä bonustuote
+cart.updatesneeded=Ostoskori täytyy päivittää
+cart.selectbonusproducts=Valitse bonustuotteet
+cart.selectbonusproduct=Valitse bonustuote
+cart.limitedquantity=Tilausta ei voi tehdä, koska yhdellä tai useammalla ostoskorisi tuotteella on virheellinen hinta tai sitä ei ole saatavilla pyydettyä määrää. Poista tuote tai tuotteet, joiden hinnaksi on merkitty \"–\", tai muuta määrä sellaiseksi, joka on saatavilla. Jos tarvitset apua tai sinulla on kysyttävää, ota yhteys asiakaspalveluun.
+cart.limitedquantity.error=MÄÄRÄÄ EI SAATAVILLA
+cart.soldout=Loppuunmyyty
+cart.unabletoadd=Tuotetta {0} ei voida lisätä ostoskoriin
+cart.lastvisited.header=Käyty viimeksi
+
+cart.store.availableinstore=Varastossa
+cart.store.notavailable=Ei saatavilla
+cart.store.deliveryoptions=Toimitusvaihtoehdot
+cart.store.homedelivery=Kotiintoimitus
+cart.store.instorepickup=Nouto liikkeestä
+cart.store.storepickupaddress=Liikkeen nouto-osoite
+
+cart.coupon.code.already.in.basket=Tämä koodi on jo käytetty.
+cart.coupon.already.in.basket=Kuponkikoodia \"{0}\" ei voi yhdistää toiseen ostoskorissasi olevaan kuponkikoodiin.
+cart.coupon.code.already.redeemed=Kuponkikoodi \"{0}\" on jo lunastettu.
+cart.coupon.code.unknown=Anna kelvollinen kampanjakoodi.
+cart.coupon.disabled=Kuponkikoodia \"{0}\" ei voida tällä hetkellä lisätä ostoskoriisi.
+cart.redemption.limit.exceeded=Kuponkikoodia \"{0}\" ei voida tällä hetkellä lisätä ostoskoriisi.
+cart.customer.redemption.limit.exceeded=Kuponkikoodia \"{0}\" ei voida tällä hetkellä lisätä ostoskoriisi.
+cart.timeframe.redemption.limit.exceeded=Kuponkikoodia \"{0}\" ei voida tällä hetkellä lisätä ostoskoriisi.
+cart.no.active.promotion=Kuponkikoodia \"{0}\" ei voida tällä hetkellä lisätä ostoskoriisi.
+cart.coupon.code.missing=Anna kelvollinen kampanjakoodi
+cart.ok={0} kuponkikoodi käytetty
+cart.info=Käytä alennus antamalla kuponkikoodi.
+cart.applycouponcode=Haluan käyttää kampanjakoodin
+cart.itemscount.single={0} tuote
+cart.itemscount={0} tuotetta
+
+cart.promotionsheader=Käytä tilaisuus hyväksesi
+cart.promotionsbonusavailable=Tilauksesi oikeuttaa ilmaiseen lahjaan. Voit lisätä sen ostoskoriisi alla.
+cart.bonussection=Kaupan päälle tilaukseesi
+cart.bonusselect=Valitse ilmainen lahja
+
+minicart.viewcart=Näytä ostoskori
+minicart.viewcart.label=Siirry ostoskoriin
+minicart.title=Oma ostoskori
+
+approachingpromo.purchase=Osta
+approachingpromo.more=enemmän
+approachingpromo.receive=ja saa
+
+##############################################
+# ISML Directory: checkout/checkoutlogin
+##############################################
+checkoutlogin.checkoutguestbutton=Tilaa vieraana
+checkoutlogin.guestheader=Vieras tai uusi asiakas
+checkoutlogin.guestmessage=Voit tehdä tilauksen ilman tiliä. Jos haluat rekisteröityä ja hyödyntää tilin edut, luo salasana tilauksen lopuksi.
+checkoutlogin.registerbenefits=Mitkä ovat tilin edut?
+
+##############################################
+# ISML Directory: checkout/billing
+##############################################
+billing.header.address=Mikä on laskutusosoitteesi?
+billing.header.redeemable=Kuponki-/alennuskoodi
+billing.header.payment=Miten haluat maksaa?
+billing.header.giftcardcheckbalance=Tarkista lahjakorttisi jäljellä oleva saldo
+billing.bmlhelp=Anna syntymäaika ja henkilötunnuksen neljä viimeistä merkkiä
+billing.giftcardredeemed=on vähennetty tilauksestasi.
+billing.giftcardnomethod=Tilauksesi maksutapana on lahjakortti. Jos et halua maksaa tilaustasi lahjakortilla, voit poistaa sen yllä.
+billing.zerobalance=Tilauksellasi ei ole saldoa, joten sen tekemiseen ei tarvita maksutapaa.
+billing.linkcvn=Mikä tämä on?
+billing.custompaymentmethod=Mukautetun maksutavan integrointi tulee tähän
+billing.couponswitch=Onko sinulla kampanjakoodia?
+billing.couponspecialoffer=Jos olet saanut erikoistarjouskoodin tai -alennuksen, voit kirjoittaa yksilöllisen koodin alle.
+billing.couponlabel=Anna kuponkikoodi
+billing.couponnotapplied=Tilaukseesi on lisätty kampanjakoodi {0}, mutta sitä ei käytetty.
+billing.couponapplied=Tilaukseesi on lisätty kampanjakoodi {0}, ja se käytettiin.
+billing.couponinvalid=Virheellinen kampanjakoodi
+billing.seeordersummary=Katso tilauksen päivitetty yhteenveto.
+billing.giftcardswitch=Onko sinulla lahjakortti?
+billing.giftcardnote=Syötä alle lahjakortissa olevat 19 numeroa ja koodi
+billing.bonusproductalert=Olet oikeutettu bonustuotteeseen.  Voit palata ostoskoriin ja valita tuotteesi klikkaamalla Valitse-painiketta tai jatkaa tilaustasi klikkaamalla Ei kiitos.
+billing.giftcardlabel=Lunasta lahjakortti
+billing.giftcardcvvlabel=CVV-turvakoodi:
+billing.giftcardapplied={0} on lunastettu lahjakortilta {1}
+billing.giftcardbalance=Lahjakorttisi saldo on
+billing.giftcardremainingtotal=Tilauksesi kokonaissumma on {0}. Maksu veloitetaan tarkistettuasi tilauksesi seuraavassa vaiheessa.
+billing.giftcarderror=Lahjakorttia ei voitu poistaa.
+billing.giftcardbalancetoolow=Lahjakorttisi saldo ei riitä. Käytä toista lahjakorttia tai maksutapaa.
+billing.giftcardbalancetoohigh=Olet saavuttanut enimmäissumman, jonka voi maksaa lahjakorteilla.
+billing.giftcardinvalid=Virheellinen kampanjakoodi
+billing.giftcardidmissing=Anna lahjakortin koodi.
+billing.giftcardadderror=Antamissasi lahjakortin tiedoissa on ongelma. Yritä uudelleen tai ota yhteys asiakaspalveluun.
+billing.giftcardfraud=Lahjakortin tiedot ovat virheelliset, ota yhteys asiakaspalveluun.
+billing.giftcertificate.pending=Lahjakortti odottamassa.
+billing.giftcertificate.notfound=Lahjakorttia \"{0}\" ei löytynyt.
+billing.giftcertificate.currency.mesmatch=Lahjakortin lunastaminen edellyttää, että tilauksen ja lahjakortin valuutta on sama.
+billing.creditcardlistselect=Valitse jokin tallennettu kortti
+billing.creditcardlistnocards=Ei tallennettuja kortteja
+billing.creditcardlistexp=Vanheneminen
+billing.creditcardexpires=Vanhenee
+billing.creditcardlistexpdate=Vanhenemispäivä:
+billing.creditcardloaderror=Luottokorttia ei voitu ladata.
+billing.creditcardnotdeleted=Luottokorttia ei voitu poistaa.
+billing.creditcarddeleted=Luottokortti on poistettu.
+billing.creditcarddeletenotselected=Valitse luottokortti, jonka haluat poistaa.
+billing.creditcarddeleteconfirm=Haluatko poistaa tämän luottokortin?
+billing.deletecard=Poista kortti
+billing.requiredindicator=•
+billing.newcreditcardadded=Uusi luottokortti lisättiin.
+billing.missingprocessorerror=Valitsemasi maksutapa ei ole tällä hetkellä käytettävissä.  Valitse jokin muu maksutapa.
+billing.ownerparseerror=Kyseessä on ilmeisesti luottokortin numero.  Anna luottokortin haltijan nimi.
+billing.selectcreditcard=Valitse luottokortti
+billing.useshippingaddress=Käytä toimitusosoitetta
+billing.notavailable=Ei saatavilla
+
+minibillinginfo.billingaddress=Laskutusosoite
+minibillinginfo.expiration=Alanumero
+minibillinginfo.giftcertificate=Lahjakortti
+minibillinginfo.bml=Lasku
+minibillinginfo.adyencreditcard=Voit maksaa debit- tai luottokortilla. Maksutiedot pyydetään, kun olet tarkistanut tilauksesi. Maksu veloitetaan heti kun tilaus on lähtenyt varastoltamme.
+minibillinginfo.adyenideal=iDEALin avulla voit maksaa suoraan ilman lisämaksuja
+minibillinginfo.adyenpaypal=Voit maksaa PayPalilla, joka on helppo ja turvallinen verkkomaksupalvelu.  Jos sinulla ei ole tiliä, voit helposti luoda sellaisen maksutta PayPalin verkkosivustolla. Maksutiedot pyydetään, kun olet tarkistanut tilauksesi.
+minibillinginfo.klarnaaccount=Maksa erissä Klarna-tilin avulla.  Voit itse valita kuukausierän. Tilin käytöstä veloitetaan 19.90 % korko. Sinun on ainoastaan annettava henkilötunnuksesi.
+minibillinginfo.klarnainvoice=Kun olet saanut tuotteet, maksa ne, jotka haluat pitää. Kun tilauksesi on lähtenyt varastoltamme, saat Klarnalta sähköpostiviestin. Sinulla on 14 päivää aikaa maksaa. Sinun on ainoastaan annettava henkilötunnuksesi.
+minibillinginfo.klarnaaccountsurcharge=Klarna-Tilillä maksamisesta veloitetaan {0}.
+minibillinginfo.klarnainvoicesurcharge=Klarna-laskulla maksamisesta veloitetaan {0}.
+minibillinginfo.sofort=SOFORTin avulla voit kirjautua sisään ja maksaa suoraan antamalla pankkitietosi.
+minibillinginfo.adyenafterpay=Afterpay Invoicing: Order now, pay later. Afterpay will send you an invoice. You have 14 days to pay and you only have to pay for the items you keep. It costs EUR 1.95 to pay with Afterpay invoice.
+minibillinginfo.adyenmobilepay=MobilePay saattaa vaatia lisätodennusta.
+minibillinginfo.googlepay=
+
+##############################################
+# ISML Directory: checkout/components/
+##############################################
+checkoutprogressindicator.step1=Vaihe 1:
+checkoutprogressindicator.step2=Vaihe 2:
+checkoutprogressindicator.step3=Vaihe 3:
+checkoutprogressindicator.step4=Vaihe 4:
+checkoutprogressindicator.shipping=Toimitus
+checkoutprogressindicator.billing=Laskutus
+checkoutprogressindicator.placeorder=Tarkista tilaus
+checkoutprogressindicator.shippingaddresses=Toimitusosoitteet
+checkoutprogressindicator.shippingmethods=Toimitustavat
+checkoutprogressindicator.shippingaddress=Toimitusosoite:
+checkoutprogressindicator.billingaddress=Laskutusosoite:
+checkoutprogressindicator.billingemail=Sähköposti:
+checkoutprogressindicator.billingpayment=Maksutapa:
+checkoutprogressindicator.shippingstep.skipped=Tilaukseesi ei tarvita toimitustapaa. Lähetämme nettituotteet sähköpostiosoitteeseen, jonka olet antanut laskutustiedoissasi.
+
+##############################################
+# ISML Directory: checkout/giftcert/
+##############################################
+giftcertpurchase.giftcertificates=Lahjakortit
+giftcertpurchase.amount=Summa
+giftcertpurchase.errorinfo=Anna oikeat tiedot
+giftcertpurchase.balancealert=Lahjakorttisi saldo on
+
+##############################################
+# ISML Directory: checkout/shipping/
+##############################################
+singleshipping.enteraddress=Minne toimitamme tuotteesi?
+singleshipping.multiple=Haluatko käyttää useita toimitusosoitteita?
+singleshipping.apofpo=APO/FPO
+singleshipping.phonerequired=Miksi tätä tarvitaan?
+singleshipping.shippingmethodheader=Mitä toimitustapaa haluat käyttää?
+singleshipping.noshippingmethods=Valinnalle ei ole soveltuvia toimitustapoja.
+singleshipping.details=Tiedot
+singleshipping.discount=Alennukset toimituskuluista:
+singleshipping.total=Yhteensä:
+singleshipping.standard=Normaali toimituskulu:
+singleshipping.surcharge=Toimituslisä
+singleshipping.wishlist={0}'': toivelista
+singleshipping.giftregistry={0}'': lahjalista
+singleshipping.select=Valitse
+singleshipping.signoutconfirmation=Haluatko varmasti kirjautua ulos?
+singleshipping.signoutconfirmbutton=Kyllä
+singleshipping.signoutcancelbutton=Ei kiitos
+singleshipping.alreadyanaccount=Näyttää siltä, että sinulla on jo tili.
+singleshipping.speedycheckout=Kirjaudu sisään, niin voit käyttää pikakassaa.
+singleshipping.welcomeback=Tervetuloa takaisin, {0}!
+minishipments.shippingaddress=Toimitusosoite
+minishipments.shipping=Toimitus
+minishipments.giftcertdelivery=– Toimitus sähköpostitse
+
+multishippingaddresses.locationheader=Toimituspaikka
+multishippingaddresses.noaddresses=Osoitetta ei ole valittavissa
+multishippingaddresses.editaddress=Muokkaa osoitetta
+multishippingaddresses.addaddress=Lisää uusi osoite
+multishippingaddresses.select=Valitse
+
+multishippingshipments.shipment=Toimitusnro {0}
+multishippingshipments.gcshipment=Toimitustapa: Toimitus sähköpostitse
+multishippingshipments.selectmethod=Valitse toimitustapa:
+multishippingshipments.shippingdetails=Toimitustiedot
+multishippingshipments.shipimmediante=Lähetyspäivä: Heti
+multishippingshipments.giftmessage=Viesti:
+
+shipment.qualifiesfor=Tämä lähetys oikeuttaa:
+shipment.methodswarning=HETKINEN: Ostoskorisi tuotteet eivät täytä tilauksen vähimmäis- tai enimmäisarvoa, jotka koskevat joitakin toimitustapoja.
+shippingmethod.minordervaluemessage=Vähimmäisarvo {0} ei täyty
+shippingmethod.maxordervaluemessage=Enimmäisarvo {0} ylitetty
+
+shipping.errorparcelshop=Tähän noutopisteeseen ei tällä hetkellä toimiteta noutopistetilauksia. Valitse toinen noutopiste tai toimitustapa.
+shipping.errorpostalcode=Emme toimita tilauksia tähän postinumeroon. Kokeile toista toimitustapaa.
+shipping.estimate.days={0}-{1} arkipäivää
+
+##############################################
+# ISML Directory: checkout/confirmation/
+##############################################
+confirmation.thankyou=Kiitos tilauksestasi.
+confirmation.order=Tilausnumerosi on:
+confirmation.email=Tilauksen tiedot lähetetään sähköpostitse osoitteeseen {0}.
+confirmation.account.title=Tee tilaus nopeammin ensi kerralla
+confirmation.account.message=Luo tili nopeasti yhdessä vaiheessa
+confirmation.account.action=LUO SALASANA
+confirmation.account.save=Tallenna
+confirmation.account.termsmessage=Luomalla tilin hyväksyt
+confirmation.account.terms=asiakasklubin ehdot
+confirmation.message=MITÄ TAPAHTUU SEURAAVAKSI? Kun tilauksesi on pakattu, saat seurantanumeron sähköpostiisi. Tämä voi viedä kaksi työpäivää.
+confirmation.contact=TARVITSETKO APUA? Asiakaspalvelumme (customerservice@bestseller.com) vastaa mielellään mahdollisiin kysymyksiisi.
+confirmation.print=Tulosta kuitti
+confirmation.returnshop=Jatka ostoksia
+confirmation.payment.method=Maksutapa:
+
+pt_orderconfirmation.createheader=Luo tili
+pt_orderconfirmation.accountmessage=Haluatko luoda tilin tämän tilauksen yhteydessä antamiesi tietojen perusteella?
+
+
+##############################################
+# ISML Directory: checkout/summary/
+##############################################
+summary.applied=Käytetty
+summary.coupon=Kuponki
+summary.editcart=&laquo; Muokkaa ostoskoria
+summary.orderdiscount=Tilausalennus:
+summary.notapplied=Ei käytetty
+summary.review.ordertotal=Yhteensä
+summary.title=Tilauksen yhteenveto
+summary.termsandconditions.employee.label=ja työntekijöiden {0}
+summary.termsandconditions.message=Varmista, että kaikki tiedot ovat oikein. Maksutietosi pyydetään seuraavassa vaiheessa.
+summary.termsandconditions.label=Hyväksyn
+summary.termsandconditions.klarna= ja maksusopimuksen BESTSELLERin kumppanin Klarnan ja sen
+summary.termsandconditions.afterpay= and to a payment agreement with BESTSELLER's partner AfterPay and their
+summary.termsandconditions.privacy = Tietosuojakäytäntö
+summary.termsandconditions.termsforinvoice=LASKUEHDOT
+summary.termsandconditions.privacypostlabel=BESTSELLER HANDELS B.V.:n
+summary.termsandconditions.privacyseperator=ja
+summary.paymenterror.adyen_credit_card.failed=Luottokortin käsittelyssä tapahtui virhe. Järjestelmälle saattoi tapahtua aikakatkaisu. Siirry maksamaan ja yritä uudelleen. Suosittelemme tarkistamaan, että antamasi maksutiedot ovat oikein ja että tililläsi on katetta, ennen kuin yrität uudelleen.
+summary.paymenterror.adyen_paypal.failed=PayPal-maksun käsittelyssä tapahtui virhe. Tämä saattoi johtua yhteysongelmista. Palaa ostoskoriin ja yritä uudelleen.
+summary.paymenterror.adyen_ratepay.failed=RatePAY-maksun käsittelyssä tapahtui virhe. Tämä saattoi johtua yhteysongelmista. Palaa ostoskoriin ja yritä uudelleen.
+summary.paymenterror.adyen_afterpay.failed=Error processing the AfterPay transaction. There might have been connection problems, please return to the bag and try again.
+summary.paymenterror.adyen_credit_card.authorised=Hyviä uutisia. Maksusi valtuutus onnistui.
+summary.paymenterror.adyen_credit_card.refused=Maksusi valtuutus ei onnistunut, joten emme voineet hyväksyä sitä.
+summary.paymenterror.adyen_credit_card.cancelled=Näyttää siltä, että peruutit maksun ennen sen suorittamista tai palasit sivustollemme ennen kuin maksutapahtuma oli valmis.
+summary.paymenterror.adyen_credit_card.pending=Maksusi lopullista tilaa ei löydy.
+summary.paymenterror.adyen_credit_card.error=Maksusi käsittelyssä tapahtui virhe.
+giftcert.currentbalance=Lahjakorttisi saldo on
+giftcert.remove.error=Lahjakorttia ei voitu poistaa.
+
+giftcertpurchase.checkinvalid=Tarkista lahjakortin koodi
+giftcertpurchase.missingcode=Anna lahjakortin koodi
+
+summary.paymenterror.oc_giftcard.failed=Jokin meni vikaan maksussasi. Ota yhteys asiakaspalveluun.
+summary.paymenterror.adyen_mobilepay.failed=MobilePay hylkäsi maksusi.
+summary.giftcard.delivery=Saat lahjakorttisi sähköpostitse, kun olemme käsitelleet maksusi.
+
+##############################################
+# Pipelines
+##############################################
+confirm.error.technical=Tilaus epäonnistui. Tämä todennäköisesti johtui tilausten suuresta määrästä tai tilapäisistä yhteysvirheistä. Odota muutama minuutti ja lähetä tilauksesi uudelleen. Maksu käsitellään vasta tilauksen onnistuttua. Jos sinulla on kysyttävää, ota meihin yhteyttä.
+confirm.error.declined=Tilaustasi ei voitu lähettää. Tarkista maksuasetukset ja yritä uudelleen. Kiitos kärsivällisyydestäsi.
+
+##############################################
+# Multi Shipping Checkout
+##############################################
+multishipping.error.attributenotdefined=\n\tMukautettua määritettä \"sessionAddressBook\" ei ole määritetty järjestelmäobjektille \"Basket\".\n\tTarkista dokumentaatio ja luo määrite BM:n kautta.
+multishipping.error.parsejson=\n\tVirhe jäsennettäessä merkkijonoa JSON-objektiksi:\n\t{0}
+multishipping.error.addaddressrequirements=\n\tPuuttuvia vaatimuksia kohteelle AddAddressToSessionAddressBook.ds.\n\tFormAddress- ja/tai CBasket-syötemuuttujat ovat tyhjiä.
+multishipping.editaddress=Lisää osoite / muokkaa osoitetta
+multishipping.editaddress.headline=Lisää tai muokkaa osoitteita
+
+##############################################
+# Instore Checkout
+##############################################
+instore.shipping.storemessage=Viesti liikkeeseen toimittamisesta
+
+##############################################
+# pickup location
+##############################################
+pickuplocation.results.resultcount=Näytetään {0} tulosta läheltä
+pickuplocation.select=Valitse
+
+shipping.estimate=Arvioituun toimitukseen aikaa {0}
+shipping.shipping.estimate=Arvioituun toimitukseen: {0} - {1}
+shipping.summary.estimate=Arvioituun toimitukseen aikaa {0}-{1} arkipäivää
+
+shipping.errormessage=Täytä puuttuvat osoitekentät
+
+billing.adyen_credit_card=Luotto-/maksukortti
+billing.adyen_paypal=PayPal
+billing.oc_giftcard=Lahjakortti
+billing.klarna_invoice=Maksa myöhemmin
+billing.klarna_account=Maksa erissä
+billing.adyen_ideal=IDEAL
+billing.adyen_sofort=Sofort
+billing.adyen_afterpay=Afterpay invoice
+billing.adyen_ratepay=Pay later
+billing.adyen_mobilepay=MobilePay
+billing.paymentheader=Miten haluat maksaa? Maksutietosi pyydetään, kun olet tarkistanut tilauksesi.
+
+##############################################
+# Klarna order confirmation page
+##############################################
+summary.paymenterror.klarna_invoice.unspecified_error=Valitettavasti Klarna maksua ei voitu käsitellä. Yritä myöhemmin uudelleen tai valitse toinen maksuvaihtoehto.
+summary.paymenterror.klarna_invoice.address=Valitettavasti emme voi käsitellä Klarna maksuasi. Varmista, että osoitteesi on oikein.
+summary.paymenterror.klarna_invoice.amount=Valitettavasti emme voi käsitellä Klarna maksuasi. Valitse toinen maksuvaihtoehto tai vähennä ostoskorin summaa.
+summary.paymenterror.klarna_invoice.under_aged=Sinun täytyy olla yli 18-vuotias käyttääksesi Klarna vaihtoehtoa.
+summary.paymenterror.klarna_invoice.cellno=Antamasi matkapuhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.failed=Klarna-laskutapahtuman käsittelyssä tapahtui virhe. Tämä saattoi johtua yhteysongelmista. Palaa ostoskoriin ja yritä uudelleen.
+summary.paymenterror.klarna_invoice.legacy_error5=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.legacy_error4=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.legacy_error3=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.legacy_error2=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.legacy_error1=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.estore_overrun=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun (http://klarna.com/fi/kuluttaja/asiakaspalvelu) tai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_invoice.estore_blacklisted=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.misc_estore_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.credit=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.customer_credit_overrun=Valitettavasti emme voi hyväksyä ostostasi Klarnan kautta tällä hetkellä. Ole hyvä ja valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.blocked=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_invoice.unpaid_bills=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä, koska sinulla on maksamattomia laskuja. Ole hyvä ja maksa nämä laskut, jotta voit jatkaa ostamista Klarnan kautta. Lisätietoja on saatavilla osoitteessa www.klarna.fi/omat-sivut. Jos haluat suorittaa ostoksen nyt, valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.customer_not_accepted=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_invoice.customer_blacklisted=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.tno_blocked=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_invoice.no_power_of_attorney=Henkilön valtuutusta ei ole rekisteröity Klarnan tietoihin.
+summary.paymenterror.klarna_invoice.get_address_blocked=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.pno=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.invalid_pno=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_invoice.pno_not_real_person=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.dead=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_invoice.customer_not_18=Sinun täytyy valitettavasti olla 18 vuotta, jotta voit ostaa Klarnan laskupalvelulla.
+summary.paymenterror.klarna_invoice.no_such_person=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_invoice.customer_missing=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.no_such_customer=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_invoice.unknown_customer=Tilausta ei voida hyväksyä - henkilötunnus ei täsmää tietoihimme. Antamasi henkilötunnus ei täsmää tietoihimme. Kirjoitithan tunnuksen varmasti oikein? Mikäli annoit henkilötunnuksen oikein, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.bad_customer_password=Olet syöttänyt väärän salasanan.
+summary.paymenterror.klarna_invoice.test_customer_but_estore_is_live=Testiasiakkaita ei voi käyttää, kun myymälä on live-tilassa. Jos haluat testata Klarna-integraatiota, käytä API-kutsun testilippua.
+summary.paymenterror.klarna_invoice.real_customer_with_test_flag=Jotta voisit luoda tai aktivoida Klarna-tilauksia oikeiden asiakkaiden kanssa, sinun on poistettava API-kutsun testilippu.
+summary.paymenterror.klarna_invoice.tno_not_found=Kun käytät Klarna Mobiilia ensimmäisen kerran, sinun on rekisteröidyttävä. Se onnistuu helposti soittamalla numeroon 08-120 129 00 tai osoitteessa klarna.se. Ystävällisin terveisin Klarna
+summary.paymenterror.klarna_invoice.pin_error=Väärä PIN-koodi!
+summary.paymenterror.klarna_invoice.wrong_pin=Väärä PIN-koodi!
+summary.paymenterror.klarna_invoice.no_pin=Tilattua PIN-koodia ei ole!
+summary.paymenterror.klarna_invoice.orgno=Kun maksat Klarna Mobiili -palvelussa ensimmäisen kerran käyttämällä yrityksen matkapuhelinta, sinun on annettava henkilötunnuksesi lähettämällä viesti REG ÅÅMMDDXXXX numeroon 71200. Ystävällisin terveisin Klarna
+summary.paymenterror.klarna_invoice.phone_getaddr_failed=Emme löydä yhtään väestörekisteriin ilmoitettua osoitetta annetulle puhelinnumerolle.
+summary.paymenterror.klarna_invoice.poa_pno=Valtakirjan haltijan henkilötunnuksen muoto on väärin. Kirjoita henkilötunnus muodossa VVVVKKPPNNNN.
+summary.paymenterror.klarna_invoice.poa_group=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.poa_org=Väärä organisaationumeron muoto.
+summary.paymenterror.klarna_invoice.misc_customer_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.foreign_addr=Olet ilmoittanut osoitteen, joka ei täsmää henkilötunnukseesi. Ole ystävällinen ja tarkista, jos olet kirjoittanut sen väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_addr=Valitettavasti emme pysty tunnistamaan sinua antamallasi osoitteella. Korjaa mahdolliset kirjoitusvirheet, kirjoita täydellinen osoitteesi ja yritä uudelleen. Jos saat edelleen tämän viestin, ota yhteyttä Klarnaan osoitteessa www.klarna.fi/tuki.
+summary.paymenterror.klarna_invoice.bad_address=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.postno=Olet ilmoittanut väärän postinumeron. Ole ystävällinen ja tarkista, jos olet sen kirjoittanut väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_postno=Olet ilmoittanut väärän postinumeron. Ole ystävällinen ja tarkista, jos olet sen kirjoittanut väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_name=Valitettavasti emme pysty tunnistamaan antamaasi nimeä. Korjaa mahdolliset kirjoitusvirheet, kirjoita täydellinen nimesi ja yritä uudelleen. Jos saat edelleen tämän viestin, ota yhteyttä Klarnaan osoitteessa www.klarna.fi/tuki.
+summary.paymenterror.klarna_invoice.no_address=We cannot find a registered address for the personal number you are using. Please control your input and try again or choose another payment method to finish your purchase.
+summary.paymenterror.klarna_invoice.bad_addr_limited=Emme voi valitettavasti hyväksyä tilaustasi. Tilauksesi summa ylittää tilausrajamme koskien muihin kuin väestörekisteriin ilmoitettuihin osoitteisiin tehtyjä tilauksia. Pyydämme sinua joko korjaamaan osoitteesi vastaamaan väestörekisterin tietoja tai valitsemaan toisen maksutavan.
+summary.paymenterror.klarna_invoice.unidentified=Kiitos tilauksestasi! Valitettavasti Klarna ei voi hyväksyä antamaasi osoitetta. Pyydämme sinua ystävällisesti joko tarkistamaan, että antamasi osoite on yhtenevä väestörekisteriin ilmoitetun osoitteen kanssa tai lähetä kopio henkilöllisyystodistuksestasi (passi, ajokortti tai henkilökortti) osoitteeseen identification@klarna.com Vastaamme sinulle 24 tunnin kuluessa. Henkilötietojasi tullaan käsittelemään luottamuksellisesti ja henkilötietolain mukaisesti.
+summary.paymenterror.klarna_invoice.zip=Antamasi postinumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: NNNNN. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.telno=Antamasi puhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: 0X(X) XXX XXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostosi suorittamiseen.
+summary.paymenterror.klarna_invoice.email=Antamasi sähköpostiosoite on väärin. Kirjoitithan sen varmasti oikein? Jos sähköpostiosoitteesi on oikein, mutta emme silti hyväksy tilaustasi, pyydämme sinua ystävällisesti valitsemaan jonkun muun maksutavan.
+summary.paymenterror.klarna_invoice.country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.city=Tilausta ei voida hyväksyä - virheellinen paikkakunta. Antamasi paikkakunta ei täsmää väestörekisterin tietoihin. Kirjoitithan paikkakunnan nimen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.street=Tilausta ei voida hyväksyä - virheellinen katuosoite. Antamasi katuosoite ei täsmää väestörekisterin tietoihin. Kirjoitithan osoitteen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.client_ip=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.proto_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.goods_list=Virhe tuoteluettelossa, jonka yritit lähettää Klarnalle. Varmista, että kaikki lähetetään oikein.
+summary.paymenterror.klarna_invoice.artnos=Emme pysty tunnistamaan tuoteluetteloa tästä tilauksesta. Varmista, että tuotenumerot vastaavat tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_invoice.shipmenttype=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.language=The language you entered is not supported by Klarna.
+summary.paymenterror.klarna_invoice.gender=Valitse sukupuolesi ja yritä uudelleen.
+summary.paymenterror.klarna_invoice.date_of_birth=Antamasi syntymäaika on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PP.KK.VVVV. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.addr=Tilausta ei voida hyväksyä - virheellinen katuosoite. Antamasi katuosoite ei täsmää väestörekisterin tietoihin. Kirjoitithan osoitteen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.house_number=Antamasi lähiosoite on väärin. Tarkista lähiosoite tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.phone=Antamasi matkapuhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: 0X(XX)-1234567. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_invoice.income_expense_format=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.delay_adjust=Valitettavasti tapahtui virhe, emmekä pystyneet käsittelemään ostostasi Klarnan kautta. Tarkista tietosi ja yritä uudelleen. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_invoice.bad_name_and_address=Tilausta ei voida hyväksyä - virheellinen nimi tai osoite. Antamasi nimi tai osoite ei täsmää väestörekisterin tietoihin. Kirjoitithan nimen ja osoitteen varmasti oikein? Mikäli olet varma, että antamasi tiedot täsmäävat väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.bad_last_name=Täytä sukunimesi, kiitos.
+summary.paymenterror.klarna_invoice.bad_first_name=Täytä etunimesi, kiitos.
+summary.paymenterror.klarna_invoice.bad_first_name_and_last_name=Tilausta ei voida hyväksyä - virheellinen etu- ja sukunimi. Antamasi nimi ei täsmää väestörekisterin tietoihin. Kirjoitithan nimen varmasti oikein? Mikäli olet varma, että antamasi tiedot täsmäävat väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_invoice.group=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.misc_submission_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.orgno_pclass_not_allowed=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.sum_low_for_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.unknown_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.not_annuity_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.pclass_expired=Kampanja, jota yrität käyttää, ei ole enää voimassa. Valitse toinen kampanja.
+summary.paymenterror.klarna_invoice.sum_high_for_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.misc_pclass_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.misc_subscription_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.unknown_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.negative_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_not_active=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_bad_status=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_is_passive=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_is_archived=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_is_suspect=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_is_frozen=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_is_pre_pay=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_stale=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_not_passive_or_frozen=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_in_test_mode=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invoice_not_passive=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.misc_invoice_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.cno_already_in_use=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.unknown_csid=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.not_allowed_operation=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.ip_from_wrong_country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.unknown_type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_artnolist=Emme pysty tunnistamaan tuoteluetteloa tästä tilauksesta. Varmista, että tuotenumerot vastaavat tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_invoice.unknown_artno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.rno=Emme löydä varausta, jota yrität käyttää. Varmista, että käytät oikeaa varausnumeroa ja kokeile uudelleen.
+summary.paymenterror.klarna_invoice.split=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_order_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_invoice.unknown_estore=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.invalid_estore_secret=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.bad_module_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.pno_encoding=Henkilötunnustyyppiä ei hyväksytä.
+summary.paymenterror.klarna_invoice.currency=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.currency_country_pnoencoding=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.timeout=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä teknisten ongelmien vuoksi. Yritä uudelleen muutaman minuutin kuluttua. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_invoice.invalid_country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.negative_amount=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.eid=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.unknown_bclass=Annetulle arvolle estore_behaviour ei ole määritelty käyttäytymismallia.
+summary.paymenterror.klarna_invoice.flags=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.estore_user=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.ready_date=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.under_manual_review=Tilausta käsitellään manuaalisesti. Käytä check_order_status-toimintoa tutkiaksesi tilauksen tilaa.
+summary.paymenterror.klarna_invoice.unknown_order=Emme löydä tilausta, jota varten teet tämän toimenpiteen. Varmista, että pyydät oikeaa tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_invoice.timeout_fe=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä teknisten ongelmien vuoksi. Yritä uudelleen muutaman minuutin kuluttua. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_invoice.aid=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.careof=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.cellphone=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.client_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.comment=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.credit_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.cust_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.customer_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.digest_secret=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.estore_order_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.estore_subsc_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.expiry_date=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.faddr=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.handlingfee=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.house_extension=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.lev_addr=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.new_amount=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.new_passwd=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.new_qty=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.notes=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.orderid1=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.orderid2=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.orderno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.passwd=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.rand_str=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.referens=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.referens_code=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.shipmentfee=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.store_id=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.sum=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.telcellno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.username=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.vat=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.yearly_salary=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.session_id=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.not_unique_artnos_on_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_invoice.proto_vsn_test=Integraatiossa on ilmennyt ongelma, koska käytössä oleva protokollaversio ei vastaa asetuksiasi. Ole hyvä ja ota yhteyttä Klarnaan ja autamme sinua päivittämään uusimpaan versioon.
+summary.paymenterror.klarna_invoice.income_expense_info=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+
+summary.paymenterror.klarna_account.failed=Klarna-Tilitapahtuman käsittelyssä tapahtui virhe. Tämä saattoi johtua yhteysongelmista. Palaa ostoskoriin ja yritä uudelleen.
+summary.paymenterror.klarna_account.unspecified_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.legacy_error5=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.legacy_error4=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.legacy_error3=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.legacy_error2=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.legacy_error1=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.estore_overrun=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun (http://klarna.com/fi/kuluttaja/asiakaspalvelu) tai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_account.estore_blacklisted=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.misc_estore_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.credit=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.amount=Valitettavasti emme voi hyväksyä ostostasi Klarnan kautta tällä hetkellä. Ole hyvä ja valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.customer_credit_overrun=Valitettavasti emme voi hyväksyä ostostasi Klarnan kautta tällä hetkellä. Ole hyvä ja valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.blocked=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_account.unpaid_bills=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä, koska sinulla on maksamattomia laskuja. Ole hyvä ja maksa nämä laskut, jotta voit jatkaa ostamista Klarnan kautta. Lisätietoja on saatavilla osoitteessa www.klarna.fi/omat-sivut. Jos haluat suorittaa ostoksen nyt, valitse toinen maksutapa.
+summary.paymenterror.klarna_account.customer_not_accepted=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_account.customer_blacklisted=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.tno_blocked=Tilausta ei voida hyväksyä - luottorajasi on ylittinyt Klarna, joka hoitaa laskupalvelua, ei voi valitettavasti hyväksyä ostostasi, koska ostoksiesi loppusumma ylittää Klarnan sinulle myöntämän luottorajan. Luottorajaan vaikuttaa mm. mahdolliset muut Klarnalle avoimet laskusi ja aikaisempi maksuhistoriasi Klarnalla. Luottorajaan liittyvissä kysymyksissa pyydämme sinua ottamaan yhteyttä Klarnan asiakaspalveluun http://klarna.com/fi/kuluttaja/asiakaspalvelutai kokeilemaan jotakin toista maksutapaa
+summary.paymenterror.klarna_account.no_power_of_attorney=Henkilön valtuutusta ei ole rekisteröity Klarnan tietoihin.
+summary.paymenterror.klarna_account.get_address_blocked=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.pno=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.invalid_pno=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_account.pno_not_real_person=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.dead=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_account.under_aged=Sinun on oltava 18-vuotias tai sitä vanhempi voidaksesi käyttää tätä maksutapaa. Ole hyvä ja valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.customer_not_18=Sinun täytyy valitettavasti olla 18 vuotta, jotta voit ostaa Klarnan laskupalvelulla.
+summary.paymenterror.klarna_account.no_such_person=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_account.customer_missing=Antamasi henkilötunnus on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PPKKVV-XXXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.no_such_customer=Olet syöttäny väärän henkilötunnuksen. Ole hyvä ja tarkista tunnuksesi.
+summary.paymenterror.klarna_account.unknown_customer=Tilausta ei voida hyväksyä - henkilötunnus ei täsmää tietoihimme. Antamasi henkilötunnus ei täsmää tietoihimme. Kirjoitithan tunnuksen varmasti oikein? Mikäli annoit henkilötunnuksen oikein, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.bad_customer_password=Olet syöttänyt väärän salasanan.
+summary.paymenterror.klarna_account.test_customer_but_estore_is_live=Testiasiakkaita ei voi käyttää, kun myymälä on live-tilassa. Jos haluat testata Klarna-integraatiota, käytä API-kutsun testilippua.
+summary.paymenterror.klarna_account.real_customer_with_test_flag=Jotta voisit luoda tai aktivoida Klarna-tilauksia oikeiden asiakkaiden kanssa, sinun on poistettava API-kutsun testilippu.
+summary.paymenterror.klarna_account.tno_not_found=Kun käytät Klarna Mobiilia ensimmäisen kerran, sinun on rekisteröidyttävä. Se onnistuu helposti soittamalla numeroon 08-120 129 00 tai osoitteessa klarna.se. Ystävällisin terveisin Klarna
+summary.paymenterror.klarna_account.pin_error=Väärä PIN-koodi!
+summary.paymenterror.klarna_account.wrong_pin=Väärä PIN-koodi!
+summary.paymenterror.klarna_account.no_pin=Tilattua PIN-koodia ei ole!
+summary.paymenterror.klarna_account.orgno=Kun maksat Klarna Mobiili -palvelussa ensimmäisen kerran käyttämällä yrityksen matkapuhelinta, sinun on annettava henkilötunnuksesi lähettämällä viesti REG ÅÅMMDDXXXX numeroon 71200. Ystävällisin terveisin Klarna
+summary.paymenterror.klarna_account.phone_getaddr_failed=Emme löydä yhtään väestörekisteriin ilmoitettua osoitetta annetulle puhelinnumerolle.
+summary.paymenterror.klarna_account.poa_pno=Valtakirjan haltijan henkilötunnuksen muoto on väärin. Kirjoita henkilötunnus muodossa VVVVKKPPNNNN.
+summary.paymenterror.klarna_account.poa_group=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.poa_org=Väärä organisaationumeron muoto.
+summary.paymenterror.klarna_account.misc_customer_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.foreign_addr=Olet ilmoittanut osoitteen, joka ei täsmää henkilötunnukseesi. Ole ystävällinen ja tarkista, jos olet kirjoittanut sen väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_addr=Valitettavasti emme pysty tunnistamaan sinua antamallasi osoitteella. Korjaa mahdolliset kirjoitusvirheet, kirjoita täydellinen osoitteesi ja yritä uudelleen. Jos saat edelleen tämän viestin, ota yhteyttä Klarnaan osoitteessa www.klarna.fi/tuki.
+summary.paymenterror.klarna_account.bad_address=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.postno=Olet ilmoittanut väärän postinumeron. Ole ystävällinen ja tarkista, jos olet sen kirjoittanut väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_postno=Olet ilmoittanut väärän postinumeron. Ole ystävällinen ja tarkista, jos olet sen kirjoittanut väärin tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_name=Valitettavasti emme pysty tunnistamaan antamaasi nimeä. Korjaa mahdolliset kirjoitusvirheet, kirjoita täydellinen nimesi ja yritä uudelleen. Jos saat edelleen tämän viestin, ota yhteyttä Klarnaan osoitteessa www.klarna.fi/tuki.
+summary.paymenterror.klarna_account.address=Valitettavasti emme pysty tunnistamaan sinua antamallasi osoitteella. Korjaa mahdolliset kirjoitusvirheet, kirjoita täydellinen osoitteesi ja yritä uudelleen. Jos saat edelleen tämän viestin, ota yhteyttä Klarnaan osoitteessa www.klarna.fi/tuki.
+summary.paymenterror.klarna_account.no_address=We cannot find a registered address for the personal number you are using. Please control your input and try again or choose another payment method to finish your purchase.
+summary.paymenterror.klarna_account.bad_addr_limited=Emme voi valitettavasti hyväksyä tilaustasi. Tilauksesi summa ylittää tilausrajamme koskien muihin kuin väestörekisteriin ilmoitettuihin osoitteisiin tehtyjä tilauksia. Pyydämme sinua joko korjaamaan osoitteesi vastaamaan väestörekisterin tietoja tai valitsemaan toisen maksutavan.
+summary.paymenterror.klarna_account.unidentified=Kiitos tilauksestasi! Valitettavasti Klarna ei voi hyväksyä antamaasi osoitetta. Pyydämme sinua ystävällisesti joko tarkistamaan, että antamasi osoite on yhtenevä väestörekisteriin ilmoitetun osoitteen kanssa tai lähetä kopio henkilöllisyystodistuksestasi (passi, ajokortti tai henkilökortti) osoitteeseen identification@klarna.com Vastaamme sinulle 24 tunnin kuluessa. Henkilötietojasi tullaan käsittelemään luottamuksellisesti ja henkilötietolain mukaisesti.
+summary.paymenterror.klarna_account.zip=Antamasi postinumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: NNNNN. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.cellno=Antamasi matkapuhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: 0X(XX)-1234567. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.telno=Antamasi puhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: 0X(X) XXX XXX. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostosi suorittamiseen.
+summary.paymenterror.klarna_account.email=Antamasi sähköpostiosoite on väärin. Kirjoitithan sen varmasti oikein? Jos sähköpostiosoitteesi on oikein, mutta emme silti hyväksy tilaustasi, pyydämme sinua ystävällisesti valitsemaan jonkun muun maksutavan.
+summary.paymenterror.klarna_account.country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.city=Tilausta ei voida hyväksyä - virheellinen paikkakunta. Antamasi paikkakunta ei täsmää väestörekisterin tietoihin. Kirjoitithan paikkakunnan nimen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.street=Tilausta ei voida hyväksyä - virheellinen katuosoite. Antamasi katuosoite ei täsmää väestörekisterin tietoihin. Kirjoitithan osoitteen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.client_ip=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.proto_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.goods_list=Virhe tuoteluettelossa, jonka yritit lähettää Klarnalle. Varmista, että kaikki lähetetään oikein.
+summary.paymenterror.klarna_account.artnos=Emme pysty tunnistamaan tuoteluetteloa tästä tilauksesta. Varmista, että tuotenumerot vastaavat tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_account.shipmenttype=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.language=The language you entered is not supported by Klarna.
+summary.paymenterror.klarna_account.gender=Valitse sukupuolesi ja yritä uudelleen.
+summary.paymenterror.klarna_account.date_of_birth=Antamasi syntymäaika on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: PP.KK.VVVV. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.addr=Tilausta ei voida hyväksyä - virheellinen katuosoite. Antamasi katuosoite ei täsmää väestörekisterin tietoihin. Kirjoitithan osoitteen varmasti oikein? Mikäli olet varma, että antamasi osoite täsmää väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.house_number=Antamasi lähiosoite on väärin. Tarkista lähiosoite tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.phone=Antamasi matkapuhelinnumero on väärässä muodossa. Tarkista, että kaikki numerot ovat oikein ja yritä uudelleen seuraavassa muodossa: 0X(XX)-1234567. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen.
+summary.paymenterror.klarna_account.income_expense_format=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.delay_adjust=Valitettavasti tapahtui virhe, emmekä pystyneet käsittelemään ostostasi Klarnan kautta. Tarkista tietosi ja yritä uudelleen. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_account.bad_name_and_address=Tilausta ei voida hyväksyä - virheellinen nimi tai osoite. Antamasi nimi tai osoite ei täsmää väestörekisterin tietoihin. Kirjoitithan nimen ja osoitteen varmasti oikein? Mikäli olet varma, että antamasi tiedot täsmäävat väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.bad_last_name=Täytä sukunimesi, kiitos.
+summary.paymenterror.klarna_account.bad_first_name=Täytä etunimesi, kiitos.
+summary.paymenterror.klarna_account.bad_first_name_and_last_name=Tilausta ei voida hyväksyä - virheellinen etu- ja sukunimi. Antamasi nimi ei täsmää väestörekisterin tietoihin. Kirjoitithan nimen varmasti oikein? Mikäli olet varma, että antamasi tiedot täsmäävat väestörekisterin tietoihin, mutta saat silti tämän virheilmoituksen, pyydämme sinua ystävällisesti ottamaan yhteyttä laskutuksesta ja osamaksupalvelusta vastaavan Klarnan asiakaspalveluun. Pääset Klarnan asiakaspalveluun klikkaamalla alla olevaa linkkiä: http://klarna.com/fi/kuluttaja/asiakaspalvelu
+summary.paymenterror.klarna_account.group=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.misc_submission_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.orgno_pclass_not_allowed=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.sum_low_for_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.unknown_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.not_annuity_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.pclass_expired=Kampanja, jota yrität käyttää, ei ole enää voimassa. Valitse toinen kampanja.
+summary.paymenterror.klarna_account.sum_high_for_pclass=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.misc_pclass_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.misc_subscription_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.unknown_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.negative_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_not_active=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_bad_status=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_is_passive=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_is_archived=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_is_suspect=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_is_frozen=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_is_pre_pay=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_stale=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_not_passive_or_frozen=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_in_test_mode=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invoice_not_passive=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.misc_invoice_error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.cno_already_in_use=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.unknown_csid=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.not_allowed_operation=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.ip_from_wrong_country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.unknown_type=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_artnolist=Emme pysty tunnistamaan tuoteluetteloa tästä tilauksesta. Varmista, että tuotenumerot vastaavat tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_account.unknown_artno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.rno=Emme löydä varausta, jota yrität käyttää. Varmista, että käytät oikeaa varausnumeroa ja kokeile uudelleen.
+summary.paymenterror.klarna_account.split=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_order_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_ocr=The OCR number sent is not valid.
+summary.paymenterror.klarna_account.unknown_estore=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.invalid_estore_secret=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.bad_module_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.pno_encoding=Henkilötunnustyyppiä ei hyväksytä.
+summary.paymenterror.klarna_account.currency=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.currency_country_pnoencoding=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.timeout=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä teknisten ongelmien vuoksi. Yritä uudelleen muutaman minuutin kuluttua. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_account.invalid_country=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.negative_amount=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.eid=On syntynyt integrointivirhe kaupan ja Klarnan välillä. Ota yhteyttä verkkokauppaan tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.unknown_bclass=Annetulle arvolle estore_behaviour ei ole määritelty käyttäytymismallia.
+summary.paymenterror.klarna_account.flags=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.estore_user=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.ready_date=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.under_manual_review=Tilausta käsitellään manuaalisesti. Käytä check_order_status-toimintoa tutkiaksesi tilauksen tilaa.
+summary.paymenterror.klarna_account.unknown_order=Emme löydä tilausta, jota varten teet tämän toimenpiteen. Varmista, että pyydät oikeaa tilausta ja kokeile uudelleen.
+summary.paymenterror.klarna_account.timeout_fe=Valitettavasti emme voi käsitellä ostostasi Klarnan kautta tällä hetkellä teknisten ongelmien vuoksi. Yritä uudelleen muutaman minuutin kuluttua. Jos saat edelleen tämän viestin, valitse toinen maksutapa ostoksesi suorittamiseen. Pahoittelemme häiriötä.
+summary.paymenterror.klarna_account.aid=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.careof=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.cellphone=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.client_vsn=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.comment=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.credit_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.cust_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.customer_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.digest_secret=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.estore_order_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.estore_subsc_no=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.expiry_date=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.faddr=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.handlingfee=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.house_extension=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.lev_addr=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.new_amount=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.new_passwd=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.new_qty=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.notes=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.orderid1=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.orderid2=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.orderno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.passwd=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.rand_str=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.referens=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.referens_code=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.shipmentfee=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.store_id=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.sum=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.telcellno=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.username=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.vat=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.yearly_salary=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.session_id=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.error=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.not_unique_artnos_on_invoice=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+summary.paymenterror.klarna_account.proto_vsn_test=Integraatiossa on ilmennyt ongelma, koska käytössä oleva protokollaversio ei vastaa asetuksiasi. Ole hyvä ja ota yhteyttä Klarnaan ja autamme sinua päivittämään uusimpaan versioon.
+summary.paymenterror.klarna_account.income_expense_info=Jotain on tapahtunut kommunikaatiossa laskupalvelun hoitajan, Klarnan, kanssa. Ole ystävällinen ja ota yhteyttä Klarnaan (http://www.klarna.fi) tai valitse toinen maksutapa.
+
+##############################################
+# ISML Directory: slots/
+##############################################
+cart.recommendations.products=Suosittelemme myös
+
+##############################################
+# ISML Directory: slots/
+##############################################
+feedback.review.negative.label=Sepä ikävä kuulla.
+feedback.review.negative.placeholder=Mitä olisimme voineet tehdä paremmin?
+feedback.review.positive.label=Sepä hienoa!
+feedback.review.positive.placeholder=Olisimmeko voineet tehdä jotain paremmin?
+feedback.review.thankyou.text=Kiitos palautteestasi – sen avulla voimme kehittää toimintaamme. Jos sinulla on kysyttävää, ota yhteys asiakaspalveluumme.
+feedback.review.thankyou.copy=Kopioi palaute
+feedback.review.thankyou.share=Jaa palaute Trustpilotissa
+
+login.haveaccount=Näyttää siltä, että sinulla on tili.\n\tKirjaudu sisään, niin voit tehdä ostokset nopeammin!
+login.email=Mikä on sähköpostiosoitteesi?
+login.forgotpassword=Unohtunut salasana
+login.welcomeback=Tervetuloa takaisin,
+
+competition.terms=Kilpailuehdot
+competition.customerclubterms=Rekisteröityessäsi hyväksyt asiakasklubimme {0}.
+competition.customerclubtermslink=käyttöehdot
+competition.datadisclamer=BESTSELLER säilyttää kilpailun yhteydessä annettuja henkilötietoja ja käsittelee niitä Tanskan henkilötietolain ja {0} Members Clubin jäsenyyden ehtojen mukaisesti.
+competition.successcontinue=Jatka: {0}
+competition.termsreadmore=Lue {0}.
+competition.termsreadmorelink=kilpailuehdot
+competition.selectsize=Valitse tästä
+competition.sizeerror=Valitse koko
+competition.selectprize=Valitse jokin seuraavista:
+competition.submit=Lähetä
+competition.invalidfields=Tämäpä noloa. Tarkista punaiset kentät.
+competition.serviceerror=Palvelu on tällä hetkellä poissa käytöstä.
+competition.onesize=Yksi koko
+competition.termslabel=Hyväksyn kilpailun ja {0} {1} in käyttöehdot
+competition.customerclub=ASIAKASKLUBI
+competition.answer=Vastaus
+﻿########################################
+# strings in content images
+########################################
+content.20_40_off=ale 20–40 %
+
+content.apparel.accessories=asusteet
+content.apparel.apparel=vaatteet
+content.apparel.boots=saappaat
+content.apparel.coat=takki
+content.apparel.collection=mallisto
+content.apparel.dresses=mekot
+content.apparel.earrings=korvakorut
+content.apparel.fleeceandknits=fleecet ja neuleet
+content.apparel.hats=hatut
+content.apparel.jackets=jakut
+content.apparel.jewelry=korut
+content.apparel.leather=nahkatuotteet
+content.apparel.neckties=solmiot
+content.apparel.necklaces=kaulakorut
+content.apparel.outerwear=päällysvaatteet
+content.apparel.pants=housut
+content.apparel.scarves=huivit
+content.apparel.shirt=paita
+content.apparel.shirts=paidat
+content.apparel.shoes=kengät
+content.apparel.shorts=shortsit
+content.apparel.sportcoat=urheilutakki
+content.apparel.suits=puvut
+content.apparel.sweater=swetari
+content.apparel.tops=topit
+content.apparel.tshirt=t-paita
+content.apparel.tshirts=t-paidat
+
+content.category.kids=lapset
+content.category.mens=miehet
+content.category.womens=naiset
+
+content.season.fall=syksy
+content.season.spring=kevät
+content.season.summer=kesä
+content.season.winter=talvi
+
+content.classicfit=classic fit
+content.cool_savings=mahtavia säästöjä
+content.dressforsucess=pukeudu tyylillä
+content.free_shipping=ilmainen toimitus
+content.freegroundshipping=ilmainen toimitus maarahtina vähintään 150 $ tilauksille
+content.new=uutta
+content.new_arrivals=uutuudet
+content.new_styles=uudet tuotteet
+content.promocode=kampanjakoodi GCshipping
+content.sale=ale
+content.save_20=säästä 20 %
+content.save_20_40=säästä 20–40 %
+content.save_some_cash=säästä rahaa
+content.shop=osta
+content.shop_now=osta nyt  >
+content.thisweeksdeals=viikon tarjoukset
+content.use_a_gift_card=käytä lahjakortti ja saa ilmainen toimitus
+content.warmthandstyle=lämpöä ja tyyliä
+
+homepage.banners_homepage_05b_headline=täydellinen kumppani
+homepage.banners_homepage_05d_action=-20 % vain tällä viikolla
+homepage.banners_homepage_05e_headline=ihania kenkiä
+homepage.img01=säästä jopa 40 % valikoiduista naisten jalkineista
+homepage.img02=ale: 10 % kaikista miesten vaatteista
+homepage.img05=osta mikä tahansa lasten ulkoiluvaate ja saa toisesta -50 %
+homepage.img06=osta matkalaukku ja saa -25 % mistä tahansa repusta
+
+slot.landing.kids-clothing=ale: jopa -25 % kaikista lasten huppareista
+slot.landing.kids-footwear=uusia tuotteita lapsille
+slot.landing.mens-clothing=päivitä ilmeesi ajoissa tulevaa sesonkia varten
+slot.landing.mens-footwear-boots=säästä 20 % valikoiduista miesten kengistä
+slot.landing.womens-footwear-shoes=tyylikkäitä ja mukavia jalkineita
+slot.landing.womens-greatstyles=tutustu uuden sesongin mahtaviin tyyleihin...
+slot.sub_banners.kids-accessories-hats=neulepipot alkaen 11,99 $
+slot.sub_banners.kids-clothing-footwear=kaikki alle 25 $
+slot.sub_banners.kids-clothing-tops=osta 3 tai enemmän 10 $ / kpl
+slot.sub_banners.kids-merchandise=säästä 5 $ kaikista lasten tuotteista
+slot.sub_banners.mens-accessories-luggage=osta mikä tahansa matkalaukku ja saa -25 % mistä tahansa repusta
+slot.sub_banners.mens-accessories-ties=löydä täydellinen lahja isälle
+slot.sub_banners.mens-clothing-pants=löydä täydellinen pari
+slot.sub_banners.mens-clothing-suits=kaikista puvuista
+slot.sub_banners.mens-footwear-boots=kaikista 6-inch-mallisista kengistä
+slot.sub_banners.mensclothingbottoms=farkkuja alkaen 29,99 $
+slot.sub_banners.standard_mensaccessorieshats=baseball-lippiksiä
+slot.sub_banners.standard_mensaccessorieswallets=nahkalompakkoja 29–37 $
+slot.sub_banners.standard_mensclothingouterwear=kaikista miesten fleeceistä
+slot.sub_banners.standard_mensfootwear=Purjehduskengät: aina hyvännäköiset
+slot.sub_banners.standard_storelocator=etsi lähin liike
+slot.sub_banners.womens-accessories-handbags=Käsilaukkuhullutus
+slot.sub_banners.womens-accessories-handbags.freewallet=lompakko kaupan päälle
+slot.sub_banners.womens-clothing-dresses=rennot mekot
+slot.sub_banners.womens-clothing-outerwear=nahanhoitosetti kaupan päälle ostaessasi takin
+slot.sub_banners.womens-clothing-tops=viekoittelevia toppeja
+slot.sub_banners.womens-footwear=naisten vaelluskengät
+slots.categorylanding.lowbanners.mens-footwear-boots=säästä 20 % valikoiduista miesten kengistä
+
+##############################################
+# Languages Country Selector
+##############################################
+language.en = English
+language.fr = Français
+language.it = Italiano
+language.da = Dansk
+language.fi = Suomi
+language.sv = Svenska
+language.no = Norsk bokmål
+language.es = Español
+language.de = Deutsch
+language.nl = Nederlands
+language.is = Íslenska
+language.pl = Polski
+language.zh = 中文
+language.tr = Türkçe
+
+##############################################
+# Languages Country Switch
+##############################################
+
+countryswitch.headline=Valitse toimituspaikka
+countryswitch.viewall=Näytä kaikki maat
+countryswitch.gotosite=Jatka
+
+##############################################
+# Manufacturing Page
+##############################################
+manufacturing.header=THE MANUFACTURING MAP
+manufacturing.manufactures=Manufactures
+manufacturing.facilities=Facilities
+manufacturer.header=MANUFACTURER
+
+﻿﻿##############################################
+# Common resources
+##############################################
+resource.passwordassistance=Salasana-apu
+resource.ordergcemsg=Lahjakortti, lähettäjä
+resource.youraccount=Tili
+resource.employeestore=Työntekijäkaupan vahvistus
+resource.whatnext=MITÄ TAPAHTUU SEURAAVAKSI?
+resource.needhelp=TARVITSETKO APUA?
+resource.greeting=Hei {0}
+resource.quantity=Määrä:
+
+##############################################
+# Template name: mail/giftcert
+##############################################
+giftcert.msghasbeenleftforyou=jätti seuraavan viestin sinulle:
+giftcert.msgleftforyou=Sinulle on jätetty seuraava viesti:
+giftcert.toredeem=Lunasta lahjakorttisi käyttämällä seuraavaa koodia kassalla:
+giftcert.dearcustomer=Hyvä asiakas
+giftcert.dear=Hei {0}
+giftcert.someone=Joku
+giftcert.paysattention=on ajatellut sinua ja lähettänyt sinulle {0} lahjakortin
+giftcert.dwonlinestore=Voit käyttää sitä, kun tulostat tämän viestin liitteenä olevan PDF-tiedoston.
+giftcert.period=.
+giftcert.message=Tässä on lahjakorttisi tilauksesta {0}
+giftcert.customermessage=Toivottavasti löydät jotain mistä pidät
+giftcert.tips=Valmista tuli. Voit nyt käyttää lahjakorttiasi ostoksiin liikkeissä ja netissä.
+giftcert.confirmation=Lahjakortti lähetetään sähköpostitse, kun maksu on käsitelty.
+
+##############################################
+# Template name: mail/orderreturns.isml
+##############################################
+return.subject=Palautetut tuotteet tilauksesta {0}
+return.message=Tilauksen {0} palautetut tuotteet on vastaanotettu
+return.refundmessage=Hyvityksesi on käsittelyssä.
+return.statusreturned=Palautettu
+return.refundconfirmation=Puuttuuko jokin samalla kertaa palauttamistasi tuotteista? Niin voi käydä, sillä joskus tiettyjen tuotteiden käsitteleminen kestää pidempään. Kun tuote on käsitelty, saat siitä välittömästi ilmoituksen sähköpostitse.
+return.process=Saat meiltä kahdeksan päivän kuluessa sähköpostiviestin, jossa hyvityksesi vahvistetaan. Jos sinulla on sitä ennen kysyttävää, asiakaspalvelumme auttaa mielellään.
+return.contact=Saat meiltä kahdeksan päivän kuluessa sähköpostiviestin, jossa hyvityksesi vahvistetaan. Jos sinulla on sitä ennen kysyttävää, asiakaspalvelumme auttaa mielellään.
+return.customermessage=Toivottavasti näemme jälleen pian.
+
+##############################################
+# Template name: mail/refundmail.isml
+##############################################
+refund.subject=Hyvitetyt tuotteet tilauksesta {0}
+refund.message=Olemme hyvittäneet tilauksesta {0} palauttamasi tuotteet.
+refund.totalmessage=Palauttamiesi tuotteiden perusteella hyvitys on {0}. Tämä on tuotteiden hinta, josta on vähennetty mahdolliset alennukset.
+refund.statusrefunded=Hyvitetty
+refund.itemtotal=Yhteensä
+refund.refundmessage=Olemme hyvittäneet palauttamasi tuotteet.
+refund.moneyrefund=Hyvityksen pitäisi näkyä 5–10 päivän kuluessa käyttämästäsi maksutavasta riippuen. Jos tilaus maksettiin lahjakortilla, saat lahjakortin sähköpostitse.
+refund.tips=Ohje-osiossa on lisää palautuksia ja hyvityksiä koskevia hyödyllisiä vinkkejä.
+refund.customerservice=Asiakaspalvelumme (customerservice@bestseller.com) auttaa mielellään tai kertoo, miten hyvitysprosessi toimii.
+
+refund.servicefee=Laskun lisämaksu
+refund.deliverycharge=Toimituskulut
+refund.returnfee=Palautusmaksu
+refund.contact={0} vastaa mielellään mahdollisiin kysymyksiisi.
+refund.help={0} on lisää palautuksia ja hyvityksiä koskevia hyödyllisiä vinkkejä.
+refund.customermessage=Toivottavasti näemme jälleen pian
+refund.helpsection=Ohje-osiossa
+
+##############################################
+# Template name: mail/dispatchnotificationmail
+##############################################
+dispatch.subject=Tilauksesi on lähetetty
+dispatch.tracking=Voit seurata pakettiasi klikkaamalla alla olevaa seurantanumeroa. Linkin aktivoitumisessa saattaa kestää hetki:
+dispatch.message=Tilauksesi {0} on lähetetty.
+dispatch.shipmessage=Hyviä uutisia, tilauksesi {0} on matkalla.
+dispatch.parcelshop=Jos valitsit {0}-toimipisteen, saat sähköpostin tai tekstiviestin, kun paketti on noudettavissa.
+dispatch.customerservice=Asiakaspalvelumme (customerservice@bestseller.com) auttaa mielellään.
+dispatch.shipmessagepartial=Tilauksesi {0} on matkalla
+dispatch.partial=Hyviä uutisia! Osa tilauksen {0} tuotteista on nyt lähetetty. Puuttuuko tilauksestasi jotain? Ei huolta: toinen paketti lähetetään pian.
+dispatch.messageheader=MITÄ TAPAHTUU SEURAAVAKSI?
+dispatch.contactheader=TARVITSETKO APUA?
+dispatch.contact={0} vastaa mielellään mahdollisiin kysymyksiisi.
+dispatch.customerserviceteam=Asiakaspalvelumme
+dispatch.partialcancelledheader=Emme valitettavasti pysty toimittamaan alla harmaalla merkittyjä tuotteita, sillä niitä ei ole tällä hetkellä saatavilla.
+dispatch.partialcancelled=Maksamme {0} hyvityksen 3–5 työpäivän kuluessa.
+dispatch.partialcancelledsubject=Tärkeää tietoa tilauksestasi
+dispatch.partialcancelledextramessage=Toivottavasti löydät jotakin muuta, josta pidät.
+dispatch.unavailable=Ei saatavilla tällä hetkellä
+
+##############################################
+# Template name: mail/ordercancellation
+##############################################
+cancellation.information=Sinua ei tietenkään veloiteta. Sillä välin voit tutustua uusiin tuotteisiin, joita lisätään sivustollemme joka viikko. Toivottavasti löydät jotakin muuta, josta pidät.
+cancellation.customerservice=Asiakaspalvelumme (customerservice@bestseller.com) kertoo mielellään, miksi näin kävi.
+
+footer.companyname=BESTSELLER HANDELS B.V.
+footer.companydetails=Sint Jorissteeg 2, 1012 XV Nederland – VAT NL853685757B01 / 59896604
+footer.automatic=Huom. Tämä on automaattinen sähköpostiviesti, johon ei voi vastata. Jos tarvitset apua, käy {0}.
+footer.customerservicepage=asiakaspalvelusivullamme
+
+##############################################
+# Template name: mail/employeestoreemail
+##############################################
+employee.welcome=Tervetuloa BESTSELLERin henkilökuntakauppaan.
+employee.clicklink=Vahvista rekisteröitymisesi ja siirry henkilökuntakauppaan klikkaamalla alla olevaa linkkiä.
+employee.linkhours=Linkki on voimassa 24 tuntia.
+employee.shopclosed=Henkilökuntakauppa on suljettuna seuraavasti:
+employee.shopmonthu=Ma–to 8.30–16.30
+employee.shopfri=Pe 8.30–14.00
+employee.cannotshop=Henkilökuntakaupasta ei voi ostaa tuotteita sen ollessa suljettuna.
+employee.homeaddress=Huomaa, että henkilökunta-alennuksella ostetut tuotteet voidaan toimittaa vain kotiosoitteeseesi.
+employee.chrome=Henkilökuntakauppa on optimoitu Google Chromelle. Jos Internet Exploreria käytettäessä ilmenee ongelmia, suosittelemme vaihtamaan Chromeen.
+employee.contact=Jos sinulla on kysyttävää tilauksestasi tai henkilökuntaostoksista yleensä, asiakaspalvelu auttaa mielellään: customerservice@bestseller.com.
+employee.bestseller=BESTSELLER
+
+confirmation.messageheader=MITÄ TAPAHTUU SEURAAVAKSI?
+confirmation.message=Kun tilauksesi on pakattu, saat seurantanumeron sähköpostiisi.
+confirmation.contactheader=TARVITSETKO APUA?
+confirmation.contact={0} vastaa mielellään mahdollisiin kysymyksiisi.
+confirmation.customerserviceteam=Asiakaspalvelumme
+confirmation.thankyou=Kiitos tilauksesta {0}
+confirmation.shippingestimate=Arvioitu toimitusaika on {0}
+confirmation.estimate.days=Arvioitu toimitusaika on {0}-{1} arkipäivää
+confirmation.multishipment=Tilaus toimitetaan useammassa erässä
+
+##############################################
+# Template name: mail/notifyme
+##############################################
+notifyme.hello=Hei!
+notifyme.backinstock=Hyviä uutisia! Suosikkituotettasi on jälleen varastossa!
+notifyme.incentive=Hanki se nyt, kun sitä on varastossa!
+notifyme.getitnow=Hanki nyt
+notifyme.help=Tarvitsetko apua? Ota yhteyttä {0}
+notifyme.customerserviceteam=asiakaspalveluun
+feedback.message=Arvostamme asiakkaitamme ja heiltä saamaamme palautetta. Haluaisimme kuulla näkemyksesi siitä, miten voimme kehittää toimintaamme.
+feedback.title=Millainen oli palautuskokemuksesi?
+feedback.emailsubject=Miten pärjäsimme?
+
+﻿##############################################
+# Template name: error/generalerror
+##############################################
+generalerror.title=Tämäpä noloa. Tapahtui virhe. 
+generalerror.message=Korjaamme sitä parhaillaan. Voit sillä aikaa tutustua satoihin uusiin tuotteisiin, joita lisätään sivustollemme joka viikko. 
+generalerror.searchlabel=Haku
+
+##############################################
+# Template name: error/siteoffline
+##############################################
+siteoffline.header=Sivustomme on tilapäisesti poissa käytöstä ylläpitotoimien vuoksi.
+siteoffline.message=Kiitos kärsivällisyydestäsi.
+
+##############################################
+# Template name: error/notfound
+##############################################
+notfound.pagenotfound.title=Tämäpä noloa
+notfound.pagenotfound.message=Sivua ei löydy. URL-osoite on ehkä muuttunut tai sitä ei enää ole.
+notfound.pagenotfound.message.beforelink=Voit sillä aikaa tutustua satoihin uusiin tuotteisiin, joita lisätään sivustollemme joka viikko.
+notfound.pagenotfound.message.link=ETUSIVU
+notfound.pagenotfound.suggestion=tai tutustu alla oleviin suosituksiin ja katso, miellyttääkö jokin niistä.
+
+##############################################
+# Template name: error/minicarterror
+##############################################
+minicarterror.message=Miniostoskorissa on ongelma.
+minicarterror.refresh=Yritä päivittää sivu.
+
+##############################################
+# Template name: error/internalservererror
+##############################################
+internalservererror.page.title=Error 500
+internalservererror.title=Sisäinen virhe
+internalservererror.message=Pyyntöä ei voida suorittaa sisäisen palvelinvirheen vuoksi.
+﻿##############################################
+# Directory: forms
+##############################################
+billing.email=Sähköposti:
+
+billingcoupon.couponenter=Kampanjakoodi:
+billingcoupon.applycoupon=Onko sinulla kampanjakoodia?
+billingcoupon.couponexplanation=Jos olet saanut erikoistarjouskoodin tai -alennuksen, voit kirjoittaa yksilöllisen koodin alle.
+billingcoupon.couponinvalid=Virheellinen kuponkikoodi
+billingcoupon.couponused=Tämä kampanjakoodi on jo käytetty
+billingcoupon.couponexpired=Vanhentunut kampanjakoodi
+billingcoupon.couponalreadyapplied=Kuponki on jo käytetty
+billingcoupon.couponnotqualified=Tämä kuponki ei oikeuta alennukseen
+
+billinggiftcert.giftcertlabel=Lahjakortti numero:
+billinggiftcert.giftcertcvvlabel=Kontrollikoodi:
+billinggiftcert.giftcertinvalid=Virheellinen lahjakortti numero
+billinggiftcert.giftcertcvvinvalid=Virheellinen kontrollikoodi
+billinggiftcert.giftcertwrongcurrency=Lahjakortin käyttö edellyttää, että tilauksen ja lahjakortin valuutta on sama
+billinggiftcert.giftcertnofunds=Lahjakortin saldo ei riitä
+
+competition.answer=Vastaus
+
+country.the.unitedstates=Yhdysvallat
+country.unitedstates=Yhdysvallat
+country.denmark=Tanska
+country.germany=Saksa
+country.canada=Kanada
+country.japan=Japani
+country.france=Ranska
+country.italy=Italia
+country.china=Kiina
+country.unitedkingdom=Iso-Britannia
+
+country.at=Itävalta
+country.be=Belgia
+country.ca=Kanada
+country.ch=Sveitsi
+country.cn=Kiina
+country.dk=Tanska
+country.de=Saksa
+country.es=Espanja
+country.fi=Suomi
+country.fr=Ranska
+country.gb=Iso-Britannia
+country.gr=Kreikka
+country.ie=Irlanti
+country.it=Italia
+country.jp=Japani
+country.nl=Alankomaat
+country.no=Norja
+country.se=Ruotsi
+country.uk=Iso-Britannia
+country.us=Yhdysvallat
+country.ad=Andorra
+country.au=Australia
+country.by=Valko-Venäjä
+country.cz=Tšekin tasavalta
+country.ee=Viro
+country.fo=Färsaaret
+country.hr=Kroatia
+country.id=Indonesia
+country.in=Intia
+country.is=Islanti
+country.kr=Korean tasavalta
+country.kz=Kazakstan
+country.lt=Liettua
+country.lu=Luxemburg
+country.lv=Latvia
+country.ma=Marokko
+country.my=Malesia
+country.ph=Filippiinit
+country.pl=Puola
+country.pt=Portugali
+country.ro=Romania
+country.ru=Venäjä
+country.sg=Singapore
+country.si=Slovenia
+country.th=Thaimaa
+country.tr=Turkki
+country.uz=Uzbekistan
+country.za=Etelä-Afrikka
+country.rw=Maailmanlaajuinen
+
+
+creditcard.visa=Visa
+creditcard.mastercard=MasterCard
+creditcard.amex=Amex
+creditcard.discover=Discover
+creditcard.savecard=Tallenna kortti
+creditcard.type=Tyyppi
+creditcard.typemissing=Valitse kortti
+creditcard.number=Numero
+creditcard.numberexample=Esimerkki: 4111111111111111
+creditcard.numberrangeerror=Numerossa täytyy olla 13–16 numeroa
+creditcard.numbermissingerror=Kirjoita numero niin kuin se lukee kortissa
+creditcard.numbervalueerror=Virheellinen luottokortin numero
+creditcard.monthmissingerror=Valitse voimassaolon päättymiskuukausi
+creditcard.yearmissingerror=Valitse voimassaolon päättymisvuosi
+creditcard.yearvalueerror=Tämä luottokortti on vanhentunut
+creditcard.ownerlabel=Kortinhaltijan nimi
+creditcard.ownermissingerror=Kirjoita nimesi niin kuin se lukee kortissa
+creditcard.cvnlabel=Turvakoodi
+creditcard.cvnmissingerror=Anna turvakoodi
+creditcard.cvnrangeerror=Virheellinen turvakoodi
+
+day.001=01
+day.002=02
+day.003=03
+day.004=04
+day.005=05
+day.006=06
+day.007=07
+day.008=08
+day.009=09
+day.010=10
+day.011=11
+day.012=12
+day.013=13
+day.014=14
+day.015=15
+day.016=16
+day.017=17
+day.018=18
+day.019=19
+day.020=20
+day.021=21
+day.022=22
+day.023=23
+day.024=24
+day.025=25
+day.026=26
+day.027=27
+day.028=28
+day.029=29
+day.030=30
+day.031=31
+
+resource.firstname=Etunimi:
+resource.lastname=Sukunimi:
+resource.5_100characters=5–100 merkkiä
+resource.6_255characters=6–255 merkkiä
+resource.address=Osoite:
+resource.address1=Osoite 1:
+resource.housenumber=Talon numero:
+resource.extension=Asunnon numero:
+resource.address2=Tarkemmat osoitetiedot:
+resource.addresserror=Anna osoitetiedot
+resource.addtocart=Lisää ostoskoriin
+resource.city=Kaupunki:
+resource.town=Kaupunki:
+resource.country=Maa:
+resource.day=Päivä
+resource.delete=Poista
+resource.find=Etsi
+resource.email=Sähköposti
+resource.employeeid=Työntekijätunnus
+resource.employeeiderror=Anna kelvollinen työntekijätunnus
+resource.errorzip=Anna postinumero
+resource.errorpostal=Anna postinumero
+resource.month=Kuukausi
+resource.select=Valitse...
+resource.send=Lähetä
+resource.shippingmethod=Toimitustapa
+resource.state=Osavaltio
+resource.stateprovince=Osavaltio/maakunta
+resource.province=Maakunta
+resource.state.other=Muu
+resource.year=Vuosi
+resource.zippostalcode=Postinumero
+resource.zipcode=Postinumero:
+resource.postalcode=Postinumero
+resource.ssn=Henkilötunnus:
+resource.bank=Bank:
+resource.bank.select=Select a Bank
+resource.birthdate=Syntymäaika:
+
+label.username=Sähköposti:
+label.password=Salasana:
+label.newpassword=Uusi salasana
+
+login.rememberme=Muista tietoni
+
+login.username.missing-error=Anna sähköpostiosoite
+login.password.missing-error=Anna salasana
+
+month.january=tammikuu
+month.february=helmikuu
+month.march=maaliskuu
+month.april=huhtikuu
+month.may=toukokuu
+month.june=kesäkuu
+month.july=heinäkuu
+month.august=elokuu
+month.september=syyskuu
+month.october=lokakuu
+month.november=marraskuu
+month.december=joulukuu
+
+state.us.alabama=Alabama
+state.us.alaska=Alaska
+state.us.americansamoa=Amerikan Samoa
+state.us.arizona=Arizona
+state.us.arkansas=Arkansas
+state.us.california=Kalifornia
+state.us.colorado=Colorado
+state.us.connecticut=Connecticut
+state.us.delaware=Delaware
+state.us.dc=District of Columbia
+state.us.florida=Florida
+state.us.georgia=Georgia
+state.us.guam=Guam
+state.us.hawaii=Havaiji
+state.us.idaho=Idaho
+state.us.illinois=Illinois
+state.us.indiana=Indiana
+state.us.iowa=Iowa
+state.us.kansas=Kansas
+state.us.kentucky=Kentucky
+state.us.louisiana=Louisiana
+state.us.maine=Maine
+state.us.maryland=Maryland
+state.us.massachusetts=Massachusetts
+state.us.michigan=Michigan
+state.us.minnesota=Minnesota
+state.us.mississippi=Mississippi
+state.us.missouri=Missouri
+state.us.montana=Montana
+state.us.nebraska=Nebraska
+state.us.nevada=Nevada
+state.us.newhampshire=New Hampshire
+state.us.newjersey=New Jersey
+state.us.newmexico=New Mexico
+state.us.newyork=New York
+state.us.northcarolina=Pohjois-Carolina
+state.us.northdakota=Pohjois-Dakota
+state.us.ohio=Ohio
+state.us.oklahoma=Oklahoma
+state.us.oregon=Oregon
+state.us.pennsylvania=Pennsylvania
+state.us.puertorico=Puerto Rico
+state.us.rhodeisland=Rhode Island
+state.us.southcarolina=Etelä-Carolina
+state.us.southdakota=Etelä-Dakota
+state.us.tennessee=Tennessee
+state.us.texas=Teksas
+state.us.utah=Utah
+state.us.vermont=Vermont
+state.us.virginislands=Yhdysvaltain Neitsytsaaret
+state.us.virginia=Virginia
+state.us.washington=Washington
+state.us.westvirginia=Länsi-Virginia
+state.us.wisconsin=Wisconsin
+state.us.wyoming=Wyoming
+state.us.armedforcesafrica=Yhdysvaltain asevoimat, Afrikka
+state.us.armedforcesamerica=Yhdysvaltain asevoimat, Amerikka (pl. Kanada
+state.us.armedforcescanada=Yhdysvaltain asevoimat, Kanada
+state.us.armedforceseurope=Yhdysvaltain asevoimat, Eurooppa
+state.us.armedforcesmiddleeast=Yhdysvaltain asevoimat, Lähi-itä
+state.us.armedforcespacific=Yhdysvaltain asevoimat, Tyynenmeren alue
+state.us.other=Ei Yhdysvallat / Muu
+
+state.ca.alberta=Alberta
+state.ca.britishcolumbia=Brittiläinen Kolumbia
+state.ca.manitoba=Manitoba
+state.ca.newbrunswick=New Brunswick
+state.ca.newfoundland=Newfoundland ja Labrador
+state.ca.northwestterritories=Luoteisterritoriot
+state.ca.novascotia=Nova Scotia
+state.ca.nunavut=Nunavut
+state.ca.ontario=Ontario
+state.ca.princeedwardisland=Prinssi Edwardin saari
+state.ca.quebec=Quebec
+state.ca.saskatchewan=Saskatchewan
+state.ca.yukon=Yukon
+
+year.2021=2021
+year.2020=2020
+year.2019=2019
+year.2018=2018
+year.2017=2017
+year.2016=2016
+year.2015=2015
+year.2014=2014
+year.2013=2013
+year.2012=2012
+year.2011=2011
+year.2010=2010
+year.2009=2009
+year.2008=2008
+year.2007=2007
+year.2006=2006
+year.2005=2005
+year.2004=2004
+year.2003=2003
+year.2002=2002
+year.2001=2001
+year.2000=2000
+year.1999=1999
+year.1998=1998
+year.1997=1997
+year.1996=1996
+year.1995=1995
+year.1994=1994
+year.1993=1993
+year.1992=1992
+year.1991=1991
+year.1990=1990
+year.1989=1989
+year.1988=1988
+year.1987=1987
+year.1986=1986
+year.1985=1985
+year.1984=1984
+year.1983=1983
+year.1982=1982
+year.1981=1981
+year.1980=1980
+year.1979=1979
+year.1978=1978
+year.1977=1977
+year.1976=1976
+year.1975=1975
+year.1974=1974
+year.1973=1973
+year.1972=1972
+year.1971=1971
+year.1970=1970
+year.1969=1969
+year.1968=1968
+year.1967=1967
+year.1966=1966
+year.1965=1965
+year.1964=1964
+year.1963=1963
+year.1962=1962
+year.1961=1961
+year.1960=1960
+year.1959=1959
+year.1958=1958
+year.1957=1957
+year.1956=1956
+year.1955=1955
+year.1954=1954
+year.1953=1953
+year.1952=1952
+year.1951=1951
+year.1950=1950
+year.1949=1949
+year.1948=1948
+year.1947=1947
+year.1946=1946
+year.1945=1945
+year.1944=1944
+year.1943=1943
+year.1942=1942
+year.1941=1941
+year.1940=1940
+year.1939=1939
+year.1938=1938
+year.1937=1937
+year.1936=1936
+year.1935=1935
+year.1934=1934
+year.1933=1933
+year.1932=1932
+year.1931=1931
+year.1930=1930
+
+##############################################
+# Template name: forms/bml
+##############################################
+bml.dayerror=Anna päivä
+bml.montherror=Anna kuukausi
+bml.yearerror=Anna vuosi
+bml.valueerror=Anna kelvolliset tiedot
+bml.ssn=Henkilötunnuksesi 4 viimeistä merkkiä
+bml.ssnerror=Anna henkilötunnuksesi 4 viimeistä merkkiä.
+bml.ssninvalid=Antamasi tiedot ovat virheelliset.
+bml.terms=Olen lukenut yllä olevat ehdot ja hyväksyn ne
+bml.termserror=Käyttöehdot täytyy hyväksyä
+
+##############################################
+# Template name: forms/compare
+##############################################
+compare.category=Luokka
+
+##############################################
+# Template name: forms/customeraddress
+##############################################
+customeraddress.addressid.label=Osoitenimi
+customeraddress.addressid.value-error=Tämä osoitenimi on jo käytössä
+customeraddress.addressid.missing-error=Anna osoitenimi
+customeraddress.firstname.missing-error=Anna etunimi
+customeraddress.lastname.missing-error=Anna sukunimi
+customeraddress.address1.description=Katuosoite, posti- lokero
+customeraddress.address2.description=Asunto, huoneisto, yksikkö, kerros
+customeraddress.country.missing-error=Valitse maa
+customeraddress.city.missing-error=Anna kaupunki
+
+
+##############################################
+# Template name: forms/giftcert
+##############################################
+giftcert.purchase.from.label=Nimesi
+giftcert.purchase.from.missing-error=Anna nimesi.
+giftcert.purchase.recipient.label=Ystävän nimi
+giftcert.purchase.recipient.missing-error=Anna ystäväsi nimi.
+giftcert.purchase.recipientemail.label=Ystävän sähköpostiosoite
+giftcert.purchase.recipientemail.parse-error=Sähköpostiosoite ei kelpaa.
+giftcert.purchase.recipientemail.missing-error=Anna ystäväsi sähköpostiosoite.
+giftcert.purchase.recipientemail.value-error=Anna ystäväsi sähköpostiosoite.
+giftcert.purchase.confirmrecipientemail.label=Vahvista ystävän sähköpostiosoite
+giftcert.confirmrecipientemailparseerror=Sähköpostiosoite ei kelpaa.
+giftcert.confirmrecipientemailmissingerror=Vahvista ystäväsi sähköpostiosoite.
+giftcert.confirmrecipientemailvalueerror=Sähköpostiosoite ei vastaa ystäväsi sähköpostiosoitetta.
+giftcert.balance.giftcertid.missing-error=Anna kelvollinen lahjakortti.
+giftcert.messagelabel=Viesti
+giftcert.purchasemessagedescription=
+giftcert.amountlabel=Summa
+giftcert.amountdescription=
+giftcert.amountparseerror=Lahjakortin arvo voi olla 5–5 000
+giftcert.amountmissingerror=Lahjakortin arvo voi olla 5–5 000
+giftcert.amountvalueerror=Lahjakortin arvo voi olla 5–5 000
+
+
+##############################################
+# Template name: forms/paymentinstruments
+##############################################
+paymentinstruments.removecc=Poista luottokortti
+
+##############################################
+# Template name: forms/profile
+##############################################
+profile.title=Titteli:
+profile.firstname=Etunimi:
+profile.lastname=Sukunimi:
+profile.email=Sähköposti:
+profile.confirmemail=Vahvista sähköpostiosoite
+profile.dob=Syntymäaika
+profile.dobexample=Esimerkki: 03/28/1968
+profile.phoneprefix=Puhelinnumero:
+profile.phoneprefix.label=Suuntanumero:
+profile.phone.label=Puhelinnumero:
+profile.phoneexample=Muoto: 333-333-3333
+profile.usernametaken=Käyttäjätunnus on jo käytössä.
+profile.passwordconfirm=Vahvista salasana
+profile.passwordnomatch=Salasanat eivät täsmää
+profile.newpassword=Uusi salasana:
+profile.newpasswordconfirm=Vahvista uusi salasana:
+profile.passworderror=Salasanassa tulee olla 6–255 merkkiä.
+profile.accountquestion=Turvakysymys
+profile.question1=Äidin tyttönimi
+profile.question2=Ensimmäisen auton merkki
+profile.question3=Suosikkilemmikin nimi
+profile.question4=Isän etunimi
+profile.question5=Syntymäpaikka
+profile.accountanswer=Turvavastaus
+profile.addemailtolist=Haluan liittyä Demandwaren postituslistalle.
+profile.remember=Muista tietoni
+profile.usernameerror=Käyttäjätunnuksessa voi olla 5–100 merkkiä ja se voi sisältää vain kirjaimia, numeroita, välilyöntejä, pisteitä, yhdysviivoja, alaviivoja ja @-merkkejä.
+
+##############################################
+# Template name: forms/storelocator
+##############################################
+storelocator.distancelabel=Etäisyys
+storelocator.distanceoption1=15 mailia
+storelocator.distanceoption2=30 mailia
+storelocator.distanceoption3=100 mailia
+storelocator.distanceoption4=300 mailia
+storelocator.distanceoption5=Yhdysvallat
+storelocator.statelabel=Osavaltio/maakunta:
+storelocator.ziperror=Postinumeron muoto on virheellinen.
+
+productlist.public=Julkinen
+productlist.eventmonth=Tapahtuman kuukausi
+productlist.eventyear=Tapahtuman vuosi
+productlist.eventyearerror=Vuosi täytyy valita, jos kuukausi on valittu
+productlist.setpublic=Aseta julkiseksi
+productlist.setprivate=Aseta yksityiseksi
+productlist.priority0=Ei mitään
+productlist.priority1=Suurin
+productlist.priority2=Suuri
+productlist.priority3=Normaali
+productlist.priority4=Pieni
+productlist.priority5=Pienin
+
+##############################################
+# Template name: forms/wishlist
+##############################################
+wishlist.lname=Sukunimi
+wishlist.fname=Etunimi
+wishlist.sendto.email=Lähetä sähköpostiosoitteisiin
+wishlist.check.emailaddress=Tarkista sähköpostiosoitteesi kohdasta Tili – Henkilötiedot.
+wishlist.enter.validemail=Anna kelvolliset sähköpostiosoitteet.
+wishlist.title=Otsikko
+wishlist.price.lth=Hinta (matalasta korkeaan)
+wishlist.price.htl=Hinta (korkeasta matalaan)
+wishlist.dateadded=Lisäyspäivä
+wishlist.lastupdated=Päivitetty viimeksi
+wishlist.sortby=Lajitteluperuste:
+wishlist.validemail=Anna kelvolliset sähköpostiosoitteet erotettuina pilkulla (,) tai puolipisteellä (;).
+wishlist.search.lastnamereqiured=Sukunimi on pakollinen.
+wishlist.quantitydesired=Haluttu määrä
+wishlist.priority=Prioriteetti
+wishlist.makepublic=Aseta tämä tuote julkiseksi
+
+##############################################
+# Form name: forms/giftregistry.xml
+##############################################
+giftregistry.wedding=Häät
+giftregistry.weddingshower=Polttarit
+giftregistry.babyshower=Vauvakutsut
+giftregistry.other=Muu
+giftregistry.bride=Morsian
+giftregistry.groom=Sulhanen
+giftregistry.addgiftcertificate=Lisää lahjakortti
+giftregistry.editevent=Muokkaa tapahtumaa
+giftregistry.editshipaddress=Muokkaa toimitusosoitteita
+giftregistry.showpurchase=Näytä ostokset
+giftregistry.eventtype=Tapahtuman tyyppi
+giftregistry.eventtype.missing-error=Valitse tapahtuman tyyppi.
+giftregistry.eventname=Tapahtuman nimi
+giftregistry.eventname.missing-error=Anna tapahtumalle nimi.
+giftregistry.eventdate=Tapahtuman päivämäärä
+giftregistry.eventdate.description=Esimerkki: vvvv-KK-pp
+giftregistry.eventdate.missing-error=Anna tapahtuman päivämäärä muodossa vvvv-KK-pp.
+giftregistry.eventdate.parse-error=Anna kelvollinen tapahtuman päivämäärä muodossa vvvv-KK-pp.
+giftregistry.eventcity=Tapahtuman kaupunki
+giftregistry.eventcity.missing-error=Anna tapahtuman kaupunki.
+giftregistry.eventstate=Tapahtuman osavaltio
+giftregistry.eventcountry=Tapahtuman maa
+giftregistry.registrantrole=Rooli
+giftregistry.registrantrole.missing-error=Valitse rooli.
+giftregistry.registrantfirstname=Etunimi
+giftregistry.registrantfirstname.missing-error=Anna lahjalistan omistajan etunimi.
+giftregistry.registrantfirstname.parse-error=Anna kelvollinen etunimi.
+giftregistry.registrantlastname=Sukunimi
+giftregistry.registrantlastname.missing-error=Anna lahjalistan omistajan sukunimi.
+giftregistry.registrantlastname.parse-error=Anna kelvollinen sukunimi.
+giftregistry.registrantemail.missing-error=Anna lahjalistan omistajan sähköpostiosoite.
+giftregistry.registrantemail.parse-error=Anna kelvollinen sähköpostiosoite.
+giftregistry.addresssource.addressbook=Käytä osoitekirjassa olevaa osoitetta
+giftregistry.addresssource.new=Luo uusi osoite
+giftregistry.addresssource.asbefore=Sama osoite kuin ennen tapahtumaa
+giftregistry.items.quantity=Haluttu määrä
+giftregistry.items.quantity.missing-error=Anna määrä.
+giftregistry.items.quantity.parse-error=Anna kelvollinen määrä.
+giftregistry.items.quantity.value-error=Anna kelvollinen määrä.
+giftregistry.items.priority=Prioriteetti
+giftregistry.items.priority.missing-error=Anna prioriteetti.
+giftregistry.items.update=Päivitä
+giftregistry.items.makepublic=Aseta tämä tuote julkiseksi
+giftregistry.items.remove=Poista
+giftregistry.send.label=Lähetä sähköpostiosoitteisiin
+giftregistry.send.check=Tarkista sähköpostiosoitteesi kohdasta Tili – Henkilötiedot.
+giftregistry.send.invalid=Anna kelvolliset sähköpostiosoitteet.
+giftregistry.send.format=Anna kelvolliset sähköpostiosoitteet erotettuina pilkulla (,) tai puolipisteellä (;).
+giftregistry.addtoaddressbook=Lisää osoitekirjaan
+giftregistry.copyaddress=Käytä tätä Toimitus tapahtuman jälkeen -osoitteena
+
+##############################################
+# Form name: forms/ordertrack.xml
+##############################################
+ordertrack.ordernumber=Tilausnumero:
+ordertrack.ordernumber.missing-error=Anna tilausnumero.
+ordertrack.orderemail=Tilauksen sähköpostiosoite:
+ordertrack.orderemail.missing-error=Anna tätä tilausta koskeva sähköpostiosoite.
+ordertrack.postalcode=Laskutusosoitteen postinumero
+
+# error messages for address capturing
+address.invalid=Jotkin alla olevat tiedot ovat puutteellisia tai niitä pitää korjata
+address.field.invalid=Anna kelvollinen arvo
+address.firstname.missing=Anna etunimi
+address.lastname.missing=Anna sukunimi
+address.country.missing=Valitse maa
+address.state.missing=Valitse osavaltio
+address.city.missing=Anna kaupunki
+address.phone.missing=Anna puhelinnumero
+address.phone.example=Esimerkki: 333-333-3333
+address.email.invalid=Anna kelvollinen sähköpostiosoite.
+address.postalcode.example=Esimerkki: 12345 tai 12345-1234
+
+address.list.select=Valitse tallennettu osoite
+# {0} = Address1, {1} = city, {2} = state Code, {3} = postal code
+address.saved.dropdown.format={0} {1} {2} {3}
+
+# labels for address options
+checkout.addtoaddressbook=Lisää osoitekirjaan
+checkout.useasbillingaddress=Tämä on myös laskutusosoitteeni
+checkout.addtoemaillist=Kyllä kiitos, haluan saada eksklusiivisia tarjouksia ja uutisia ja hyväksyn
+checkout.addtoemaillistterms=Uutiskirjeen käyttöehdot
+
+# labels for shipment settings in checkout
+checkout.shipment.isgift=Onko kyseessä lahja?
+checkout.shipment.yes=Kyllä
+checkout.shipment.no=Ei
+checkout.shipment.giftmessage=Viesti
+
+# descriptions for tooltip in checkout
+checkout.phone.description=Kuljetusliike tarvitsee puhelinnumerosi mahdollisten toimitusongelmien varalta. Puhelinnumeroasi ei luovuteta kolmansille osapuolille tai käytetä markkinointitarkoituksiin.
+checkout.email.description=Käytämme sähköpostiosoitettasi ainoastaan tilauksen etenemisestä ilmoittamiseen. Jos haluat liittyä asiakasklubiimme, lisää valinta suostumusvalintaruutuun alla tai kassan lopussa.
+resource.ssn.description=Klarna tarvitsee henkilötunnuksesi henkilöllisyytesi tarkistamiseen osana luottotietojen tarkistusta.
+
+# labels for slot content
+subscribe.email.default=Sähköpostiosoite
+
+# general
+character.limit={0}/{1} merkkiä jäljellä
+confirm.delete=Haluatko poistaa tämän {0}?
+title.giftregistry=lahjalistan
+title.address=osoitteen
+title.creditcard=luottokortin
+global.optional=(valinnainen)
+
+##############################################
+# Form name: forms/multishipping.xml
+##############################################
+multishipping.editaddress.select.newaddress=Lisää uusi osoite
+store.storemessage=Liikkeen viesti
+shipping.errorclickcollect=Tähän liikkeeseen ei tällä hetkellä toimiteta Click & Collect -tilauksia. Valitse toinen liike tai toimitustapa.
+shipping.errorparcelshop=Tähän noutopisteeseen ei tällä hetkellä toimiteta noutopistetilauksia. Valitse toinen noutopiste tai toimitustapa.
+
+##############################################
+# Validation messages
+##############################################
+validate.required=Tämä kenttä on pakollinen.
+validate.remote=Korjaa tämä kenttä.
+validate.email=Anna kelvollinen sähköpostiosoite.
+validate.url=Anna kelvollinen URL-osoite.
+validate.date=Anna kelvollinen päivämäärä.
+validate.dateiso=Anna kelvollinen päivämäärä (ISO).
+validate.number=Anna kelvollinen numero.
+validate.digits=Käytä vain numeroita.
+validate.creditcard=Anna kelvollinen luottokortin numero.
+validate.equalto=Anna sama arvo uudelleen.
+validate.maxlength=Anna enintään {0} merkkiä.
+validate.minlength=Anna vähintään {0} merkkiä.
+validate.rangelength=Anna arvo, joka on {0}–{1} merkkiä pitkä.
+validate.range=Anna arvo väliltä {0}–{1}.
+validate.max=Anna arvo, joka on pienempi tai yhtä suuri kuin {0}.
+validate.min=Anna arvo, joka on suurempi tai yhtä suuri kuin {0}.
+validate.autocomplete=Valitse jokin vaihtoehto luettelosta.
+
+﻿##############################################
+# Global Resources
+##############################################
+global.add=Lisää
+global.addtocart=Lisää ostoskoriin
+global.addalltocart=Lisää kaikki ostoskoriin
+global.addresses=Osoitteet
+global.addtowishlist=Lisää toivelistalle
+global.addtowishlist.label=Lisää tämä tuote toivelistalle
+global.addthisitemtowishlist.title=Lisää tämä tuote toivelistalle
+global.addtogiftregistry=Lisää lahjalistalle
+global.addtogiftregistry.label=Lisää tämä tuote lahjalistalle
+global.amount=Määrä
+global.apply=Jatka
+global.applied=Käytetty
+global.filter.apply=Käytä
+global.availability=Saatavuus
+global.back=Takaisin
+global.bonus=Bonus
+global.bonusitem=Bonustuote
+global.brandlabel=Tuotemerkki:
+global.cancel=Peruuta
+global.categoryrefinement.label=Siirry luokkaan: {0}
+global.checkout=Kassa
+global.checkbalance=Tarkista saldo
+global.close=Sulje
+global.continue=Jatka
+global.continuecheckout=Siirry kassalle
+global.continuecheckoutbrief=Seuraava
+global.continueshopping=Jatka ostosten tekoa
+global.couldntloadaddress=Osoitetta ei voitu ladata
+global.createbutton=Luo tili
+global.createnowbutton=Luo tili
+global.creditcard.expirydate.separator={0}/{1}
+global.delete=Poista
+global.description=Kuvaus
+global.details=Tiedot
+global.edit=Muokkaa
+global.editaaddress=Muokkaa osoitetta
+global.editdetails=Muokkaa tietoja
+global.email=Sähköposti
+global.error=Virhe
+global.find=Etsi
+global.firstname=Etunimi
+global.folderrefinement.label.prefix=Siirry sivulle:
+global.free=Ilmainen
+global.from=Lähettäjä
+global.go=Siirry
+global.gonext=Siirry seuraavaan
+global.goprevious=Siirry edelliseen
+global.goto.label=Siirry: {0}
+global.giftcertificate=Lahjakortti
+global.giftcertificates=Lahjakortit
+global.home=Etusivu
+global.i_agree=Hyväksyn
+global.included=Sisältyy
+global.itemno=Tuotenro:
+global.item=Tuote
+global.items=Tuotteet
+global.lastname=Sukunimi
+global.loading=Ladataan, odota
+global.login=Kirjaudu sisään
+global.logout=Kirjaudu ulos
+global.more=Enemmän
+global.seeall=Näytä kaikki
+global.seemore=näytä enemmän
+global.seeless=näytä vähemmän
+global.na=–
+global.name=Nimi
+global.next=Seuraava
+global.no=Ei
+global.noimageavailable=Kuvaa ei ole saatavilla
+global.notapplied=Ei käytetty
+global.or=tai
+global.qty=Kpl
+global.quantity=Määrä
+global.update=Päivitä
+global.updatecart=Päivitä ostoskori
+global.orders=Tilaukset
+global.ordertotal=Tilaus yhteensä:
+global.estimatedtotal=Arvioitu kokonaissumma
+global.password=Salasana
+global.preview=Esikatselu
+global.previous.abbr=Edell.
+global.previous=Edellinen
+global.price=Hinta
+global.pricerefinement.label.prefix=Tarkenna hinnan mukaan:
+global.print=Tulosta
+global.privacypolicy=Käyttöehdot
+global.registration.privacypolicy=tietosuojakäytännön mukaisesti
+global.product=Tuote
+global.profile=Profiili
+global.readreviews=Lue arvosteluja
+global.refinement.label=Tarkennusperuste {0}: {1}
+global.refinement.selected.label=Tämänhetkinen tarkennusperuste {0}: {1}
+global.refinement.unselectable.label={0} {1} ei ole valittavissa
+global.register=Rekisteröidy
+global.remove=Poista
+global.requiredfield=pakollinen
+global.save=Tallenna
+global.search=Haku
+global.searchcatalog=Hae luettelosta
+global.secondarynavheading=Toissijainen navigointi
+global.select=Valitse
+global.select.colorpattern=Valitse väri
+global.select.size=Valitse koko
+global.select.length=Valitse pituus
+global.select.amount=Valitse summa
+global.send=Lähetä
+global.serverconnection=Palvelinyhteys epäonnistui
+global.showall=Näytä kaikki
+global.submit=Jatka
+global.submitorder=Siirry maksamaan
+global.to=Vastaanottaja
+global.totalprice=Yhteensä
+global.user= Käyttäjä
+global.user.name={0} {1}
+global.view=Näytä
+global.welcome=Tervetuloa
+global.writeareview=Kirjoita arvostelu
+global.yes=Kyllä
+global.missingval=Anna {0}
+global.servererror=Palvelinyhteys epäonnistui
+global.missinglib=jQuery on määrittämätön.
+global.badresponse=Virheellinen vastaus, jäsenninvirhe
+global.invalidphone=Anna kelvollinen puhelinnumero.
+global.invalidname=Tässä kentässä on virheellisiä merkkejä
+global.nothanks=Ei kiitos
+global.share=Jaa
+global.symbol.dash= –
+global.shop=Osta
+global.paymentsettings=Maksuasetukset
+global.customerservice=Tarvitsetko apua?
+global.event.location={0}, {1}
+global.cookiepolicy=Käytämme evästeitä, mukaan lukien kolmansien osapuolten evästeitä, verkkosivuston toiminnan mahdollistamiseen, analyyseihin ja markkinointiin. Jatkamalla verkkosivustomme käyttöä hyväksyt evästeiden käytön. Voit perua suostumuksesi poistamalla evästeet käytöstä selaimessa. Lisätietoja käyttämistämme evästeistä ja ohjeita niiden poistamiseen käytöstä on evästekäytännössämme.
+global.cookiecta=evästekäytäntömme
+global.cookieappendix=.
+global.oldbrowsers.message=Sivustomme ei tunnistanut selaintasi. Päivitä selain tai käytä toista selainta, jotta ostokokemus on paras mahdollinen.
+global.oldbrowsers.action=Etsi selaimesi uusin versio klikkaamalla tätä.
+global.oldbrowsers.location=http://outdatedbrowser.com/
+global.status=Tila
+refinement.isnew.true=Uutuus
+
+global.mr.=Herra
+global.mrs.=Rouva
+
+#########################
+# properties used for jack & jones sub brands in Customer Club signup
+#########################
+global.jj=JACK & JONES
+global.jx=JJXX
+global.junior=JUNIOR
+global.plus=PLUS SIZE
+
+#########################
+# properties used for Vero Moda sub brands in Customer Club signup
+#########################
+global.vm=VERO MODA
+global.curve=VMCurve
+global.maternity=VERO MODA MATERNITY
+global.aware=AWARE by VERO MODA
+
+##############################################
+# Include Resources
+##############################################
+globalaccount.createheader=Eikö sinulla ole tiliä?
+globalaccount.createmessage=Täytä alla oleva lomake, niin voit hyödyntää tiliin liittyvät erikoistarjoukset ja muut edut.
+
+global.returnhome=Palaa etusivulle
+global.selectaddressmessage=Valitse osoite
+global.selectaddress=Valitse tallennettu osoite
+global.nosavedaddress=Ei tallennettuja osoitteita
+global.deliveredviaemail=– Toimitettu sähköpostitse
+global.accountbreadcrumb=Tili
+
+global.accountlink=Oma tili
+global.helplink=Kysyttävää?
+global.storelocatorlink=Etsi liike
+global.aboutuslink=Tietoja meistä
+global.languagecountrylink=Kieli ja maa
+
+global.buyall=Osta kaikki tai yksi
+global.nocontent=Sivulla ei ole sisältöä.
+
+global.storename=BESTSELLER
+global.storeaddress=Fredskovvej
+global.storecitystate=Brande, DK-7330, Tanska
+global.storephone=Puhelin: +1 888 553 XXXX
+global.storenameurl=demandware.com
+
+global.email.policy=Luomalla tilin hyväksyn, että henkilötietojani käsitellään BESTSELLERin
+
+global.quantityinstock={0} tuote(tta) varastossa
+global.instock=Varastossa
+global.quantitypreorder={0} tuote(tta) ennakkotilattavissa.
+global.allpreorder=Ennakkotilaus
+global.remainingpreorder=Loput tuotteet ovat ennakkotilattavissa.
+global.quantitybackorder=Jälkitoimitus {0} tuote(tta)
+global.allbackorder=Jälkitoimitus
+global.remainingbackorder=Loput tuotteet ovat saatavilla jälkitoimituksena.
+global.allnotavailable=Tätä tuotetta ei ole tällä hetkellä saatavilla.
+global.remainingnotavailable=Loput tuotteet eivät ole tällä hetkellä saatavilla. Muuta määrää.
+global.instockdate=Tuotetta odotetaan varastoon {0}.
+global.nonselected=Ei valittu
+global.iteminwishlist=Tämä tuote on lisätty toivelistallesi.
+
+global.homepage.tooltip={0} {1}
+
+##############################################
+# properties used across many pages
+##############################################
+global.error_forbidden.redirect=Uudelleenohjaus
+global.redirect.title=Siirry:
+
+global.redirect_error.title=Tämäpä noloa. Sivua ei löydy.
+global.redirect_error.message=URL-osoite on ehkä muuttunut tai sitä ei enää ole. Mikset tutustuisi satoihin uusiin tuotteisiin, joita
+global.redirect_error.home=lisätään sivustollemme joka viikko?
+
+global.site.name=SiteGenesis
+
+global.carousel.featuredproducts=Esittelyssä olevat tuotteet
+
+
+##############################################
+# Template name: pagecomponents/breadcrumbs
+##############################################
+global.breadcrumbs.home=Etusivu
+global.breadcrumbs.refinements.valuedevider=,
+global.breadcrumbs.label.prefix=Siirry:
+
+##############################################
+# Template name: pagecomponents/paginginformation
+##############################################
+global.paginginformation.sortby=Lajitteluperuste
+global.paginginformation.undefined=Lajitteluperuste:
+global.paginginformation.showing=Näytetään
+global.paginginformation.viewallx=Näytä kaikki ({0})
+global.paginginformation.current.label=Nykyinen sivu: {0}
+global.paginginformation.goto.label=Siirry sivulle: {0}
+global.paginginformation.first=Ensimmäinen sivu
+global.paginginformation.first.label=Siirry ensimmäiselle sivulle
+global.paginginformation.last=Viimeinen sivu
+global.paginginformation.last.label=Siirry viimeiselle sivulle
+global.paginginformation.next=Seuraava sivu
+global.paginginformation.next.label=Siirry seuraavalle sivulle
+global.paginginformation.page=Sivu
+global.paginginformation.previous=Edellinen sivu
+global.paginginformation.previous.label=Siirry edelliselle sivulle
+global.paginginformation.of=/
+
+##############################################
+# ISML Directory: components/
+##############################################
+global.browsertoolscheck.javascript=Tämäpä noloa. JavaScript ei ole käytössä. Ota se käyttöön, jotta voit käyttää sivustomme kaikkia ominaisuuksia.
+global.browsertoolscheck.cookies=Evästeet on estetty selaimessasi. Muuta asetuksia tai tarkista, estääkö jokin muu ohjelma evästeet.
+
+
+##############################################
+# ISML Directory: components/header
+##############################################
+global.headercustomerinfo.currency=Valuutta
+global.headercustomerinfo.not=Ei
+
+global.header.wishlistlink=Toivelista
+global.header.registrylink=Lahjalista
+global.header.storelocator=Liikkeet
+global.header.storelocator.label=Etsi liikkeitä
+
+global.link.orders=Tarkista tilaus
+
+##############################################
+# ISML Directory: components/header/countryselector
+##############################################
+global.continent.northamerica=Pohjois-Amerikka
+global.continent.asia=Aasia
+global.continent.europe=Eurooppa
+
+##############################################
+# ISML Directory: components/socialsharing
+##############################################
+global.socialshare.facebook=Facebook
+global.socialshare.twitter=Twitter
+global.socialshare.googleplus=Google Plus
+global.socialshare.pinterest=Pinterest
+global.socialshare.email=Sähköposti
+global.socialshare.link=Jaa linkki
+
+global.socialshare.facebook.label=Jaa Facebookissa
+global.socialshare.twitter.label=Jaa Twitterissä
+global.socialshare.googleplus.label=Jaa Google+ -palvelussa
+global.socialshare.pinterest.label=Jaa Pinterestissä
+global.socialshare.email.label=Jaa sähköpostitse
+global.socialshare.link.label=Hanki jaettava linkki
+
+##############################################
+# properties used across customer club popup and signup
+##############################################
+global.customer.club.terms=Liittymällä asiakasklubiimme <a target='_blank' href="https://support.bestseller.com/hc/fi/articles/360013564378-Asiakasklubin-ehdot-ja" title="Terms of use">hyväksyt ehdot ja tietosuojakäytännön</a>. Lisäksi suostut siihen, että Yhtiöt (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) voivat lähettää sinulle markkinointiviestintää sähköpostitse, tekstiviestillä, multimediaviestillä, postitse ja sosiaalisessa mediassa, ks. <a target='_blank' href="https://support.bestseller.com/hc/fi/articles/360014570978-Asiakasklubin-suostumus" title="Consent use">suostumusteksti</a>. Voit peruuttaa suostumuksen milloin tahansa.
+global.customer.club.terms.bi=Liittymällä asiakasklubiimme <a target='_blank' href="https://support.bestseller.com/hc/fi/articles/360013888698" title="Terms of use">hyväksyt ehdot ja tietosuojakäytännön</a>. Lisäksi suostut siihen, että Yhtiöt (BESTSELLER A/S BESTSELLER HANDELS B.V. VILA A/S) voivat lähettää sinulle markkinointiviestintää sähköpostitse, tekstiviestillä, multimediaviestillä, postitse ja sosiaalisessa mediassa, ks. <a target='_blank' href="https://support.bestseller.com/hc/fi/articles/360014570978-Asiakasklubin-suostumus" title="Consent use">suostumusteksti</a>. Voit peruuttaa suostumuksen milloin tahansa.
+
+##############################################
+# properties used in smart app banner smartappbanner.isml
+##############################################
+global.smartappbanner.view=NÄYTÄ
+global.smartappbanner.subtext=Ilmainen – Google Playssa
+
+##############################################
+# global properties for colors
+##############################################
+global.black=Musta
+global.beige=Beige
+global.blue=Sininen
+global.purple=Violetti
+global.red=Punainen
+global.brown=Ruskea
+global.green=Vihreä
+global.grey=Harmaa
+global.pink=Vaaleanpunainen
+global.orange=Oranssi
+global.white=Valkoinen
+global.yellow=Keltainen
+global.gold=Kullanvärinen
+
+
+global.buynow=Osta nyt, maksa myöhemmin
+
+global.mobile=Matkapuhelinnumero
+global.mobileplaceholder=Anna numerosi (valinnainen)
+
+global.birthdate=Anna syntymäaikasi
+global.day=Päivä
+global.month=Kuukausi
+global.year=Vuosi
+
+global.newslettercategories=Haluan saada uutisia seuraavista aiheista:
+global.kids=Lapset
+global.women=Naiset
+global.men=Miehet
+global.woman.posh=WOMAN POSH
+global.woman.cool.fashionista=WOMAN COOL FASHIONISTA
+global.woman.everyday=WOMAN EVERYDAY
+global.woman.feminine.classic=WOMAN FEMININE CLASSIC
+global.woman.feminine.outdoor=WOMAN FEMININE OUTDOOR
+global.man.cool=MAN COOL
+global.man.casual=MAN CASUAL
+global.man.business=MAN BUSINESS
+
+global.error_forbidden.hijacked=Tämäpä noloa.
+global.error_forbidden.message=Jokin meni vikaan sivustollamme.
+global.error_forbidden.home=Palaa etusivulle ja jatka ostosten tekemistä.
+
+global.shoponline=Osta netistä
+global.days=päivää
+global.abbreviation.hour=t
+
+##############################################
+# global properties for date / time
+##############################################
+global.datetime.hours=tuntia
+global.datetime.minutes=minuuttia
+global.datetime.seconds=sekuntia
+
+﻿##############################################
+# Resource bundle: order
+##############################################
+
+##############################################
+# Template name: order/orderconfirmation-email
+##############################################
+order.orderconfirmation-email.jumptostore=Siirry verkkokauppaan
+order.orderconfirmation-email.001=Tilausvahvistus
+order.orderconfirmation-email.confirmnumber=Tilausvahvistuksen numero:
+order.orderconfirmation-email.thankyou=– Kiitos tilauksesta.
+order.orderconfirmation-email.storeaddress=5 Wall Street
+order.orderconfirmation-email.storelocation=Burlington, MA 01803, USA
+order.orderconfirmation-email.storephone=Puhelinnumero: +1 888 553 XXXX
+order.orderconfirmation-email.print=Tulosta ja tallenna kopio viitteeksi.
+order.orderconfirmation-email.thankyouus=Kiitos, että teet ostoksesi meillä.
+order.orderconfirmation-email.pleasenote=HUOMAUTUS:
+order.orderconfirmation-email.note=Tilauksesi otetaan käsittelyyn pian sen jälkeen, kun olet tehnyt sen sivustollamme. Jos haluat muuttaa tilaustasi, se TÄYTYY tehdä PUHELIMITSE numerossa 
+order.orderconfirmation-email.phone=+1 888 553 XXXX
+order.orderconfirmation-email.shipmentnumber=Lähetysnro
+
+##############################################
+# Template name: order/ordercancellation-email
+##############################################
+order.ordercancellation-email.001=Tilauksen {0} peruutus
+order.ordercancellation-email.message=Tilauksesi {0} on peruutettu{1}.
+order.ordercancellation-email.cancelmessage=Tilauksesi {0} on peruutettu.
+order.ordercancellation-email.generic=odottamattomien olosuhteiden vuoksi
+order.ordercancellation-email.fraud=koska emme voineet vahvistaa vastaanottajaa
+order.ordercancellation-email.bankissue=koska pankkisi hylkäsi maksun
+order.ordercancellation-email.requested=, ota yhteyttä saadaksesi lisätietoja
+order.ordercancellation-email.outofstock=koska tuotetta ei ollut saatavilla
+order.ordercancellation-email.statuscancelled=peruutettu
+
+##############################################
+# ISML Directory: components/order/
+##############################################
+order.orderdetails.paymentinfo=Maksutiedot
+order.orderdetails.billingaddress=Laskutusosoite
+order.orderdetails.paymentmethod=Maksutapa
+order.orderdetails.paymentmethods=Maksutavat
+order.orderdetails.paymenttotal=Maksu yhteensä
+order.orderdetails.shippingmethod=Toimitustapa:
+order.orderdetails.total=Yhteensä
+order.orderdetails.shippingtitle=Toimitusosoite:
+order.orderdetails.billingtitle=Laskutusosoite:
+order.orderdetails.shippingstatus=Tilauksen tila:
+order.orderdetails.shippingto=Toimitus:
+order.orderdetails.notshipped=Ei lähetetty
+order.orderdetails.shipped=Lähetetty
+order.orderdetails.notknown=Tuntematon
+order.orderdetails.tracking=Seurantanumero:
+order.orderdetails.orderplaced=Tilaus tehty:
+order.orderdetails.ordernumber=Tilaustunnus:
+order.orderdetails.giftcertto=Vastaanottaja:
+order.orderdetails.giftcertfrom=Lähettäjä:
+order.orderdetails.giftmessage=Lahjaviesti:
+order.orderdetails.giftcertshippingaddress=Vastaanottaja:
+order.orderdetails.giftcertshipping=Toimitus sähköpostitse
+order.orderdetails.orderinformation=Tilauksen tiedot
+
+order.ordersummary.ordersubtotal=Tilauksen välisumma
+order.ordersummary.subtotal=Välisumma
+order.ordersummary.subtotalitems=Välisumma ({0}):
+
+order.ordersummary.orderdiscount=Tilausalennus
+order.ordersummary.ordershipping=Toimitus
+order.ordersummary.ordershipping.edit=Toimitusvaihtoehdot saatavilla kassalla
+order.ordersummary.ordershippingdiscount=Alennus toimituskuluista
+order.ordersummary.ordertax=Myyntivero
+order.ordersummary.nodata=–
+order.ordersummary.shipping=Toimitusvaihtoehdot saatavilla kassalla
+order.ordersummary.addedtobag=lisätty ostoskoriin!
+order.ordersummary.noshippingmethodselected=Toimitustapaa ei ole valittu
+
+order.orderdetails.billedto=Laskutus:
+
+order.orderconfirmation-giftcard.subject=Lahjakorttisi
+order.orderconfirmation-giftcard.body=Tässä on äskettäin tilaamasi lahjakortti. Voit käyttää sitä, kun tulostat tämän viestin liitteenä olevan PDF-tiedoston
+order.orderfeedback.feedbacktitle=Millainen oli ostoskokemuksesi?
+order.orderfeedback.feedbackmessage=Palautteesi auttaa meitä kehittämään toimintaamme.
+
+﻿##############################################
+# ISML Directory: product/
+##############################################
+
+
+product.breadcrumb.leftintrotext=&laquo; Takaisin:
+
+product.label=Siirry tuotteeseen: {0}
+product.articlenumber=Tuotenumero
+product.viewdetails=Näytä tarkat tiedot
+product.tab.description=Kuvaus
+product.tab.details=Tuotteen tiedot
+product.tab.attributes=Määritteet
+product.tab.reviews=Arvostelut
+product.missingval=Valitse {0}
+product.promotiondetails=Tiedot
+product.selectbonusproducts=Valitse bonustuote/-tuotteet
+product.bonusproducts=Bonustuote/-tuotteet
+product.bonusproduct=Bonustuote
+product.bonusproductsmax=Enimmäismäärä bonustuotteita on valittu.  Poista tilauksesta yksi bonustuote, jotta voit lisätä niitä.
+product.bonusproductstoomany=Olet valinnut liian monta bonustuotetta. Muuta määrää.
+product.bonusproductalert=Olet oikeutettu bonustuotteeseen.
+product.attributedivider=ja
+product.variationnotavailable={0} {1} ei ole saatavilla tälle yhdistelmälle
+product.instorestock=Noudettavissa
+product.selectforstock=Valitse tuotteet saatavuuden mukaan
+product.webstock=Toimitettavissa
+product.zoom.hint=Zoomaa klikkaamalla/napauttamalla
+
+product.saleprice=Alennettu hinta
+product.pricerange=Hintaluokka
+product.setprice=Aseta hinta
+product.purchasedisabled=Tätä tuotetta ei ole saatavilla maassasi.
+variant.unavailable=Juuri loppuunmyyty! Ei huolta, saatavilla on muita vaihtoehtoja!
+variant.all.unavailable=Juuri loppuunmyyty! Ei huolta, saatavilla on muita tuotteita, joista pidät varmasti!
+variant.all.unavailable.button=Osta samankaltaisia tuotteita
+
+##############################################
+# ISML Directory: product/compare/
+##############################################
+product.compareshow.header=Vertaa
+product.compareshow.noresults=Vertailuluettelossa ei ole tällä hetkellä tuotteita.
+product.compareshow.back=<< takaisin tuloksiin
+product.compareshow.othercompareitems=Muut vertailutuotteet
+product.compareshow.removeitem=Poista
+
+##############################################
+# ISML Directory: product/components/
+##############################################
+product.display.wishlistitem=Tämä on toivelistatuote
+product.display.registryitem=Tämä on lahjalistatuote
+product.display.surcharge=Toimituslisä
+
+product.displayproductlistitems.notavailable=Tätä tuotetta ei ole tällä hetkellä saatavilla. Poista se listaltasi.
+
+product.pricing.payless=Osta enemmän – maksat vähemmän!
+product.pricing.paymore=Osta enemmän – maksat enemmän!
+product.pricing.items=tuotetta
+product.pricing.more=tai enemmän
+product.pricing.off=% ale
+product.pricing.noprice=–
+
+product.promotions.special=Erikoistarjous
+
+product.recommendations.products=Yhdistä asuun
+
+product.variations.sizechart=Kokotaulukko
+product.variations.sizechart.label=Näytä kokotaulukko
+product.variations.label=Valitse {0}: {1}
+product.quickview=Pikakatselu
+product.quickview.popup=Tuotteen pikakatselu
+
+###############################################
+# Care Instructions
+##############################################
+product.careinstruction.w-no=Pesu kielletty
+product.careinstruction.w-h=Käsinpesu
+product.careinstruction.w-30=Konepesu 30 asteessa
+product.careinstruction.w-30s=Konepesu, puoli koneellista, lyhyt linkous, 30 astetta
+product.careinstruction.w-40=Konepesu hellävaraisella ohjelmalla enintään 40 asteessa
+product.careinstruction.w-40s=Konepesu, puoli koneellista, lyhyt linkous, 40 astetta
+product.careinstruction.w-60=Konepesu 60 asteessa
+product.careinstruction.w-80=Konepesu 80 asteessa
+product.careinstruction.w-95=Konepesu 95 asteessa
+
+product.careinstruction.b-no=Valkaisu kielletty
+product.careinstruction.b-all=Valkaisu tarvittaessa
+product.careinstruction.b-ncl=Vain happi-/klooriton valkaisu
+
+product.careinstruction.d-no=Rumpukuivaus kielletty
+product.careinstruction.d-flat=Tasokuivaus
+product.careinstruction.d-low=Rumpukuivaus matalalla lämmöllä
+product.careinstruction.d-med=Rumpukuivaus keskilämmöllä
+
+product.careinstruction.nd-dfds=Tasokuivaus vettä valuvana varjossa
+product.careinstruction.nd-fds=Tasokuivaus varjossa
+product.careinstruction.nd-ld=Ripustuskuivaus
+product.careinstruction.nd-dfd=Tasokuivaus vettä valuvana
+product.careinstruction.nd-dlds=Ripustuskuivaus vettä valuvana varjossa
+product.careinstruction.nd-lds=Ripustuskuivaus varjossa
+product.careinstruction.nd-dld=Ripustuskuivaus vettä valuvana
+product.careinstruction.d-shade=Kuivaus varjossa
+product.careinstruction.d-hang=Ripustuskuivaus
+product.careinstruction.nd-fd=Tasokuivaus
+
+product.careinstruction.i-med=Silitys keskilämpötilalla
+product.careinstruction.i-low=Silitys matalalla lämpötilalla. Korkein lämpötila 100 °C
+product.careinstruction.i-no=Silitys kielletty
+product.careinstruction.i-high=Silitys korkealla lämpötilalla. Korkein lämpötila 200 °C
+
+product.careinstruction.dc-notri=Kemiallinen pesu (ei trikloorietyleeniä)
+product.careinstruction.dc-any=Kemiallinen pesu (mikä tahansa liuotin)
+product.careinstruction.dc-all=Vain kemiallinen pesu
+product.careinstruction.dc-hs=Kemiallinen pesu hiilivedyllä, kuivauslämpötilaa ja veden lisäämistä koskevia rajoituksia
+product.careinstruction.dc-notrilimit=Kemiallinen pesu rajoitusten mukaisesti. Käytä kemiallista pesulaa.
+product.careinstruction.dc-no=Kemiallinen pesu kielletty
+product.careinstruction.dc-petr=Kemiallinen pesu (vain öljypohjainen liuotin)
+product.careinstruction.dc-w=Kemiallinen vesipesu
+
+product.careinstruction.o-wool=Villa
+product.careinstruction.o-lthr=Nahka
+
+product.description=Tuotekuvaus
+product.sizeguide=Kokotaulukko
+product.sizeguide.howto=Mittausohjeet
+product.ean=EAN
+product.moredetails=Lisätietoja
+product.notifyme=Ilmoita minulle
+product.size.out-of-stock=Tyylikkyydelle on kysyntää. Haluamasi koko on tällä hetkellä loppuunmyyty.
+product.email.out-of-stock=Älä kuitenkaan vielä menetä toivoasi: voimme ilmoittaa sähköpostitse, jos sitä tulee jälleen varastoon.
+product.notifyme.success-message-title=OK
+product.notifyme.success-message-content=Ilmoitamme heti kun kokoasi on saatavilla.
+product.completethelook=Yhteensopivia tuotteita
+product.seehowtostyle=Katso stailausvinkit
+
+###############################################
+# Reserve and Collect
+##############################################
+product.reservecollect.headline=Varaa verkkokaupasta ja nouda myymälästä
+product.reservecollect.emptyoption=VALITSE MYYMÄLÄ
+product.reservecollect.choosestore=Tämä tuote on myös saatavilla liikkeissämme! Valitse haluamasi liike alta, rekisteröi yhteystietosi, varaa tuote ja nouda se aikarajan sisällä valitsemastasi toimipisteestä.
+product.reservecollect.formheadline=Täytä alla oleva lomake varataksesi tuotteen haluamastasi toimipisteestä.
+product.reservecollect.reservebutton=Varaa
+product.reservecollect.reserved=Varauksesi on lähetetty. Tarkistamme tilauksesi ja kuulet meistä seuraavana arkipäivänä.
+product.reservecollect.notreserved=Valitettavasti varauksesi ei onnistunut, ole hyvä, ja yritä myöhemmin uudelleen.
+
+﻿##############################################
+# ISML Directory: rendering/
+##############################################
+
+##############################################
+# ISML Directory: rendering/folder
+##############################################
+rendering.foldercontenthits.yoursearch=Haulla löytyi {0} tuotetta
+rendering.foldercontenthits.backtoproducts=<< Takaisin tuotetuloksiin
+rendering.foldercontenthits.backtoresults=<< Takaisin tuloksiin
+rendering.foldercontenthits.noproducts=Haulla {0} ei löytynyt tuloksia.
+rendering.foldercontenthits.relatedarticles=Aiheeseen liittyviä tuotteita...
+rendering.foldercontenthits.readmore=Lue lisää
+﻿##############################################
+# ISML Directory: search/
+##############################################
+simplesearch.searchtext=Haku
+
+search.nohits.header=Etsimääsi tuotetta ei löydy.
+search.nohits.message=Kokeile muuttaa hakuasi tai tutustu satoihin uusiin tuotteisiin, joita lisätään sivustollemme joka viikko.
+search.nohits.didyoumean=Tarkoititko:
+search.nohits.didyoumeanex=Yrititkö hakea:
+search.nohits.searchlabel=Kokeile toista hakua.
+search.nohits.found=Löysimme:
+search.nohits.searchtips=Hakuvinkit
+search.nohits.tip1=Etsimääsi tuotetta ei löydy.
+search.nohits.tip2=Kokeile muuttaa hakuasi.
+search.nohits.tip3=Tai tutustu satoihin uusiin tuotteisiin, joita lisätään sivustollemme joka viikko.
+
+search.pageresults=Sivu:
+search.results=Tulokset
+search.compare=Vertaa
+
+suggestions.result=tulos
+suggestions.results=tulosta
+
+##############################################
+# ISML Directory: search/components/
+##############################################
+productcomparewidget.compareitems=Vertaa enintään 6 tuotetta:
+productcomparewidget.compareitemsbutton=Vertaa tuotteita
+productcomparewidget.clearall=Tyhjennä kaikki
+productcomparewidget.empty=Tyhjä vertailupaikka
+productcomparewidget.maxproducts=Ensimmäinen vertailuun lisätty tuote poistetaan.  OK?
+productcomparewidget.removefail=Tuotetta ei voida poistaa listalta
+productcomparewidget.addfail=Tuotetta ei voida lisätä listalle
+
+productsortingoptions.go=Siirry
+
+##############################################
+# Template name: search/
+##############################################
+productresultarea.noresults=Emme löytäneet tuotteita, jotka vastaisivat valitsemiasi tarkennuksia. Laajenna tarkennuksiasi tai etsi tarkennuksella toisesta luokasta.
+productresultarea.viewallcolors=Värit
+
+paginginformation.infinite-scroll=Näytä kaikki
+paginginformation.of=/
+paginginformation.items=tuotetta
+paginginformation.itemsperpage=tuotetta/sivu
+paginginformation.loadprevious=Lataa edellinen
+
+productnav.back=<< Takaisin: {0}
+
+contenthitcount.yoursearch=Haulla löytyi {0} tuote(tta)
+contenthitcount.goto=Siirry tuotteeseen/tuotteisiin
+
+searchrefinebar.searchresults=Suodatin
+searchrefinebar.refineresults=Suodatusperuste:
+searchrefinebar.viewall=Näytä kaikki
+searchrefinebar.clearselection=Tyhjennä
+searchrefinebar.showmore=Näytä enemmän
+searchrefinebar.showless=Näytä vähemmän
+searchrefinebar.showrefinedproduct=Näytä {0} tuote(tta)
+
+searchbreadcrumbs.resultstext=Hakutulokset haulle
+searchbreadcrumbs.in=värissä
+searchbreadcrumbs.refinedby=Suodatusperuste
+searchbreadcrumbs.to=asti
+searchbreadcrumbs.attributedivider=ja
+searchbreadcrumbs.sortedby=Lajitteluperuste
+
+##############################################
+# Template name: rendering/category/categoryproducthits
+##############################################
+search.producthits.productsfound=Tuotteita löytyi
+search.producthits.productsfoundcount=Tuotteita löytyi ({0})
+
+search.producthits.products= {0} tuotetta
+search.producthits.product= {0} tuote
+
+##############################################
+# Template name: search/productsearchrefinebar
+##############################################
+search.productsearchrefinebar.clickrefine=Suodatusperuste:
+search.productsearchrefinebar.showallopt=Näytä kaikki vaihtoehdot
+
+##############################################
+# Template name: search/suggestionsX
+##############################################
+search.suggest.from=alkaen:
+search.suggest.otherqueries=Muita suosittuja hakuja
+search.suggest.lookingforbrands=Etsitkö näitä tuotemerkkejä?
+search.suggest.categories=Luokat
+search.suggest.products=Tuotteet
+search.suggest.didyoumean=Tarkoititko
+search.suggest.viewallresults=Näytä kaikki tulokset
+search.suggest.pagesofinerested=Ehkä olet kiinnostunut näistä sivuista
+search.suggest.searchfor=Etsi:
+search.suggest.in=värissä
+
+##############################################
+# Template name: search/appliedfilters
+##############################################
+search.appliedfilters.clearall=Tyhjennä kaikki
+search.appliedfilters.to=asti
+search.appliedfilters.attributedivider=ja
+
+﻿##################################################
+# ISML Directory: storelocator
+##################################################
+storelocator.header=Etsi lähin liike
+storelocator.findstoremessage=Myymälähausta löydät lähimmän liikkeen.
+storelocator.searchusacanada=Hae Yhdysvalloista ja Kanadasta
+storelocator.searchinternationally=Hae maailmalta
+storelocator.searchdivider=- - - - - - - - - - - - - - - - - - TAI - - - - - - - - - - - - - - - - - -
+storelocator.shopbrandnew=Tee ostoksia uudessa
+storelocator.ukwebsite=Ison-Britannian verkkosivustossa
+storelocator.internationalmessage=Asiakkaat Euroopassa saavat nyt uusimmat tuotteemme internetistä. <br />Tee ostoksia uudessa <a href="http://www.demandware.de/" title="Deutsch Website" target="_blank">Saksan verkkosivustossa</a>
+storelocator.noresults=Joko liikkeitä ei ole tai kirjoitit kaupungin nimen tai postinumeron väärin
+storelocator.findstore=Etsi liike
+##################################################
+# ISML Directory: storelocator/storelocatorresults
+##################################################
+storelocator.storelocatorresults.map=Kartta
+storelocator.storelocatorresults.backtolocator=Takaisin myymälähakuun
+storelocator.storelocatorresults.allstores=Kaikki liikkeet:
+storelocator.storelocatorresults.yoursearchfound=Haullasi löytyi
+storelocator.storelocatorresults.stores=liikettä
+storelocator.storelocatorresults.storename=Liikkeen nimi
+storelocator.storelocatorresults.address=Osoite
+storelocator.storelocatorresults.directions=Reittiohjeet
+storelocator.storelocatorresults.storedetails=Liikkeen tiedot
+storelocator.storelocatorresults.storedetails.label=Näytä liikkeen tiedot
+
+﻿##############################################
+# ISML Directory: checkout/cart/
+##############################################
+storelist.cart=Ostoskori
+storelist.lightbox.search=Hae toimipisteitä
+storelist.lightbox.whatsavailable=Valikoima lähimmässä liikkeessäsi
+storelist.lightbox.selectstore=Valitse liike
+storelist.lightbox.selectedstore=Valittu liike
+storelist.lightbox.preferredstore=Ensisijainen liike
+storelist.lightbox.setpreferredstore=Aseta ensisijainen liike
+storelist.lightbox.postalcodecity=Postinumero:
+storelist.lightbox.city=Kaupunki:
+storelist.lightbox.enterzip=Anna postinumero
+storelist.lightbox.invalidpostalcode=Anna kelvollinen postinumero
+storelist.lightbox.changelocation=Vaihda liike
+storelist.lightbox.continuewithstore=Jatka käyttämällä ensisijaista liikettä
+storelist.lightbox.seemore=Näytä enemmän liikkeitä
+storelist.lightbox.seeless=Näytä vähemmän liikkeitä
+storelist.lightbox.viewresultsmap=Näytä tulokset kartalla
+storelist.check.availablity=Näytä saatavuus liikkeessä
+storelist.online=Netissä
+storelist.backtopdp=Takaisin tuotetietosivulle
+storelist.changetohd=Vaihda kotiintoimitukseksi
+storelist.nostorefound=Antamassasi postinumerossa tai kaupungissa on virhe. Yritä antaa se uudelleen, jotta voit jatkaa.
+storelist.internalerror=Noutopisteluettelon hakeminen ei onnistunut. Valitse eri toimitustapa, jotta voit jatkaa.
+storelist.nocities=Tätä toimitustapaa koskevan kaupunkiluettelon hakeminen ei onnistunut tai palvelu ei ole käytettävissä. Valitse eri toimitustapa, jotta voit jatkaa.
+
